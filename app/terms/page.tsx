@@ -1,0 +1,1 @@
+import { Header, Footer } from '../components';export default function Page(){return <><Header/><main className='section'><div className='container'><h1>Terms</h1><p className='lead'>Placeholder terms page for Offshore Outsourcing Company. Replace with approved legal text before paid traffic.</p></div></main><Footer/></>}
