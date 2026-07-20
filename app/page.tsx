@@ -1,3 +1,59 @@
-import { Header, Footer, CTA } from './components';
-import { site, services, stats, blogPosts } from './data';
-export default function Home(){return <><Header/><main><section className='hero'><div className='container hero-grid'><div><p className='eyebrow'>{site.badge}</p><h1>{site.brand} built like a real hiring system.</h1><p className='lead'>{site.brand} helps {site.audience} compare planning, roles, risks, and providers before they hire.</p><div style={{display:'flex',gap:12,flexWrap:'wrap',marginTop:24}}><a className='btn' href='/contact'>Build my offshore plan</a><a className='btn alt' href='/#services'>See services</a></div><div className='proof'><div>✓ Clear English workflows</div><div>✓ USA-timezone planning</div><div>✓ Weekly QA scorecards</div></div></div><div className='hero-card'><img src={site.heroImage} alt={site.alt}/></div></div></section><section className='section band'><div className='container'><p className='eyebrow'>Trust signals</p><div className='cards'>{stats.map(s=><div className='card stat' key={s.label}><strong>{s.value}</strong><b>{s.label}</b><p>{s.note}</p></div>)}</div></div></section><section className='section' id='services'><div className='container'><p className='eyebrow'>Services</p><h2>Pick the right offshore lane first.</h2><div className='cards'>{services.map(s=><a className='card' href={`/services/${s.slug}`} key={s.slug}><span className='pill'>{site.badge}</span><h3>{s.title}</h3><p>{s.desc}</p><b>Explore service →</b></a>)}</div></div></section><section className='section'><div className='container two'><div><p className='eyebrow'>Visual plan</p><h2>Make offshore work feel managed, not random.</h2><p>{site.angle}. Each section is built around job scope, QA, weekly reporting, and safe handoff.</p><p className='quote'>“Start with a narrow pilot. Keep what works. Replace guesswork with a scorecard.”</p></div><div className='card'><img className='photo' src={site.serviceImage} alt={`${site.brand} service planning image`}/></div></div></section><section className='section dark' id='process'><div className='container'><p className='eyebrow'>Process</p><h2>Up and running in days, not months.</h2><div className='cards'><div className='card'><h3>1. Scope</h3><p>Choose the tasks, tools, schedule, and success metric.</p></div><div className='card'><h3>2. Match</h3><p>Screen for role fit, communication, examples, and availability.</p></div><div className='card'><h3>3. Manage</h3><p>Use weekly QA, reporting, and escalation rules to improve output.</p></div></div></div></section><section className='section' id='compare'><div className='container'><p className='eyebrow'>Compare</p><h2>In-house vs freelance vs managed offshore.</h2><div className='rows'><div className='row'><b>Option</b><b>Best for</b><b>Watch out for</b></div><div className='row'><span>In-house</span><span>Local control and sensitive decisions</span><span>Higher plan, recruiting time, payroll load</span></div><div className='row'><span>Freelance</span><span>Short task lists</span><span>You manage training, backup, and QA</span></div><div className='row'><span>Managed offshore</span><span>Recurring work with support and replacement help</span><span>Ask who owns quality and reporting</span></div></div></div></section><section className='section'><div className='container'><p className='eyebrow'>Guides</p><h2>Helpful next reads</h2><div className='cards'>{blogPosts.slice(0,3).map(p=><a className='card' href={`/blog/${p.slug}`} key={p.slug}><h3>{p.title}</h3><p>{p.excerpt}</p><span className='pill'>{p.minutes} min read</span></a>)}</div></div></section><CTA/></main><Footer/></>}
+import * as data from './data';
+import { Header, Footer, JsonLd } from './components';
+
+const dataAny = data as any;
+const site = dataAny.site || {};
+const services = (dataAny.services || dataAny.roles || dataAny.industries || []).slice(0, 6);
+const posts = (dataAny.blogPosts || []).slice(0, 4);
+const stats = (dataAny.stats || []).slice(0, 3);
+const process = (dataAny.staffingProcess || dataAny.checklistSteps || []).slice(0, 5);
+const questions = (dataAny.leadQuestions || dataAny.faqs || []).slice(0, 5);
+const compare = (dataAny.compareRows || dataAny.proofCards || dataAny.sourcePlaceholders || []).slice(0, 4);
+const offer = dataAny.staffingOffer || {};
+const getTitle = (item: any, fallback = 'Service') => typeof item === 'string' ? item : (item.title || item.name || item.label || item.question || fallback);
+const getText = (item: any, fallback = 'Clear scope, simple handoff, and a practical staffing plan built around the work.') => typeof item === 'string' ? item : (item.desc || item.body || item.excerpt || item.note || item.answer || fallback);
+
+export default function Home(){
+  const schema = { '@context':'https://schema.org', '@type':'WebSite', name: site.brand, url: `https://${site.domain}` };
+  return <><Header/><main>
+    <JsonLd data={schema}/>
+    <section className="hero-shell">
+      <div className="hero-kicker"><span>{site.badge || 'Staffing guide'}</span><span>{site.domain}</span></div>
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <p className="eyebrow">Global logistics</p>
+          <h1>Offshore Outsourcing Company built as a route planner.</h1>
+          <p className="lead">A redesigned offshore outsourcing company guide for buyers comparing offshore outsourcing companies and managed teams. The page now uses a distinct wide layered routes layout, industry-specific planning sections, and a conversion path that feels made for this niche.</p>
+          <div className="hero-actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#services">Explore the plan</a></div>
+        </div>
+        <figure className="hero-media"><img src={site.heroImage || site.serviceImage} alt={site.alt || `${site.brand} planning visual`}/><figcaption>route lines and port labels</figcaption></figure>
+      </div>
+    </section>
+
+    <section className="journey-map"><p className="eyebrow">Customer journey</p><div>{['Messy task list','Role scope','Matched support','Measured handoff'].map((step, idx)=><article key={step}><span>{idx+1}</span><h3>{step}</h3><p>Move from guesswork to a defined staffing plan with tools, limits, and quality checks.</p></article>)}</div></section>
+    <section className="quote-slab"><blockquote>“The right hire starts with a clean operating map, not a vague job post.”</blockquote><p>{site.primary} decisions get easier when every task has an owner, a standard, and a review rhythm.</p></section>
+    <section className="two-column-list"><h2>What to clarify first</h2><div>{questions.slice(0,4).map((q:any, idx:number)=><p key={idx}><b>{String(idx+1).padStart(2,'0')}</b>{getTitle(q, String(q))}</p>)}</div></section>
+
+    <section className="service-index" id="services">
+      <div className="section-label"><span>Service index</span><b>{String(services.length).padStart(2,'0')}</b></div>
+      <div className="index-list">{services.map((item:any, idx:number)=><a className="index-row" href={`/services/${item.slug || String(getTitle(item)).toLowerCase().replace(/[^a-z0-9]+/g,'-')}`} key={idx}><span>{String(idx+1).padStart(2,'0')}</span><strong>{getTitle(item)}</strong><em>{getText(item)}</em></a>)}</div>
+    </section>
+
+    <section className="process-ribbon" id="process">
+      <div><p className="eyebrow">Operating rhythm</p><h2>Turn the scope into a managed handoff.</h2></div>
+      <div className="timeline">{process.map((item:any, idx:number)=><article key={idx}><span>{String(idx+1).padStart(2,'0')}</span><h3>{getTitle(item, `Step ${idx+1}`)}</h3><p>{getText(item)}</p></article>)}</div>
+    </section>
+
+    <section className="question-block">
+      <div className="question-intro"><p className="eyebrow">Before you request help</p><h2>Answer these before the first match.</h2><p>{dataAny.staffingFitNote || 'The best plan depends on scope, tools, schedule, skills, and the way quality will be checked.'}</p></div>
+      <ul>{questions.map((q:any, idx:number)=><li key={idx}><span>{idx+1}</span>{getTitle(q, String(q))}</li>)}</ul>
+    </section>
+
+    <section className="resource-strip">
+      <div><p className="eyebrow">Resource library</p><h2>Read the guides before you scale.</h2></div>
+      <div className="resource-grid">{posts.map((post:any, idx:number)=><a href={`/blog/${post.slug || '#'}`} key={idx}><span>{post.minutes || 7} min</span><strong>{getTitle(post)}</strong><p>{getText(post)}</p></a>)}</div>
+    </section>
+
+    <section className="final-cta"><p className="eyebrow">Next step</p><h2>Send the role details and get the plan.</h2><p>{offer.promise || 'Share the work you want off your plate and get a practical staffing plan.'}</p><a className="btn primary" href="/contact">Request staffing plan</a></section>
+  </main><Footer/></>;
+}
