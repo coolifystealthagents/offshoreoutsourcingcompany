@@ -62,6 +62,33 @@ export const blogPosts = [
     "minutes": 9
   }
 ] as const;
+
+export const blogDetails = {
+  "offshore-outsourcing-company-provider-questions": {
+    keyTakeaways: [
+      "Ask who owns screening, training, quality checks, and replacement before you compare prices.",
+      "Start with a two-week pilot and a written scorecard instead of a vague full-time hire.",
+      "Keep account access limited until the provider proves the handoff is safe and consistent."
+    ],
+    comparisonRows: [
+      { label: "Screening", weak: "We have a large talent pool.", strong: "Who screens for tool skill, English level, schedule fit, and role-specific examples?" },
+      { label: "Quality", weak: "We supervise the team.", strong: "Who checks the first five work samples, and what does the scorecard measure?" },
+      { label: "Replacement", weak: "We can replace people.", strong: "How fast can you replace a poor fit, and what happens to the role notes?" },
+      { label: "Access", weak: "Your staff can use your tools.", strong: "Which accounts stay owner-only, and how do you handle password sharing rules?" }
+    ],
+    script: "Before we talk about price, I want to understand the operating model. Who screens the person, who checks the first week of work, and what happens if the role is not a fit by day 10?",
+    sources: [
+      { name: "FTC business guidance on hiring and outsourcing", url: "https://www.ftc.gov/business-guidance", note: "Use clear written terms before sharing customer data or vendor access." },
+      { name: "NIST identity and access management guidance", url: "https://www.nist.gov/itl/applied-cybersecurity/identity-access-management", note: "Limit access by role and review permissions during onboarding." },
+      { name: "U.S. Small Business Administration hiring guide", url: "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees", note: "Define duties, training, and management expectations before hiring support." }
+    ],
+    faqs: [
+      { q: "What should I ask an offshore outsourcing company first?", a: "Ask what work they can prove, who manages the staff member, how quality is checked, and how replacement works if the first match is wrong." },
+      { q: "Should I ask about price before role scope?", a: "Ask for price after the role scope is clear. The same job title can mean a light admin role, a phone-heavy support role, or a complex operations role." },
+      { q: "How do I reduce risk in the first week?", a: "Use limited tool access, sample tasks, daily check-ins, and a simple scorecard. Do not hand over sensitive accounts on day one." }
+    ]
+  }
+} as const;
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const stealthOffer = {
