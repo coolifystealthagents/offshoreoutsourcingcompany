@@ -99,17 +99,17 @@ export default async function Service({
         <section className="service-hero">
           <div className="container two">
             <div>
-              <p className="eyebrow">{site.brand} service</p>
+              <p className="eyebrow">Filipino talent role</p>
               <h1>{service.title}</h1>
               <p className="lead">{service.desc}</p>
               <a className="btn" href="/contact">
-                Plan this role
+                Plan my Filipino team
               </a>
             </div>
             <div className="hero-card">
               <img
                 src={site.serviceImage}
-                alt={`${service.title} offshore service team`}
+                alt="Two operations specialists reviewing a shared task board at a desk"
               />
             </div>
           </div>
