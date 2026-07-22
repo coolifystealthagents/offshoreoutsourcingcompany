@@ -1,6 +1,3 @@
-import { Footer, Header } from '../components';
-import { blogPosts } from '../data';
-
-export default function Blog() {
-  return <><Header/><main className="section"><div className="container"><p className="eyebrow">Philippines staffing guides</p><h1>Make the handoff less messy.</h1><p className="lead">Short notes on scoping, interviewing, and onboarding Filipino talent.</p><div className="cards">{blogPosts.map((post)=><a className="card" href={`/blog/${post.slug}`} key={post.slug}><h3>{post.title}</h3><p>{post.excerpt}</p><span className="pill">{post.minutes} min read</span></a>)}</div></div></main><Footer/></>;
-}
+import {Header,Footer} from '../components';import {blogPosts,site} from '../data';
+export const metadata={title:`Blog | ${site.brand}`,description:'Practical Philippines staffing guides.'};
+export default function Blog(){const posts=blogPosts.slice(0,20);const pages=Math.max(1,Math.ceil(blogPosts.length/20));return <><Header/><main className="section"><div className="container"><p className="eyebrow">Philippines staffing blog</p><h1>Practical role and handoff guides.</h1><p className="lead">Read concise guidance for scoping and managing Filipino support roles. Existing article addresses remain available.</p><div className="cards">{posts.map(p=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p><span>{p.minutes} min read</span></a>)}</div><nav className="pagination" aria-label="Blog pages">{Array.from({length:pages},(_,i)=><a aria-current={i===0?'page':undefined} href={i===0?'/blog':`/blog/page/${i+1}`} key={i}>{i+1}</a>)}</nav></div></main><Footer/></>}

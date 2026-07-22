@@ -1,11 +1,1 @@
-import * as data from '../data';
-export function GET() {
-  const d=data as any;
-  const site=d.site||{};
-  const services=d.services||[];
-  const blogPosts=d.blogPosts||[];
-  const base = `https://${String(site.domain).toLowerCase()}`;
-  const urls = ['', '/blog', '/contact', '/privacy', '/terms', '/cancellation-policy', ...services.map((service:any) => `/services/${service.slug}`), ...blogPosts.map((post:any) => `/blog/${post.slug}`)];
-  const body = urls.map((path) => `<url><loc>${base}${path}</loc></url>`).join('');
-  return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${body}</urlset>`, { headers: { 'content-type': 'application/xml' } });
-}
+import {site,services,blogPosts,researchPosts} from '../data';export function GET(){const base=`https://${String(site.domain).toLowerCase()}`;const pages=Math.max(1,Math.ceil(blogPosts.length/20));const paths=['','/services','/pricing','/blog','/research','/contact','/privacy','/terms','/cancellation-policy',...services.map(s=>`/services/${s.slug}`),...blogPosts.map(p=>`/blog/${p.slug}`),...researchPosts.map(p=>`/research/${p.slug}`),...Array.from({length:pages},(_,i)=>`/blog/page/${i+1}`)];const body=paths.map(x=>`<url><loc>${base}${x}</loc></url>`).join('');return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${body}</urlset>`,{headers:{'content-type':'application/xml'}})}

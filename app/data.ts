@@ -16,26 +16,18 @@ export const site = {
 } as const;
 
 export const services = [
-  {
-    slug: 'operations-support',
-    title: 'Operations support',
-    desc: 'Filipino operations specialists can keep recurring tasks, handoffs, and status updates moving against written rules.',
-  },
-  {
-    slug: 'customer-support',
-    title: 'Customer support',
-    desc: 'Filipino customer support specialists can manage tickets and follow-up while your team keeps control of exceptions.',
-  },
-  {
-    slug: 'admin-support',
-    title: 'Admin support',
-    desc: 'Filipino admin specialists can take on inbox upkeep, records, scheduling, and routine coordination with clear approval limits.',
-  },
-  {
-    slug: 'reporting-and-qa',
-    title: 'Reporting and QA',
-    desc: 'Filipino reporting specialists can maintain scorecards, check samples, and flag work that needs an owner decision.',
-  },
+  { slug: "operations-coordination", title: "Operations Coordination", desc: "Filipino operations specialists can handle operations coordination with documented workflows, approval limits, and owner review." },
+  { slug: "executive-administration", title: "Executive Administration", desc: "Filipino operations specialists can handle executive administration with documented workflows, approval limits, and owner review." },
+  { slug: "customer-support-operations", title: "Customer Support Operations", desc: "Filipino operations specialists can handle customer support operations with documented workflows, approval limits, and owner review." },
+  { slug: "sales-operations-support", title: "Sales Operations Support", desc: "Filipino operations specialists can handle sales operations support with documented workflows, approval limits, and owner review." },
+  { slug: "project-tracking", title: "Project Tracking", desc: "Filipino operations specialists can handle project tracking with documented workflows, approval limits, and owner review." },
+  { slug: "vendor-coordination", title: "Vendor Coordination", desc: "Filipino operations specialists can handle vendor coordination with documented workflows, approval limits, and owner review." },
+  { slug: "data-quality-review", title: "Data Quality Review", desc: "Filipino operations specialists can handle data quality review with documented workflows, approval limits, and owner review." },
+  { slug: "reporting-administration", title: "Reporting Administration", desc: "Filipino operations specialists can handle reporting administration with documented workflows, approval limits, and owner review." },
+  { slug: "recruitment-coordination", title: "Recruitment Coordination", desc: "Filipino operations specialists can handle recruitment coordination with documented workflows, approval limits, and owner review." },
+  { slug: "knowledge-base-management", title: "Knowledge Base Management", desc: "Filipino operations specialists can handle knowledge base management with documented workflows, approval limits, and owner review." },
+  { slug: "ecommerce-operations", title: "Ecommerce Operations", desc: "Filipino operations specialists can handle ecommerce operations with documented workflows, approval limits, and owner review." },
+  { slug: "crm-administration", title: "CRM Administration", desc: "Filipino operations specialists can handle crm administration with documented workflows, approval limits, and owner review." },
 ] as const;
 
 export const blogPosts = [
@@ -130,3 +122,6 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'This independent site does not employ candidates. Requests may be routed to a staffing partner that recruits and hires only in the Philippines.';
+
+
+export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [];
