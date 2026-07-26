@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-customer-service-team-guide',
+    title: 'Philippines customer service team: a practical launch guide',
+    excerpt: 'Build a Philippines-based support team with a clear queue, safe access, useful quality checks, and an owner-led escalation path.',
+    minutes: 11,
+  },
+  {
     slug: 'offshore-outsourcing-company-planning',
     title: 'Plan a Philippines-based outsourcing role',
     excerpt: 'Turn a loose task list into a role that a Filipino specialist can own without guesswork.',
