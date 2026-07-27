@@ -36,32 +36,7 @@ export const blogPosts = [
     title: 'Philippines customer service team: a practical launch guide',
     excerpt: 'Build a Philippines-based support team with a clear queue, safe access, useful quality checks, and an owner-led escalation path.',
     minutes: 11,
-  },
-  {
-    slug: 'offshore-outsourcing-company-planning',
-    title: 'Plan a Philippines-based outsourcing role',
-    excerpt: 'Turn a loose task list into a role that a Filipino specialist can own without guesswork.',
-    minutes: 6,
-  },
-  {
-    slug: 'offshore-outsourcing-company-tasks-to-outsource',
-    title: 'Choose the first tasks for a Filipino team member',
-    excerpt: 'Start with recurring work that has examples, boundaries, and a clear reviewer.',
-    minutes: 7,
-  },
-  {
-    slug: 'offshore-outsourcing-company-provider-questions',
-    title: 'Questions to ask a Philippines staffing provider',
-    excerpt: 'Use these questions before you share systems, customer data, or a job brief.',
-    minutes: 8,
-  },
-  {
-    slug: 'offshore-outsourcing-company-onboarding-checklist',
-    title: 'A first-week checklist for Filipino talent',
-    excerpt: 'Set up tools, sample work, review calls, and escalation rules before the role goes live.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const blogDetails = {
   'offshore-outsourcing-company-provider-questions': {

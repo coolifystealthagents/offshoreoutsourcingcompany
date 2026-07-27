@@ -237,7 +237,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
           <nav className="related-links" aria-label="Related Philippines staffing guides">
             <a href="/services/customer-support-operations">Customer support operations</a>
             <a href="/services/knowledge-base-management">Knowledge base management</a>
-            <a href="/blog/offshore-outsourcing-company-onboarding-checklist">First-week checklist for Filipino talent</a>
+            <a href="/blog">First-week checklist for Filipino talent</a>
           </nav>
 
           <section className="faq-list" aria-labelledby="faq-title">
