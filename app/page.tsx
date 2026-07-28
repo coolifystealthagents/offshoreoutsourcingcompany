@@ -14,7 +14,7 @@ export default function Home() {
 
   return <>
     <Header/>
-    <main className="ops-home" data-design={marker}>
+    <main className="ops-home" data-design={marker} data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema}/>
       <section className="ops-hero">
         <div className="container ops-hero-grid">
@@ -26,7 +26,7 @@ export default function Home() {
             <p className="routing-note">This independent site may route your request to a partner that recruits and hires only in the Philippines.</p>
           </div>
           <div className="hero-visual">
-            <img src="/philippines-operations-team.svg" alt="Two operations specialists reviewing a shared task board at a desk"/>
+            <img src="/illustrations/getillustrations/goodle-team-illustrations-svg/filipino-operations-team.svg" alt="Illustration of operations specialists collaborating at desks"/>
             <div className="visual-ticket ticket-one"><span>Role brief</span><b>12 tasks sorted</b></div>
             <div className="visual-ticket ticket-two"><span>Approval rule</span><b>Owner reviews refunds</b></div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
 
       <section className="section fit-section">
         <div className="container fit-grid">
-          <div className="fit-card good"><p className="eyebrow">Good fit</p><h2>You have examples and a reviewer.</h2><ul><li>The work happens often enough to document.</li><li>Someone can answer questions during the first week.</li><li>Sensitive decisions have a clear approval line.</li></ul></div>
+          <div className="fit-card good"><p className="eyebrow">Good fit</p><h2>You have examples and a reviewer.</h2><ul className="icon-replacement-list"><li><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt=""/>The work happens often enough to document.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt=""/>Someone can answer questions during the first week.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt=""/>Sensitive decisions have a clear approval line.</li></ul></div>
           <div className="fit-card pause"><p className="eyebrow">Pause first</p><h2>The process still lives in one person&apos;s head.</h2><ul><li>Every request needs a different answer.</li><li>No one has time to check sample work.</li><li>The new hire would get broad access on day one.</li></ul></div>
         </div>
       </section>
@@ -60,6 +60,11 @@ export default function Home() {
           <div className="section-heading compact"><p className="eyebrow light">Choose the model</p><h2>A job board finds people. A staffing brief tells them how to work.</h2></div>
           <div className="comparison-table" role="table" aria-label="Staffing model comparison"><div className="comparison-row heading" role="row"><span>Decision</span><span>Loose marketplace search</span><span>Philippines-first staffing plan</span></div><div className="comparison-row" role="row"><b>Candidate source</b><span>Open-ended</span><span>Filipino talent only</span></div><div className="comparison-row" role="row"><b>Role setup</b><span>Job title and inbox</span><span>Tasks, limits, tools, reviewer</span></div><div className="comparison-row" role="row"><b>First week</b><span>Broad handoff</span><span>Samples and limited access</span></div><div className="comparison-row" role="row"><b>Quality check</b><span>Fix issues as they appear</span><span>Written scorecard and weekly handoff</span></div></div>
         </div>
+      </section>
+
+      <section className="container gi-proof" aria-label="A documented staffing handoff">
+        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/teamwork-planning.svg" alt="" />
+        <div><p className="eyebrow">Scope, check, improve</p><h2>A team plan with visible controls.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt=""/>Role scope</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt=""/>Quality check</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt=""/>Clear goal</span></div></div>
       </section>
 
       <section className="section guide-section">

@@ -229,3 +229,10 @@ form .btn { width: 100%; color: #fff; background: var(--ink); }
 @media(max-width:900px){.sa-booking-grid{grid-template-columns:1fr}.sa-booking-calendar{order:2}.sa-booking-left{max-width:680px;margin:0 auto}.sa-oncehub-frame{height:850px}}
 @media(max-width:640px){.sa-booking-page{padding:2rem 0}.sa-booking-grid{gap:2.5rem}.sa-booking-left h1{font-size:2.65rem}.sa-booking-image{border-radius:12px}.sa-oncehub-frame{border-radius:10px;height:850px}.sa-testimonial-viewport{height:174px}}
 @media(prefers-reduced-motion:reduce){.sa-testimonial-track{animation:none}.sa-testimonial-viewport{height:auto;max-height:none;mask-image:none;-webkit-mask-image:none}.sa-testimonial-track>.sa-testimonial-card:nth-child(n+4){display:none}}
+
+/* Licensed GetIllustrations rollout */
+.gi-proof{display:grid;grid-template-columns:minmax(180px,.75fr) 1.25fr;gap:clamp(1.5rem,4vw,4rem);align-items:center;margin-block:clamp(3rem,7vw,6rem);padding:clamp(1.25rem,3vw,2.5rem);border:1px solid currentColor;border-radius:24px;background:color-mix(in srgb,currentColor 4%,transparent)}
+.gi-proof-art{width:100%;max-height:260px;object-fit:contain}.gi-icon-row{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1.25rem}.gi-icon-row span{display:flex;align-items:center;gap:.6rem;font-weight:700}.gi-icon-row img{width:42px;height:42px;object-fit:contain;flex:none}
+@media(max-width:700px){.gi-proof{grid-template-columns:1fr}.gi-proof-art{max-height:210px}.gi-icon-row{grid-template-columns:1fr}.gi-icon-row img{width:36px;height:36px}}
+/* Replace the original good-fit bullets with licensed pack icons. */
+.icon-replacement-list{list-style:none;padding-left:0}.icon-replacement-list li{display:flex;align-items:flex-start;gap:.7rem;padding-left:0}.icon-replacement-list li:before{content:none}.icon-replacement-list img{width:30px;height:30px;object-fit:contain;flex:none;margin-top:-.2rem}@media(max-width:700px){.icon-replacement-list img{width:26px;height:26px}}
