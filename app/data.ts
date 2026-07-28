@@ -36,7 +36,14 @@ export const blogPosts = [
     title: 'Philippines customer service team: a practical launch guide',
     excerpt: 'Build a Philippines-based support team with a clear queue, safe access, useful quality checks, and an owner-led escalation path.',
     minutes: 11,
-  },] as const;
+  },
+  {
+    slug: 'philippines-ecommerce-order-exception-controls',
+    title: 'Philippines ecommerce operations team: order and exception controls',
+    excerpt: 'Build a Philippines-based ecommerce operations team around clear order states, separate approvals, saved evidence, and fast exception handoffs.',
+    minutes: 13,
+  },
+] as const;
 
 export const blogDetails = {
   'offshore-outsourcing-company-provider-questions': {
