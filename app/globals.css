@@ -236,3 +236,15 @@ form .btn { width: 100%; color: #fff; background: var(--ink); }
 @media(max-width:700px){.gi-proof{grid-template-columns:1fr}.gi-proof-art{max-height:210px}.gi-icon-row{grid-template-columns:1fr}.gi-icon-row img{width:36px;height:36px}}
 /* Replace the original good-fit bullets with licensed pack icons. */
 .icon-replacement-list{list-style:none;padding-left:0}.icon-replacement-list li{display:flex;align-items:flex-start;gap:.7rem;padding-left:0}.icon-replacement-list li:before{content:none}.icon-replacement-list img{width:30px;height:30px;object-fit:contain;flex:none;margin-top:-.2rem}@media(max-width:700px){.icon-replacement-list img{width:26px;height:26px}}
+
+/* Blog article standards and CTA checkpoints */
+.blog-standards-strip{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 24px;padding:14px;border:1px solid var(--line);background:var(--paper,#f8f5ee);color:var(--ink)}
+.blog-standards-strip span{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:999px;background:#fff;font-size:12px;font-weight:800;letter-spacing:.03em}
+.blog-standards-strip span:before{content:'✓';color:var(--accent,var(--orange-dark,#0f8f73));font-weight:900}
+.article-rotation-banner{margin:28px 0;padding:26px;border:1px solid var(--line);background:linear-gradient(135deg,var(--paper,#f8f5ee),#fff);box-shadow:8px 8px 0 rgba(15,143,115,.12)}
+.article-rotation-banner h2{font-size:clamp(28px,3vw,38px);line-height:1.05;margin-bottom:10px;color:var(--ink)}
+.article-rotation-banner p:not(.eyebrow){max-width:680px;color:var(--muted);line-height:1.6;margin-bottom:18px}
+.article-rotation-banner .btn{background:var(--accent,var(--orange,#0f8f73));color:#fff}.article-rotation-banner .btn:hover{filter:brightness(.92)}
+.article-rotation-banner-middle{background:#fff}.article-rotation-banner-bottom{background:var(--paper,#f8f5ee)}
+@media(max-width:640px){.blog-standards-strip{display:grid}.article-rotation-banner{padding:22px}}
+.article-rotation-banner-top{background:linear-gradient(135deg,var(--paper,#f8f5ee),#fff)}
