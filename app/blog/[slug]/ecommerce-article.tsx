@@ -32,7 +32,7 @@ function ArticleBanner({ index }: { index: number }) {
   const banner = articleBanners[index];
   return <aside className="article-banner" data-article-banner={index + 1} aria-label={`Article planning banner ${index + 1}`}>
     <div><h3>{banner.title}</h3><p>{banner.copy}</p></div>
-    <a className="btn primary" href="/contact">{banner.label}</a>
+    <a className="btn primary" href="/contact-us">{banner.label}</a>
   </aside>;
 }
 

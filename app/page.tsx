@@ -22,7 +22,7 @@ export default function Home() {
             <p className="eyebrow light">Philippines-only staffing</p>
             <h1>Build your Filipino team without giving up the controls.</h1>
             <p className="hero-lead">Write the role before you review résumés. Map the work, set the access rules, and decide how you will check quality before a Filipino specialist joins your team.</p>
-            <div className="actions"><a className="btn primary" href="/contact">Plan my Filipino team</a><a className="text-link" href="#roles">See the work lanes <span aria-hidden="true">↘</span></a></div>
+            <div className="actions"><a className="btn primary" href="/contact-us">Plan my Filipino team</a><a className="text-link" href="#roles">See the work lanes <span aria-hidden="true">↘</span></a></div>
             <p className="routing-note">This independent site may route your request to a partner that recruits and hires only in the Philippines.</p>
           </div>
           <div className="hero-visual">
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="container"><div className="section-heading"><p className="eyebrow">Desk notes</p><h2>Read these before the first interview.</h2></div><div className="guide-grid">{blogPosts.slice(0, 3).map((post)=><a href={`/blog/${post.slug}`} key={post.slug}><span>{post.minutes} min</span><h3>{post.title}</h3><p>{post.excerpt}</p><b>Read guide <span aria-hidden="true">↗</span></b></a>)}</div></div>
       </section>
 
-      <section className="container final-panel"><div><p className="eyebrow light">Ready to write the role?</p><h2>Bring the task list. Leave with a Filipino staffing brief.</h2><p>We will map the work, the access rules, and the first-week checks before your request reaches a Philippines-only staffing partner.</p></div><a className="btn primary" href="/contact">Plan my Filipino team</a></section>
+      <section className="container final-panel"><div><p className="eyebrow light">Ready to write the role?</p><h2>Bring the task list. Leave with a Filipino staffing brief.</h2><p>We will map the work, the access rules, and the first-week checks before your request reaches a Philippines-only staffing partner.</p></div><a className="btn primary" href="/contact-us">Plan my Filipino team</a></section>
     </main>
     <Footer/>
   </>;
