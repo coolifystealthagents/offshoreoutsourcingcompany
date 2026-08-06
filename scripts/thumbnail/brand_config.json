@@ -1,0 +1,17 @@
+{
+  "site": "OffshoreOutsourcingCompany.com",
+  "niche": "offshore outsourcing company services",
+  "dimensions": { "width": 1200, "height": 630 },
+  "colors": {
+    "bg": [16, 42, 46],
+    "accent": [242, 107, 79],
+    "white": [255, 248, 238],
+    "light_gray": [220, 239, 233]
+  },
+  "fonts": { "bold": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "regular": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf" },
+  "templates_dir": "scripts/thumbnail/templates",
+  "output_dir": "public/blog/images/thumbs",
+  "output_prefix": "",
+  "default_template": "T2",
+  "text": { "title_size": 48, "title_max_chars": 32, "title_max_lines": 3, "category_size": 18, "subtitle_size": 22, "margin_x": 60, "category_y": 60, "title_y": 160, "line_height": 60, "darken_alpha": 100 }
+}
