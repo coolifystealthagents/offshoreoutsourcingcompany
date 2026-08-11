@@ -143,6 +143,14 @@ const blogPublishedDates: Record<string, '2026-08-10'> = {
 
 export const blogPosts = blogPostsSource.map((post) => blogPublishedDates[post.slug] ? { ...post, publishedAt: blogPublishedDates[post.slug] } : post);
 
+export function sortBlogPosts<T extends { slug: string; publishedAt?: string }>(posts: readonly T[]) {
+  return posts.map((post, index) => ({ post, index })).sort((a, b) => {
+    const dateA = a.post.publishedAt ?? '';
+    const dateB = b.post.publishedAt ?? '';
+    return dateB.localeCompare(dateA) || a.index - b.index;
+  }).map(({ post }) => post);
+}
+
 export const blogDetails = {
   'offshore-outsourcing-company-provider-questions': {
     keyTakeaways: [
