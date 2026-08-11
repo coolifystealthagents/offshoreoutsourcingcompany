@@ -30,7 +30,7 @@ export const services = [
   { slug: "crm-administration", title: "CRM Administration", desc: "Filipino operations specialists can handle crm administration with documented workflows, approval limits, and owner review." },
 ] as const;
 
-export const blogPosts = [
+const blogPostsSource = [
   {
     slug: 'philippines-customer-service-team-guide',
     title: 'Philippines customer service team: a practical launch guide',
@@ -113,6 +113,20 @@ export const blogPosts = [
   { slug: 'philippines-outsourced-knowledge-audit', title: 'Knowledge audit for a Philippines support operation', excerpt: 'Review procedures, examples, owners, and change dates so outsourced work stays aligned with the approved process.', minutes: 9 },
 ] as const;
 
+const aug10BlogSlugs = new Set([
+  'philippines-outsourced-order-entry-controls', 'philippines-appointment-scheduling-workflow', 'philippines-invoice-follow-up-process',
+  'philippines-customer-onboarding-coordination', 'philippines-outsourced-research-assistant-scope', 'philippines-support-ticket-tagging-guide',
+  'philippines-purchase-order-coordination', 'philippines-outsourced-calendar-handoff', 'philippines-customer-feedback-review-routine',
+  'philippines-shared-inbox-sla-controls', 'philippines-operations-documentation-handoff', 'philippines-lead-list-quality-review',
+  'philippines-ecommerce-catalog-data-checks', 'philippines-renewal-coordination-workflow', 'philippines-outsourced-qa-sampling-plan',
+  'philippines-employee-onboarding-administration', 'philippines-operations-backlog-aging-review', 'philippines-service-request-intake-form',
+  'philippines-customer-record-update-controls', 'philippines-month-end-administration-checklist', 'philippines-outsourced-task-priority-rules',
+  'philippines-knowledge-transfer-session-plan', 'philippines-customer-refund-case-preparation', 'philippines-remote-work-continuity-checklist',
+  'philippines-outsourced-knowledge-audit',
+]);
+
+export const blogPosts = blogPostsSource.map((post) => aug10BlogSlugs.has(post.slug) ? { ...post, publishedAt: '2026-08-10' as const } : post);
+
 export const blogDetails = {
   'offshore-outsourcing-company-provider-questions': {
     keyTakeaways: [
@@ -180,7 +194,7 @@ export const staffingProcess = [
 export const staffingFitNote = 'This independent site does not employ candidates. Requests may be routed to a staffing partner that recruits and hires only in the Philippines.';
 
 
-export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [
+export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[]; date?: string }> = [
   { slug: 'philippines-outsourcing-role-scorecard', title: 'A role scorecard for Philippines outsourcing support', excerpt: 'A practical scorecard for comparing scope, evidence, quality, and escalation judgment before a role goes live.', body: ['A useful outsourcing role starts with observable work, not a broad title. List the recurring queue, the expected output, the tools involved, the response window, and the decisions that stay with the owner.', 'Score sample work across accuracy, completeness, documentation, turnaround, and escalation judgment. Keep those dimensions separate so a fast but careless submission does not look equivalent to a careful one.', 'Use a small test set with known answers and one ambiguous case. The ambiguous case shows whether the candidate asks a useful question instead of guessing.', 'Keep customer, payment, security, and policy decisions outside the role until the owner has reviewed evidence from the first week.', 'Method note: this control-oriented framework is informed by NIST access-management guidance at https://www.nist.gov/cyberframework and should be adapted to the company process.'] },
   { slug: 'philippines-operations-handoff-evidence', title: 'What a reliable Philippines operations handoff should contain', excerpt: 'A handoff works when another person can see status, evidence, next action, and owner decision without reconstructing the story.', body: ['A daily handoff should name completed work, open items, blocked items, due dates, and the next owner. Avoid status words without evidence such as done, waiting, or handled.', 'For each exception, record the customer or work reference, the current state, the evidence checked, the proposed next step, and the decision still required.', 'Use one shared queue and one definition for priority. If urgent work can enter through several inboxes, the team will lose the audit trail.', 'A reviewer should sample the handoff, not rewrite it. The goal is to make gaps visible while preserving ownership with the person who did the work.', 'Method note: the workflow emphasis follows SBA guidance on defining duties and managing employees at https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees.'] },
   { slug: 'philippines-remote-access-review', title: 'Remote access review for a Philippines support role', excerpt: 'Use named accounts, least privilege, review dates, and a clean offboarding record to keep remote support access bounded.', body: ['Start with a role-to-system map. For each system, state whether the role needs view, create, edit, export, or admin access, and identify the owner who approves it.', 'Prefer named accounts and multi-factor authentication. Shared passwords make it difficult to tell who acted and make offboarding incomplete.', 'Set a review date before access is granted. A quarterly review is only useful if someone checks the list against the current role and removes stale permissions.', 'Keep sensitive exports, payment actions, security settings, and policy overrides owner-controlled unless the business has a documented approval path.', 'Method note: NIST identity and access-management guidance is the reference point for this least-privilege approach: https://www.nist.gov/cyberframework.'] },
@@ -236,3 +250,14 @@ export const researchPosts: Array<{ slug: string; title: string; excerpt: string
   { slug: 'philippines-outsourced-handoff-acceptance-criteria', title: 'Handoff acceptance criteria for Philippines support roles', excerpt: 'A measurable handoff standard for outputs, evidence, open questions, and ownership at the end of a work window.', body: ['Method: check output completeness, source evidence, status, unresolved questions, next action, owner, due date, risk, queue location, and reviewer.', 'Key finding: ten acceptance fields turn a handoff from a narrative update into a reviewable transfer of work.', 'Define what accepted, returned, blocked, and escalated mean. The person receiving the work should not have to reconstruct missing context from private messages.', 'Sample handoffs for evidence and open exceptions. Feed repeat defects into the role brief, checklist, or system design.', 'FAQ: Is a handoff complete when the summary is sent? No. Completion requires the receiving owner to have the information needed for the next decision or action.', 'Sources: 1) https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees 2) https://www.nist.gov/cyberframework 3) https://www.cisa.gov/audiences/small-and-medium-businesses 4) https://www.ftc.gov/business-guidance 5) https://www.nist.gov/privacy-framework 6) https://www.sba.gov/business-guide/manage-your-business 7) https://www.bls.gov/ooh/office-and-administrative-support/home.htm 8) https://www.cisa.gov/resources-tools/resources 9) https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20 10) https://www.cisa.gov/stopransomware. Retrieved 2026-08-10.'] },
   { slug: 'philippines-outsourced-work-sample-review-method', title: 'Work-sample review method for offshore role design', excerpt: 'A low-risk sampling method for testing accuracy, judgment, documentation, and escalation before access expands.', body: ['Method: define sample purpose, known-answer items, ambiguous item, risk class, scoring dimensions, evidence requirement, reviewer, correction, and recheck date.', 'Headline finding: a mixed sample shows both execution accuracy and whether the specialist asks for clarification when the brief is incomplete.', 'Keep customer, payment, security, legal, and policy decisions outside the sample unless the owner has designed a safe simulation. Expand scope only after evidence supports it.', 'Report each dimension separately and preserve reviewer notes. A single pass score can hide a serious failure in escalation or documentation.', 'FAQ: Is a successful sample proof of readiness? No. It is evidence for a bounded next step, followed by ongoing review.', 'Sources: 1) https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees 2) https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm 3) https://www.nist.gov/cyberframework 4) https://www.cisa.gov/audiences/small-and-medium-businesses 5) https://www.ftc.gov/business-guidance 6) https://www.nist.gov/privacy-framework 7) https://www.sba.gov/business-guide/manage-your-business 8) https://www.cisa.gov/resources-tools/resources 9) https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20 10) https://www.cisa.gov/stopransomware. Retrieved 2026-08-10.'] },
 ];
+
+const august10ResearchSlugs = new Set([
+  'philippines-outsourced-invoice-intake-controls', 'philippines-outsourced-order-status-reconciliation',
+  'philippines-outsourced-lead-research-qualification-controls', 'philippines-outsourced-refund-request-routing',
+  'philippines-outsourced-calendar-preparation-evidence', 'philippines-outsourced-content-brief-quality-checks',
+  'philippines-outsourced-customer-feedback-coding', 'philippines-outsourced-access-request-review',
+  'philippines-outsourced-appointment-confirmation-controls', 'philippines-outsourced-returns-intake-research',
+  'philippines-outsourced-research-source-register', 'philippines-outsourced-work-queue-prioritization',
+  'philippines-outsourced-handoff-acceptance-criteria', 'philippines-outsourced-work-sample-review-method',
+]);
+export const datedResearchPosts = researchPosts.map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);

@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "offshoreoutsourcingcompany.com",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "49c80fa2-158e-4c0f-bf06-ef3a24d2bd0b",
+  "priorIssueId": "dc4fb120-b65f-4b10-9bca-578f672b19ee",
+  "validationCommands": [
+    "node scripts/validate-aug10-blog.mjs",
+    "npm run build",
+    "npx tsc --noEmit",
+    "git diff-tree --no-commit-id --name-status -r cbdee0686c0cef349b8dac1a777d108e468d4832"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "philippines-outsourced-order-entry-controls",
+      "route": "/blog/philippines-outsourced-order-entry-controls",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-appointment-scheduling-workflow",
+      "route": "/blog/philippines-appointment-scheduling-workflow",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-invoice-follow-up-process",
+      "route": "/blog/philippines-invoice-follow-up-process",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-customer-onboarding-coordination",
+      "route": "/blog/philippines-customer-onboarding-coordination",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-research-assistant-scope",
+      "route": "/blog/philippines-outsourced-research-assistant-scope",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-support-ticket-tagging-guide",
+      "route": "/blog/philippines-support-ticket-tagging-guide",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-purchase-order-coordination",
+      "route": "/blog/philippines-purchase-order-coordination",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-calendar-handoff",
+      "route": "/blog/philippines-outsourced-calendar-handoff",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-customer-feedback-review-routine",
+      "route": "/blog/philippines-customer-feedback-review-routine",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-shared-inbox-sla-controls",
+      "route": "/blog/philippines-shared-inbox-sla-controls",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-operations-documentation-handoff",
+      "route": "/blog/philippines-operations-documentation-handoff",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-lead-list-quality-review",
+      "route": "/blog/philippines-lead-list-quality-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-ecommerce-catalog-data-checks",
+      "route": "/blog/philippines-ecommerce-catalog-data-checks",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-renewal-coordination-workflow",
+      "route": "/blog/philippines-renewal-coordination-workflow",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-qa-sampling-plan",
+      "route": "/blog/philippines-outsourced-qa-sampling-plan",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-onboarding-administration",
+      "route": "/blog/philippines-employee-onboarding-administration",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-operations-backlog-aging-review",
+      "route": "/blog/philippines-operations-backlog-aging-review",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-service-request-intake-form",
+      "route": "/blog/philippines-service-request-intake-form",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-customer-record-update-controls",
+      "route": "/blog/philippines-customer-record-update-controls",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-month-end-administration-checklist",
+      "route": "/blog/philippines-month-end-administration-checklist",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-task-priority-rules",
+      "route": "/blog/philippines-outsourced-task-priority-rules",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-knowledge-transfer-session-plan",
+      "route": "/blog/philippines-knowledge-transfer-session-plan",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-customer-refund-case-preparation",
+      "route": "/blog/philippines-customer-refund-case-preparation",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-work-continuity-checklist",
+      "route": "/blog/philippines-remote-work-continuity-checklist",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-outsourced-knowledge-audit",
+      "route": "/blog/philippines-outsourced-knowledge-audit",
+      "sourcePath": "app/data.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "cbdee0686c0cef349b8dac1a777d108e468d4832",
+      "sourceDateField": "publishedAt",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}
+
