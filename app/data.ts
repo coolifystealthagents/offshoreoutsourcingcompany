@@ -113,19 +113,35 @@ const blogPostsSource = [
   { slug: 'philippines-outsourced-knowledge-audit', title: 'Knowledge audit for a Philippines support operation', excerpt: 'Review procedures, examples, owners, and change dates so outsourced work stays aligned with the approved process.', minutes: 9 },
 ] as const;
 
-const aug10BlogSlugs = new Set([
-  'philippines-outsourced-order-entry-controls', 'philippines-appointment-scheduling-workflow', 'philippines-invoice-follow-up-process',
-  'philippines-customer-onboarding-coordination', 'philippines-outsourced-research-assistant-scope', 'philippines-support-ticket-tagging-guide',
-  'philippines-purchase-order-coordination', 'philippines-outsourced-calendar-handoff', 'philippines-customer-feedback-review-routine',
-  'philippines-shared-inbox-sla-controls', 'philippines-operations-documentation-handoff', 'philippines-lead-list-quality-review',
-  'philippines-ecommerce-catalog-data-checks', 'philippines-renewal-coordination-workflow', 'philippines-outsourced-qa-sampling-plan',
-  'philippines-employee-onboarding-administration', 'philippines-operations-backlog-aging-review', 'philippines-service-request-intake-form',
-  'philippines-customer-record-update-controls', 'philippines-month-end-administration-checklist', 'philippines-outsourced-task-priority-rules',
-  'philippines-knowledge-transfer-session-plan', 'philippines-customer-refund-case-preparation', 'philippines-remote-work-continuity-checklist',
-  'philippines-outsourced-knowledge-audit',
-]);
+const blogPublishedDates: Record<string, '2026-08-10'> = {
+  'philippines-outsourced-order-entry-controls': '2026-08-10',
+  'philippines-appointment-scheduling-workflow': '2026-08-10',
+  'philippines-customer-feedback-review-routine': '2026-08-10',
+  'philippines-customer-onboarding-coordination': '2026-08-10',
+  'philippines-customer-record-update-controls': '2026-08-10',
+  'philippines-customer-refund-case-preparation': '2026-08-10',
+  'philippines-ecommerce-catalog-data-checks': '2026-08-10',
+  'philippines-employee-onboarding-administration': '2026-08-10',
+  'philippines-invoice-follow-up-process': '2026-08-10',
+  'philippines-knowledge-transfer-session-plan': '2026-08-10',
+  'philippines-lead-list-quality-review': '2026-08-10',
+  'philippines-month-end-administration-checklist': '2026-08-10',
+  'philippines-operations-backlog-aging-review': '2026-08-10',
+  'philippines-operations-documentation-handoff': '2026-08-10',
+  'philippines-outsourced-calendar-handoff': '2026-08-10',
+  'philippines-outsourced-knowledge-audit': '2026-08-10',
+  'philippines-outsourced-qa-sampling-plan': '2026-08-10',
+  'philippines-outsourced-research-assistant-scope': '2026-08-10',
+  'philippines-outsourced-task-priority-rules': '2026-08-10',
+  'philippines-purchase-order-coordination': '2026-08-10',
+  'philippines-remote-work-continuity-checklist': '2026-08-10',
+  'philippines-renewal-coordination-workflow': '2026-08-10',
+  'philippines-service-request-intake-form': '2026-08-10',
+  'philippines-shared-inbox-sla-controls': '2026-08-10',
+  'philippines-support-ticket-tagging-guide': '2026-08-10',
+};
 
-export const blogPosts = blogPostsSource.map((post) => aug10BlogSlugs.has(post.slug) ? { ...post, publishedAt: '2026-08-10' as const } : post);
+export const blogPosts = blogPostsSource.map((post) => blogPublishedDates[post.slug] ? { ...post, publishedAt: blogPublishedDates[post.slug] } : post);
 
 export const blogDetails = {
   'offshore-outsourcing-company-provider-questions': {
