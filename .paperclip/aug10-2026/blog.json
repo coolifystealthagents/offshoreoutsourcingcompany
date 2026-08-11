@@ -13,7 +13,8 @@
     "node scripts/validate-aug10-blog.mjs",
     "npm run build",
     "npx tsc --noEmit",
-    "git diff-tree --no-commit-id --name-status -r cbdee0686c0cef349b8dac1a777d108e468d4832"
+    "git diff-tree --no-commit-id --name-status -r cbdee0686c0cef349b8dac1a777d108e468d4832",
+    "test \"$(git rev-parse HEAD)\" = \"$(git ls-remote origin refs/heads/main | cut -f1)\""
   ],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
@@ -371,4 +372,3 @@
     }
   ]
 }
-
