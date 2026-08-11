@@ -24,9 +24,10 @@ for (const entry of manifest.entries) {
   if (!/^[0-9a-f]{40}$/.test(entry.introducedByCommit)) throw new Error(`bad introducing commit: ${entry.slug}`);
   const committedSource = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], {encoding: 'utf8'});
   const parentSource = execFileSync('git', ['show', `${entry.introducedByCommit}^:${entry.sourcePath}`], {encoding: 'utf8'});
-  if (!committedSource.includes(`slug: '${entry.slug}'`)) throw new Error(`slug absent at introducing commit: ${entry.slug}`);
-  if (parentSource.includes(`slug: '${entry.slug}'`)) throw new Error(`slug was present before introducing commit: ${entry.slug}`);
-  if (!data.includes(`date: '2026-08-10'`)) throw new Error('source date mapping missing');
+  const sourceRecord = `slug: '${entry.slug}', date: '2026-08-10'`;
+  if (!committedSource.includes(sourceRecord)) throw new Error(`dated source record absent at introducing commit: ${entry.slug}`);
+  if (parentSource.includes(sourceRecord)) throw new Error(`dated source record was present before introducing commit: ${entry.slug}`);
+  if (!data.includes(sourceRecord)) throw new Error(`dated source record missing: ${entry.slug}`);
   if (!detail.includes('datePublished') || !detail.includes('dateTime={p.date}')) throw new Error('rendered date implementation missing');
   if (!detail.includes(`canonical:\`/research/\${p.slug}\``)) throw new Error('canonical implementation missing');
   if (!sitemap.includes('researchPosts.map')) throw new Error('sitemap eligibility implementation missing');
