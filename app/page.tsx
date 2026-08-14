@@ -50,7 +50,7 @@ export default function Home() {
 
       <section className="section fit-section">
         <div className="container fit-grid">
-          <div className="fit-card good"><p className="eyebrow">Good fit</p><h2>You have examples and a reviewer.</h2><ul className="icon-replacement-list"><li><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt=""/>The work happens often enough to document.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt=""/>Someone can answer questions during the first week.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt=""/>Sensitive decisions have a clear approval line.</li></ul></div>
+          <div className="fit-card good"><p className="eyebrow">Good fit</p><h2>You have examples and a reviewer.</h2><ul className="icon-replacement-list"><li><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt="Documented role scope"/>The work happens often enough to document.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt="Clear onboarding goal"/>Someone can answer questions during the first week.</li><li><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt="Quality review checkpoint"/>Sensitive decisions have a clear approval line.</li></ul></div>
           <div className="fit-card pause"><p className="eyebrow">Pause first</p><h2>The process still lives in one person&apos;s head.</h2><ul><li>Every request needs a different answer.</li><li>No one has time to check sample work.</li><li>The new hire would get broad access on day one.</li></ul></div>
         </div>
       </section>
@@ -63,8 +63,8 @@ export default function Home() {
       </section>
 
       <section className="container gi-proof" aria-label="A documented staffing handoff">
-        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/teamwork-planning.svg" alt="" />
-        <div><p className="eyebrow">Scope, check, improve</p><h2>A team plan with visible controls.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt=""/>Role scope</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt=""/>Quality check</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt=""/>Clear goal</span></div></div>
+        <img className="gi-proof-art" src="/illustrations/getillustrations/grain-teamwork-illustrations-svg/teamwork-planning.svg" alt="Team planning a documented staffing handoff" />
+        <div><p className="eyebrow">Scope, check, improve</p><h2>A team plan with visible controls.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/sharpie-business-icons-svg/role-scope.svg" alt="Role scope checklist"/>Role scope</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/quality-check.svg" alt="Quality check marker"/>Quality check</span><span><img src="/icons/getillustrations/sharpie-business-icons-svg/clear-goal.svg" alt="Clear staffing goal"/>Clear goal</span></div></div>
       </section>
 
       <section className="section guide-section">
