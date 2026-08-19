@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "research",
+  "entries": [
+    {"route":"/research/philippines-outsourced-queue-observability-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-owner-wait-time-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-exception-clustering-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-handoff-context-loss-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-review-sampling-design-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-knowledge-gap-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-correction-traceability-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-calendar-timezone-risk-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-vendor-followup-evidence-study","sourcePaths":["app/research-aug18.ts"]},
+    {"route":"/research/philippines-outsourced-backlog-reopen-study","sourcePaths":["app/research-aug18.ts"]}
+  ]
+}
