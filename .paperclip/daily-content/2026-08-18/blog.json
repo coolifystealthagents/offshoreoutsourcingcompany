@@ -1,24 +1,134 @@
 [
-  {"route":"/blog/philippines-operations-shift-handoff","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-order-cancellation-review","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-customer-onboarding-qa","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-offshore-inventory-reconciliation","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-renewal-risk-preparation","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-support-macro-review","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-payment-reconciliation","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-operations-change-request-log","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-content-upload-controls","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-customer-support-case-categorization","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-supplier-document-review","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-remote-operations-backup-plan","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-calendar-conflict-review","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-operations-approval-matrix","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-customer-data-correction","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-operations-training-records","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-delivery-exception-review","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-support-queue-priority-calibration","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-contract-renewal-coordination","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-operations-incident-note-taking","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-outsourced-knowledge-gap-register","sourcePaths":["app/blog-aug18.ts"]},
-  {"route":"/blog/philippines-operations-work-sample-design","sourcePaths":["app/blog-aug18.ts"]}
+  {
+    "route": "/blog/philippines-operations-shift-handoff",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-order-cancellation-review",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-customer-onboarding-qa",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-offshore-inventory-reconciliation",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-renewal-risk-preparation",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-support-macro-review",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-payment-reconciliation",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-operations-change-request-log",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-content-upload-controls",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-customer-support-case-categorization",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-supplier-document-review",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-remote-operations-backup-plan",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-schedule-exception-desk",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-operations-approval-matrix",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-customer-data-correction",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-operations-training-records",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-delivery-exception-review",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-support-queue-priority-calibration",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-contract-renewal-coordination",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-operations-incident-note-taking",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-outsourced-knowledge-gap-register",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  },
+  {
+    "route": "/blog/philippines-operations-work-sample-design",
+    "sourcePaths": [
+      "app/blog-aug18.ts"
+    ]
+  }
 ]
