@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/offshore-outsourcing-handoff-delay-evidence-study",
+      "source": "content/research/offshore-outsourcing-handoff-delay-evidence-study.md"
+    },
+    {
+      "route": "/research/philippines-team-access-governance-research",
+      "source": "content/research/philippines-team-access-governance-research.md"
+    },
+    {
+      "route": "/research/managed-outsourcing-review-cadence-research",
+      "source": "content/research/managed-outsourcing-review-cadence-research.md"
+    },
+    {
+      "route": "/research/offshore-role-clarity-evidence-research",
+      "source": "content/research/offshore-role-clarity-evidence-research.md"
+    },
+    {
+      "route": "/research/distributed-team-escalation-path-research",
+      "source": "content/research/distributed-team-escalation-path-research.md"
+    }
+  ]
+}

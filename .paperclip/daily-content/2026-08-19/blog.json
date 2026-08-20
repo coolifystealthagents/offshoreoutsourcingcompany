@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/offshore-outsourcing-role-scope-register",
+      "source": "content/blog/offshore-outsourcing-role-scope-register.md"
+    },
+    {
+      "route": "/blog/philippines-team-access-approval-matrix",
+      "source": "content/blog/philippines-team-access-approval-matrix.md"
+    },
+    {
+      "route": "/blog/offshore-hiring-handoff-evidence-log",
+      "source": "content/blog/offshore-hiring-handoff-evidence-log.md"
+    },
+    {
+      "route": "/blog/managed-outsourcing-quality-review-cadence",
+      "source": "content/blog/managed-outsourcing-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/philippines-operations-exception-escalation-map",
+      "source": "content/blog/philippines-operations-exception-escalation-map.md"
+    },
+    {
+      "route": "/blog/offshore-team-knowledge-transfer-checklist",
+      "source": "content/blog/offshore-team-knowledge-transfer-checklist.md"
+    },
+    {
+      "route": "/blog/remote-staffing-work-queue-ownership",
+      "source": "content/blog/remote-staffing-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/offshore-outsourcing-data-access-review",
+      "source": "content/blog/offshore-outsourcing-data-access-review.md"
+    },
+    {
+      "route": "/blog/philippines-team-weekly-decision-brief",
+      "source": "content/blog/philippines-team-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/offshore-vendor-change-control-record",
+      "source": "content/blog/offshore-vendor-change-control-record.md"
+    },
+    {
+      "route": "/blog/outsourced-process-source-of-truth-design",
+      "source": "content/blog/outsourced-process-source-of-truth-design.md"
+    },
+    {
+      "route": "/blog/philippines-staffing-launch-readiness-review",
+      "source": "content/blog/philippines-staffing-launch-readiness-review.md"
+    }
+  ]
+}
