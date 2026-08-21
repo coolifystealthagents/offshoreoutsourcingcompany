@@ -3,6 +3,9 @@ import { august18ResearchPosts } from './research-aug18';
 import { august18ResearchDepth } from './research-aug18';
 import { august18BlogPosts } from './blog-aug18';
 import { august20ResearchPosts } from './research-aug20';
+import august21Meta from './aug21-meta.json';
+
+export const august21BlogPosts = Object.entries(august21Meta).map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 12, publishedAt: '2026-08-21' as const }));
 
 export const site = {
   domain: 'OffshoreOutsourcingCompany.com',
@@ -37,6 +40,7 @@ export const services = [
 ] as const;
 
 const blogPostsSource = [
+  ...august21BlogPosts,
   ...august18BlogPosts,
   {
     slug: 'philippines-customer-service-team-guide',

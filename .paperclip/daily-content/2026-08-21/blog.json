@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-operations-sla-definition","sourcePath":"content/blog/philippines-operations-sla-definition.md","imagePath":"public/aug21-heroes/philippines-operations-sla-definition.png","promptReceipt":"public/aug21-heroes/philippines-operations-sla-definition.prompt.txt"},
+    {"route":"/blog/offshore-workflow-exception-routing","sourcePath":"content/blog/offshore-workflow-exception-routing.md","imagePath":"public/aug21-heroes/offshore-workflow-exception-routing.png","promptReceipt":"public/aug21-heroes/offshore-workflow-exception-routing.prompt.txt"},
+    {"route":"/blog/philippines-support-quality-calibration","sourcePath":"content/blog/philippines-support-quality-calibration.md","imagePath":"public/aug21-heroes/philippines-support-quality-calibration.png","promptReceipt":"public/aug21-heroes/philippines-support-quality-calibration.prompt.txt"},
+    {"route":"/blog/remote-operations-source-check","sourcePath":"content/blog/remote-operations-source-check.md","imagePath":"public/aug21-heroes/remote-operations-source-check.png","promptReceipt":"public/aug21-heroes/remote-operations-source-check.prompt.txt"},
+    {"route":"/blog/philippines-outsourced-approval-limits","sourcePath":"content/blog/philippines-outsourced-approval-limits.md","imagePath":"public/aug21-heroes/philippines-outsourced-approval-limits.png","promptReceipt":"public/aug21-heroes/philippines-outsourced-approval-limits.prompt.txt"},
+    {"route":"/blog/offshore-team-weekly-scorecard","sourcePath":"content/blog/offshore-team-weekly-scorecard.md","imagePath":"public/aug21-heroes/offshore-team-weekly-scorecard.png","promptReceipt":"public/aug21-heroes/offshore-team-weekly-scorecard.prompt.txt"},
+    {"route":"/blog/philippines-customer-case-evidence","sourcePath":"content/blog/philippines-customer-case-evidence.md","imagePath":"public/aug21-heroes/philippines-customer-case-evidence.png","promptReceipt":"public/aug21-heroes/philippines-customer-case-evidence.prompt.txt"},
+    {"route":"/blog/remote-team-process-change-log","sourcePath":"content/blog/remote-team-process-change-log.md","imagePath":"public/aug21-heroes/remote-team-process-change-log.png","promptReceipt":"public/aug21-heroes/remote-team-process-change-log.prompt.txt"},
+    {"route":"/blog/philippines-operations-rework-review","sourcePath":"content/blog/philippines-operations-rework-review.md","imagePath":"public/aug21-heroes/philippines-operations-rework-review.png","promptReceipt":"public/aug21-heroes/philippines-operations-rework-review.prompt.txt"},
+    {"route":"/blog/offshore-handoff-readiness","sourcePath":"content/blog/offshore-handoff-readiness.md","imagePath":"public/aug21-heroes/offshore-handoff-readiness.png","promptReceipt":"public/aug21-heroes/offshore-handoff-readiness.prompt.txt"},
+    {"route":"/blog/philippines-back-office-escalation","sourcePath":"content/blog/philippines-back-office-escalation.md","imagePath":"public/aug21-heroes/philippines-back-office-escalation.png","promptReceipt":"public/aug21-heroes/philippines-back-office-escalation.prompt.txt"},
+    {"route":"/blog/outsourced-queue-aging-review","sourcePath":"content/blog/outsourced-queue-aging-review.md","imagePath":"public/aug21-heroes/outsourced-queue-aging-review.png","promptReceipt":"public/aug21-heroes/outsourced-queue-aging-review.prompt.txt"}
+  ]
+}
