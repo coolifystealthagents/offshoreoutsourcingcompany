@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    {"route":"/research/philippines-outsourced-queue-aging-evidence-study","sourcePath":"app/research-aug21.ts","imagePath":"public/research-aug21-heroes/queue-aging-evidence.png","promptReceipt":"public/research-aug21-heroes/queue-aging-evidence.prompt.txt"},
+    {"route":"/research/philippines-outsourced-handoff-continuity-evidence-study","sourcePath":"app/research-aug21.ts","imagePath":"public/research-aug21-heroes/handoff-continuity-evidence.png","promptReceipt":"public/research-aug21-heroes/handoff-continuity-evidence.prompt.txt"},
+    {"route":"/research/philippines-outsourced-reviewer-agreement-evidence-study","sourcePath":"app/research-aug21.ts","imagePath":"public/research-aug21-heroes/reviewer-agreement-evidence.png","promptReceipt":"public/research-aug21-heroes/reviewer-agreement-evidence.prompt.txt"},
+    {"route":"/research/offshore-process-change-evidence-research","sourcePath":"app/research-aug21.ts","imagePath":"public/research-aug21-heroes/process-change-evidence.png","promptReceipt":"public/research-aug21-heroes/process-change-evidence.prompt.txt"},
+    {"route":"/research/offshore-claim-to-source-verification-evidence-study","sourcePath":"app/research-aug21.ts","imagePath":"public/research-aug21-heroes/source-verification-evidence.png","promptReceipt":"public/research-aug21-heroes/source-verification-evidence.prompt.txt"}
+  ]
+}
