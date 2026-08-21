@@ -1,3 +1,10 @@
+---
+slug: "offshore-workflow-exception-routing"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Exception routing in offshore operations workflows
 
 *August 21, 2026*

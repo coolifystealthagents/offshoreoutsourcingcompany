@@ -1,3 +1,10 @@
+---
+slug: "remote-operations-source-check"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Source checking for remote operations work
 
 *August 21, 2026*

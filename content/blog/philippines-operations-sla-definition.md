@@ -1,3 +1,10 @@
+---
+slug: "philippines-operations-sla-definition"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Defining service levels for Philippines operations support
 
 *August 21, 2026*

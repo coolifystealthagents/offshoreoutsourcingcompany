@@ -1,3 +1,10 @@
+---
+slug: "philippines-outsourced-approval-limits"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Approval limits for Philippines outsourced roles
 
 *August 21, 2026*

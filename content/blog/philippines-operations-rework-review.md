@@ -1,3 +1,10 @@
+---
+slug: "philippines-operations-rework-review"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Rework reviews for Philippines operations
 
 *August 21, 2026*

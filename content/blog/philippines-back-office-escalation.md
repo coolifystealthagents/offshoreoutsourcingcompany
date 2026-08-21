@@ -1,3 +1,10 @@
+---
+slug: "philippines-back-office-escalation"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Back-office escalation for Philippines teams
 
 *August 21, 2026*

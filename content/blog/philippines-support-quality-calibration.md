@@ -1,3 +1,10 @@
+---
+slug: "philippines-support-quality-calibration"
+datePublished: "2026-08-21"
+publishedAt: "2026-08-21T12:00:00.000Z"
+updatedAt: "2026-08-21T12:00:00.000Z"
+---
+
 # Quality calibration for Philippines support teams
 
 *August 21, 2026*
