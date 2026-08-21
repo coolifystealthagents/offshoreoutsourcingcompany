@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "entries": [
+    {"route":"/research/philippines-outsourced-source-reliability-study","sourcePaths":["app/research-aug20.ts"],"heroPath":"public/research-heroes/source-reliability-study.png"},
+    {"route":"/research/philippines-outsourced-review-load-evidence-study","sourcePaths":["app/research-aug20.ts"],"heroPath":"public/research-heroes/review-load-evidence-study.png"},
+    {"route":"/research/philippines-outsourced-coverage-transition-study","sourcePaths":["app/research-aug20.ts"],"heroPath":"public/research-heroes/coverage-transition-study.png"},
+    {"route":"/research/philippines-outsourced-permission-scope-study","sourcePaths":["app/research-aug20.ts"],"heroPath":"public/research-heroes/permission-scope-study.png"},
+    {"route":"/research/philippines-outsourced-exception-recurrence-study","sourcePaths":["app/research-aug20.ts"],"heroPath":"public/research-heroes/exception-recurrence-study.png"}
+  ]
+}
