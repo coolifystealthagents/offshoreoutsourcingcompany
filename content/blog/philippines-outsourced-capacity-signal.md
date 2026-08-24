@@ -1,3 +1,10 @@
+---
+date: 2026-08-23
+datePublished: 2026-08-23
+dateModified: 2026-08-23
+slug: philippines-outsourced-capacity-signal
+---
+
 # Capacity signals for Philippines outsourced teams
 
 *August 23, 2026*
@@ -49,4 +56,3 @@ Start with actual requests rather than a broad job title. Capture the intended o
 ## Review before expansion
 
 Before expanding this Philippines support lane, ask whether another trained person could reproduce the work from the queue, approved source, and handoff note without private context. If not, improve the intake, example, source, or decision boundary rather than adding volume. Retain uncertainty where it remains and expand only after the routine is demonstrably controlled.
-
