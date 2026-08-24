@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "imageStatus": "Gemini unavailable in execution environment; text-complete fallback used and no stock imagery added.",
+  "entries": [
+    {"route": "/research/daily-article-source-control-offshore-research-study", "sourcePaths": ["app/research-aug23.ts"], "heroPath": null},
+    {"route": "/research/offshore-editorial-queue-ownership-evidence-research", "sourcePaths": ["app/research-aug23.ts"], "heroPath": null},
+    {"route": "/research/research-brief-reproducibility-filipino-content-support-study", "sourcePaths": ["app/research-aug23.ts"], "heroPath": null},
+    {"route": "/research/offshore-article-review-latency-evidence-study", "sourcePaths": ["app/research-aug23.ts"], "heroPath": null},
+    {"route": "/research/offshore-content-reuse-originality-risk-research", "sourcePaths": ["app/research-aug23.ts"], "heroPath": null}
+  ]
+}
