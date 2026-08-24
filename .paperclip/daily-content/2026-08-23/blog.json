@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-outsourced-intake-triage-board","sourcePaths":["content/blog/philippines-outsourced-intake-triage-board.md"]},
+    {"route":"/blog/philippines-support-response-calibration","sourcePaths":["content/blog/philippines-support-response-calibration.md"]},
+    {"route":"/blog/philippines-operations-rework-cause-map","sourcePaths":["content/blog/philippines-operations-rework-cause-map.md"]},
+    {"route":"/blog/philippines-outsourced-coverage-transition","sourcePaths":["content/blog/philippines-outsourced-coverage-transition.md"]},
+    {"route":"/blog/philippines-remote-task-aging-review","sourcePaths":["content/blog/philippines-remote-task-aging-review.md"]},
+    {"route":"/blog/philippines-outsourced-approval-packet","sourcePaths":["content/blog/philippines-outsourced-approval-packet.md"]},
+    {"route":"/blog/philippines-operations-source-version-check","sourcePaths":["content/blog/philippines-operations-source-version-check.md"]},
+    {"route":"/blog/philippines-customer-contact-reason-coding","sourcePaths":["content/blog/philippines-customer-contact-reason-coding.md"]},
+    {"route":"/blog/philippines-outsourced-capacity-signal","sourcePaths":["content/blog/philippines-outsourced-capacity-signal.md"]},
+    {"route":"/blog/philippines-vendor-evidence-packet","sourcePaths":["content/blog/philippines-vendor-evidence-packet.md"]},
+    {"route":"/blog/philippines-knowledge-gap-register","sourcePaths":["content/blog/philippines-knowledge-gap-register.md"]},
+    {"route":"/blog/philippines-outsourced-change-rollout","sourcePaths":["content/blog/philippines-outsourced-change-rollout.md"]}
+  ],
+  "imageNote": "Gemini image generation was unavailable in this repository execution environment; no stock or retained image was substituted."
+}

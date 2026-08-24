@@ -4,9 +4,11 @@ import { august18ResearchDepth } from './research-aug18';
 import { august18BlogPosts } from './blog-aug18';
 import { august20ResearchPosts } from './research-aug20';
 import august21Meta from './aug21-meta.json';
+import august23Meta from './aug23-meta.json';
 import {august21ResearchPosts} from './research-aug21';
 
 export const august21BlogPosts = Object.entries(august21Meta).map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 12, publishedAt: '2026-08-21' as const }));
+export const august23BlogPosts = Object.entries(august23Meta).map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 11, publishedAt: '2026-08-23' as const }));
 
 export const site = {
   domain: 'OffshoreOutsourcingCompany.com',
@@ -41,6 +43,7 @@ export const services = [
 ] as const;
 
 const blogPostsSource = [
+  ...august23BlogPosts,
   ...august21BlogPosts,
   ...august18BlogPosts,
   {
