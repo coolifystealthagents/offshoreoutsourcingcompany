@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-outsourced-change-rollout
 ---
 
 # Change rollouts for Philippines operations support
 
-*August 23, 2026*
+*August 24, 2026*
 
 Introduce a process or system change with scope, examples, access checks, pilot evidence, and a controlled return to the owner.
 

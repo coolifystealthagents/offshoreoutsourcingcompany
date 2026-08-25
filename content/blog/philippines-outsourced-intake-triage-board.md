@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-outsourced-intake-triage-board
 ---
 
 # Intake triage boards for Philippines outsourced operations
 
-*August 23, 2026*
+*August 24, 2026*
 
 Turn scattered requests into a bounded, reviewable work queue with intake fields, risk flags, and clear owner handoffs.
 

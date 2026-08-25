@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-operations-source-version-check
 ---
 
 # Source-version checks for Philippines operations
 
-*August 23, 2026*
+*August 24, 2026*
 
 Prevent delegated work from relying on stale instructions by connecting each task to an effective source and change record.
 

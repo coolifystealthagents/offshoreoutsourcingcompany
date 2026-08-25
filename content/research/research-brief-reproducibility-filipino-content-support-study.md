@@ -1,7 +1,7 @@
 ---
 slug: research-brief-reproducibility-filipino-content-support-study
 route: /research/research-brief-reproducibility-filipino-content-support-study
-datePublished: 2026-08-23
+datePublished: 2026-08-24
 family: research
 ---
 

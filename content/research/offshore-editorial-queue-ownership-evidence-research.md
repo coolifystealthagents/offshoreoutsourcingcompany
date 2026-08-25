@@ -1,7 +1,7 @@
 ---
 slug: offshore-editorial-queue-ownership-evidence-research
 route: /research/offshore-editorial-queue-ownership-evidence-research
-datePublished: 2026-08-23
+datePublished: 2026-08-24
 family: research
 ---
 

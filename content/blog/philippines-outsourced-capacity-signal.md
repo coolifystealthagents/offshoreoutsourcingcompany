@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-outsourced-capacity-signal
 ---
 
 # Capacity signals for Philippines outsourced teams
 
-*August 23, 2026*
+*August 24, 2026*
 
 Separate available time, queue demand, review load, exception work, and decision waiting before changing staffing scope.
 

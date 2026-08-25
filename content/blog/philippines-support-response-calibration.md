@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-support-response-calibration
 ---
 
 # Response calibration for Philippines customer support
 
-*August 23, 2026*
+*August 24, 2026*
 
 Calibrate delegated customer replies against approved answers, customer impact, record quality, and escalation boundaries.
 

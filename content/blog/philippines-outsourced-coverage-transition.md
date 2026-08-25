@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-outsourced-coverage-transition
 ---
 
 # Coverage transitions for a Philippines support lane
 
-*August 23, 2026*
+*August 24, 2026*
 
 Move work between shifts or specialists without losing queue ownership, promised updates, or exception context.
 

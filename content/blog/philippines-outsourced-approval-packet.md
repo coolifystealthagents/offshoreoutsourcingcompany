@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-outsourced-approval-packet
 ---
 
 # Approval packets for Philippines outsourced workflows
 
-*August 23, 2026*
+*August 24, 2026*
 
 Prepare concise decision packets that give an owner the facts, evidence, options, risk, and requested decision.
 

@@ -1,13 +1,13 @@
 ---
-date: 2026-08-23
-datePublished: 2026-08-23
-dateModified: 2026-08-23
+date: 2026-08-24
+datePublished: 2026-08-24
+dateModified: 2026-08-24
 slug: philippines-operations-rework-cause-map
 ---
 
 # Rework cause maps for Philippines operations teams
 
-*August 23, 2026*
+*August 24, 2026*
 
 Find why routine outsourced work returns for correction by separating unclear input, source conflict, execution error, and owner change.
 
