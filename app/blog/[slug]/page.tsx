@@ -5,6 +5,8 @@ import { blogPosts, site } from '../../data';
 import { EcommerceOperationsArticle } from './ecommerce-article';
 import aug21Meta from '../../aug21-meta.json';
 import { getAug21Metadata, renderAug21Article } from '../../aug21-content';
+import aug31Meta from '../../aug31-meta.json';
+import { getAug31Metadata, renderAug31Article } from '../../aug31-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -17,6 +19,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug in aug31Meta) return getAug31Metadata(slug);
   if (slug in aug21Meta) return getAug21Metadata(slug);
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) return { title: 'Article not found' };
@@ -273,6 +276,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
+  if (slug in aug31Meta) return renderAug31Article(slug);
   if (slug in aug21Meta) return renderAug21Article(slug);
   if (slug === richSlug) return <RichArticle post={post} />;
   if (slug === ecommerceSlug) return <EcommerceOperationsArticle post={post} />;

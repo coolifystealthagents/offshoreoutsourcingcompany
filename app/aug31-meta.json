@@ -1,0 +1,74 @@
+{
+  "philippines-operations-continuity-drill": {
+    "family": "blog",
+    "title": "Run a continuity drill for a Philippines operations team",
+    "description": "Test whether routine work can move through an outage without unsafe shortcuts or lost ownership.",
+    "hero": ""
+  },
+  "philippines-outsourced-decision-aging-register": {
+    "family": "blog",
+    "title": "Build a decision-aging register for outsourced work",
+    "description": "Separate work waiting on an owner from work the Philippines support lane can still advance safely.",
+    "hero": ""
+  },
+  "philippines-shared-mailbox-routing-drift": {
+    "family": "blog",
+    "title": "Find routing drift in a Philippines shared mailbox",
+    "description": "Detect when mailbox rules and habits quietly send customer work to the wrong queue or owner.",
+    "hero": ""
+  },
+  "philippines-process-owner-absence-plan": {
+    "family": "blog",
+    "title": "Plan for a process owner absence in offshore operations",
+    "description": "Keep bounded work moving while the usual decision owner is unavailable, without transferring hidden authority.",
+    "hero": ""
+  },
+  "philippines-outsourced-sensitive-data-redaction": {
+    "family": "blog",
+    "title": "Redact sensitive data in outsourced operations handoffs",
+    "description": "Give a Philippines support team a practical method for sharing enough context without copying unnecessary personal data.",
+    "hero": ""
+  },
+  "philippines-coverage-schedule-exception-log": {
+    "family": "blog",
+    "title": "Track schedule exceptions for Philippines support coverage",
+    "description": "Record holidays, absences, shift changes, and queue effects without confusing presence with actual coverage.",
+    "hero": ""
+  },
+  "philippines-sop-acceptance-test": {
+    "family": "blog",
+    "title": "Acceptance-test an SOP with a Philippines operations specialist",
+    "description": "Check whether a work instruction produces the intended result before treating it as ready for delegation.",
+    "hero": ""
+  },
+  "philippines-vendor-dependency-map": {
+    "family": "blog",
+    "title": "Map vendor dependencies for outsourced coordination",
+    "description": "Show which supplier promises, documents, approvals, and internal owners control the next action.",
+    "hero": ""
+  },
+  "philippines-customer-promise-register": {
+    "family": "blog",
+    "title": "Control customer promises in a Philippines support lane",
+    "description": "Keep promised dates and follow-ups visible while policy exceptions remain with the accountable owner.",
+    "hero": ""
+  },
+  "philippines-access-request-lifecycle": {
+    "family": "blog",
+    "title": "Manage the access-request lifecycle for an offshore role",
+    "description": "Move a Philippines specialist from request through approval, review, change, and removal with named evidence.",
+    "hero": ""
+  },
+  "philippines-quality-sampling-dispute-review": {
+    "family": "blog",
+    "title": "Resolve quality-sampling disputes in Philippines operations",
+    "description": "Use source evidence and a second review when a specialist and reviewer classify the same work differently.",
+    "hero": ""
+  },
+  "philippines-operational-definition-change-log": {
+    "family": "blog",
+    "title": "Keep an operational-definition change log for offshore reporting",
+    "description": "Prevent a metric or queue label from changing meaning without a dated owner decision and downstream check.",
+    "hero": ""
+  }
+}

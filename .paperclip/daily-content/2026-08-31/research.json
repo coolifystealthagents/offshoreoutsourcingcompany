@@ -1,0 +1,42 @@
+{
+  "campaignDate": "2026-08-31",
+  "family": "research",
+  "count": 5,
+  "entries": [
+    {
+      "route": "/research/philippines-owner-decision-latency-study",
+      "sourcePaths": [
+        "app/research-aug31.ts"
+      ]
+    },
+    {
+      "route": "/research/philippines-time-zone-handoff-completeness-study",
+      "sourcePaths": [
+        "app/research-aug31.ts"
+      ]
+    },
+    {
+      "route": "/research/philippines-least-privilege-drift-study",
+      "sourcePaths": [
+        "app/research-aug31.ts"
+      ]
+    },
+    {
+      "route": "/research/philippines-knowledge-article-decay-study",
+      "sourcePaths": [
+        "app/research-aug31.ts"
+      ]
+    },
+    {
+      "route": "/research/philippines-reviewer-calibration-reliability-study",
+      "sourcePaths": [
+        "app/research-aug31.ts"
+      ]
+    }
+  ],
+  "imageStatus": {
+    "provider": "Gemini",
+    "status": "fallback",
+    "reason": "API_KEY_INVALID returned by Gemini models endpoint on 2026-08-31; no stock or substitute images used."
+  }
+}

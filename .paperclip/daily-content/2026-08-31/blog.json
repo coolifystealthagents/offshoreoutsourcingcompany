@@ -1,0 +1,108 @@
+{
+  "campaignDate": "2026-08-31",
+  "family": "blog",
+  "count": 12,
+  "entries": [
+    {
+      "route": "/blog/philippines-operations-continuity-drill",
+      "sourcePaths": [
+        "content/blog/philippines-operations-continuity-drill.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourced-decision-aging-register",
+      "sourcePaths": [
+        "content/blog/philippines-outsourced-decision-aging-register.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-shared-mailbox-routing-drift",
+      "sourcePaths": [
+        "content/blog/philippines-shared-mailbox-routing-drift.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-process-owner-absence-plan",
+      "sourcePaths": [
+        "content/blog/philippines-process-owner-absence-plan.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourced-sensitive-data-redaction",
+      "sourcePaths": [
+        "content/blog/philippines-outsourced-sensitive-data-redaction.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-coverage-schedule-exception-log",
+      "sourcePaths": [
+        "content/blog/philippines-coverage-schedule-exception-log.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-sop-acceptance-test",
+      "sourcePaths": [
+        "content/blog/philippines-sop-acceptance-test.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-vendor-dependency-map",
+      "sourcePaths": [
+        "content/blog/philippines-vendor-dependency-map.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-customer-promise-register",
+      "sourcePaths": [
+        "content/blog/philippines-customer-promise-register.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-access-request-lifecycle",
+      "sourcePaths": [
+        "content/blog/philippines-access-request-lifecycle.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-quality-sampling-dispute-review",
+      "sourcePaths": [
+        "content/blog/philippines-quality-sampling-dispute-review.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    },
+    {
+      "route": "/blog/philippines-operational-definition-change-log",
+      "sourcePaths": [
+        "content/blog/philippines-operational-definition-change-log.md",
+        "app/aug31-meta.json",
+        "app/aug31-content.tsx"
+      ]
+    }
+  ],
+  "imageStatus": {
+    "provider": "Gemini",
+    "status": "fallback",
+    "reason": "API_KEY_INVALID returned by Gemini models endpoint on 2026-08-31; no stock or substitute images used."
+  }
+}
