@@ -1,7 +1,7 @@
 ---
 slug: daily-article-source-control-offshore-research-study
 route: /research/daily-article-source-control-offshore-research-study
-datePublished: 2026-08-24
+datePublished: 2026-08-23
 family: research
 ---
 

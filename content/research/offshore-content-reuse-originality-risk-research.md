@@ -1,7 +1,7 @@
 ---
 slug: offshore-content-reuse-originality-risk-research
 route: /research/offshore-content-reuse-originality-risk-research
-datePublished: 2026-08-24
+datePublished: 2026-08-23
 family: research
 ---
 

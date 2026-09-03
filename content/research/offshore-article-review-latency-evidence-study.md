@@ -1,7 +1,7 @@
 ---
 slug: offshore-article-review-latency-evidence-study
 route: /research/offshore-article-review-latency-evidence-study
-datePublished: 2026-08-24
+datePublished: 2026-08-23
 family: research
 ---
 
