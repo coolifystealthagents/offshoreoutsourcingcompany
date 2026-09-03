@@ -1,0 +1,13 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "count": 5,
+  "entries": [
+    {"route": "/research/philippines-operations-interruption-recovery-fidelity-study", "sourcePaths": ["app/research-sep3.ts"]},
+    {"route": "/research/offshore-review-rationale-completeness-research", "sourcePaths": ["app/research-sep3.ts"]},
+    {"route": "/research/philippines-research-source-disagreement-study", "sourcePaths": ["app/research-sep3.ts"]},
+    {"route": "/research/offshore-escalation-threshold-calibration-evidence", "sourcePaths": ["app/research-sep3.ts"]},
+    {"route": "/research/philippines-same-day-research-ordering-integrity-study", "sourcePaths": ["app/research-sep3.ts"]}
+  ],
+  "imageStatus": {"provider": "Gemini", "status": "fallback", "reason": "No Gemini generation capability is available in this execution environment; no stock or substitute images were used."}
+}
