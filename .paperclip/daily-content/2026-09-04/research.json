@@ -1,0 +1,13 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "research",
+  "count": 5,
+  "entries": [
+    {"route": "/research/philippines-operations-handoff-retrieval-study", "sourcePaths": ["app/research-sep4.ts"]},
+    {"route": "/research/offshore-support-promise-completion-evidence-study", "sourcePaths": ["app/research-sep4.ts"]},
+    {"route": "/research/philippines-crm-routing-rule-drift-research", "sourcePaths": ["app/research-sep4.ts"]},
+    {"route": "/research/offshore-document-expiry-reminder-timing-study", "sourcePaths": ["app/research-sep4.ts"]},
+    {"route": "/research/philippines-knowledge-base-link-decay-study", "sourcePaths": ["app/research-sep4.ts"]}
+  ],
+  "imageStatus": {"provider": "existing-approved-inventory", "path": "/philippines-operations-team.svg", "status": "reused"}
+}

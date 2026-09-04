@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-09-04",
+  "family": "blog",
+  "count": 12,
+  "entries": [
+    {"route": "/blog/philippines-operations-friday-queue-close", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-customer-support-promise-register", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/philippines-crm-ownerless-record-review", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-vendor-certificate-expiry-tracker", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/philippines-ecommerce-address-change-handoff", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-executive-inbox-decision-digest", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/philippines-recruitment-reference-check-handoff", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-report-distribution-access-check", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/philippines-knowledge-base-broken-link-sweep", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-sales-meeting-followup-control", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/philippines-project-blocker-age-review", "sourcePaths": ["app/sep4-content.tsx"]},
+    {"route": "/blog/offshore-content-publication-readiness-huddle", "sourcePaths": ["app/sep4-content.tsx"]}
+  ],
+  "imageStatus": {"provider": "existing-approved-inventory", "path": "/philippines-operations-team.svg", "status": "reused"}
+}
