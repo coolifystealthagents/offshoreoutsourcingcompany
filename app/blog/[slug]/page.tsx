@@ -11,6 +11,7 @@ import { september1BlogPosts, getSeptember1BlogMetadata, renderSeptember1BlogArt
 import { september2BlogPosts, getSeptember2BlogMetadata, renderSeptember2BlogArticle } from '../../sep2-content';
 import { september4BlogPosts, getSeptember4BlogMetadata, renderSeptember4BlogArticle } from '../../sep4-content';
 import { september7BlogPosts, getSeptember7BlogMetadata, renderSeptember7BlogArticle } from '../../sep7-content';
+import { september8BlogPosts, getSeptember8BlogMetadata, renderSeptember8BlogArticle } from '../../sep8-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -23,6 +24,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (september8BlogPosts.some((item) => item.slug === slug)) return getSeptember8BlogMetadata(slug);
   if (september7BlogPosts.some((item) => item.slug === slug)) return getSeptember7BlogMetadata(slug);
   if (september4BlogPosts.some((item) => item.slug === slug)) return getSeptember4BlogMetadata(slug);
   if (september2BlogPosts.some((item) => item.slug === slug)) return getSeptember2BlogMetadata(slug);
@@ -284,6 +286,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
+  if (september8BlogPosts.some((item) => item.slug === slug)) return renderSeptember8BlogArticle(slug, Header, Footer, CTA);
   if (september7BlogPosts.some((item) => item.slug === slug)) return renderSeptember7BlogArticle(slug, Header, Footer, CTA);
   if (september4BlogPosts.some((item) => item.slug === slug)) return renderSeptember4BlogArticle(slug, Header, Footer, CTA);
   if (september2BlogPosts.some((item) => item.slug === slug)) return renderSeptember2BlogArticle(slug, Header, Footer, CTA);
