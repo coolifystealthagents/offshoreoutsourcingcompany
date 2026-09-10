@@ -17,7 +17,7 @@ This map connects existing Philippines-only operations research to the service p
 | Recruitment Coordination | `/research/philippines-recruitment-coordination-record-controls` | Which candidate-record tasks are coordination rather than hiring decisions? | Absent | Candidate after the priority row. |
 | Knowledge Base Management | `/research/philippines-knowledge-base-maintenance` | What keeps internal guidance current and tied to an owner? | Absent | Candidate after the priority row. |
 | Ecommerce Operations | `/research/philippines-ecommerce-exception-controls` | Which order exceptions need evidence and an owner approval path? | Absent | Candidate after the priority row. |
-| CRM Administration | `/research/philippines-crm-data-quality-review` | How can a buyer review CRM cleanup without silently changing disputed records? | Absent | **Priority 1.** Add one route-local handoff to `/services/crm-administration` that preserves the owner’s control over disputed fields, access, and business rules. |
+| CRM Administration | `/research/philippines-crm-data-quality-review` | How can a buyer review CRM cleanup without silently changing disputed records? | Delivered locally — `aaedff7160337d999eceec54890b9f92fee1978e` | Do not add another. The typed route-local handoff already points to `/services/crm-administration` and keeps disputed fields, access, and business rules with the owner. |
 
 ## Execution guardrails
 
