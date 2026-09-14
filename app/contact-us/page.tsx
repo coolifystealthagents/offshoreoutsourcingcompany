@@ -15,27 +15,27 @@ export default function ContactUsPage() {
       <section className="architecture-hero">
         <div className="container">
           <p className="eyebrow">Free Philippines staffing consultation</p>
-          <h1>Turn your recurring workload into a clear Filipino staffing brief.</h1>
-          <p className="lead">Tell us which tasks repeat, which tools the role needs, and which decisions stay with your team. We will use those details to prepare a focused staffing conversation.</p>
+          <h1>Build a clear brief for your Philippines-based role.</h1>
+          <p className="lead">Share the recurring tasks, tools, schedule, and decision limits. We’ll use them to prepare a focused staffing conversation.</p>
         </div>
       </section>
       <section className="section">
         <div className="container intake-grid">
-          <aside>
+          <StandardContactForm endpoint="/api/contact" encoding="form" />
+          <aside className="contact-intake-copy">
             <p className="eyebrow">What to bring</p>
-            <h2>A real task list is more useful than a broad job title.</h2>
+            <h2>Bring a task list—not just a job title.</h2>
             <ul className="list">
-              <li>Recurring work and expected weekly volume</li>
-              <li>Systems, access limits, and working hours</li>
-              <li>Examples of an acceptable finished result</li>
+              <li>Recurring tasks and expected weekly volume</li>
+              <li>Required systems, access limits, and working hours</li>
+              <li>An example of an acceptable finished result</li>
               <li>The owner for exceptions and quality review</li>
             </ul>
             <div className="support-strip">
               <h2>No commitment required</h2>
-              <p>The consultation is free. Submitting this form does not create a staffing agreement or authorize any paid work.</p>
+              <p>The consultation is free. Submitting this form does not create a staffing agreement or authorize paid work.</p>
             </div>
           </aside>
-          <StandardContactForm endpoint="/api/contact" encoding="form" />
         </div>
       </section>
     </main>

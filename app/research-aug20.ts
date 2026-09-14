@@ -11,7 +11,7 @@ const sources = {
 
 export const august20ResearchPosts: ResearchPost[] = [
   {
-    slug: 'philippines-outsourced-source-reliability-study', date: '2026-08-20', hero: '/research-heroes/source-reliability-study.png',
+    slug: 'philippines-outsourced-source-reliability-study', date: '2026-08-20', hero: '/research-illustrations/source-reliability.svg',
     title: 'Source reliability in Philippines outsourced operations research',
     excerpt: 'Which source records can a Philippines operations specialist safely use when preparing a decision packet for an owner?',
     body: [
@@ -26,7 +26,7 @@ export const august20ResearchPosts: ResearchPost[] = [
     ],
   },
   {
-    slug: 'philippines-outsourced-review-load-evidence-study', date: '2026-08-20', hero: '/research-heroes/review-load-evidence-study.png',
+    slug: 'philippines-outsourced-review-load-evidence-study', date: '2026-08-20', hero: '/research-illustrations/review-load.svg',
     title: 'Review-load evidence for Philippines delegated operations',
     excerpt: 'How to determine whether owner review is the real constraint before changing the scope of a Philippines support role.',
     body: [
@@ -43,7 +43,7 @@ export const august20ResearchPosts: ResearchPost[] = [
     ],
   },
   {
-    slug: 'philippines-outsourced-coverage-transition-study', date: '2026-08-20', hero: '/research-heroes/coverage-transition-study.png',
+    slug: 'philippines-outsourced-coverage-transition-study', date: '2026-08-20', hero: '/research-illustrations/coverage-transition.svg',
     title: 'Coverage transitions in Philippines support operations',
     excerpt: 'What evidence shows that a queue remains owned when a Philippines specialist, manager, or decision owner changes coverage?',
     body: [
@@ -61,7 +61,7 @@ export const august20ResearchPosts: ResearchPost[] = [
     ],
   },
   {
-    slug: 'philippines-outsourced-permission-scope-study', date: '2026-08-20', hero: '/research-heroes/permission-scope-study.png',
+    slug: 'philippines-outsourced-permission-scope-study', date: '2026-08-20', hero: '/research-illustrations/permission-scope.svg',
     title: 'Permission scope in Philippines outsourced support roles',
     excerpt: 'A bounded study of whether a Philippines operations role has the access needed for routine work without exposing unrelated data or authority.',
     body: [
@@ -79,7 +79,7 @@ export const august20ResearchPosts: ResearchPost[] = [
     ],
   },
   {
-    slug: 'philippines-outsourced-exception-recurrence-study', date: '2026-08-20', hero: '/research-heroes/exception-recurrence-study.png',
+    slug: 'philippines-outsourced-exception-recurrence-study', date: '2026-08-20', hero: '/research-illustrations/exception-recurrence.svg',
     title: 'Recurring exceptions in Philippines outsourced operations',
     excerpt: 'How to test whether repeated exceptions point to an intake, source, policy, or role-design problem without making a staffing claim.',
     body: [

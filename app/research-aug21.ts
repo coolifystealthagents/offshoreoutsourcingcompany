@@ -2,7 +2,7 @@ type ResearchPost = { slug: string; date: '2026-08-21'; title: string; excerpt: 
 
 export const august21ResearchPosts: ResearchPost[] = [
   {
-    slug: 'philippines-outsourced-queue-aging-evidence-study', date: '2026-08-21', hero: '/research-aug21-heroes/queue-aging-evidence.png',
+    slug: 'philippines-outsourced-queue-aging-evidence-study', date: '2026-08-21', hero: '/research-illustrations/queue-aging.svg',
     title: 'Queue-aging evidence for Philippines outsourced operations', excerpt: 'When does an old outsourced queue item represent a control risk rather than ordinary elapsed time?',
     body: [
       `Research question: when does age in a Philippines outsourced operations queue indicate a control risk rather than ordinary elapsed time? The question matters because a single age number blends work that is actively being prepared, work waiting for a requester, work waiting for an owner decision, and work that has no accountable next action. This study examines one defined queue, one observation window, and a stratified sample of routine, paused, escalated, and completed records. It does not compare countries, suppliers, or individual workers. Its decision purpose is narrower: determine which queue states can remain within a delegated support lane and which states require an owner response or a change to the operating design. Methodology: define the queue population and observation window, stratify records by state and consequence, preserve source events, and have a second reviewer reproduce a subset of classifications.`,
@@ -17,7 +17,7 @@ export const august21ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    slug: 'philippines-outsourced-handoff-continuity-evidence-study', date: '2026-08-21', hero: '/research-aug21-heroes/handoff-continuity-evidence.png',
+    slug: 'philippines-outsourced-handoff-continuity-evidence-study', date: '2026-08-21', hero: '/research-illustrations/handoff-continuity.svg',
     title: 'Handoff continuity evidence in Philippines support operations', excerpt: 'What proves that outsourced work remains owned across shifts, absences, and time-zone boundaries?',
     body: [
       `Research question: what evidence proves that a Philippines support item remains owned when it crosses a shift, absence, holiday, or time-zone boundary? A handoff message is not the same as continuity. Continuity requires a reproducible current state, a permitted next action, a named receiver, and a route for decisions outside the delegated role. The study scope is one queue and a declared sample of ordinary, incomplete, escalated, and reopened items. It evaluates the handoff record, not the personality or effort of the people involved. The buyer decision is whether the current transition design preserves accountability without requiring the receiver to reconstruct a long conversation or invent authority. Methodology: define each transfer event, sample successful and failed transitions by consequence, test reconstruction from the packet alone, and retain independent reviewer findings before discussing disagreements.`,
@@ -31,7 +31,7 @@ export const august21ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    slug: 'philippines-outsourced-reviewer-agreement-evidence-study', date: '2026-08-21', hero: '/research-aug21-heroes/reviewer-agreement-evidence.png',
+    slug: 'philippines-outsourced-reviewer-agreement-evidence-study', date: '2026-08-21', hero: '/research-illustrations/reviewer-agreement.svg',
     title: 'Reviewer-agreement evidence for Philippines outsourced support quality', excerpt: 'How can a buyer tell whether a support quality rubric produces consistent judgments across reviewers?',
     body: [
       `Research question: does a quality rubric lead different reviewers to reach the same bounded judgment about Philippines outsourced support work? Agreement is not proof that a rubric is correct, and disagreement is not proof that an operator failed. The study examines whether reviewers can apply defined criteria to the same evidence, distinguish a defect from an approved exception, and state when owner judgment is required. Scope one process, one rubric version, one observation period, and a sample that includes routine work and boundary cases. The result should inform training, rubric revision, sampling, or role boundaries, not produce an unsupported score for a person or supplier. Methodology: version the rubric, draw a stratified sample, collect independent blinded classifications, compare agreement by criterion, and review disagreement reasons before any calibration discussion.`,
@@ -45,7 +45,7 @@ export const august21ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    slug: 'offshore-process-change-evidence-research', date: '2026-08-21', hero: '/research-aug21-heroes/process-change-evidence.png',
+    slug: 'offshore-process-change-evidence-research', date: '2026-08-21', hero: '/research-illustrations/process-change.svg',
     title: 'Process-change evidence in offshore operations research', excerpt: 'Which records show that an offshore workflow change was approved, effective, and safe to interpret?',
     body: [
       `Research question: how can an offshore operations team distinguish an approved process change from a suggestion, experiment, or local workaround? This distinction matters when a Philippines support lane is asked to follow instructions that change over time. A message in a chat channel may be informative without being an authorization. The study follows one workflow through a defined change period and examines the proposal, decision authority, effective date, affected roles, source-of-truth update, training evidence, and post-change observation. It does not judge whether a change was strategically wise; it asks whether a later reviewer can establish what changed and who approved it. Methodology: reconstruct the version history, classify each record by approval state, sample implementation evidence, and compare like cohorts while recording concurrent changes and rollback conditions.`,
@@ -59,7 +59,7 @@ export const august21ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    slug: 'offshore-claim-to-source-verification-evidence-study', date: '2026-08-21', hero: '/research-aug21-heroes/source-verification-evidence.png',
+    slug: 'offshore-claim-to-source-verification-evidence-study', date: '2026-08-21', hero: '/research-illustrations/source-verification.svg',
     title: 'Claim-to-source verification for offshore research support', excerpt: 'How should an offshore research lane test whether a source actually supports the wording a buyer may rely on?',
     body: [
       `Research question: does each material claim in an offshore research brief have a source that supports its wording, population, period, and certainty? A list of reputable URLs is not enough. A source can be authoritative yet irrelevant to the sentence written from it, or a general observation can be inflated into a guarantee about a Philippines support role. This study examines a bounded brief, its claim register, and a sample of headline and supporting statements. It is a verification method, not legal advice, a market forecast, or a guarantee of an outsourcing outcome. Its decision purpose is to identify which claims are publishable, which need narrower language, and which should be removed. Methodology: inventory every material claim, classify its evidence scope, have a second reviewer test source fit, and report supported, partial, unsupported, stale, inaccessible, and out-of-scope results with denominators.`,

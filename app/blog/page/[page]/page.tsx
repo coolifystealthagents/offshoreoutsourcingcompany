@@ -1,5 +1,5 @@
 import { notFound, redirect } from 'next/navigation';
-import { Header, Footer } from '../../../components';
+import { Header, Footer, CTA } from '../../../components';
 import { blogPosts, sortBlogPosts } from '../../../data';
 
 export function generateStaticParams() {
@@ -36,6 +36,7 @@ export default async function BlogPage({ params }: { params: Promise<{ page: str
           </nav>
         </div>
       </main>
+      <CTA />
       <Footer />
     </>
   );

@@ -42,7 +42,7 @@ export default function Home() {
       <section className="section roles-section" id="roles">
         <div className="container">
           <div className="section-heading"><p className="eyebrow">Work lanes</p><h2>Give repeating work a clear home.</h2><p>A useful role has work the person can own, decisions they cannot make, and a reviewer who will answer the awkward questions.</p></div>
-          <div className="role-grid">{services.map((service, index)=><a className="role-card" href={`/services/${service.slug}`} key={service.slug}><span className="role-number">0{index + 1}</span><div><h3>{service.title}</h3><p>{service.desc}</p></div><b>Open role guide <span aria-hidden="true">↗</span></b></a>)}</div>
+          <div className="role-grid">{services.map((service, index)=><a className="role-card" href={`/services/${service.slug}`} key={service.slug}><span className="role-number">{String(index + 1).padStart(2, '0')}</span><div><h3>{service.title}</h3><p>{service.desc}</p></div><b>Open role guide <span aria-hidden="true">↗</span></b></a>)}</div>
         </div>
       </section>
 

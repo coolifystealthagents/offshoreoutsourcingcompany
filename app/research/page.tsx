@@ -1,3 +1,93 @@
-import {Header,Footer} from '../components'; import {datedResearchPosts,site} from '../data';
-export const metadata={title:`Research | ${site.brand}`,description:'Original research and source-backed analysis for planning Philippines-based support.'};
-export default function Research(){const clusters=['All Research','Hiring Controls','Scope Benchmarks','Workflow Design'];const posts=[...datedResearchPosts].sort((a,b)=>(b.date||'0000-00-00').localeCompare(a.date||'0000-00-00')||a.slug.localeCompare(b.slug));return <><Header/><main className="research-index-page"><section className="research-hero"><div className="container research-hero-grid"><div><p className="eyebrow">Research Library</p><h1>Source-backed research for better staffing decisions</h1><p className="lead">Use these reports to compare roles, costs, controls, and onboarding decisions before building a Philippines-based support team.</p><div className="research-meta"><span>{posts.length||0} reports</span><span>Methodology notes</span><span>Buyer controls</span></div></div><aside className="research-hero-card" aria-label="Research quality signals"><div><strong>01</strong><span>Benchmarks and operating context</span></div><div><strong>02</strong><span>Practical screening questions</span></div><div><strong>03</strong><span>Implementation checks</span></div></aside></div></section><section className="section research-library-section"><div className="container"><nav className="research-cluster-tabs" aria-label="Research topic filters">{clusters.map((cluster,i)=><a className={i===0?'active':''} href="/research" key={cluster}>{cluster}<small>{i===0?posts.length:Math.max(1,Math.ceil((posts.length||1)/3))}</small></a>)}</nav><div className="research-card-grid">{posts.length?posts.map((p,i)=><a className="research-library-card" href={`/research/${p.slug}`} key={p.slug}><span className="research-card-badge">{clusters[(i%3)+1]}</span><h2>{p.title}</h2><p className="research-card-highlight">Planning signal: compare the role, review owner, and handoff risk before hiring.</p><p className="research-card-excerpt">{p.excerpt}</p>{p.date&&<time dateTime={p.date}>{p.date}</time>}<div className="research-card-meta"><span>{site.brand} Research</span><span>6 min read</span><span>1 source</span></div></a>):<div className="research-library-card empty-state"><span className="research-card-badge">Coming soon</span><h2>Research is being prepared</h2><p className="research-card-highlight">The library will group reports by buyer controls, benchmarks, and workflow design.</p><p className="research-card-excerpt">Visit the blog for practical planning guides while formal research pages are prepared.</p><a className="btn primary" href="/blog">Visit the blog</a></div>}</div></div></section><section className="section research-methodology"><div className="container"><h2>Methodology and use</h2><p>Each research page should make assumptions visible, separate sourced facts from recommendations, and translate findings into a role brief your team can review.</p></div></section></main><Footer/></>}
+import type { Metadata } from 'next';
+import { Header, Footer } from '../components';
+import { datedResearchPosts, site } from '../data';
+
+export const metadata: Metadata = {
+  title: `Research | ${site.brand}`,
+  description: 'Original research and source-backed analysis for planning Philippines-based support.',
+  alternates: { canonical: '/research' },
+};
+
+const classifyResearch = (title: string, slug: string) => {
+  const value = `${title} ${slug}`.toLowerCase();
+  if (/cost|rate|salary|benchmark|market|capacity|volume/.test(value)) return 'Benchmarks';
+  if (/hire|candidate|interview|work-sample|recruit|role-scope/.test(value)) return 'Hiring controls';
+  if (/security|access|privacy|risk|approval|fraud/.test(value)) return 'Risk and access';
+  if (/quality|audit|review|metric|score|evidence/.test(value)) return 'Quality systems';
+  return 'Workflow design';
+};
+
+const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${date}T00:00:00Z`));
+
+export default function Research() {
+  const posts = [...datedResearchPosts].sort((a, b) =>
+    (b.date || '0000-00-00').localeCompare(a.date || '0000-00-00') || a.slug.localeCompare(b.slug));
+  const featuredPosts = posts.slice(0, 18);
+  const archivePosts = posts.slice(18);
+
+  return <>
+    <Header />
+    <main className="research-index-page">
+      <section className="research-hero">
+        <div className="container research-hero-grid">
+          <div>
+            <p className="eyebrow light">Research library</p>
+            <h1>Source-backed research for better staffing decisions.</h1>
+            <p className="lead">Compare role scope, controls, and operating evidence before building a Philippines-based support team. Every report keeps recommendations separate from owner-only decisions.</p>
+            <div className="research-meta"><span>{posts.length} reports</span><span>Methods disclosed</span><span>Sources retained</span></div>
+          </div>
+          <aside className="research-hero-card" aria-label="How to use this research">
+            <div><strong>01</strong><span>Start with the business question.</span></div>
+            <div><strong>02</strong><span>Check the method and limitations.</span></div>
+            <div><strong>03</strong><span>Keep consequential decisions with the owner.</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section className="section research-library-section">
+        <div className="container">
+          <div className="research-index-intro">
+            <div><p className="eyebrow">Latest reports</p><h2>Recent evidence, organized by the decision it supports.</h2></div>
+            <p>The latest reports are shown as full summaries. The complete archive remains directly linked below without turning the page into a repetitive card wall.</p>
+          </div>
+          <div className="research-card-grid">
+            {featuredPosts.map((post) => <a className="research-library-card" href={`/research/${post.slug}`} key={post.slug}>
+              <span className="research-card-badge">{classifyResearch(post.title, post.slug)}</span>
+              <h3>{post.title}</h3>
+              <p className="research-card-excerpt">{post.excerpt}</p>
+              <div className="research-card-meta">
+                {post.date ? <time dateTime={post.date}>{formatDate(post.date)}</time> : <span>Undated report</span>}
+                <span>Read report <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>)}
+          </div>
+
+          {archivePosts.length > 0 && <details className="research-archive">
+            <summary>Browse the complete research archive <span>{archivePosts.length} additional reports</span></summary>
+            <div className="research-archive-list">
+              {archivePosts.map((post) => <a href={`/research/${post.slug}`} key={post.slug}>
+                <span>{classifyResearch(post.title, post.slug)}</span>
+                <strong>{post.title}</strong>
+                {post.date && <time dateTime={post.date}>{formatDate(post.date)}</time>}
+              </a>)}
+            </div>
+          </details>}
+        </div>
+      </section>
+
+      <section className="research-methodology">
+        <div className="container">
+          <p className="eyebrow">How to read the library</p>
+          <h2>Evidence is context—not a staffing promise.</h2>
+          <p>Each report states a bounded question, method, evidence, limitations, and an operating implication. National or industry data never substitutes for a role-specific work sample, reference check, security review, or accountable owner.</p>
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </>;
+}

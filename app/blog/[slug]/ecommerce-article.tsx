@@ -151,8 +151,6 @@ export function EcommerceOperationsArticle({ post }: { post: ArticlePost }) {
             <figcaption id="payments-chart-note">Method note: the series comes from BSP's 2024 digital payments release and report. It covers Philippine retail payments, not ecommerce alone, and does not measure staffing performance.</figcaption>
           </figure>
 
-          <ArticleBanner index={0} />
-
           <h2>Write an order exception control table</h2>
           <p>A normal order can follow an approved path with little debate. An exception needs a stop point, a named preparer, a named decision owner, and a record that explains what happened.</p>
           <p>Use the table as a starting structure rather than a universal rule. Your payment provider, carrier, legal adviser, and internal managers should set the exact boundaries for your business.</p>
@@ -206,8 +204,6 @@ export function EcommerceOperationsArticle({ post }: { post: ArticlePost }) {
             </svg>
             <figcaption id="exception-graphic-note">This is a recommended operating design. The decision gate keeps approval with the named manager, while the record lets the team review repeat causes later.</figcaption>
           </figure>
-
-          <ArticleBanner index={1} />
 
           <h2>Protect order and customer access</h2>
           <p>Give each Filipino specialist an individual account with only the screens and actions needed for the assigned queue. Shared sign-ins make it harder to understand who changed an order, exported a record, or approved a sensitive action.</p>

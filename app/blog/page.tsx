@@ -1,4 +1,4 @@
-import { Header, Footer } from '../components';
+import { Header, Footer, CTA } from '../components';
 import { blogPosts, site, sortBlogPosts } from '../data';
 
 export const metadata = {
@@ -33,6 +33,7 @@ export default function Blog() {
           </nav>
         </div>
       </main>
+      <CTA />
       <Footer />
     </>
   );
