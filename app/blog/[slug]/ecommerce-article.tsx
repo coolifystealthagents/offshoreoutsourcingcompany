@@ -32,7 +32,7 @@ function ArticleBanner({ index }: { index: number }) {
   const banner = articleBanners[index];
   return <aside className="article-banner" data-article-banner={index + 1} aria-label={`Article planning banner ${index + 1}`}>
     <div><h3>{banner.title}</h3><p>{banner.copy}</p></div>
-    <a className="btn primary" href="/contact-us">{banner.label}</a>
+    <a id={`cta-ecommerce-article-banner-${index + 1}-free-consultation`} className="btn primary" href="/contact-us">Book a Free Consultation</a>
   </aside>;
 }
 
@@ -157,8 +157,7 @@ export function EcommerceOperationsArticle({ post }: { post: ArticlePost }) {
           <p>A normal order can follow an approved path with little debate. An exception needs a stop point, a named preparer, a named decision owner, and a record that explains what happened.</p>
           <p>Use the table as a starting structure rather than a universal rule. Your payment provider, carrier, legal adviser, and internal managers should set the exact boundaries for your business.</p>
 
-          <span className="table-cue">Swipe to compare all columns on a small screen.</span>
-          <div className="article-table-wrap" tabIndex={0} role="region" aria-label="Ecommerce order exception control table">
+          <div className="article-table-wrap" role="region" aria-label="Ecommerce order exception control table">
             <table className="article-table">
               <thead><tr><th scope="col">Order event</th><th scope="col">Filipino specialist prepares</th><th scope="col">Manager decides</th><th scope="col">Proof to save</th></tr></thead>
               <tbody>

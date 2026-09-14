@@ -61,6 +61,8 @@ export const services = [
   { slug: "knowledge-base-management", title: "Knowledge Base Management", desc: "Filipino operations specialists can handle knowledge base management with documented workflows, approval limits, and owner review." },
   { slug: "ecommerce-operations", title: "Ecommerce Operations", desc: "Filipino operations specialists can handle ecommerce operations with documented workflows, approval limits, and owner review." },
   { slug: "crm-administration", title: "CRM Administration", desc: "Filipino operations specialists can handle crm administration with documented workflows, approval limits, and owner review." },
+  { slug: "finance-administration", title: "Finance Administration", desc: "Filipino operations specialists can prepare invoice records, reconcile routine transaction data, and maintain finance workflows while qualified client owners retain payment approval and accounting decisions." },
+  { slug: "process-documentation", title: "Process Documentation", desc: "Filipino operations specialists can turn approved examples and owner guidance into maintained checklists, process notes, and knowledge-base updates with scheduled review." },
 ] as const;
 
 const blogPostsSource = [

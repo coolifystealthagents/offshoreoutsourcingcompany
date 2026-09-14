@@ -1,7 +1,7 @@
 FROM node:22-alpine AS deps
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
 FROM node:22-alpine AS builder
 WORKDIR /app
@@ -15,7 +15,10 @@ WORKDIR /app
 RUN apk add --no-cache tini
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-COPY --from=builder /app ./
+COPY --from=builder --chown=node:node /app/public ./public
+COPY --from=builder --chown=node:node /app/.next/standalone ./
+COPY --from=builder --chown=node:node /app/.next/static ./.next/static
+USER node
 EXPOSE 3000
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["npm", "run", "start"]
+CMD ["node", "server.js"]

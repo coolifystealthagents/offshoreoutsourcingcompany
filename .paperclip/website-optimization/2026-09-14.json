@@ -1,0 +1,24 @@
+{
+  "project": "Website Optimization Project",
+  "site": "offshoreoutsourcingcompany.com",
+  "audit_date": "2026-09-14",
+  "method": "Repository-backed service-gap review against recurring offshore administrative work, buyer pain points, delegation boundaries, and individual-page coverage.",
+  "source_baseline_commit": "9577a6cf8703925f1d75b3dc14d44cb3acb43aa8",
+  "baseline_service_count": 12,
+  "baseline_service_introducing_commit": "574173d814a655afcdf8bb0e2403fad5dff338e6",
+  "identified_gaps": [
+    {
+      "slug": "finance-administration",
+      "reason": "Recurring invoice preparation, transaction-data reconciliation, and finance record maintenance are major delegable back-office workloads not represented in the baseline.",
+      "scope_boundary": "The Filipino specialist prepares and maintains records; qualified client owners retain payment approval, accounting judgment, and regulated decisions."
+    },
+    {
+      "slug": "process-documentation",
+      "reason": "Turning approved examples into checklists, process notes, and maintained knowledge assets is a major operations lane not represented in the baseline.",
+      "scope_boundary": "The Filipino specialist documents approved workflows; client owners approve policy, exceptions, and final process changes."
+    }
+  ],
+  "added_service_slugs": ["finance-administration", "process-documentation"],
+  "final_service_count": 14,
+  "provenance_note": "This artifact records the present remediation review. Git history proves the baseline service expansion, but no unsupported claim is made that an earlier named Paperclip optimization run supplied these two gaps."
+}

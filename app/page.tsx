@@ -1,7 +1,12 @@
 import { Footer, Header, JsonLd } from './components';
 import { blogPosts, services, site, staffingProcess } from './data';
+import type { Metadata } from 'next';
 
 const marker = 'philippines-ops-desk-2026-07';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 export default function Home() {
   const schema = {
@@ -22,7 +27,7 @@ export default function Home() {
             <p className="eyebrow light">Philippines-only staffing</p>
             <h1>Build your Filipino team without giving up the controls.</h1>
             <p className="hero-lead">Write the role before you review résumés. Map the work, set the access rules, and decide how you will check quality before a Filipino specialist joins your team.</p>
-            <div className="actions"><a className="btn primary" href="/contact-us">Plan my Filipino team</a><a className="text-link" href="#roles">See the work lanes <span aria-hidden="true">↘</span></a></div>
+            <div className="actions"><a id="cta-home-hero-free-consultation" className="btn primary" href="/contact-us">Book a Free Consultation</a><a className="text-link" href="#roles">See the work lanes <span aria-hidden="true">↘</span></a></div>
             <p className="routing-note">This independent site may route your request to a partner that recruits and hires only in the Philippines.</p>
           </div>
           <div className="hero-visual">
@@ -58,7 +63,7 @@ export default function Home() {
       <section className="comparison-section">
         <div className="container">
           <div className="section-heading compact"><p className="eyebrow light">Choose the model</p><h2>A job board finds people. A staffing brief tells them how to work.</h2></div>
-          <div className="comparison-table" role="table" aria-label="Staffing model comparison"><div className="comparison-row heading" role="row"><span>Decision</span><span>Loose marketplace search</span><span>Philippines-first staffing plan</span></div><div className="comparison-row" role="row"><b>Candidate source</b><span>Open-ended</span><span>Filipino talent only</span></div><div className="comparison-row" role="row"><b>Role setup</b><span>Job title and inbox</span><span>Tasks, limits, tools, reviewer</span></div><div className="comparison-row" role="row"><b>First week</b><span>Broad handoff</span><span>Samples and limited access</span></div><div className="comparison-row" role="row"><b>Quality check</b><span>Fix issues as they appear</span><span>Written scorecard and weekly handoff</span></div></div>
+          <div className="comparison-table" role="table" aria-label="Staffing model comparison"><div className="comparison-row heading" role="row"><span>Decision</span><span>Loose marketplace search</span><span>Philippines-first staffing plan</span></div><div className="comparison-row" role="row"><b>Candidate source</b><span data-label="Loose marketplace search">Open-ended</span><span data-label="Philippines-first staffing plan">Filipino talent only</span></div><div className="comparison-row" role="row"><b>Role setup</b><span data-label="Loose marketplace search">Job title and inbox</span><span data-label="Philippines-first staffing plan">Tasks, limits, tools, reviewer</span></div><div className="comparison-row" role="row"><b>First week</b><span data-label="Loose marketplace search">Broad handoff</span><span data-label="Philippines-first staffing plan">Samples and limited access</span></div><div className="comparison-row" role="row"><b>Quality check</b><span data-label="Loose marketplace search">Fix issues as they appear</span><span data-label="Philippines-first staffing plan">Written scorecard and weekly handoff</span></div></div>
         </div>
       </section>
 
@@ -71,7 +76,7 @@ export default function Home() {
         <div className="container"><div className="section-heading"><p className="eyebrow">Desk notes</p><h2>Read these before the first interview.</h2></div><div className="guide-grid">{blogPosts.slice(0, 3).map((post)=><a href={`/blog/${post.slug}`} key={post.slug}><span>{post.minutes} min</span><h3>{post.title}</h3><p>{post.excerpt}</p><b>Read guide <span aria-hidden="true">↗</span></b></a>)}</div></div>
       </section>
 
-      <section className="container final-panel"><div><p className="eyebrow light">Ready to write the role?</p><h2>Bring the task list. Leave with a Filipino staffing brief.</h2><p>We will map the work, the access rules, and the first-week checks before your request reaches a Philippines-only staffing partner.</p></div><a className="btn primary" href="/contact-us">Plan my Filipino team</a></section>
+      <section className="container final-panel"><div><p className="eyebrow light">Ready to write the role?</p><h2>Bring the task list. Leave with a Filipino staffing brief.</h2><p>We will map the work, the access rules, and the first-week checks before your request reaches a Philippines-only staffing partner.</p></div><a id="cta-home-final-free-consultation" className="btn primary" href="/contact-us">Book a Free Consultation</a></section>
     </main>
     <Footer/>
   </>;

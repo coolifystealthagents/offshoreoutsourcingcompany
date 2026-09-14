@@ -114,6 +114,7 @@ export function BlogBanner({ position }: { position: Position }) {
       <p>{variant.body}</p>
     </div>
     <a
+      id={`cta-blog-${position}-${variant.id}-free-consultation`}
       className="btn primary"
       href={href}
       onClick={() => {
