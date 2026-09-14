@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
+import ts from 'typescript';
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
@@ -18,6 +19,7 @@ const sitemap = read('app/sitemap.xml/route.ts');
 const blogIndex = read('app/blog/page.tsx');
 const blogPagination = read('app/blog/page/[page]/page.tsx');
 const middleware = read('middleware.ts');
+const canonicalHelper = read('lib/canonical-request.ts');
 const dockerfile = read('Dockerfile');
 const booking = read('app/booking-components.tsx');
 
@@ -79,7 +81,21 @@ assert.doesNotMatch(sitemap, /top-50-offshore-outsourcing-companies-specialized-
 assert.ok(!existsSync(new URL('../app/blog/FeaturedComparison.tsx', import.meta.url)), 'stale comparison promotion component must be removed');
 assert.doesNotMatch(blogIndex + blogPagination, /FeaturedComparison|top-50-offshore-outsourcing-companies-specialized-support/, 'blog indexes must not promote the removed comparison');
 assert.ok(existsSync(new URL('../middleware.ts', import.meta.url)), 'canonical host redirect middleware missing');
-assert.match(middleware, /url\.port\s*=\s*['"]['"]/, 'canonical redirects must clear the private origin port');
+assert.match(middleware, /NextResponse\.redirect\(target,\s*308\)/, 'canonical redirects must be permanent 308 responses');
+const canonicalJs = ts.transpileModule(canonicalHelper, {
+  compilerOptions: { module: ts.ModuleKind.ES2022, target: ts.ScriptTarget.ES2022 },
+}).outputText;
+const { canonicalRedirectTarget } = await import(`data:text/javascript;base64,${Buffer.from(canonicalJs).toString('base64')}`);
+const canonical = 'https://offshoreoutsourcingcompany.com/';
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'offshoreoutsourcingcompany.com', forwardedProto: 'http', cloudflareVisitor: '{"scheme":"https"}' }), canonical, 'x-forwarded-proto=http must redirect independently');
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'offshoreoutsourcingcompany.com', forwardedProto: 'https', cloudflareVisitor: '{"scheme":"http"}' }), canonical, 'cf-visitor scheme=http must redirect independently');
+assert.equal(canonicalRedirectTarget({ requestUrl: 'http://127.0.0.1:3102/path?q=1', host: 'offshoreoutsourcingcompany.com:3102', forwardedProto: 'https', cloudflareVisitor: '{"scheme":"https"}' }), 'https://offshoreoutsourcingcompany.com/path?q=1', 'request URL protocol must redirect while preserving path/query and stripping private port');
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'www.offshoreoutsourcingcompany.com', forwardedProto: 'https', cloudflareVisitor: '{"scheme":"https"}' }), canonical, 'www must redirect to apex');
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'offshoreoutsourcingcompany.com', forwardedProto: 'https', cloudflareVisitor: 'not-json' }), null, 'malformed cf-visitor must not crash or redirect a canonical HTTPS request');
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'offshoreoutsourcingcompany.com', forwardedProto: 'https', cloudflareVisitor: 'null' }), null, 'non-object cf-visitor must not crash');
+assert.equal(canonicalRedirectTarget({ requestUrl: 'http://127.0.0.1:3102/', host: '127.0.0.1:3102', forwardedProto: 'http', cloudflareVisitor: '{"scheme":"http"}' }), null, 'local hosts must never be canonicalized');
+assert.equal(canonicalRedirectTarget({ requestUrl: 'http://example.com/', host: 'example.com', forwardedProto: 'http' }), null, 'unrelated hosts must never be canonicalized');
+assert.equal(canonicalRedirectTarget({ requestUrl: canonical, host: 'offshoreoutsourcingcompany.com', forwardedProto: 'https', cloudflareVisitor: '{"scheme":"https"}' }), null, 'canonical HTTPS requests must pass through');
 assert.ok(existsSync(new URL('../app/api/revision/route.ts', import.meta.url)), 'public revision evidence endpoint missing');
 assert.match(dockerfile, /COPY\s+--from=builder[^\n]*\/app\/\.next\/standalone\s+\.\//, 'runtime image must copy standalone output');
 assert.match(dockerfile, /COPY\s+--from=builder[^\n]*\/app\/\.next\/static\s+\.\/\.next\/static/, 'runtime image must copy static assets');
