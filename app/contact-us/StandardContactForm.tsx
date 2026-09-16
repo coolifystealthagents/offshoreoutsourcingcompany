@@ -68,14 +68,14 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Tell us about the role.</h2>
-      <form onSubmit={submit} id="contactPageForm" data-acr-handled="1">
+      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First name *<input name="firstName" required autoComplete="given-name" /></label>
           <label>Last name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
         <label>Business email *<input name="email" type="email" required autoComplete="email" /><small>Please use your work email.</small></label>
-        <label>Phone number *<span className="sa-phone"><select aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code} — {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Phone number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code} — {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
           <label>Company name *<input name="companyName" required autoComplete="organization" /></label>
           <label>Website / URL <span className="sa-optional">Optional</span><input name="website" placeholder="example.com" autoComplete="url" /></label>
