@@ -1,0 +1,14 @@
+{
+  "campaignDate": "2026-09-18",
+  "family": "research",
+  "count": 5,
+  "timezone": "UTC",
+  "issue": "OFFAAA-56",
+  "entries": [
+    {"topic":"vendor onboarding evidence completeness","route":"/research/philippines-vendor-onboarding-evidence-completeness-study","sourcePaths":["app/research-sep18.ts"],"sources":["https://doi.org/10.6028/NIST.CSWP.29","https://doi.org/10.6028/NIST.SP.800-53r5","https://www.irs.gov/businesses/small-businesses-self-employed/taxpayer-identification-number-tin-matching"]},
+    {"topic":"CRM change authorization traceability","route":"/research/offshore-crm-change-authorization-traceability-research","sourcePaths":["app/research-sep18.ts"],"sources":["https://doi.org/10.6028/NIST.CSWP.29","https://www.nist.gov/privacy-framework","https://doi.org/10.6028/NIST.SP.800-53r5"]},
+    {"topic":"customer support escalation packet actionability","route":"/research/philippines-support-escalation-packet-actionability-study","sourcePaths":["app/research-sep18.ts"],"sources":["https://www.nist.gov/privacy-framework","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business","https://www.cisa.gov/secure-our-world"]},
+    {"topic":"knowledge base source currency","route":"/research/offshore-knowledge-base-source-currency-research","sourcePaths":["app/research-sep18.ts"],"sources":["https://doi.org/10.6028/NIST.CSWP.29","https://doi.org/10.6028/NIST.SP.800-53r5","https://www.archives.gov/records-mgmt"]},
+    {"topic":"recruitment candidate data minimization","route":"/research/philippines-recruitment-candidate-data-minimization-study","sourcePaths":["app/research-sep18.ts"],"sources":["https://www.nist.gov/privacy-framework","https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.dol.gov/general/topic/hiring"]}
+  ]
+}
