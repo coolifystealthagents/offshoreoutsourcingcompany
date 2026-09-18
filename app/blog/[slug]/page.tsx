@@ -13,6 +13,7 @@ import { september4BlogPosts, getSeptember4BlogMetadata, renderSeptember4BlogArt
 import { september7BlogPosts, getSeptember7BlogMetadata, renderSeptember7BlogArticle } from '../../sep7-content';
 import { september8BlogPosts, getSeptember8BlogMetadata, renderSeptember8BlogArticle } from '../../sep8-content';
 import { september10BlogPosts, getSeptember10BlogMetadata, renderSeptember10BlogArticle } from '../../sep10-content';
+import { september18BlogPosts, getSeptember18BlogMetadata, renderSeptember18BlogArticle } from '../../sep18-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -25,6 +26,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (september18BlogPosts.some((item) => item.slug === slug)) return getSeptember18BlogMetadata(slug);
   if (september10BlogPosts.some((item) => item.slug === slug)) return getSeptember10BlogMetadata(slug);
   if (september8BlogPosts.some((item) => item.slug === slug)) return getSeptember8BlogMetadata(slug);
   if (september7BlogPosts.some((item) => item.slug === slug)) return getSeptember7BlogMetadata(slug);
@@ -283,6 +285,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
+  if (september18BlogPosts.some((item) => item.slug === slug)) return renderSeptember18BlogArticle(slug, Header, Footer, CTA);
   if (september10BlogPosts.some((item) => item.slug === slug)) return renderSeptember10BlogArticle(slug, Header, Footer, CTA);
   if (september8BlogPosts.some((item) => item.slug === slug)) return renderSeptember8BlogArticle(slug, Header, Footer, CTA);
   if (september7BlogPosts.some((item) => item.slug === slug)) return renderSeptember7BlogArticle(slug, Header, Footer, CTA);

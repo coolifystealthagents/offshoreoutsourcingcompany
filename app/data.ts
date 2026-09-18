@@ -21,6 +21,7 @@ import { september8ResearchPosts } from './research-sep8';
 import { september10BlogPosts } from './sep10-content';
 import { september10ResearchPosts } from './research-sep10';
 import { september18ResearchPosts } from './research-sep18';
+import { september18BlogPosts } from './sep18-content';
 
 export const august21BlogPosts = Object.entries(august21Meta).map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 12, publishedAt: '2026-08-21' as const }));
 export const august23BlogPosts = Object.entries(august23Meta).map(([slug, item]) => ({ slug, title: item.title, excerpt: item.description, minutes: 11, publishedAt: '2026-08-23' as const }));
@@ -31,6 +32,7 @@ export const september4BlogIndexPosts = september4BlogPosts.map((item) => ({ slu
 export const september7BlogIndexPosts = september7BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 7, publishedAt: '2026-09-07' as const }));
 export const september8BlogIndexPosts = september8BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 7, publishedAt: '2026-09-08' as const }));
 export const september10BlogIndexPosts = september10BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 7, publishedAt: '2026-09-10' as const }));
+export const september18BlogIndexPosts = september18BlogPosts.map((item) => ({ slug: item.slug, title: item.title, excerpt: item.excerpt, minutes: 10, publishedAt: '2026-09-18' as const }));
 
 export const site = {
   domain: 'OffshoreOutsourcingCompany.com',
@@ -67,6 +69,7 @@ export const services = [
 ] as const;
 
 const blogPostsSource = [
+  ...september18BlogIndexPosts,
   ...september10BlogIndexPosts,
   ...september8BlogIndexPosts,
   ...september7BlogIndexPosts,

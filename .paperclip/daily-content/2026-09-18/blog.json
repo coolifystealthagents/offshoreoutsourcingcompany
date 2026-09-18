@@ -1,0 +1,25 @@
+{
+  "campaignDate": "2026-09-18",
+  "family": "blog",
+  "count": 12,
+  "status": "prepared",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "baseProductionSha": "c9da00359d21924f8a48118b81e1ea031cddc34d",
+  "entries": [
+    {"slug":"philippines-crm-lead-source-conflict-review","family":"crm-administration","topic":"lead-source conflict review","contentHash":"d5566fe2369155fa0d3a487ec789f65c3f043c473764533adfcc0cf8437ac7c2","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-executive-meeting-prep-completeness-check","family":"executive-administration","topic":"meeting-prep completeness","contentHash":"7b72d99a690a298d8c29c218c17565cd605c97aa2f6acef0c0af90d1778d5918","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-ecommerce-failed-delivery-case-prep","family":"ecommerce-operations","topic":"failed-delivery case preparation","contentHash":"619fbc7d64257f87b4756677943bda4120ade578305ba3eab601c5f442deaaf4","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-recruitment-candidate-withdrawal-record","family":"recruitment-coordination","topic":"candidate withdrawal records","contentHash":"11e9a76641f939d2fa347de455eb91473b0ac5212779a2b4bc66ae6579d39e03","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-vendor-insurance-document-intake","family":"vendor-coordination","topic":"insurance document intake","contentHash":"45667ea7f6dd1e7fa5246b706d3ea7ed8e831e5f0029a60159b2a651911b9035","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"offshore-finance-month-end-evidence-pack","family":"finance-administration","topic":"month-end evidence packs","contentHash":"c6743126301b71f9bdfe09ef69985765a8ef7efbeccf947b10d00a3d5fd15ffc","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-knowledge-base-search-failure-review","family":"knowledge-base-management","topic":"failed search review","contentHash":"6e57150c4c5e0c7bd38a5ee069dfc945d9dcfd847a87a2accf09f83e9528487a","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-project-dependency-acceptance-check","family":"project-tracking","topic":"dependency acceptance","contentHash":"022842c825aa5458d29f1cde21e086608cdcb912aacd944a153ab5b94dcf0de0","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-customer-support-language-assistance-escalation","family":"customer-support-operations","topic":"language assistance escalation","contentHash":"0d76545d822d8319caadda1bb64860d9990e3fd014b0572edfe9913d9d7bc900","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-operations-continuity-contact-tree-test","family":"operations-coordination","topic":"continuity contact tree testing","contentHash":"6417d8af592637cb9627ab8a58833f41974dedd041f1faeaeb7bc194686faded","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"philippines-data-quality-merge-survivor-rule","family":"data-quality-review","topic":"merge survivor rules","contentHash":"c2caa22240c78382e1937f50a4801712478af7d095d49fff703b09950da6e5b5","sourcePaths":["app/sep18-content.tsx"]},
+    {"slug":"offshore-process-documentation-screenshot-expiry","family":"process-documentation","topic":"screenshot expiry","contentHash":"29918d69de8d67bf0a83c30686619aa05a51114369301659a3f5a4fc8cf7a48e","sourcePaths":["app/sep18-content.tsx"]}
+  ],
+  "sources": ["https://www.nist.gov/cyberframework","https://www.cisa.gov/audiences/small-and-medium-businesses","https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information-guide-business","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees"],
+  "image": {"path":"/philippines-operations-team.svg","status":"existing-approved-inventory"}
+}
