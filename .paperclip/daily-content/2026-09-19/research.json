@@ -9,10 +9,92 @@
   "productionBranch": "main",
   "issue": "OFFAAA-58",
   "entries": [
-    {"topic":"executive calendar conflict resolution","slug":"philippines-executive-calendar-conflict-resolution-study","family":"research","sources":["https://www.nist.gov/privacy-framework","https://doi.org/10.6028/NIST.CSWP.29","https://www.archives.gov/records-mgmt/email-management"],"contentHash":"ffbdbfd0d87d1b287ce9612d9a38ae0bd3e904ba82e46ec5d216d7266272ed29","actualPublicationDate":"2026-09-19","commitSha":"29069565237936e3c5faa9468cc628444d619aa2","deploymentEvidence":"Git-to-Coolify production deployment pending push","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-executive-calendar-conflict-resolution-study","verificationTime":null},
-    {"topic":"recurring report reconciliation provenance","slug":"offshore-recurring-report-reconciliation-provenance-research","family":"research","sources":["https://www.gao.gov/products/gao-14-704g","https://doi.org/10.6028/NIST.CSWP.29","https://doi.org/10.6028/NIST.SP.800-53r5"],"contentHash":"e1ec13c56ab3f691915c777ac95d7a7b292d3aa3dbc149afbe5b9e7253f59525","actualPublicationDate":"2026-09-19","commitSha":"29069565237936e3c5faa9468cc628444d619aa2","deploymentEvidence":"Git-to-Coolify production deployment pending push","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-recurring-report-reconciliation-provenance-research","verificationTime":null},
-    {"topic":"ecommerce refund authorization boundaries","slug":"philippines-ecommerce-refund-authorization-boundary-study","family":"research","sources":["https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","https://www.pcisecuritystandards.org/standards/pci-dss/","https://www.nist.gov/privacy-framework"],"contentHash":"968bd209b25167a2202e59372682de8920704871c6c29ff1a0cf484ecef222e4","actualPublicationDate":"2026-09-19","commitSha":"29069565237936e3c5faa9468cc628444d619aa2","deploymentEvidence":"Git-to-Coolify production deployment pending push","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-ecommerce-refund-authorization-boundary-study","verificationTime":null},
-    {"topic":"project dependency forecast reliability","slug":"offshore-project-dependency-forecast-reliability-study","family":"research","sources":["https://www.gao.gov/products/gao-16-89g","https://www.pmi.org/pmbok-guide-standards/framework/practice-standard-scheduling-3rd-edition","https://doi.org/10.6028/NIST.CSWP.29"],"contentHash":"5caa83d5eaa82f0d5df4f98d615fe18da73d01d547ac3fd20be41c52533612af","actualPublicationDate":"2026-09-19","commitSha":"29069565237936e3c5faa9468cc628444d619aa2","deploymentEvidence":"Git-to-Coolify production deployment pending push","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-project-dependency-forecast-reliability-study","verificationTime":null},
-    {"topic":"sales lead routing exception evidence","slug":"philippines-sales-lead-routing-exception-research","family":"research","sources":["https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business","https://www.nist.gov/privacy-framework","https://doi.org/10.6028/NIST.SP.800-53r5"],"contentHash":"650fed0a5a5af97dd2a489c42df1f0d30484b0149ccd710e5c1eb3fea6ea5efe","actualPublicationDate":"2026-09-19","commitSha":"29069565237936e3c5faa9468cc628444d619aa2","deploymentEvidence":"Git-to-Coolify production deployment pending push","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-sales-lead-routing-exception-research","verificationTime":null}
-  ]
+    {
+      "topic": "executive calendar conflict resolution",
+      "slug": "philippines-executive-calendar-conflict-resolution-study",
+      "family": "research",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://doi.org/10.6028/NIST.CSWP.29",
+        "https://www.archives.gov/records-mgmt/email-management"
+      ],
+      "contentHash": "ffbdbfd0d87d1b287ce9612d9a38ae0bd3e904ba82e46ec5d216d7266272ed29",
+      "actualPublicationDate": "2026-09-19",
+      "commitSha": "29069565237936e3c5faa9468cc628444d619aa2",
+      "deploymentEvidence": "Public HTTP 200, self-canonical, title and unique body, datePublished, index and sitemap verified from deployed remote 7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-executive-calendar-conflict-resolution-study",
+      "verificationTime": "2026-09-19T01:08:46Z"
+    },
+    {
+      "topic": "recurring report reconciliation provenance",
+      "slug": "offshore-recurring-report-reconciliation-provenance-research",
+      "family": "research",
+      "sources": [
+        "https://www.gao.gov/products/gao-14-704g",
+        "https://doi.org/10.6028/NIST.CSWP.29",
+        "https://doi.org/10.6028/NIST.SP.800-53r5"
+      ],
+      "contentHash": "e1ec13c56ab3f691915c777ac95d7a7b292d3aa3dbc149afbe5b9e7253f59525",
+      "actualPublicationDate": "2026-09-19",
+      "commitSha": "29069565237936e3c5faa9468cc628444d619aa2",
+      "deploymentEvidence": "Public HTTP 200, self-canonical, title and unique body, datePublished, index and sitemap verified from deployed remote 7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/offshore-recurring-report-reconciliation-provenance-research",
+      "verificationTime": "2026-09-19T01:08:46Z"
+    },
+    {
+      "topic": "ecommerce refund authorization boundaries",
+      "slug": "philippines-ecommerce-refund-authorization-boundary-study",
+      "family": "research",
+      "sources": [
+        "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule",
+        "https://www.pcisecuritystandards.org/standards/pci-dss/",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "968bd209b25167a2202e59372682de8920704871c6c29ff1a0cf484ecef222e4",
+      "actualPublicationDate": "2026-09-19",
+      "commitSha": "29069565237936e3c5faa9468cc628444d619aa2",
+      "deploymentEvidence": "Public HTTP 200, self-canonical, title and unique body, datePublished, index and sitemap verified from deployed remote 7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-ecommerce-refund-authorization-boundary-study",
+      "verificationTime": "2026-09-19T01:08:46Z"
+    },
+    {
+      "topic": "project dependency forecast reliability",
+      "slug": "offshore-project-dependency-forecast-reliability-study",
+      "family": "research",
+      "sources": [
+        "https://www.gao.gov/products/gao-16-89g",
+        "https://www.pmi.org/pmbok-guide-standards/framework/practice-standard-scheduling-3rd-edition",
+        "https://doi.org/10.6028/NIST.CSWP.29"
+      ],
+      "contentHash": "5caa83d5eaa82f0d5df4f98d615fe18da73d01d547ac3fd20be41c52533612af",
+      "actualPublicationDate": "2026-09-19",
+      "commitSha": "29069565237936e3c5faa9468cc628444d619aa2",
+      "deploymentEvidence": "Public HTTP 200, self-canonical, title and unique body, datePublished, index and sitemap verified from deployed remote 7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/offshore-project-dependency-forecast-reliability-study",
+      "verificationTime": "2026-09-19T01:08:46Z"
+    },
+    {
+      "topic": "sales lead routing exception evidence",
+      "slug": "philippines-sales-lead-routing-exception-research",
+      "family": "research",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.nist.gov/privacy-framework",
+        "https://doi.org/10.6028/NIST.SP.800-53r5"
+      ],
+      "contentHash": "650fed0a5a5af97dd2a489c42df1f0d30484b0149ccd710e5c1eb3fea6ea5efe",
+      "actualPublicationDate": "2026-09-19",
+      "commitSha": "29069565237936e3c5faa9468cc628444d619aa2",
+      "deploymentEvidence": "Public HTTP 200, self-canonical, title and unique body, datePublished, index and sitemap verified from deployed remote 7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-sales-lead-routing-exception-research",
+      "verificationTime": "2026-09-19T01:08:46Z"
+    }
+  ],
+  "deployedRemoteSha": "7d218df9a53180ba97f31b0afb3b995dae0b42bb",
+  "validation": {
+    "typescript": "passed",
+    "cleanBuild": "passed (548 static pages)",
+    "tests": "passed",
+    "liveVerifiedCount": 5
+  }
 }
