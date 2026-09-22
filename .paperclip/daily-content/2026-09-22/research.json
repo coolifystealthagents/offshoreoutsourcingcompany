@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "contract": "canonical-daily-research-publishing",
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "issue": "OFFAAA-60",
+  "entries": [
+    {"topic":"operations queue capacity signals","slug":"philippines-operations-queue-capacity-signal-study","family":"research","sources":["https://www.gao.gov/products/gao-16-89g","https://doi.org/10.6028/NIST.CSWP.29","https://www.bls.gov/productivity/"],"contentHash":"4fdef0ee4b49a74a565ece8625d8414c8e245429250156883c7934755289dd0d","actualPublicationDate":"2026-09-22","commitSha":"d3b5d07317ac42593ee60e93a1ec57664dddbc0d","deploymentEvidence":"pending live deployment verification","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-operations-queue-capacity-signal-study","verificationTime":null},
+    {"topic":"data-quality correction reversibility","slug":"offshore-data-quality-correction-reversibility-research","family":"research","sources":["https://doi.org/10.6028/NIST.SP.800-53r5","https://doi.org/10.6028/NIST.CSWP.29","https://www.gao.gov/products/gao-20-283g"],"contentHash":"72aa114a6c8b8b53b1bb43c189b210b1afcf75ef80f94ade8c9ce966279d32d6","actualPublicationDate":"2026-09-22","commitSha":"d3b5d07317ac42593ee60e93a1ec57664dddbc0d","deploymentEvidence":"pending live deployment verification","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-data-quality-correction-reversibility-research","verificationTime":null},
+    {"topic":"invoice-exception evidence sufficiency","slug":"philippines-invoice-exception-evidence-sufficiency-study","family":"research","sources":["https://www.gao.gov/products/gao-14-704g","https://doi.org/10.6028/NIST.SP.800-53r5","https://www.ftc.gov/business-guidance/resources/scams-your-small-business-guide-business"],"contentHash":"3aae4755251ee8cc75f74e8adff14ea07c8fb6317e9b5957bc0e0e178346d82e","actualPublicationDate":"2026-09-22","commitSha":"d3b5d07317ac42593ee60e93a1ec57664dddbc0d","deploymentEvidence":"pending live deployment verification","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-invoice-exception-evidence-sufficiency-study","verificationTime":null},
+    {"topic":"process-documentation change impact","slug":"offshore-process-documentation-change-impact-research","family":"research","sources":["https://doi.org/10.6028/NIST.CSWP.29","https://doi.org/10.6028/NIST.SP.800-53r5","https://www.archives.gov/records-mgmt"],"contentHash":"197c164eab70786cf5470d593044d3dd780ba91853d2c5415b392f5356be15b4","actualPublicationDate":"2026-09-22","commitSha":"d3b5d07317ac42593ee60e93a1ec57664dddbc0d","deploymentEvidence":"pending live deployment verification","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-process-documentation-change-impact-research","verificationTime":null},
+    {"topic":"recruitment interview-scheduling equity controls","slug":"philippines-recruitment-interview-scheduling-equity-control-study","family":"research","sources":["https://www.eeoc.gov/prohibited-employment-policiespractices","https://www.dol.gov/general/topic/hiring","https://www.nist.gov/privacy-framework"],"contentHash":"bb74346fc98d75878ade56239ea8e681417046b0d73a5329a2a9dbb2b47e675f","actualPublicationDate":"2026-09-22","commitSha":"d3b5d07317ac42593ee60e93a1ec57664dddbc0d","deploymentEvidence":"pending live deployment verification","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-recruitment-interview-scheduling-equity-control-study","verificationTime":null}
+  ],
+  "deployedRemoteSha": null,
+  "validation": {"typescript":"passed","tests":"passed","cleanBuild":"passed (566 static pages)","routeValidation":"passed","liveVerifiedCount":0}
+}
