@@ -15,6 +15,7 @@ import { september8BlogPosts, getSeptember8BlogMetadata, renderSeptember8BlogArt
 import { september10BlogPosts, getSeptember10BlogMetadata, renderSeptember10BlogArticle } from '../../sep10-content';
 import { september18BlogPosts, getSeptember18BlogMetadata, renderSeptember18BlogArticle } from '../../sep18-content';
 import { september19BlogPosts, getSeptember19BlogMetadata, renderSeptember19BlogArticle } from '../../sep19-content';
+import { september22BlogPosts, getSeptember22BlogMetadata, renderSeptember22BlogArticle } from '../../sep22-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -27,6 +28,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (september22BlogPosts.some((item) => item.slug === slug)) return getSeptember22BlogMetadata(slug);
   if (september19BlogPosts.some((item) => item.slug === slug)) return getSeptember19BlogMetadata(slug);
   if (september18BlogPosts.some((item) => item.slug === slug)) return getSeptember18BlogMetadata(slug);
   if (september10BlogPosts.some((item) => item.slug === slug)) return getSeptember10BlogMetadata(slug);
@@ -285,6 +287,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (september22BlogPosts.some((item) => item.slug === slug)) return renderSeptember22BlogArticle(slug, Header, Footer, CTA);
   if (september19BlogPosts.some((item) => item.slug === slug)) return renderSeptember19BlogArticle(slug, Header, Footer, CTA);
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
