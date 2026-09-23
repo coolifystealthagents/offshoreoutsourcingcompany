@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "contract": "canonical-daily-research-publishing",
+  "publicationDate": "2026-09-23",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "verifiedCount": 5,
+  "status": "verified-live",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "issue": "OFFAAA-62",
+  "entries": [
+    {"topic":"customer identity continuity across support handoffs","slug":"philippines-customer-identity-handoff-continuity-study","family":"research","sources":["https://doi.org/10.6028/NIST.SP.800-63-4","https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business","https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/require-multifactor-authentication"],"contentHash":"dfeeda4dd1c1a5d4acc7ead05c27ce686821958c6534c1b5d4f2fe5c11222ad1","actualPublicationDate":"2026-09-23","commitSha":"91c73961d41c9f71781b835e0f424ce6186411a7","deploymentEvidence":"Coolify deployment xlrg2ajnhavhaf6reeyzh1hl finished 2026-09-23T18:07:27Z at remote SHA 3dcc33bedccc9bca55f8a0177e77c391d3eb02c8","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-customer-identity-handoff-continuity-study","verificationTime":"2026-09-23T19:36:12.652Z"},
+    {"topic":"CRM suppression propagation integrity","slug":"offshore-crm-suppression-propagation-integrity-research","family":"research","sources":["https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business","https://www.ftc.gov/legal-library/browse/rules/can-spam-rule","https://www.nist.gov/privacy-framework"],"contentHash":"de350e9cd9ee850263b2c091a836a985ddf47264abbfdf0d5631ed100919744c","actualPublicationDate":"2026-09-23","commitSha":"91c73961d41c9f71781b835e0f424ce6186411a7","deploymentEvidence":"Coolify deployment xlrg2ajnhavhaf6reeyzh1hl finished 2026-09-23T18:07:27Z at remote SHA 3dcc33bedccc9bca55f8a0177e77c391d3eb02c8","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-crm-suppression-propagation-integrity-research","verificationTime":"2026-09-23T19:36:12.652Z"},
+    {"topic":"executive calendar metadata minimization","slug":"philippines-executive-calendar-metadata-minimization-study","family":"research","sources":["https://www.nist.gov/privacy-framework","https://doi.org/10.6028/NIST.CSWP.29","https://www.cisa.gov/secure-your-business"],"contentHash":"46ad95f7527823d71a972eeb1da540a91b1ae9d7f6b5d40f81e1e7a5ba94a858","actualPublicationDate":"2026-09-23","commitSha":"91c73961d41c9f71781b835e0f424ce6186411a7","deploymentEvidence":"Coolify deployment xlrg2ajnhavhaf6reeyzh1hl finished 2026-09-23T18:07:27Z at remote SHA 3dcc33bedccc9bca55f8a0177e77c391d3eb02c8","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-executive-calendar-metadata-minimization-study","verificationTime":"2026-09-23T19:36:12.652Z"},
+    {"topic":"ecommerce inventory-exception lineage","slug":"offshore-ecommerce-inventory-exception-lineage-research","family":"research","sources":["https://www.gao.gov/products/gao-20-283g","https://doi.org/10.6028/NIST.CSWP.29","https://doi.org/10.6028/NIST.SP.800-53r5"],"contentHash":"224f0af5945900f074752130f15d00444b00540f125d7fdf925ce96bc84860ed","actualPublicationDate":"2026-09-23","commitSha":"91c73961d41c9f71781b835e0f424ce6186411a7","deploymentEvidence":"Coolify deployment xlrg2ajnhavhaf6reeyzh1hl finished 2026-09-23T18:07:27Z at remote SHA 3dcc33bedccc9bca55f8a0177e77c391d3eb02c8","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-ecommerce-inventory-exception-lineage-research","verificationTime":"2026-09-23T19:36:12.652Z"},
+    {"topic":"project dependency acceptance traceability","slug":"philippines-project-dependency-acceptance-traceability-study","family":"research","sources":["https://www.gao.gov/products/gao-16-89g","https://www.gao.gov/products/gao-14-704g","https://doi.org/10.6028/NIST.CSWP.29"],"contentHash":"6cea9ff5cf69243ed6a2efab0468c103c191df211fd26d366cf505ac888fa274","actualPublicationDate":"2026-09-23","commitSha":"91c73961d41c9f71781b835e0f424ce6186411a7","deploymentEvidence":"Coolify deployment xlrg2ajnhavhaf6reeyzh1hl finished 2026-09-23T18:07:27Z at remote SHA 3dcc33bedccc9bca55f8a0177e77c391d3eb02c8","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-project-dependency-acceptance-traceability-study","verificationTime":"2026-09-23T19:36:12.652Z"}
+  ],
+  "articleCommitSha": "91c73961d41c9f71781b835e0f424ce6186411a7",
+  "deployedRemoteSha": "3dcc33bedccc9bca55f8a0177e77c391d3eb02c8",
+  "deploymentUuid": "xlrg2ajnhavhaf6reeyzh1hl",
+  "deploymentStatus": "finished",
+  "deploymentFinishedAt": "2026-09-23T18:07:27.000Z",
+  "verifiedAt": "2026-09-23T19:36:12.652Z",
+  "validation": {"typescript":"passed","tests":"passed","cleanBuild":"passed (584 static pages)","routeValidation":"passed locally and against production","checks":["http-200","exact-title","unique-content","visible-publication-date","schema-datePublished","no-dateModified","self-canonical","research-index-entry","sitemap-entry","hero-asset","three-authoritative-sources","consultation-cta","minimum-1200-words"],"liveVerifiedCount":5}
+}

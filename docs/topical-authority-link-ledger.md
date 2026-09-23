@@ -18,3 +18,11 @@ This is a planning record, not a public content change. The Reporting Administra
 - Customer support operations: `/research/philippines-support-escalation-packet-actionability-study` → `/services/customer-support-operations`
 - Knowledge-base management: `/research/offshore-knowledge-base-source-currency-research` → `/services/knowledge-base-management`
 - Recruitment coordination: `/research/philippines-recruitment-candidate-data-minimization-study` → `/services/recruitment-coordination`
+
+# 2026-09-23 Research
+
+- Customer support operations: `/research/philippines-customer-identity-handoff-continuity-study` → `/services/customer-support-operations`
+- CRM administration: `/research/offshore-crm-suppression-propagation-integrity-research` → `/services/crm-administration`
+- Executive administration: `/research/philippines-executive-calendar-metadata-minimization-study` → `/services/executive-administration`
+- Ecommerce operations: `/research/offshore-ecommerce-inventory-exception-lineage-research` → `/services/ecommerce-operations`
+- Project tracking: `/research/philippines-project-dependency-acceptance-traceability-study` → `/services/project-tracking`
