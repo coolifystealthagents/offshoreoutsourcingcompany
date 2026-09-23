@@ -1,0 +1,37 @@
+{
+  "campaignDate": "2026-09-23",
+  "family": "blog",
+  "requiredCount": 12,
+  "count": 12,
+  "verifiedCount": 0,
+  "status": "awaiting-deployment",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "sourcePaths": ["app/sep23-content.tsx"],
+  "sources": [
+    "https://www.nist.gov/cyberframework",
+    "https://www.cisa.gov/audiences/small-and-medium-businesses",
+    "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information-guide-business",
+    "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+    "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees"
+  ],
+  "articles": [
+    {"family":"crm-administration","topic":"CRM merge survivorship review","slug":"philippines-crm-merge-survivorship-review","contentHash":"3319b3f400c0d6e75a77434e3effe6b5dda148aaacef2aba989ac01021c6c301","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-crm-merge-survivorship-review"},
+    {"family":"executive-administration","topic":"travel approval evidence packet","slug":"philippines-executive-travel-approval-evidence-packet","contentHash":"56ceae83220046c53fd4cd122da28595db1182d88a10cc376c13466f2ea542c1","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-executive-travel-approval-evidence-packet"},
+    {"family":"ecommerce-operations","topic":"subscription pause exception handoff","slug":"philippines-ecommerce-subscription-pause-exception-handoff","contentHash":"7c6843d059063e4968d338a81f2e85ca1a48c91609f31260fa8857456067f8f9","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-ecommerce-subscription-pause-exception-handoff"},
+    {"family":"recruitment-coordination","topic":"candidate accommodation scheduling handoff","slug":"philippines-recruitment-candidate-accommodation-scheduling-handoff","contentHash":"db8e03872420f4a5b67b28b99e7364d607afe292ba22efbd351ff8802c45c6aa","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-recruitment-candidate-accommodation-scheduling-handoff"},
+    {"family":"vendor-coordination","topic":"insurance certificate expiry tracker","slug":"philippines-vendor-insurance-certificate-expiry-tracker","contentHash":"11de7036af005df7d89b7be8c203fa33f042e6b0bc001f82f2dbe9148347f596","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-vendor-insurance-certificate-expiry-tracker"},
+    {"family":"finance-administration","topic":"supplier bank change verification packet","slug":"offshore-finance-supplier-bank-change-verification-packet","contentHash":"7d62783548fc3dadd5fdc401ed534fd54eca9df2b4626a07b1d9c9a410f10c57","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/offshore-finance-supplier-bank-change-verification-packet"},
+    {"family":"knowledge-base-management","topic":"translation source alignment review","slug":"philippines-knowledge-base-translation-source-alignment-review","contentHash":"9d750264f5c1c0e939bdac93626604246cb417707cc94dcd6a38637b12340edc","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-knowledge-base-translation-source-alignment-review"},
+    {"family":"project-tracking","topic":"dependency date assumption review","slug":"philippines-project-dependency-date-assumption-review","contentHash":"671f04abf791bd7c5f2a8c8bd674832a1483a0231ac9a01a8345624554a4eb7a","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-project-dependency-date-assumption-review"},
+    {"family":"customer-support-operations","topic":"refund evidence preparation","slug":"philippines-support-refund-evidence-preparation","contentHash":"004e65745ea5c2b787f97bc0695786b2d4bb0af2187079c9ff1d9d5411dc2466","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-support-refund-evidence-preparation"},
+    {"family":"operations-coordination","topic":"manual override register","slug":"philippines-operations-manual-override-register","contentHash":"e3844aeb5f351e2ef7f6d3819cbb2abec7d2bc59d5430faf5d5843388e02c62d","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-operations-manual-override-register"},
+    {"family":"data-quality-review","topic":"reference table effective date review","slug":"philippines-data-quality-reference-table-effective-date-review","contentHash":"e687d1c8f2fdfe73c9887f00fc130924508fb806dc1f233a8e700adb66dc544a","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-data-quality-reference-table-effective-date-review"},
+    {"family":"process-documentation","topic":"screenshot redaction review","slug":"offshore-process-screenshot-redaction-review","contentHash":"9659d166954556440cc3d0d627c9c91f64d89f22fd3bf196ea6d6891de8cbfb6","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/offshore-process-screenshot-redaction-review"}
+  ],
+  "articleCommitSha": null,
+  "remoteSha": null,
+  "deploymentUuid": null,
+  "deploymentStatus": "pending",
+  "verifiedAt": null
+}
