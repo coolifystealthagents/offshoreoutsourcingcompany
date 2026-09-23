@@ -3,8 +3,8 @@
   "family": "blog",
   "requiredCount": 12,
   "count": 12,
-  "verifiedCount": 0,
-  "status": "awaiting-deployment",
+  "verifiedCount": 12,
+  "status": "verified-live",
   "repository": "coolifystealthagents/offshoreoutsourcingcompany",
   "productionBranch": "main",
   "sourcePaths": ["app/sep23-content.tsx"],
@@ -29,9 +29,17 @@
     {"family":"data-quality-review","topic":"reference table effective date review","slug":"philippines-data-quality-reference-table-effective-date-review","contentHash":"e687d1c8f2fdfe73c9887f00fc130924508fb806dc1f233a8e700adb66dc544a","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/philippines-data-quality-reference-table-effective-date-review"},
     {"family":"process-documentation","topic":"screenshot redaction review","slug":"offshore-process-screenshot-redaction-review","contentHash":"9659d166954556440cc3d0d627c9c91f64d89f22fd3bf196ea6d6891de8cbfb6","actualPublicationDate":"2026-09-23","liveUrl":"https://offshoreoutsourcingcompany.com/blog/offshore-process-screenshot-redaction-review"}
   ],
-  "articleCommitSha": null,
-  "remoteSha": null,
-  "deploymentUuid": null,
-  "deploymentStatus": "pending",
-  "verifiedAt": null
+  "articleCommitSha": "3dcc33bedccc9bca55f8a0177e77c391d3eb02c8",
+  "remoteSha": "3dcc33bedccc9bca55f8a0177e77c391d3eb02c8",
+  "deploymentUuid": "xlrg2ajnhavhaf6reeyzh1hl",
+  "deploymentStatus": "finished",
+  "deploymentFinishedAt": "2026-09-23T18:07:27.000000Z",
+  "verifiedAt": "2026-09-23T19:27:52.293Z",
+  "verification": {
+    "required": 12,
+    "passed": 12,
+    "checks": ["http-200", "exact-title", "unique-excerpt", "canonical", "visible-publication-date", "schema-datePublished", "hero-asset", "article-structured-data", "sitemap-entry"],
+    "sitemapStatus": 200,
+    "assetStatus": 200
+  }
 }
