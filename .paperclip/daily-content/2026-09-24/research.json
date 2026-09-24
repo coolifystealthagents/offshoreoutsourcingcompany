@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "contract": "canonical-daily-research-publishing",
+  "publicationDate": "2026-09-24",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "verifiedCount": 0,
+  "status": "built-awaiting-live-verification",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "issue": "OFFAAA-64",
+  "entries": [
+    {"topic":"sales pipeline stage evidence","slug":"philippines-sales-pipeline-stage-evidence-study","family":"research","sources":["https://www.gao.gov/products/gao-20-283g","https://doi.org/10.6028/NIST.CSWP.29","https://www.archives.gov/records-mgmt"],"contentHash":"3ef8b151a1ee9951381d49ddbee9b713f1a1afdecc01726242d82376eea65d80","actualPublicationDate":"2026-09-24","commitSha":"335ab838e76e82193afe2d49eba23ed7ef321f4c","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-sales-pipeline-stage-evidence-study"},
+    {"topic":"interview scorecard independence","slug":"offshore-interview-scorecard-independence-research","family":"research","sources":["https://www.eeoc.gov/laws/guidance/uniform-guidelines-employee-selection-procedures","https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.dol.gov/general/topic/hiring"],"contentHash":"5a5742d2e2973d9aa055c8a7c113bb40b746dadbfd2b320457a6d0b3a55ba160","actualPublicationDate":"2026-09-24","commitSha":"335ab838e76e82193afe2d49eba23ed7ef321f4c","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-interview-scorecard-independence-research"},
+    {"topic":"recurring report definition drift","slug":"philippines-recurring-report-definition-drift-study","family":"research","sources":["https://www.gao.gov/products/gao-20-283g","https://www.gao.gov/products/gao-14-704g","https://doi.org/10.6028/NIST.CSWP.29"],"contentHash":"7c2d68f7b70b385f8fc95becca4be6a50664198b6d5f18633dd0d646f8806bba","actualPublicationDate":"2026-09-24","commitSha":"335ab838e76e82193afe2d49eba23ed7ef321f4c","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-recurring-report-definition-drift-study"},
+    {"topic":"vendor contact authority continuity","slug":"offshore-vendor-contact-authority-continuity-research","family":"research","sources":["https://www.ftc.gov/business-guidance/resources/scams-your-small-business-guide-business","https://www.cisa.gov/secure-our-world/recognize-and-report-phishing","https://doi.org/10.6028/NIST.SP.800-63-4"],"contentHash":"f80a6404f76b8b80cde40bcef1a705c8aef68ac8d523eeffd9adc404a5a69868","actualPublicationDate":"2026-09-24","commitSha":"335ab838e76e82193afe2d49eba23ed7ef321f4c","liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-vendor-contact-authority-continuity-research"},
+    {"topic":"recurring request intake completeness","slug":"philippines-operations-recurring-request-intake-study","family":"research","sources":["https://www.gao.gov/products/gao-14-704g","https://www.gao.gov/products/gao-16-89g","https://doi.org/10.6028/NIST.CSWP.29"],"contentHash":"bc15ed7c472f8d4b30894cb636b5f8515f1d62aa8b20c21732c05b296c73e841","actualPublicationDate":"2026-09-24","commitSha":"335ab838e76e82193afe2d49eba23ed7ef321f4c","liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-operations-recurring-request-intake-study"}
+  ],
+  "articleCommitSha": "335ab838e76e82193afe2d49eba23ed7ef321f4c",
+  "validation": {"typescript":"passed","tests":"passed","cleanBuild":"passed (601 static pages)","checks":["unused-slugs","visible-publication-date","schema-datePublished","self-canonical","research-index-entry","sitemap-entry","hero-asset","three-authoritative-sources","consultation-cta","minimum-1200-words"]}
+}
