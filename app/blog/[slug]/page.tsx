@@ -17,6 +17,7 @@ import { september18BlogPosts, getSeptember18BlogMetadata, renderSeptember18Blog
 import { september19BlogPosts, getSeptember19BlogMetadata, renderSeptember19BlogArticle } from '../../sep19-content';
 import { september22BlogPosts, getSeptember22BlogMetadata, renderSeptember22BlogArticle } from '../../sep22-content';
 import { september23BlogPosts, getSeptember23BlogMetadata, renderSeptember23BlogArticle } from '../../sep23-content';
+import { september24BlogPosts, getSeptember24BlogMetadata, renderSeptember24BlogArticle } from '../../sep24-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -29,6 +30,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (september24BlogPosts.some((item) => item.slug === slug)) return getSeptember24BlogMetadata(slug);
   if (september23BlogPosts.some((item) => item.slug === slug)) return getSeptember23BlogMetadata(slug);
   if (september22BlogPosts.some((item) => item.slug === slug)) return getSeptember22BlogMetadata(slug);
   if (september19BlogPosts.some((item) => item.slug === slug)) return getSeptember19BlogMetadata(slug);
@@ -289,6 +291,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (september24BlogPosts.some((item) => item.slug === slug)) return renderSeptember24BlogArticle(slug, Header, Footer, CTA);
   if (september23BlogPosts.some((item) => item.slug === slug)) return renderSeptember23BlogArticle(slug, Header, Footer, CTA);
   if (september22BlogPosts.some((item) => item.slug === slug)) return renderSeptember22BlogArticle(slug, Header, Footer, CTA);
   if (september19BlogPosts.some((item) => item.slug === slug)) return renderSeptember19BlogArticle(slug, Header, Footer, CTA);
