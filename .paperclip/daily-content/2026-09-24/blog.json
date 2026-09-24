@@ -5,6 +5,8 @@
   "repository": "coolifystealthagents/offshoreoutsourcingcompany",
   "branch": "main",
   "sourceSha": "b6aade6955dee90a89b27c4ae344afe50174738e",
+  "contentCommitSha": "cfab9446cbae244cfb4de4a483a7baf2fcd65f52",
+  "deploymentEvidence": {"coolifyApplication":"pdgj95f2dxuf3v01g2x712tv","coolifyResource":"l13ylpiz5n7x3du8pnr1cdlx","apiStatus":"unauthorized","observedProductionSha":"b6aade6955dee90a89b27c4ae344afe50174738e","liveVerification":"pending"},
   "validation": {"slugCount":12,"uniqueSlugCount":12,"originCollisions":0,"typecheck":"passed","productionBuild":"passed"},
   "sources": ["https://www.nist.gov/cyberframework","https://www.cisa.gov/audiences/small-and-medium-businesses","https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information-guide-business","https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html","https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees"],
   "articles": [
