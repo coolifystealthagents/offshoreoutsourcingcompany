@@ -25,6 +25,7 @@ import { september19ResearchPosts } from './research-sep19';
 import { september22ResearchPosts } from './research-sep22';
 import { september23ResearchPosts } from './research-sep23';
 import { september24ResearchPosts } from './research-sep24';
+import { september25ResearchPosts } from './research-sep25';
 import { september18BlogPosts } from './sep18-content';
 import { september19BlogPosts } from './sep19-content';
 import { september22BlogPosts } from './sep22-content';
@@ -490,4 +491,4 @@ const august10ResearchSlugs = new Set([
   'philippines-outsourced-research-source-register', 'philippines-outsourced-work-queue-prioritization',
   'philippines-outsourced-handoff-acceptance-criteria', 'philippines-outsourced-work-sample-review-method',
 ]);
-export const datedResearchPosts = [...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
+export const datedResearchPosts = [...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
