@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-research-publishing-combined-release",
+  "cycleLabel": "2026-09-25-recovery",
+  "publicationDate": "2026-09-25",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "verifiedCount": 0,
+  "status": "staged-for-blog-integration",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "researchBranch": "research/offaaa-65-2026-09-25",
+  "issue": "OFFAAA-65",
+  "baseProductionSha": "fb0fe8b0bd29cc3969ee44a4bf683d31570bc6c0",
+  "articleCommitSha": "831f89e98135f65547b4644f08993f0d1abe267b",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "entries": [
+    {
+      "topic": "delegated calendar authority expiry",
+      "slug": "philippines-executive-calendar-delegated-authority-expiry-study",
+      "family": "research",
+      "sources": [
+        {"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-09-25"},
+        {"title":"Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.SP.800-53r5","checkedDate":"2026-09-25"},
+        {"title":"Records Management","publisher":"U.S. National Archives and Records Administration","url":"https://www.archives.gov/records-mgmt","checkedDate":"2026-09-25"}
+      ],
+      "contentHash": "eb51e02b166c07399904b393b45513d0089b70f2c5d2a971068b1e6304fb5ebe",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-executive-calendar-delegated-authority-expiry-study"
+    },
+    {
+      "topic": "project change request baseline linkage",
+      "slug": "offshore-project-change-request-baseline-linkage-research",
+      "family": "research",
+      "sources": [
+        {"title":"Schedule Assessment Guide: Best Practices for Project Schedules","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-16-89g","checkedDate":"2026-09-25"},
+        {"title":"Cost Estimating and Assessment Guide","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-195g","checkedDate":"2026-09-25"},
+        {"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-09-25"}
+      ],
+      "contentHash": "7a774ffdc14037c5d1f87ccf93f0f2ed7f3ade1efd2253f1c25749cc19802623",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/offshore-project-change-request-baseline-linkage-research"
+    },
+    {
+      "topic": "partial shipment ownership",
+      "slug": "philippines-ecommerce-partial-shipment-ownership-study",
+      "family": "research",
+      "sources": [
+        {"title":"Mail, Internet, or Telephone Order Merchandise Rule","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","checkedDate":"2026-09-25"},
+        {"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-09-25"},
+        {"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-09-25"}
+      ],
+      "contentHash": "eba67dee0d3087faaf7871306e560e04bbbe7ab6f2127b47fda24bd4368ce40c",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-ecommerce-partial-shipment-ownership-study"
+    },
+    {
+      "topic": "dashboard refresh completeness",
+      "slug": "offshore-dashboard-refresh-completeness-research",
+      "family": "research",
+      "sources": [
+        {"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-09-25"},
+        {"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-09-25"},
+        {"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-09-25"}
+      ],
+      "contentHash": "575c777c67cbf94ab36d39740ee3cf084a0fc98aa6900c4cb0c55592ecdb77ef",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/offshore-dashboard-refresh-completeness-research"
+    },
+    {
+      "topic": "data correction provenance",
+      "slug": "philippines-data-correction-provenance-study",
+      "family": "research",
+      "sources": [
+        {"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-09-25"},
+        {"title":"NIST Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework","checkedDate":"2026-09-25"},
+        {"title":"Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.SP.800-53r5","checkedDate":"2026-09-25"}
+      ],
+      "contentHash": "b48327924a9c25c999b079dfa9e49e46081b97e83068df71667887a5981c9e31",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/research/philippines-data-correction-provenance-study"
+    }
+  ],
+  "validation": {
+    "tests": "passed",
+    "typescript": "passed",
+    "cleanBuild": "passed (619 static pages)",
+    "localRouteChecks": "passed for 5/5",
+    "renderedWordCounts": [3132, 3147, 3119, 3124, 3108],
+    "checks": ["unused-slugs","exact-title","unique-content","visible-publication-date","schema-datePublished","no-dateModified","self-canonical","research-index-entry","sitemap-entry","hero-asset","three-authoritative-sources","consultation-cta","minimum-1200-words"]
+  },
+  "handoff": "Blog must integrate this branch with exactly 12 same-cycle Blog articles, rerun combined validation/build, and make the single production push. Browser operator owns deployment and public-route verification. If integration occurs after 2026-09-25 UTC, update every Research visible date, schema datePublished, source record, and this manifest to the actual first-publication date before pushing."
+}
