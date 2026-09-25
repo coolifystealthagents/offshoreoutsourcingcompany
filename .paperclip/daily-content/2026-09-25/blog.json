@@ -1,0 +1,185 @@
+{
+  "runDate": "2026-09-25",
+  "timezone": "UTC",
+  "required": 12,
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "branch": "main",
+  "sourceSha": "fb0fe8b0bd29cc3969ee44a4bf683d31570bc6c0",
+  "validation": {
+    "slugCount": 12,
+    "uniqueSlugCount": 12,
+    "originCollisions": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed"
+  },
+  "articles": [
+    {
+      "family": "vendor selection",
+      "topic": "discovery call agenda",
+      "slug": "offshore-outsourcing-discovery-call-agenda",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "2385639d699ac00067f5ed44f4632ad54541a2d7b852e92b582351e5b219dc97",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-discovery-call-agenda",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "vendor selection",
+      "topic": "proposal comparison",
+      "slug": "offshore-outsourcing-vendor-proposal-comparison",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "39e77707471378bb7f607573c6e2fba4b268d8cef997db8fdd91ac6f2ddc5e78",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-vendor-proposal-comparison",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "commercial planning",
+      "topic": "total cost model",
+      "slug": "offshore-outsourcing-total-cost-model",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "0f3c6d6e1d0b64e078950084d65a3676a3a527e7f91193ca99acbfb72cc0b490",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-total-cost-model",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "transition planning",
+      "topic": "pilot scope",
+      "slug": "offshore-outsourcing-pilot-scope",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "2202f3f42874c91c0fabf5f400d852358e30ad55e45d014789d7efa491ba520c",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-pilot-scope",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "transition planning",
+      "topic": "transition plan",
+      "slug": "offshore-outsourcing-transition-plan",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "0559643668f91942740a810986c087bbfaa974748e76724984e27fbe3df6eed0",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-transition-plan",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "service governance",
+      "topic": "SLA scorecard",
+      "slug": "offshore-outsourcing-sla-scorecard",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "fe2d9de4b95e81ed291d63d0e88ae04cd510a94cf47fd2fbbc57270f90aa290c",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-sla-scorecard",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "risk and security",
+      "topic": "data-processing due diligence",
+      "slug": "offshore-outsourcing-data-processing-due-diligence",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "16cca6be06c748d515ffd5098347a21716f25028b511a236d98fa5413f3b1eeb",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-data-processing-due-diligence",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "commercial planning",
+      "topic": "contract exit plan",
+      "slug": "offshore-outsourcing-contract-exit-plan",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "a6e6dbefce7f59032e2c76c7c95e8b57fd188f8771d545450ffec8ae54857519",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-contract-exit-plan",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "customer support",
+      "topic": "in-house versus outsourced support",
+      "slug": "in-house-vs-outsourced-customer-support",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "f498e5f23ba9a5e177e8698f34e8b0954e03c26905bfeeb5d3a02828edb969f7",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/in-house-vs-outsourced-customer-support",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "workforce planning",
+      "topic": "overlap hours",
+      "slug": "philippines-team-overlap-hours-plan",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "7651dcf6a892bbbac6112351b1ab412b584252ce886f3289762200b23dcc6909",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-team-overlap-hours-plan",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "quality management",
+      "topic": "quality sampling plan",
+      "slug": "offshore-outsourcing-quality-sampling-plan",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "2b19428f9a91c664168654172fd4b82d6e6db1166d25c76a012bb630e4ffe27b",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-quality-sampling-plan",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "service governance",
+      "topic": "first 30 days",
+      "slug": "offshore-outsourcing-first-30-days-governance",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "6c5c792e66706108b4846ec578cf19af67a367b312474727ef1b0a60513618ee",
+      "publicationDate": "2026-09-25",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-outsourcing-first-30-days-governance",
+      "status": "awaiting-browser-operator"
+    }
+  ]
+}
