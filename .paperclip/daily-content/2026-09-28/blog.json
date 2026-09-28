@@ -21,7 +21,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-accounts-payable-exception-queue-design",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "revenue operations",
@@ -36,7 +37,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-sales-quote-desk-operating-model",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "procurement operations",
@@ -51,7 +53,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-purchase-order-change-control-workflow",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "customer operations",
@@ -66,7 +69,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-chargeback-evidence-preparation-workflow",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "data operations",
@@ -81,7 +85,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-crm-duplicate-account-resolution",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "compliance operations",
@@ -96,7 +101,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-vendor-insurance-certificate-tracking",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "workforce administration",
@@ -111,7 +117,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-recruiting-interview-scheduling-controls",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "subscription operations",
@@ -126,7 +133,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-saas-renewal-operations-playbook",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "logistics operations",
@@ -141,7 +149,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-freight-claim-file-preparation",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "marketing operations",
@@ -156,7 +165,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-webinar-operations-runbook",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "IT service operations",
@@ -171,7 +181,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-user-access-request-triage",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     },
     {
       "family": "legal operations",
@@ -186,7 +197,8 @@
       ],
       "publicationDate": "2026-09-28",
       "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-contract-obligation-register-maintenance",
-      "status": "awaiting-browser-operator"
+      "status": "awaiting-browser-operator",
+      "commitSha": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0"
     }
   ],
   "validation": {
@@ -216,5 +228,13 @@
     "typecheck": "passed",
     "tests": "passed",
     "productionBuild": "passed"
+  },
+  "blogContentCommit": "2bcd7ac7f67d5427d46d4cf2883f0627aa2e4cb0",
+  "researchHandoffCommit": "8d649e79746e13fd3d45505f8ffe4a26cca3c27e",
+  "combinedPreflightCommit": "11706ca",
+  "deployment": {
+    "owner": "browser-operator",
+    "application": "pdgj95f2dxuf3v01g2x712tv",
+    "status": "not-submitted-by-content-routine"
   }
 }
