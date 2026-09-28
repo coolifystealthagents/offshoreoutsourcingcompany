@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-research-publishing-combined-release",
+  "cycleLabel": "2026-09-28",
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "verifiedCount": 0,
+  "status": "staged-for-blog-integration",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "researchBranch": "research/offaaa-67-2026-09-28",
+  "worktree": "/paperclip/instances/default/projects/f5a0128d-eabe-434c-b7b2-1a8573d9a4fc/9b57ab28-e3b2-43c2-9f0a-d4c99848e24d/_default/.worktrees/offaaa-67",
+  "issue": "OFFAAA-67",
+  "taskId": "38573cd4-c19d-4cbc-a8f7-408c1028d0fa",
+  "baseProductionSha": "bf88899003c0dd328a2968eb7023371894b5e07a",
+  "articleCommitSha": "48084d53055008e200c7652a854e088e521d35d5",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "validation": {
+    "bodyWordCounts": [1215, 1230, 1225, 1201, 1211],
+    "maximumPairwiseFiveWordShingleJaccard": 0.007509,
+    "typecheck": "passed",
+    "tests": "passed",
+    "cleanProductionBuild": "passed",
+    "generatedStaticPages": 624
+  },
+  "entries": [
+    {"topic":"shared-mailbox phishing escalation evidence","slug":"philippines-shared-mailbox-phishing-escalation-evidence-study","family":"research","sources":[{"title":"NIST SP 800-61 Revision 3","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.SP.800-61r3","checkedDate":"2026-09-28"},{"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-09-28"},{"title":"Avoiding Social Engineering and Phishing Attacks","publisher":"Cybersecurity and Infrastructure Security Agency","url":"https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks","checkedDate":"2026-09-28"}],"contentHash":"f63108777e75501d380bd4853b6b953686b1cb77b533560fc5fdcc9767d91712","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-shared-mailbox-phishing-escalation-evidence-study"},
+    {"topic":"accounts-payable duplicate-invoice evidence","slug":"offshore-accounts-payable-duplicate-invoice-evidence-research","family":"research","sources":[{"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-09-28"},{"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-09-28"},{"title":"NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-09-28"}],"contentHash":"54cffd72b25be8ff5e705467b3af8bfe21c5cac78ef7e3c51429ab1e92c220d4","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-accounts-payable-duplicate-invoice-evidence-research"},
+    {"topic":"commercial-email suppression propagation","slug":"philippines-email-suppression-propagation-study","family":"research","sources":[{"title":"CAN-SPAM Act: A Compliance Guide for Business","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business","checkedDate":"2026-09-28"},{"title":"CAN-SPAM Rule","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/legal-library/browse/rules/can-spam-rule","checkedDate":"2026-09-28"},{"title":"NIST Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework","checkedDate":"2026-09-28"}],"contentHash":"4cd545e068690526fd8dc2bbd17b1e300a8abc490edb8edad3ab5080d00b8763","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-email-suppression-propagation-study"},
+    {"topic":"customer-refund evidence packets","slug":"offshore-customer-refund-evidence-packet-research","family":"research","sources":[{"title":"Mail, Internet, or Telephone Order Merchandise Rule","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule","checkedDate":"2026-09-28"},{"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-09-28"},{"title":"NIST Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework","checkedDate":"2026-09-28"}],"contentHash":"e2b88aaaaf666d77831485fbaa627876e287ed3aadd78b0120a0d6eda1571221","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-customer-refund-evidence-packet-research"},
+    {"topic":"recruitment interview accommodation routing","slug":"philippines-recruitment-interview-accommodation-routing-study","family":"research","sources":[{"title":"Enforcement Guidance on Reasonable Accommodation and Undue Hardship under the ADA","publisher":"U.S. Equal Employment Opportunity Commission","url":"https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada","checkedDate":"2026-09-28"},{"title":"Job Applicants and the ADA","publisher":"U.S. Equal Employment Opportunity Commission","url":"https://www.eeoc.gov/laws/guidance/job-applicants-and-ada","checkedDate":"2026-09-28"},{"title":"NIST Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework","checkedDate":"2026-09-28"}],"contentHash":"c52451bc41d0b679a9d4d57a32a6d71417d94e61283fd11ca5ada70d7f6c5f83","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-recruitment-interview-accommodation-routing-study"}
+  ]
+}
