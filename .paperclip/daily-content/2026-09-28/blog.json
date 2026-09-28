@@ -1,0 +1,220 @@
+{
+  "runDate": "2026-09-28",
+  "timezone": "UTC",
+  "required": 12,
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "branch": "main",
+  "sourceSha": "bf88899003c0dd328a2968eb7023371894b5e07a",
+  "issue": "OFFAAA-68",
+  "researchIssue": "OFFAAA-67",
+  "articles": [
+    {
+      "family": "finance operations",
+      "topic": "accounts payable exception queue",
+      "slug": "offshore-accounts-payable-exception-queue-design",
+      "bodyWordCount": 6954,
+      "contentHash": "ca02b862023e57fec0df5b8185dc71f883f16cf2d895b3c5910ae59718647a6f",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-accounts-payable-exception-queue-design",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "revenue operations",
+      "topic": "sales quote desk",
+      "slug": "offshore-sales-quote-desk-operating-model",
+      "bodyWordCount": 7006,
+      "contentHash": "2be217d8e593a02f0b121679d54b241cdcb020a5e3a90a0021612bb42051ca8f",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-sales-quote-desk-operating-model",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "procurement operations",
+      "topic": "purchase order change control",
+      "slug": "philippines-purchase-order-change-control-workflow",
+      "bodyWordCount": 7112,
+      "contentHash": "3e5f82dc98a04be698c7610b400689a5e7a8b41d0736056d7bab1ba8635dbd03",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-purchase-order-change-control-workflow",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "customer operations",
+      "topic": "chargeback evidence preparation",
+      "slug": "outsourced-chargeback-evidence-preparation-workflow",
+      "bodyWordCount": 7033,
+      "contentHash": "99e572a008be2d0679f8b22cc9d97299956df42c89b79820e884051c15b28928",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-chargeback-evidence-preparation-workflow",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "data operations",
+      "topic": "CRM duplicate account resolution",
+      "slug": "offshore-crm-duplicate-account-resolution",
+      "bodyWordCount": 7163,
+      "contentHash": "635a3cef84eb9f80459f3c0015920a407c6336e57dc43b7e59662e6eb388bfa5",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-crm-duplicate-account-resolution",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "compliance operations",
+      "topic": "vendor insurance certificate tracking",
+      "slug": "outsourced-vendor-insurance-certificate-tracking",
+      "bodyWordCount": 7102,
+      "contentHash": "512269bc2c47b0bbbf4fce632a163f652387e391d3bef79b83fde2024d43112b",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-vendor-insurance-certificate-tracking",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "workforce administration",
+      "topic": "recruiting interview scheduling",
+      "slug": "philippines-recruiting-interview-scheduling-controls",
+      "bodyWordCount": 6605,
+      "contentHash": "763bbfc29dc15bbbecf59c2f2c552d1f8fecd50e7625a9bbb4d1c813e79b0856",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-recruiting-interview-scheduling-controls",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "subscription operations",
+      "topic": "SaaS renewal operations",
+      "slug": "offshore-saas-renewal-operations-playbook",
+      "bodyWordCount": 6860,
+      "contentHash": "579a8b6e5cdd0912db615d1359e778f22f1e06c2fe4886ff711dfe454c52b8bc",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-saas-renewal-operations-playbook",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "logistics operations",
+      "topic": "freight claim file preparation",
+      "slug": "outsourced-freight-claim-file-preparation",
+      "bodyWordCount": 7382,
+      "contentHash": "3e6f76efe1d0f6671a4e3de2eedd677023ad857990c774a4ceef6290e99c9b15",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-freight-claim-file-preparation",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "marketing operations",
+      "topic": "B2B webinar operations",
+      "slug": "philippines-webinar-operations-runbook",
+      "bodyWordCount": 6826,
+      "contentHash": "c8244a4018f7f7495b828d7f535173053d065929e8c2cf3f1948481f29ebed2e",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-webinar-operations-runbook",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "IT service operations",
+      "topic": "user access request triage",
+      "slug": "offshore-user-access-request-triage",
+      "bodyWordCount": 7150,
+      "contentHash": "e0dc212425c270e33be661f9e759e8954b60379b9f27986d2718ae0fe4edb4cc",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-user-access-request-triage",
+      "status": "awaiting-browser-operator"
+    },
+    {
+      "family": "legal operations",
+      "topic": "contract obligation register maintenance",
+      "slug": "outsourced-contract-obligation-register-maintenance",
+      "bodyWordCount": 7292,
+      "contentHash": "071b30fa59e32d7e3c98936adad6c43343e9264ee3f8a559143a0a73d9208890",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "publicationDate": "2026-09-28",
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-contract-obligation-register-maintenance",
+      "status": "awaiting-browser-operator"
+    }
+  ],
+  "validation": {
+    "slugCount": 12,
+    "uniqueSlugCount": 12,
+    "originCollisions": 0,
+    "bodyWordCounts": {
+      "offshore-accounts-payable-exception-queue-design": 6954,
+      "offshore-sales-quote-desk-operating-model": 7006,
+      "philippines-purchase-order-change-control-workflow": 7112,
+      "outsourced-chargeback-evidence-preparation-workflow": 7033,
+      "offshore-crm-duplicate-account-resolution": 7163,
+      "outsourced-vendor-insurance-certificate-tracking": 7102,
+      "philippines-recruiting-interview-scheduling-controls": 6605,
+      "offshore-saas-renewal-operations-playbook": 6860,
+      "outsourced-freight-claim-file-preparation": 7382,
+      "philippines-webinar-operations-runbook": 6826,
+      "offshore-user-access-request-triage": 7150,
+      "outsourced-contract-obligation-register-maintenance": 7292
+    },
+    "maxPairwiseFiveWordShingleJaccard": 0.436054,
+    "maxPair": [
+      "philippines-recruiting-interview-scheduling-controls",
+      "offshore-saas-renewal-operations-playbook"
+    ],
+    "minimumBodyWords": 900,
+    "typecheck": "passed",
+    "tests": "passed",
+    "productionBuild": "passed"
+  }
+}
