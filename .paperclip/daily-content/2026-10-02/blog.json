@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-blog-publishing-combined-release",
+  "cycleLabel": "2026-10-02",
+  "publicationDate": "2026-10-02",
+  "publicationDateStatus": "provisional until first successful live verification; reconcile if deployment crosses UTC midnight",
+  "timezone": "UTC",
+  "family": "blog",
+  "requiredCount": 12,
+  "stagedCount": 12,
+  "verifiedCount": 0,
+  "status": "staged-for-combined-integration",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "blogBranch": "blog/offaaa-70-2026-10-02",
+  "worktree": "/paperclip/instances/default/projects/f5a0128d-eabe-434c-b7b2-1a8573d9a4fc/9b57ab28-e3b2-43c2-9f0a-d4c99848e24d/_default/.worktrees/offaaa-70-20261002",
+  "issue": "OFFAAA-70",
+  "taskId": "5f44052e-49fb-49a3-bb4f-1077f4a4c75f",
+  "pairedResearchIssue": "OFFAAA-69",
+  "baseProductionSha": "7e8d817c9fbab4bd92b9402b4f8cc79aa2561d9b",
+  "researchHandoffSha": "faccaf14a86e7acef0da20da8a81f6432285e3ba",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "validation": {
+    "bodyWordCounts": [
+      981,
+      1025,
+      964,
+      959,
+      949,
+      958,
+      929,
+      918,
+      971,
+      962,
+      917,
+      934
+    ],
+    "maximumPairwiseFiveWordShingleJaccard": 0.004274,
+    "maximumPair": [
+      "offshore-commercial-lease-abstract-administration",
+      "offshore-field-service-dispatch-coordination"
+    ],
+    "repeatedParagraphs": 0,
+    "sharedArgumentAudit": "passed: distinct process units, risks, examples, source sets, and reader outcomes"
+  },
+  "entries": [
+    {
+      "topic": "How to Run Insurance Claim First-Notice Intake with an Offshore Team",
+      "slug": "offshore-insurance-claim-first-notice-intake",
+      "family": "blog",
+      "bodyWords": 981,
+      "sources": [
+        {
+          "title": "NAIC consumer guidance on filing claims",
+          "url": "https://content.naic.org/consumer/insurance-claims",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "ff6f124af42f06acfa969690162e3360fae519f467c010b56589baf2479f8024",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-insurance-claim-first-notice-intake"
+    },
+    {
+      "topic": "Designing Subscription Dunning Operations for a Philippines Team",
+      "slug": "philippines-subscription-dunning-operations",
+      "family": "blog",
+      "bodyWords": 1025,
+      "sources": [
+        {
+          "title": "PCI Security Standards Council",
+          "url": "https://www.pcisecuritystandards.org/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "FTC’s business guidance",
+          "url": "https://www.ftc.gov/business-guidance",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "eaa931c0d9f37f2e80ca0eda89a916714c3d1d02216f9da621e0f971e4c55a84",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-subscription-dunning-operations"
+    },
+    {
+      "topic": "Offshore Supplier Onboarding Data Validation Without Approval Risk",
+      "slug": "offshore-supplier-onboarding-data-validation",
+      "family": "blog",
+      "bodyWords": 964,
+      "sources": [
+        {
+          "title": "U.S. Cybersecurity and Infrastructure Security Agency’s phishing guidance",
+          "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "7b35315fbeb2a6f7f19b600b610436bac7a74f51f8b861539b0316ce3b87f3a9",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-supplier-onboarding-data-validation"
+    },
+    {
+      "topic": "A Philippines RMA and Product Returns Coordination Workflow",
+      "slug": "philippines-rma-returns-coordination",
+      "family": "blog",
+      "bodyWords": 959,
+      "sources": [
+        {
+          "title": "Federal Trade Commission’s business guidance",
+          "url": "https://www.ftc.gov/business-guidance",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "U.S. Consumer Product Safety Commission business resources",
+          "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Universal Postal Union dangerous goods guidance",
+          "url": "https://www.upu.int/en/Postal-Solutions/Programmes-Services/Postal-Supply-Chain/Dangerous-Goods",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "dc4673a557e72b9586f2c0f981f2af15aaac9e3e6686ed43467e78c37661f4a8",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-rma-returns-coordination"
+    },
+    {
+      "topic": "Offshore Construction Submittal Register Administration",
+      "slug": "offshore-construction-submittal-register-administration",
+      "family": "blog",
+      "bodyWords": 949,
+      "sources": [
+        {
+          "title": "National Institute of Building Sciences Whole Building Design Guide",
+          "url": "https://www.wbdg.org/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "52c0939f2b721891384ce6f3e307bd90144a64cda7bd38f9ca508177e89b4775",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-construction-submittal-register-administration"
+    },
+    {
+      "topic": "Marketplace Seller Dispute Operations for a Philippines Team",
+      "slug": "philippines-marketplace-seller-dispute-operations",
+      "family": "blog",
+      "bodyWords": 958,
+      "sources": [
+        {
+          "title": "Federal Trade Commission’s guidance for online sellers",
+          "url": "https://www.ftc.gov/business-guidance",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "CISA phishing guidance",
+          "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "16bf4ec083a3102f082e173642fc0cbac381d74768bbccceaeaa848675ad120d",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-marketplace-seller-dispute-operations"
+    },
+    {
+      "topic": "Offshore Fleet Maintenance Work-Order Coordination",
+      "slug": "offshore-fleet-maintenance-work-order-coordination",
+      "family": "blog",
+      "bodyWords": 929,
+      "sources": [
+        {
+          "title": "U.S. National Highway Traffic Safety Administration recall resources",
+          "url": "https://www.nhtsa.gov/recalls",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Federal Motor Carrier Safety Administration",
+          "url": "https://www.fmcsa.dot.gov/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "1424da0151e6facb2061b56d70aafb71f56276d8e50fe9d811db11bc9b26f63b",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-fleet-maintenance-work-order-coordination"
+    },
+    {
+      "topic": "Employee Expense Audit Preparation with a Philippines Team",
+      "slug": "philippines-employee-expense-audit-preparation",
+      "family": "blog",
+      "bodyWords": 918,
+      "sources": [
+        {
+          "title": "IRS publication and forms library",
+          "url": "https://www.irs.gov/forms-pubs",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "U.S. Department of Labor recordkeeping resources",
+          "url": "https://www.dol.gov/general/topic/wages/wagesrecordkeeping",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "4c22a2629c50bfdae4d7f133826546e288340f1ff94a18fe2964b5706854b2b6",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-employee-expense-audit-preparation"
+    },
+    {
+      "topic": "Offshore Commercial Lease Abstract Administration",
+      "slug": "offshore-commercial-lease-abstract-administration",
+      "family": "blog",
+      "bodyWords": 971,
+      "sources": [
+        {
+          "title": "U.S. Securities and Exchange Commission EDGAR system",
+          "url": "https://www.sec.gov/edgar/search-and-access",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "0f24c3353a296f812af6f9dba3adfd00138a2d12d903baa71ced2a04fd22f164",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-commercial-lease-abstract-administration"
+    },
+    {
+      "topic": "Privacy Rights Request Intake for a Philippines Operations Team",
+      "slug": "philippines-privacy-rights-request-intake",
+      "family": "blog",
+      "bodyWords": 962,
+      "sources": [
+        {
+          "title": "Philippines National Privacy Commission",
+          "url": "https://privacy.gov.ph/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "U.S. Federal Trade Commission privacy and security guidance",
+          "url": "https://www.ftc.gov/business-guidance/privacy-security",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "09e76336b2ab54ff5287a775c28a7b28114709f90d2e2865e8a5883c0f297db6",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-privacy-rights-request-intake"
+    },
+    {
+      "topic": "Offshore Field Service Dispatch Coordination",
+      "slug": "offshore-field-service-dispatch-coordination",
+      "family": "blog",
+      "bodyWords": 917,
+      "sources": [
+        {
+          "title": "Occupational Safety and Health Administration",
+          "url": "https://www.osha.gov/",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "ae5488772f3b9dbf9041d1833ee953d83f7edc76462f77c28ee7344e477cba69",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-field-service-dispatch-coordination"
+    },
+    {
+      "topic": "Wholesale Rebate Claim Administration with a Philippines Team",
+      "slug": "philippines-wholesale-rebate-claim-administration",
+      "family": "blog",
+      "bodyWords": 934,
+      "sources": [
+        {
+          "title": "U.S. Government Accountability Office internal-control standards",
+          "url": "https://www.gao.gov/products/gao-14-704g",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "NIST Cybersecurity Framework",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-02"
+        },
+        {
+          "title": "Philippine Data Privacy Act",
+          "url": "https://privacy.gov.ph/data-privacy-act/",
+          "checkedDate": "2026-10-02"
+        }
+      ],
+      "contentHash": "b5f80336e4cbf22075d0df17765516c7dd375a1fc5d5c63b0c8896ad4c596867",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-wholesale-rebate-claim-administration"
+    }
+  ]
+}

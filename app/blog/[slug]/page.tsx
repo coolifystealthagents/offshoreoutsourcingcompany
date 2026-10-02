@@ -19,6 +19,7 @@ import { september22BlogPosts, getSeptember22BlogMetadata, renderSeptember22Blog
 import { september23BlogPosts, getSeptember23BlogMetadata, renderSeptember23BlogArticle } from '../../sep23-content';
 import { september24BlogPosts, getSeptember24BlogMetadata, renderSeptember24BlogArticle } from '../../sep24-content';
 import { september28BlogPosts, getSeptember28BlogMetadata, renderSeptember28BlogArticle } from '../../sep28-content';
+import { october2BlogPosts, getOctober2BlogMetadata, renderOctober2BlogArticle } from '../../oct2-content';
 
 const richSlug = 'philippines-customer-service-team-guide';
 const ecommerceSlug = 'philippines-ecommerce-order-exception-controls';
@@ -31,6 +32,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (october2BlogPosts.some((item) => item.slug === slug)) return getOctober2BlogMetadata(slug);
   if (september28BlogPosts.some((item) => item.slug === slug)) return getSeptember28BlogMetadata(slug);
   if (september24BlogPosts.some((item) => item.slug === slug)) return getSeptember24BlogMetadata(slug);
   if (september23BlogPosts.some((item) => item.slug === slug)) return getSeptember23BlogMetadata(slug);
@@ -293,6 +295,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (october2BlogPosts.some((item) => item.slug === slug)) return renderOctober2BlogArticle(slug, Header, Footer, CTA);
   if (september28BlogPosts.some((item) => item.slug === slug)) return renderSeptember28BlogArticle(slug, Header, Footer, CTA);
   if (september24BlogPosts.some((item) => item.slug === slug)) return renderSeptember24BlogArticle(slug, Header, Footer, CTA);
   if (september23BlogPosts.some((item) => item.slug === slug)) return renderSeptember23BlogArticle(slug, Header, Footer, CTA);
