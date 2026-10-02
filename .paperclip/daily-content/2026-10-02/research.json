@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-research-publishing-combined-release",
+  "cycleLabel": "2026-10-02",
+  "publicationDate": "2026-10-02",
+  "publicationDateStatus": "provisional until first successful live verification; integrator must reconcile if deployment crosses UTC midnight",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "verifiedCount": 0,
+  "status": "staged-for-blog-integration",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "researchBranch": "research/offaaa-69-2026-10-02",
+  "worktree": "/paperclip/instances/default/projects/f5a0128d-eabe-434c-b7b2-1a8573d9a4fc/9b57ab28-e3b2-43c2-9f0a-d4c99848e24d/_default/.worktrees/offaaa-69-20261002",
+  "issue": "OFFAAA-69",
+  "taskId": "7a7f8b05-7cde-43ca-85c6-98560fa9496e",
+  "pairedBlogIssue": "OFFAAA-70",
+  "baseProductionSha": "7e8d817c9fbab4bd92b9402b4f8cc79aa2561d9b",
+  "articleCommitSha": "83b06e84c25948bc7fb2d7ed58db782ad3a88963",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "validation": {
+    "bodyWordCounts": [1386, 1251, 1297, 1216, 1335],
+    "maximumPairwiseFiveWordShingleJaccard": 0.016466,
+    "maximumPair": ["philippines-purchase-order-receipt-mismatch-evidence-study", "offshore-support-sla-pause-resume-provenance-research"],
+    "repeatedParagraphs": 0,
+    "sharedArgumentAudit": "passed: distinct units, methods, failure analysis, and reader decisions",
+    "dependencyInstall": "passed; npm ci --include=dev; 0 vulnerabilities",
+    "typecheck": "passed; npm run lint",
+    "tests": "passed",
+    "cleanProductionBuild": "passed",
+    "generatedStaticPages": 641
+  },
+  "entries": [
+    {"topic":"payroll-change authorization traceability","slug":"offshore-payroll-change-authorization-traceability-study","family":"research","bodyWords":1386,"sources":[{"title":"Recordkeeping and Reporting","publisher":"U.S. Department of Labor","url":"https://www.dol.gov/general/topic/wages/wagesrecordkeeping","checkedDate":"2026-10-02"},{"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-10-02"},{"title":"The NIST Cybersecurity Framework (CSF) 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-10-02"}],"contentHash":"c154ae2964414eb36ecf33cd73fe1964dde960f62aea242532545c0f56faf408","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-payroll-change-authorization-traceability-study"},
+    {"topic":"SaaS account-recovery evidence","slug":"philippines-saas-account-recovery-evidence-study","family":"research","bodyWords":1251,"sources":[{"title":"Digital Identity Guidelines: Authentication and Authenticator Management","publisher":"National Institute of Standards and Technology","url":"https://pages.nist.gov/800-63-4/sp800-63b.html","checkedDate":"2026-10-02"},{"title":"The NIST Cybersecurity Framework (CSF) 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-10-02"},{"title":"Cybersecurity for Small Business","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/business-guidance/small-businesses/cybersecurity","checkedDate":"2026-10-02"}],"contentHash":"982b03504230f307796e19c491195b9079dc2394638d982b95e7ad96486096b1","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-saas-account-recovery-evidence-study"},
+    {"topic":"customer-data incident intake evidence","slug":"offshore-customer-data-incident-intake-evidence-research","family":"research","bodyWords":1297,"sources":[{"title":"Data Breach Response: A Guide for Business","publisher":"Federal Trade Commission","url":"https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business","checkedDate":"2026-10-02"},{"title":"Incident Response Recommendations and Considerations for Cybersecurity Risk Management","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.SP.800-61r3","checkedDate":"2026-10-02"},{"title":"The NIST Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework","checkedDate":"2026-10-02"}],"contentHash":"28361f312fc2c20419e7fdbb14e0599d62d6bc8c7879fdc15ae88c2b5694cf59","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-customer-data-incident-intake-evidence-research"},
+    {"topic":"purchase-order and receipt mismatch evidence","slug":"philippines-purchase-order-receipt-mismatch-evidence-study","family":"research","bodyWords":1216,"sources":[{"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-10-02"},{"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-10-02"},{"title":"The NIST Cybersecurity Framework (CSF) 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-10-02"}],"contentHash":"4b29b7b1af0b4e7f67599701da6f5c90add16990dd4a18f5f0705c389c1ed5a6","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/philippines-purchase-order-receipt-mismatch-evidence-study"},
+    {"topic":"support SLA pause-and-resume provenance","slug":"offshore-support-sla-pause-resume-provenance-research","family":"research","bodyWords":1335,"sources":[{"title":"Assessing Data Reliability","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-283g","checkedDate":"2026-10-02"},{"title":"Standards for Internal Control in the Federal Government","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-14-704g","checkedDate":"2026-10-02"},{"title":"The NIST Cybersecurity Framework (CSF) 2.0","publisher":"National Institute of Standards and Technology","url":"https://doi.org/10.6028/NIST.CSWP.29","checkedDate":"2026-10-02"}],"contentHash":"acec294f58a86c1aae3ca6091c6ed5cd81f9826e38b1f9c0bc312f40bfa10edb","actualPublicationDate":null,"liveUrl":"https://offshoreoutsourcingcompany.com/research/offshore-support-sla-pause-resume-provenance-research"}
+  ]
+}
