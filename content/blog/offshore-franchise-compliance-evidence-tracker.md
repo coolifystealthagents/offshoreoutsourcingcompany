@@ -73,7 +73,7 @@ Report applicable requirements, accepted evidence, received pending review, corr
 
 Do not combine every item into one compliance score unless responsible owners define its meaning. A missing routine report and an expired safety-related license should not be made equivalent by a percentage. Counts support attention; qualified owners assess risk and consequences.
 
-The [Federal Trade Commission franchise resources](https://www.ftc.gov/business-guidance/industry/franchises-business-opportunities) provide U.S. federal context for franchising, but operating, contractual, licensing, safety, privacy, and employment requirements vary widely. Qualified counsel and functional owners must define the register. The [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) can inform governance for systems and access, not franchise compliance conclusions.
+The [Federal Trade Commission Franchise Rule resources](https://www.ftc.gov/legal-library/browse/rules/franchise-rule) provide U.S. federal context for franchising, but operating, contractual, licensing, safety, privacy, and employment requirements vary widely. Qualified counsel and functional owners must define the register. The [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) can inform governance for systems and access, not franchise compliance conclusions.
 
 Pilot one requirement family across a small set of locations. Test new, transferred, temporarily closed, and closing sites, plus an expired document, ambiguous entity, rejected submission, owner exception, and recurring finding. Use a [Philippines vendor dependency map](/blog/philippines-vendor-dependency-map) where external issuers affect timing.
 

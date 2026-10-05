@@ -82,7 +82,7 @@ Begin with one loan population and two or three document types whose source and 
 
 The pilot should test failure paths as deliberately as the ordinary path. Seed a training case with a mismatched loan reference, a response that disputes the request, and a document that arrives through the wrong channel. The operator should recognize the condition, avoid unsafe filing or promises, and route it according to the approved instruction.
 
-This approach fits the broader [offshore outsourcing pilot scope](/blog/offshore-outsourcing-pilot-scope): constrain the lane, preserve decision ownership, and use actual work evidence to decide whether to expand. If your organization is defining a post-closing support role, Offshore Outsourcing Company can help map the queue, handoffs, and review boundaries during an initial discovery conversation.
+This approach fits a documented [offshore outsourcing role-scope register](/blog/offshore-outsourcing-role-scope-register): constrain the lane, preserve decision ownership, and use actual work evidence to decide whether to expand. If your organization is defining a post-closing support role, Offshore Outsourcing Company can help map the queue, handoffs, and review boundaries during an initial discovery conversation.
 
 ## The operating outcome to aim for
 

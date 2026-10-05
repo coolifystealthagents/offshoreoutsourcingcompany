@@ -65,7 +65,7 @@ Use named accounts and least-privilege access. Acknowledgment work rarely requir
 
 Separate acknowledgment preferences from public recognition permissions. A donor may want a private receipt but no listing, or a household may want one name used in a letter and another in an annual report. The operating record should make those choices explicit.
 
-The [IRS charitable contributions substantiation resources](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-substantiation-and-disclosure-requirements) provide U.S. federal context for acknowledgments and disclosures. The organization’s qualified tax and legal advisers must determine what applies to each gift and jurisdiction. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework) can support privacy-risk discussions but does not prescribe donor communications.
+The [IRS charitable organizations substantiation and disclosure resources](https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-organizations-substantiation-and-disclosure-requirements) provide U.S. federal context for acknowledgments and disclosures. The organization’s qualified tax and legal advisers must determine what applies to each gift and jurisdiction. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework) can support privacy-risk discussions but does not prescribe donor communications.
 
 ## Measure accuracy across the whole chain
 
