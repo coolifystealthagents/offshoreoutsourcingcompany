@@ -8,7 +8,7 @@
   "publicInventoryChecked": false,
   "note": "Drafting inventory only. No item may be counted or published until the public inventory, prior registries, rendered route, originality, and combined-release gates pass.",
   "candidates": [
-    {"slug":"offshore-mortgage-trailing-document-followup","topic":"Mortgage post-closing trailing-document follow-up with an offshore operations team","conversionPath":"operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"offshore-mortgage-trailing-document-followup","topic":"Mortgage post-closing trailing-document follow-up with an offshore operations team","conversionPath":"operations staffing discovery","status":"drafted-repo-and-public-route-clear","publicRouteCheck":"HTTP 404 at 2026-10-05T18:19:15Z","bodyWords":1545},
     {"slug":"philippines-ecommerce-catalog-change-control","topic":"Ecommerce catalog change control for a Philippines-based support team","conversionPath":"back-office staffing discovery","status":"repo-topic-clear"},
     {"slug":"offshore-property-maintenance-request-triage","topic":"Property maintenance request triage without transferring approval authority","conversionPath":"customer operations staffing discovery","status":"repo-topic-clear"},
     {"slug":"outsourced-b2b-promise-to-pay-ledger","topic":"B2B collections promise-to-pay ledger administration for an outsourced team","conversionPath":"finance operations staffing discovery","status":"repo-topic-clear"},
