@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-blog-publishing-combined-release",
+  "cycleLabel": "2026-10-05",
+  "publicationDate": "2026-10-05",
+  "publicationDateStatus": "provisional until first successful live verification; reconcile if deployment crosses UTC midnight",
+  "timezone": "UTC",
+  "family": "blog",
+  "requiredCount": 12,
+  "stagedCount": 12,
+  "verifiedCount": 0,
+  "status": "staged-for-combined-integration",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "blogBranch": "blog/offaaa-72-2026-10-05",
+  "issue": "OFFAAA-72",
+  "pairedResearchIssue": "OFFAAA-71",
+  "baseProductionSha": "05c3e042eb1d9d5b6c0231c483cc24018660664c",
+  "researchHandoffSha": "206d0ed60ba5c369d45442b48073f913149eb933",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "Mortgage post-closing trailing-document follow-up with an offshore operations team",
+      "slug": "offshore-mortgage-trailing-document-followup",
+      "bodyWords": 1544,
+      "sources": [
+        "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+        "https://selling-guide.fanniemae.com/",
+        "https://guide.freddiemac.com/"
+      ],
+      "contentHash": "5a4b7bb662726f7e16e85543a5218f423a54fa6fe6ff40578b205ff6b4c42263",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-mortgage-trailing-document-followup"
+    },
+    {
+      "family": "blog",
+      "topic": "Ecommerce catalog change control for a Philippines-based support team",
+      "slug": "philippines-ecommerce-catalog-change-control",
+      "bodyWords": 1427,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.ftc.gov/business-guidance/advertising-marketing"
+      ],
+      "contentHash": "839e6ef8c755e4b205e354eb02463c5daab36c15a017e73805e8d4b0f6c2e0d1",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-ecommerce-catalog-change-control"
+    },
+    {
+      "family": "blog",
+      "topic": "Property maintenance request triage without transferring approval authority",
+      "slug": "offshore-property-maintenance-request-triage",
+      "bodyWords": 1480,
+      "sources": [
+        "https://www.ready.gov/",
+        "https://www.osha.gov/"
+      ],
+      "contentHash": "af6bf34188949300ab010fcbbf9d3226a971415c16ad609fe72bf8a7870f1e7e",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-property-maintenance-request-triage"
+    },
+    {
+      "family": "blog",
+      "topic": "B2B collections promise-to-pay ledger administration for an outsourced team",
+      "slug": "outsourced-b2b-promise-to-pay-ledger",
+      "bodyWords": 1358,
+      "sources": [
+        "https://www.ftc.gov/business-guidance",
+        "https://www.gao.gov/products/gao-14-704g"
+      ],
+      "contentHash": "49f48477a66e334685e0a9ddfc0da99f80fb83cfd592f087a5d9b5d95c590bae",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-b2b-promise-to-pay-ledger"
+    },
+    {
+      "family": "blog",
+      "topic": "Legal matter intake preparation and attorney decision gates for a Philippines team",
+      "slug": "philippines-legal-matter-intake-preparation",
+      "bodyWords": 1107,
+      "sources": [
+        "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "ec8e29671d71413d22cbd9d9c3c1a0c716805e6ec92ede17ad75d7a128f3c7e0",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-legal-matter-intake-preparation"
+    },
+    {
+      "family": "blog",
+      "topic": "Demurrage and detention invoice audit preparation with offshore support",
+      "slug": "offshore-demurrage-detention-audit-preparation",
+      "bodyWords": 1083,
+      "sources": [
+        "https://www.fmc.gov/detention-and-demurrage/",
+        "https://www.fmc.gov/resources-services/rules-and-regulations/"
+      ],
+      "contentHash": "4f9a79e69c3e59a22ed436fb749ef9fdb02082a6b0157b98a63fd71c957b2935",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-demurrage-detention-audit-preparation"
+    },
+    {
+      "family": "blog",
+      "topic": "Nonprofit donor acknowledgment operations with review and privacy controls",
+      "slug": "outsourced-nonprofit-donor-acknowledgment-operations",
+      "bodyWords": 1096,
+      "sources": [
+        "https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contributions-substantiation-and-disclosure-requirements",
+        "https://www.nist.gov/privacy-framework"
+      ],
+      "contentHash": "fb6fe79baaecbbc3c2e7d2f751871b99579f1071ca60f32eb7f29efab8abc622",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-nonprofit-donor-acknowledgment-operations"
+    },
+    {
+      "family": "blog",
+      "topic": "Supplier corrective-action tracker administration for a Philippines team",
+      "slug": "philippines-supplier-corrective-action-tracker",
+      "bodyWords": 952,
+      "sources": [
+        "https://www.nist.gov/mep",
+        "https://www.iso.org/quality-management.html"
+      ],
+      "contentHash": "d03e79b007415fe8faa28b544200b20288dad8fdaa433b97524c64976473d676",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-supplier-corrective-action-tracker"
+    },
+    {
+      "family": "blog",
+      "topic": "Warranty claim evidence intake and decision-ready case preparation",
+      "slug": "offshore-warranty-claim-evidence-intake",
+      "bodyWords": 960,
+      "sources": [
+        "https://www.cpsc.gov/",
+        "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law"
+      ],
+      "contentHash": "f92ec5dd3a0a53a0a14f1ebe4084c03eebe7f3b62fdaf6315fdc40af0d049f9e",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-warranty-claim-evidence-intake"
+    },
+    {
+      "family": "blog",
+      "topic": "Revenue contract data extraction with accounting decision boundaries",
+      "slug": "philippines-revenue-contract-data-extraction",
+      "bodyWords": 956,
+      "sources": [
+        "https://www.fasb.org/",
+        "https://www.ifrs.org/"
+      ],
+      "contentHash": "1d1fc6f1f713325463c09e54e4be1c1d514902a1db2a72461effc91976278e3d",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-revenue-contract-data-extraction"
+    },
+    {
+      "family": "blog",
+      "topic": "Digital advertising trafficking quality checks for an outsourced operations team",
+      "slug": "outsourced-digital-ad-trafficking-quality-check",
+      "bodyWords": 979,
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing",
+        "https://digitaladvertisingalliance.org/principles"
+      ],
+      "contentHash": "c84875d41a7df7fc94842f387d6babe41b65c946a7b2aaa4f3674391ca50363b",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-digital-ad-trafficking-quality-check"
+    },
+    {
+      "family": "blog",
+      "topic": "Franchise compliance evidence tracker administration without policy decisions",
+      "slug": "offshore-franchise-compliance-evidence-tracker",
+      "bodyWords": 1002,
+      "sources": [
+        "https://www.ftc.gov/business-guidance/industry/franchises-business-opportunities",
+        "https://www.nist.gov/cyberframework"
+      ],
+      "contentHash": "7928be979abd608157f85032ea9b4327300e62bcbdf51d3aff6e9ff441277203",
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-franchise-compliance-evidence-tracker"
+    }
+  ]
+}
