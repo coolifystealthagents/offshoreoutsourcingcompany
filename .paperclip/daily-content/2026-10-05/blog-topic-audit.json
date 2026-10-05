@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-05",
+  "family": "blog",
+  "issue": "OFFAAA-72",
+  "baseProductionSha": "05c3e042eb1d9d5b6c0231c483cc24018660664c",
+  "repositoryInventoryChecked": true,
+  "publicInventoryChecked": false,
+  "note": "Drafting inventory only. No item may be counted or published until the public inventory, prior registries, rendered route, originality, and combined-release gates pass.",
+  "candidates": [
+    {"slug":"offshore-mortgage-trailing-document-followup","topic":"Mortgage post-closing trailing-document follow-up with an offshore operations team","conversionPath":"operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"philippines-ecommerce-catalog-change-control","topic":"Ecommerce catalog change control for a Philippines-based support team","conversionPath":"back-office staffing discovery","status":"repo-topic-clear"},
+    {"slug":"offshore-property-maintenance-request-triage","topic":"Property maintenance request triage without transferring approval authority","conversionPath":"customer operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"outsourced-b2b-promise-to-pay-ledger","topic":"B2B collections promise-to-pay ledger administration for an outsourced team","conversionPath":"finance operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"philippines-legal-matter-intake-preparation","topic":"Legal matter intake preparation and attorney decision gates for a Philippines team","conversionPath":"administrative staffing discovery","status":"repo-topic-clear"},
+    {"slug":"offshore-demurrage-detention-audit-preparation","topic":"Demurrage and detention invoice audit preparation with offshore support","conversionPath":"logistics operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"outsourced-nonprofit-donor-acknowledgment-operations","topic":"Nonprofit donor acknowledgment operations with review and privacy controls","conversionPath":"administrative staffing discovery","status":"repo-topic-clear"},
+    {"slug":"philippines-supplier-corrective-action-tracker","topic":"Supplier corrective-action tracker administration for a Philippines team","conversionPath":"manufacturing support staffing discovery","status":"repo-topic-clear"},
+    {"slug":"offshore-warranty-claim-evidence-intake","topic":"Warranty claim evidence intake and decision-ready case preparation","conversionPath":"customer operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"philippines-revenue-contract-data-extraction","topic":"Revenue contract data extraction with accounting decision boundaries","conversionPath":"finance operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"outsourced-digital-ad-trafficking-quality-check","topic":"Digital advertising trafficking quality checks for an outsourced operations team","conversionPath":"marketing operations staffing discovery","status":"repo-topic-clear"},
+    {"slug":"offshore-franchise-compliance-evidence-tracker","topic":"Franchise compliance evidence tracker administration without policy decisions","conversionPath":"multi-location operations staffing discovery","status":"repo-topic-clear"}
+  ]
+}
