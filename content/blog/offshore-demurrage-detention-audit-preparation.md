@@ -2,18 +2,18 @@
 slug: "offshore-demurrage-detention-audit-preparation"
 title: "Demurrage and Detention Invoice Audit Preparation with Offshore Support"
 description: "A shipment-event method for preparing ocean freight demurrage and detention reviews while authorized owners retain tariff, contract, dispute, and payment decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-fleet-maintenance-work-order-coordination.webp"
 ---
 
 # Demurrage and Detention Invoice Audit Preparation with Offshore Support
 
-*October 5, 2026*
+*October 6, 2026*
 
 Ocean freight accessorial invoices compress a complicated shipment history into a charge, date range, and equipment reference. A reviewer may need terminal availability, holds, appointment attempts, pickup and return events, free-time terms, port conditions, and customer responsibility before deciding whether the invoice is payable or disputable.
 

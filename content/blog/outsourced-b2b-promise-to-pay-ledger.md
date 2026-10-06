@@ -2,18 +2,18 @@
 slug: "outsourced-b2b-promise-to-pay-ledger"
 title: "How to Manage a B2B Promise-to-Pay Ledger with an Outsourced Team"
 description: "A practical method for recording, monitoring, and escalating customer payment commitments without giving outsourced coordinators credit or settlement authority."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/philippines-employee-expense-audit-preparation.webp"
 ---
 
 # How to Manage a B2B Promise-to-Pay Ledger with an Outsourced Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 A customer’s email saying “we’ll pay next Friday” feels like progress. It is not cash, and it may not even describe which invoices, amount, entity, or currency the customer intends to pay. When those messages remain scattered across inboxes, an accounts receivable manager cannot tell which commitments are current, which have changed, or which follow-ups are already overdue.
 

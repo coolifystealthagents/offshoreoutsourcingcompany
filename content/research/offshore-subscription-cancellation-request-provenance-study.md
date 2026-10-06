@@ -1,7 +1,7 @@
 ---
 slug: offshore-subscription-cancellation-request-provenance-study
 route: /research/offshore-subscription-cancellation-request-provenance-study
-datePublished: 2026-10-05
+datePublished: 2026-10-06
 family: research
 ---
 

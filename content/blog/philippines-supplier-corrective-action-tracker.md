@@ -2,18 +2,18 @@
 slug: "philippines-supplier-corrective-action-tracker"
 title: "Supplier Corrective-Action Tracking with a Philippines Operations Team"
 description: "A practical method for coordinating supplier corrective-action evidence while quality and commercial owners retain root-cause, acceptance, and consequence decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-supplier-onboarding-data-validation.webp"
 ---
 
 # Supplier Corrective-Action Tracking with a Philippines Operations Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 A corrective-action request can remain “open” for weeks while the supplier and buyer mean different things by completion. The supplier may have replaced defective units, while the quality owner still needs containment evidence, root-cause analysis, an implemented action, and proof that the defect did not recur. A tracker should reveal those distinctions instead of compressing them into one status.
 

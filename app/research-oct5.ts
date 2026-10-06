@@ -1,5 +1,5 @@
 type ResearchPost={slug:string;title:string;excerpt:string;date:string;hero:string;relatedService:{href:string;label:string;body:string};body:string[]};
-const date='2026-10-05';
+const date='2026-10-06';
 const related=(service:string,body:string)=>({href:`/services/${service}`,label:'Review the related staffing service',body});
 
 export const october5ResearchPosts:ResearchPost[]=[

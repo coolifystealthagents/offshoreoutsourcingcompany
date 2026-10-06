@@ -2,18 +2,18 @@
 slug: "offshore-mortgage-trailing-document-followup"
 title: "How to Run Mortgage Trailing-Document Follow-Up with an Offshore Team"
 description: "A practical operating model for assigning post-closing document follow-up to an offshore team while lenders retain exception, compliance, and acceptance decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-commercial-lease-abstract-administration.webp"
 ---
 
 # How to Run Mortgage Trailing-Document Follow-Up with an Offshore Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 A mortgage file does not become operationally quiet the moment a loan closes. Recorded security instruments, final title policies, assignments, correction documents, and other trailing items may arrive later and from different parties. A Philippines-based operations specialist can help keep that follow-up disciplined, but only when the lender defines the work as record administration rather than an open-ended instruction to “clear the file.” The distinction matters: finding a missing item and documenting its status is operational work; deciding that an imperfect document satisfies a legal, investor, or policy requirement belongs to an authorized reviewer.
 

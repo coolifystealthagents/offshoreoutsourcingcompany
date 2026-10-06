@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "contract": "canonical-daily-research-publishing-combined-release",
   "cycleLabel": "2026-10-05",
-  "publicationDate": "2026-10-05",
+  "publicationDate": "2026-10-06",
   "publicationDateStatus": "provisional until first successful live verification; integrator must reconcile to actual UTC live date before the sole production push",
   "timezone": "UTC",
   "family": "research",

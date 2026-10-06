@@ -1,7 +1,7 @@
 ---
 slug: philippines-candidate-data-deletion-request-evidence-research
 route: /research/philippines-candidate-data-deletion-request-evidence-research
-datePublished: 2026-10-05
+datePublished: 2026-10-06
 family: research
 ---
 

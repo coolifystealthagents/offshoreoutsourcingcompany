@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "contract": "canonical-daily-blog-publishing-combined-release",
   "cycleLabel": "2026-10-05",
-  "publicationDate": "2026-10-05",
+  "publicationDate": "2026-10-06",
   "publicationDateStatus": "provisional until first successful live verification; reconcile if deployment crosses UTC midnight",
   "timezone": "UTC",
   "family": "blog",

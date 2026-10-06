@@ -2,18 +2,18 @@
 slug: "philippines-legal-matter-intake-preparation"
 title: "Legal Matter Intake Preparation for a Philippines Support Team"
 description: "A controlled intake model for assembling new legal-matter facts while attorneys retain conflict, privilege, engagement, deadline, and legal-strategy decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-commercial-lease-abstract-administration.webp"
 ---
 
 # Legal Matter Intake Preparation for a Philippines Support Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 A new legal inquiry can arrive as a web form, forwarded email, voicemail, referral, or message to an employee. The first operational challenge is not deciding the law. It is preserving the inquiry, identifying the people and organizations involved, and getting the record to an authorized lawyer without creating a false impression that representation already exists.
 

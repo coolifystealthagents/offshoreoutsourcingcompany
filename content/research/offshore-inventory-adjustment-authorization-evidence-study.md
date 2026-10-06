@@ -1,7 +1,7 @@
 ---
 slug: offshore-inventory-adjustment-authorization-evidence-study
 route: /research/offshore-inventory-adjustment-authorization-evidence-study
-datePublished: 2026-10-05
+datePublished: 2026-10-06
 family: research
 ---
 

@@ -2,18 +2,18 @@
 slug: "offshore-property-maintenance-request-triage"
 title: "Property Maintenance Request Triage with an Offshore Operations Team"
 description: "A practical triage design for property maintenance requests that improves dispatch readiness while owners retain safety, spending, vendor, and tenant-remedy decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-field-service-dispatch-coordination.webp"
 ---
 
 # Property Maintenance Request Triage with an Offshore Operations Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 A resident says water is coming through the ceiling. Another reports that a bedroom door sticks. A third sends a photo of a dark patch without saying where it is. All three are “maintenance requests,” but they should not enter the same queue with the same questions or response clock.
 

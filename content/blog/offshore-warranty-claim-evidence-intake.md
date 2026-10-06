@@ -2,18 +2,18 @@
 slug: "offshore-warranty-claim-evidence-intake"
 title: "Warranty Claim Evidence Intake for an Offshore Support Team"
 description: "A product-specific intake workflow that prepares warranty claims for review without transferring coverage, remedy, fraud, safety, or goodwill decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/philippines-rma-returns-coordination.webp"
 ---
 
 # Warranty Claim Evidence Intake for an Offshore Support Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 Warranty intake sits between customer support, product records, service history, logistics, and a coverage decision. When a case begins with “it stopped working,” the reviewer still needs to identify the exact product, purchase, symptom, operating context, prior repair, and requested outcome. A generic ticket rarely supplies that evidence.
 

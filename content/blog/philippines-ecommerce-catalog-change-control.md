@@ -2,18 +2,18 @@
 slug: "philippines-ecommerce-catalog-change-control"
 title: "Ecommerce Catalog Change Control for a Philippines Operations Team"
 description: "A field-level method for delegating ecommerce catalog updates while product, pricing, legal, and merchandising owners retain consequential decisions."
-datePublished: "2026-10-05"
-publishedAt: "2026-10-05T12:00:00.000Z"
-updatedAt: "2026-10-05T12:00:00.000Z"
+datePublished: "2026-10-06"
+publishedAt: "2026-10-06T08:10:00.000Z"
+updatedAt: "2026-10-06T08:10:00.000Z"
 author: "Editorial Team"
 reviewedBy: "Editorial Team"
-reviewedAt: "2026-10-05T12:00:00.000Z"
+reviewedAt: "2026-10-06T08:10:00.000Z"
 featuredImage: "/oct2-heroes/offshore-supplier-onboarding-data-validation.webp"
 ---
 
 # Ecommerce Catalog Change Control for a Philippines Operations Team
 
-*October 5, 2026*
+*October 6, 2026*
 
 Catalog work looks simple when the request is “update the product page.” In practice, one change can touch a product information manager, storefront, marketplace listing, search feed, advertising feed, inventory system, translation layer, and cached page. A Philippines operations team can administer that flow effectively when each field has an approved source, every request names its intended destinations, and consequential choices remain with the business owner.
 
