@@ -30,6 +30,7 @@ import { september28ResearchPosts } from './research-sep28';
 import { october2ResearchPosts } from './research-oct2';
 import { october5ResearchPosts } from './research-oct5';
 import { october8BlogIndexPosts, october8ResearchPosts } from './oct8-batch';
+import { october7ResearchPosts } from './research-oct7';
 import { september18BlogPosts } from './sep18-content';
 import { september19BlogPosts } from './sep19-content';
 import { september22BlogPosts } from './sep22-content';
@@ -505,4 +506,4 @@ const august10ResearchSlugs = new Set([
   'philippines-outsourced-research-source-register', 'philippines-outsourced-work-queue-prioritization',
   'philippines-outsourced-handoff-acceptance-criteria', 'philippines-outsourced-work-sample-review-method',
 ]);
-export const datedResearchPosts = [...october8ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
+export const datedResearchPosts = [...october8ResearchPosts, ...october7ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
