@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "cycleLabel": "2026-10-07",
+  "family": "blog",
+  "issue": "OFFAAA-75",
+  "pairedResearchIssue": "OFFAAA-74",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "baseProductionSha": "7d63fa676e3bfd0ba01edc4e5345a4078b89d649",
+  "siteTimezone": "UTC",
+  "auditScope": [
+    "origin/main content/blog and content/research",
+    "all durable .paperclip daily-content registries through 2026-10-05",
+    "production sitemap and public route inventory",
+    "site service taxonomy and conversion paths"
+  ],
+  "status": "topics-reserved-pending-drafting-and-final-live-uniqueness-check",
+  "topics": [
+    {
+      "slug": "offshore-construction-lien-waiver-collection",
+      "topic": "Construction lien-waiver collection and exception routing with an offshore administrative team",
+      "pillar": "operations-coordination",
+      "readerOutcome": "Design a document collection workflow that preserves contractor, legal, and payment approval boundaries.",
+      "authoritativeSources": ["https://www.cslb.ca.gov/Consumers/Legal_Issues_For_Consumers/Mechanics_Lien/", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "philippines-software-license-seat-reconciliation",
+      "topic": "Software license seat reconciliation for a Philippines-based operations team",
+      "pillar": "data-quality-review",
+      "readerOutcome": "Compare assigned, active, billed, and approved seats without giving administrators purchasing or access authority.",
+      "authoritativeSources": ["https://www.nist.gov/cyberframework", "https://www.cisa.gov/resources-tools/resources/cybersecurity-performance-goals"]
+    },
+    {
+      "slug": "outsourced-b2b-customer-master-data-onboarding",
+      "topic": "B2B customer master-data onboarding with outsourced administrative support",
+      "pillar": "data-quality-review",
+      "readerOutcome": "Build a controlled intake and verification path for customer records while finance, tax, credit, and compliance owners decide exceptions.",
+      "authoritativeSources": ["https://www.irs.gov/businesses/small-businesses-self-employed/taxpayer-identification-number-tin-matching", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "offshore-export-document-packet-preparation",
+      "topic": "Export document packet preparation with an offshore operations team",
+      "pillar": "operations-coordination",
+      "readerOutcome": "Coordinate source documents and discrepancy review while licensed and authorized parties retain classification, screening, and filing decisions.",
+      "authoritativeSources": ["https://www.trade.gov/common-export-documents", "https://www.bis.gov/regulations/export-administration-regulations-ear"]
+    },
+    {
+      "slug": "philippines-contract-renewal-notice-calendar",
+      "topic": "Contract renewal notice calendar administration for a Philippines support team",
+      "pillar": "operations-coordination",
+      "readerOutcome": "Create source-linked notice windows and escalations without transferring legal interpretation or renewal authority.",
+      "authoritativeSources": ["https://www.nist.gov/cyberframework", "https://www.americanbar.org/groups/business_law/resources/"]
+    },
+    {
+      "slug": "outsourced-equipment-rental-return-evidence",
+      "topic": "Equipment rental return evidence and charge-review preparation with an outsourced team",
+      "pillar": "vendor-coordination",
+      "readerOutcome": "Preserve condition, timing, and handoff evidence while asset owners decide liability, disputes, and settlement.",
+      "authoritativeSources": ["https://www.osha.gov/laws-regs", "https://www.ftc.gov/business-guidance"]
+    },
+    {
+      "slug": "offshore-rfp-evidence-library-administration",
+      "topic": "RFP evidence library administration with offshore support",
+      "pillar": "operations-coordination",
+      "readerOutcome": "Maintain approved, current response evidence without allowing coordinators to invent claims or approve commitments.",
+      "authoritativeSources": ["https://www.ftc.gov/business-guidance/advertising-marketing", "https://www.nist.gov/cyberframework"]
+    },
+    {
+      "slug": "philippines-fleet-fuel-card-exception-review",
+      "topic": "Fleet fuel-card exception review for a Philippines finance support team",
+      "pillar": "finance-administration",
+      "readerOutcome": "Prepare explainable transaction exceptions while managers retain fraud, discipline, reimbursement, and payment decisions.",
+      "authoritativeSources": ["https://www.gao.gov/products/gao-14-704g", "https://www.ftc.gov/business-guidance"]
+    },
+    {
+      "slug": "outsourced-customer-tax-exemption-certificate-tracking",
+      "topic": "Customer sales-tax exemption certificate tracking with an outsourced administrative team",
+      "pillar": "finance-administration",
+      "readerOutcome": "Track document completeness and expiry while tax professionals retain validity, nexus, and tax-treatment decisions.",
+      "authoritativeSources": ["https://www.streamlinedsalestax.org/for-businesses/certificate-of-exemption", "https://www.irs.gov/businesses"]
+    },
+    {
+      "slug": "offshore-insurance-subrogation-file-preparation",
+      "topic": "Insurance subrogation file preparation with an offshore operations team",
+      "pillar": "operations-coordination",
+      "readerOutcome": "Assemble recoverability evidence while licensed claims and legal owners retain coverage, liability, demand, and settlement decisions.",
+      "authoritativeSources": ["https://content.naic.org/consumer", "https://www.nist.gov/privacy-framework"]
+    },
+    {
+      "slug": "philippines-product-recall-contact-list-readiness",
+      "topic": "Product recall contact-list readiness for a Philippines support team",
+      "pillar": "customer-support-operations",
+      "readerOutcome": "Maintain traceable contact data and response evidence while safety, legal, and regulatory owners control recall decisions and notices.",
+      "authoritativeSources": ["https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance", "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/industry-guidance-recalls"]
+    },
+    {
+      "slug": "outsourced-professional-services-timesheet-billing-readiness",
+      "topic": "Professional-services timesheet billing readiness with an outsourced finance team",
+      "pillar": "finance-administration",
+      "readerOutcome": "Reconcile time, scope, rates, and approvals while project and finance owners retain revenue and invoice decisions.",
+      "authoritativeSources": ["https://www.fasb.org/", "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/"]
+    }
+  ],
+  "collisionResult": "No exact slug match in origin/main. Final semantic and live-route collision checks remain mandatory before the combined push.",
+  "publicationDateRule": "Set all visible and machine-readable dates to each route's truthful first successful public verification date in UTC; the cycle label is not a publication date."
+}
