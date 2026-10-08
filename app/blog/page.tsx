@@ -1,5 +1,6 @@
 import { Header, Footer, CTA } from '../components';
 import { blogPosts, site, sortBlogPosts } from '../data';
+const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(`${date}T00:00:00Z`));
 
 export const metadata = {
   title: `Blog | ${site.brand}`,
@@ -22,6 +23,7 @@ export default function Blog() {
               <a className="card" href={`/blog/${post.slug}`} key={post.slug}>
                 <h2>{post.title}</h2>
                 <p>{post.excerpt}</p>
+                {'publishedAt' in post&&post.publishedAt?<time dateTime={post.publishedAt}>Published {formatDate(post.publishedAt)}</time>:null}
                 <span>{post.minutes} min read</span>
               </a>
             ))}

@@ -1,6 +1,7 @@
 import { notFound, redirect } from 'next/navigation';
 import { Header, Footer, CTA } from '../../../components';
 import { blogPosts, sortBlogPosts } from '../../../data';
+const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(`${date}T00:00:00Z`));
 
 export function generateStaticParams() {
   const pages = Math.max(1, Math.ceil(blogPosts.length / 20));
@@ -26,6 +27,7 @@ export default async function BlogPage({ params }: { params: Promise<{ page: str
               <a className="card" href={`/blog/${post.slug}`} key={post.slug}>
                 <h2>{post.title}</h2>
                 <p>{post.excerpt}</p>
+                {'publishedAt' in post&&post.publishedAt?<time dateTime={post.publishedAt}>Published {formatDate(post.publishedAt)}</time>:null}
               </a>
             ))}
           </div>
