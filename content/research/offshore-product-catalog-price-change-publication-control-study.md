@@ -1,7 +1,7 @@
 ---
 slug: offshore-product-catalog-price-change-publication-control-study
 route: /research/offshore-product-catalog-price-change-publication-control-study
-datePublished: 2026-10-07
+datePublished: 2026-10-11
 family: research
 ---
 

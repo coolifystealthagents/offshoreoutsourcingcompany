@@ -28,21 +28,21 @@
       "topic": "Software license seat reconciliation for a Philippines-based operations team",
       "pillar": "data-quality-review",
       "readerOutcome": "Compare assigned, active, billed, and approved seats without giving administrators purchasing or access authority.",
-      "authoritativeSources": ["https://www.nist.gov/cyberframework", "https://www.cisa.gov/resources-tools/resources/cybersecurity-performance-goals"]
+      "authoritativeSources": ["https://www.nist.gov/cyberframework", "https://www.cisa.gov/cybersecurity-performance-goals-cpgs"]
     },
     {
       "slug": "outsourced-b2b-customer-master-data-onboarding",
       "topic": "B2B customer master-data onboarding with outsourced administrative support",
       "pillar": "data-quality-review",
       "readerOutcome": "Build a controlled intake and verification path for customer records while finance, tax, credit, and compliance owners decide exceptions.",
-      "authoritativeSources": ["https://www.irs.gov/businesses/small-businesses-self-employed/taxpayer-identification-number-tin-matching", "https://www.nist.gov/privacy-framework"]
+      "authoritativeSources": ["https://www.irs.gov/tax-professionals/taxpayer-identification-number-tin-matching", "https://www.nist.gov/privacy-framework"]
     },
     {
       "slug": "offshore-export-document-packet-preparation",
       "topic": "Export document packet preparation with an offshore operations team",
       "pillar": "operations-coordination",
       "readerOutcome": "Coordinate source documents and discrepancy review while licensed and authorized parties retain classification, screening, and filing decisions.",
-      "authoritativeSources": ["https://www.trade.gov/common-export-documents", "https://www.bis.gov/regulations/export-administration-regulations-ear"]
+      "authoritativeSources": ["https://www.trade.gov/common-export-documents", "https://www.bis.gov/regulations/ear"]
     },
     {
       "slug": "philippines-contract-renewal-notice-calendar",
@@ -77,7 +77,7 @@
       "topic": "Customer sales-tax exemption certificate tracking with an outsourced administrative team",
       "pillar": "finance-administration",
       "readerOutcome": "Track document completeness and expiry while tax professionals retain validity, nexus, and tax-treatment decisions.",
-      "authoritativeSources": ["https://www.streamlinedsalestax.org/for-businesses/certificate-of-exemption", "https://www.irs.gov/businesses"]
+      "authoritativeSources": ["https://www.mtc.gov/resources/uniform-sales-use-tax-exemption-certificate/", "https://www.irs.gov/businesses"]
     },
     {
       "slug": "offshore-insurance-subrogation-file-preparation",

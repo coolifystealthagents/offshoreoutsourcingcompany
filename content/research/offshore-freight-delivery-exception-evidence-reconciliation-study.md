@@ -1,7 +1,7 @@
 ---
 slug: offshore-freight-delivery-exception-evidence-reconciliation-study
 route: /research/offshore-freight-delivery-exception-evidence-reconciliation-study
-datePublished: 2026-10-07
+datePublished: 2026-10-11
 family: research
 ---
 

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 3,
+  "contract": "canonical-daily-blog-publishing-combined-release",
+  "cycleLabel": "2026-10-07",
+  "publicationDate": "2026-10-11",
+  "publicationDateStatus": "provisional until first successful live verification; reconcile if the UTC date changes before the sole production push",
+  "timezone": "UTC",
+  "family": "blog",
+  "requiredCount": 12,
+  "stagedCount": 12,
+  "verifiedCount": 0,
+  "status": "staged-pending-combined-validation-and-live-verification",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "productionBranch": "main",
+  "blogBranch": "blog/offaaa-75-2026-10-07",
+  "issue": "OFFAAA-75",
+  "pairedResearchIssue": "OFFAAA-74",
+  "productionPushOwner": "Blog routine",
+  "deploymentOwner": "browser operator",
+  "entries": [
+    {
+      "slug": "offshore-construction-lien-waiver-collection",
+      "title": "Construction Lien-Waiver Collection with an Offshore Administrative Team",
+      "topic": "Build a source-linked waiver collection queue while project, payment, and legal owners retain every consequential decision.",
+      "service": "operations-coordination",
+      "bodyWords": 1159,
+      "contentHash": "7056fb6d2e6235c451b164f3173a704a466b11135c52c43ddc1c51d5c4867f40",
+      "sources": [
+        {
+          "title": "California Contractors State License Board mechanics lien guidance",
+          "url": "https://www.cslb.ca.gov/Consumers/Legal_Issues_For_Consumers/Mechanics_Lien/",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-construction-lien-waiver-collection"
+    },
+    {
+      "slug": "philippines-software-license-seat-reconciliation",
+      "title": "Software License Seat Reconciliation for a Philippines Operations Team",
+      "topic": "Compare assigned, active, billed, and approved software seats without transferring purchasing or access authority.",
+      "service": "data-quality-review",
+      "bodyWords": 1108,
+      "contentHash": "eec34a9d07922f52756f7b8379a49f22c4f51973f0a83da927d59f8575e708d0",
+      "sources": [
+        {
+          "title": "NIST Cybersecurity Framework 2.0",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "CISA Cybersecurity Performance Goals",
+          "url": "https://www.cisa.gov/cybersecurity-performance-goals-cpgs",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-software-license-seat-reconciliation"
+    },
+    {
+      "slug": "outsourced-b2b-customer-master-data-onboarding",
+      "title": "B2B Customer Master-Data Onboarding with Outsourced Administrative Support",
+      "topic": "Create controlled customer records while finance, tax, credit, and compliance owners decide exceptions.",
+      "service": "data-quality-review",
+      "bodyWords": 1087,
+      "contentHash": "1ed68389009399a959e04ae9bb2d80cd1f7bb87ab1874c729b112900fd0fdfda",
+      "sources": [
+        {
+          "title": "IRS Taxpayer Identification Number Matching",
+          "url": "https://www.irs.gov/tax-professionals/taxpayer-identification-number-tin-matching",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-b2b-customer-master-data-onboarding"
+    },
+    {
+      "slug": "offshore-export-document-packet-preparation",
+      "title": "Export Document Packet Preparation with an Offshore Operations Team",
+      "topic": "Coordinate export records while authorized parties retain classification, screening, filing, and shipment decisions.",
+      "service": "operations-coordination",
+      "bodyWords": 1078,
+      "contentHash": "3dc80a4696da839345bea63026377a07db6e6600443ac35ceacf4803a5ebe307",
+      "sources": [
+        {
+          "title": "U.S. International Trade Administration common export documents",
+          "url": "https://www.trade.gov/common-export-documents",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "Bureau of Industry and Security Export Administration Regulations",
+          "url": "https://www.bis.gov/regulations/ear",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-export-document-packet-preparation"
+    },
+    {
+      "slug": "philippines-contract-renewal-notice-calendar",
+      "title": "Contract Renewal Notice Calendar Administration for a Philippines Support Team",
+      "topic": "Maintain source-linked notice windows and escalations without transferring contract interpretation or renewal authority.",
+      "service": "executive-administration",
+      "bodyWords": 1063,
+      "contentHash": "da17579ba2f5c8d746b75a7a6022718fe30b903529586a9d2cde93d5bc5da19f",
+      "sources": [
+        {
+          "title": "NIST Cybersecurity Framework 2.0",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "American Bar Association Business Law resources",
+          "url": "https://www.americanbar.org/groups/business_law/resources/",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-contract-renewal-notice-calendar"
+    },
+    {
+      "slug": "outsourced-equipment-rental-return-evidence",
+      "title": "Equipment Rental Return Evidence with an Outsourced Operations Team",
+      "topic": "Preserve condition, timing, and handoff evidence while asset owners decide liability, disputes, and settlement.",
+      "service": "vendor-coordination",
+      "bodyWords": 1045,
+      "contentHash": "aa5977cc73188064d734277359cf94a36d7fbd5da0b910c324aac60e3d512140",
+      "sources": [
+        {
+          "title": "OSHA Laws and Regulations",
+          "url": "https://www.osha.gov/laws-regs",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "FTC Business Guidance",
+          "url": "https://www.ftc.gov/business-guidance",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-equipment-rental-return-evidence"
+    },
+    {
+      "slug": "offshore-rfp-evidence-library-administration",
+      "title": "RFP Evidence Library Administration with Offshore Support",
+      "topic": "Maintain approved response evidence without letting coordinators invent claims or commit the business.",
+      "service": "operations-coordination",
+      "bodyWords": 1074,
+      "contentHash": "3589cec2337d925c8d314616ea0a682fc63dd9d63429c05c284eadbf37d32f07",
+      "sources": [
+        {
+          "title": "FTC Advertising and Marketing guidance",
+          "url": "https://www.ftc.gov/business-guidance/advertising-marketing",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "NIST Cybersecurity Framework 2.0",
+          "url": "https://www.nist.gov/cyberframework",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-rfp-evidence-library-administration"
+    },
+    {
+      "slug": "philippines-fleet-fuel-card-exception-review",
+      "title": "Fleet Fuel-Card Exception Review for a Philippines Finance Support Team",
+      "topic": "Prepare explainable transaction exceptions while managers retain fraud, discipline, reimbursement, and payment decisions.",
+      "service": "finance-administration",
+      "bodyWords": 1077,
+      "contentHash": "1927bc0999fa74bf2a44c281bed2c791500574c1966bffa8ef9439c173941364",
+      "sources": [
+        {
+          "title": "GAO Standards for Internal Control in the Federal Government",
+          "url": "https://www.gao.gov/products/gao-14-704g",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "FTC Business Guidance",
+          "url": "https://www.ftc.gov/business-guidance",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-fleet-fuel-card-exception-review"
+    },
+    {
+      "slug": "outsourced-customer-tax-exemption-certificate-tracking",
+      "title": "Customer Tax-Exemption Certificate Tracking with an Outsourced Team",
+      "topic": "Track certificate completeness and expiry while tax professionals retain validity, nexus, and tax-treatment decisions.",
+      "service": "finance-administration",
+      "bodyWords": 1061,
+      "contentHash": "dfcbab966007aa4ad8670a2eabf11d8dfd34f6c1a4edb7f0ccb2cf8a77806b86",
+      "sources": [
+        {
+          "title": "Multistate Tax Commission uniform exemption certificate",
+          "url": "https://www.mtc.gov/resources/uniform-sales-use-tax-exemption-certificate/",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "IRS Business resources",
+          "url": "https://www.irs.gov/businesses",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-customer-tax-exemption-certificate-tracking"
+    },
+    {
+      "slug": "offshore-insurance-subrogation-file-preparation",
+      "title": "Insurance Subrogation File Preparation with an Offshore Operations Team",
+      "topic": "Assemble recovery evidence while licensed claims and legal owners retain coverage, liability, demand, and settlement decisions.",
+      "service": "operations-coordination",
+      "bodyWords": 1046,
+      "contentHash": "a668dc52cdcd7122d9947f2a2ab07c6dc856ad58184cfd2e28064b2fb925989c",
+      "sources": [
+        {
+          "title": "National Association of Insurance Commissioners consumer resources",
+          "url": "https://content.naic.org/consumer",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "NIST Privacy Framework",
+          "url": "https://www.nist.gov/privacy-framework",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/offshore-insurance-subrogation-file-preparation"
+    },
+    {
+      "slug": "philippines-product-recall-contact-list-readiness",
+      "title": "Product Recall Contact-List Readiness for a Philippines Support Team",
+      "topic": "Maintain traceable contact data while safety, legal, and regulatory owners control recall decisions and notices.",
+      "service": "customer-support-operations",
+      "bodyWords": 1067,
+      "contentHash": "e3d4df57706d91506e3dbea008f308a0416eb05317acba6ec9d67e9bfce58b60",
+      "sources": [
+        {
+          "title": "U.S. Consumer Product Safety Commission Recall Guidance",
+          "url": "https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "FDA Industry Guidance for Recalls",
+          "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/industry-guidance-recalls",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/philippines-product-recall-contact-list-readiness"
+    },
+    {
+      "slug": "outsourced-professional-services-timesheet-billing-readiness",
+      "title": "Professional-Services Timesheet Billing Readiness with an Outsourced Finance Team",
+      "topic": "Reconcile time, scope, rates, and approvals while project and finance owners retain revenue and invoice decisions.",
+      "service": "finance-administration",
+      "bodyWords": 1054,
+      "contentHash": "a143cba241e5bb5bc2203ea6fd1121c16192eb4c0f7b3314784ff5668925708e",
+      "sources": [
+        {
+          "title": "Financial Accounting Standards Board",
+          "url": "https://www.fasb.org/",
+          "checkedDate": "2026-10-11"
+        },
+        {
+          "title": "IFRS 15 Revenue from Contracts with Customers",
+          "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/",
+          "checkedDate": "2026-10-11"
+        }
+      ],
+      "actualPublicationDate": null,
+      "liveUrl": "https://offshoreoutsourcingcompany.com/blog/outsourced-professional-services-timesheet-billing-readiness"
+    }
+  ]
+}

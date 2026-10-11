@@ -1,7 +1,7 @@
 ---
 slug: philippines-contract-renewal-obligation-calendar-research
 route: /research/philippines-contract-renewal-obligation-calendar-research
-datePublished: 2026-10-07
+datePublished: 2026-10-11
 family: research
 ---
 

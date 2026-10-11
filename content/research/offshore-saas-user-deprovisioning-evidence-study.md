@@ -1,7 +1,7 @@
 ---
 slug: offshore-saas-user-deprovisioning-evidence-study
 route: /research/offshore-saas-user-deprovisioning-evidence-study
-datePublished: 2026-10-07
+datePublished: 2026-10-11
 family: research
 ---
 
