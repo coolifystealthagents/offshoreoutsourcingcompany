@@ -88,6 +88,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
   const relatedService = 'relatedService' in post ? post.relatedService : undefined;
   const modifiedDate = getModifiedDate(post);
   const articleUrl = `https://offshoreoutsourcingcompany.com/research/${post.slug}`;
+  const relatedResearch = datedResearchPosts.filter((item) => item.slug !== post.slug).slice(0, 3);
 
   return <>
     <Header />
@@ -109,6 +110,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
           <p>{relatedService.body}</p>
           <a id={`cta-research-${post.slug}-free-consultation`} className="btn primary" href="/contact-us">Book a Free Consultation</a>
         </aside>}
+        <aside className="research-role-brief" aria-label="Related research"><p className="eyebrow">Continue the evidence review</p><h2>Related research</h2>{relatedResearch.map((item) => <p key={item.slug}><a href={`/research/${item.slug}`}>{item.title}</a></p>)}</aside>
       </article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',

@@ -1,0 +1,103 @@
+{
+  "site": "OffshoreOutsourcingCompany.com",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "branch": "main",
+  "baseSha": "bf845d15a683ab4944884fd317aa1c5ae9c9a1a8",
+  "date": "2026-10-12",
+  "blogSystem": "app/oct12-blog.ts",
+  "researchSystem": "app/research-oct12.ts",
+  "blog": [
+    {
+      "slug": "offshore-data-export-truncation-mismatch",
+      "title": "Resolve an Offshore Data Export Truncation Mismatch",
+      "thumbnail": "public/october-12/offshore-data-export-truncation-mismatch.svg"
+    },
+    {
+      "slug": "multilingual-customer-reply-glossary-control",
+      "title": "Verify a Multilingual Customer Reply Against the Approved Glossary",
+      "thumbnail": "public/october-12/multilingual-customer-reply-glossary-control.svg"
+    },
+    {
+      "slug": "offshore-invoice-ocr-confidence-exceptions",
+      "title": "Control OCR Confidence Exceptions in Offshore Invoice Intake",
+      "thumbnail": "public/october-12/offshore-invoice-ocr-confidence-exceptions.svg"
+    },
+    {
+      "slug": "duplicate-renewal-notice-release-control",
+      "title": "Reconcile Duplicate Renewal Notices Before Customer Delivery",
+      "thumbnail": "public/october-12/duplicate-renewal-notice-release-control.svg"
+    },
+    {
+      "slug": "shared-automation-failure-alert-ownership",
+      "title": "Transfer Ownership of a Shared Automation Failure Alert",
+      "thumbnail": "public/october-12/shared-automation-failure-alert-ownership.svg"
+    },
+    {
+      "slug": "supplier-portal-contact-retirement",
+      "title": "Retire a Supplier Portal Contact Without Losing Open Requests",
+      "thumbnail": "public/october-12/supplier-portal-contact-retirement.svg"
+    },
+    {
+      "slug": "bulk-crm-import-rollback-readiness",
+      "title": "Prove a Bulk CRM Import Rollback Is Ready",
+      "thumbnail": "public/october-12/bulk-crm-import-rollback-readiness.svg"
+    },
+    {
+      "slug": "expense-receipt-currency-packet",
+      "title": "Validate a Cross-Border Expense Receipt Currency Packet",
+      "thumbnail": "public/october-12/expense-receipt-currency-packet.svg"
+    },
+    {
+      "slug": "support-macro-source-relocation",
+      "title": "Review a Support Macro After Its Policy Source Moves",
+      "thumbnail": "public/october-12/support-macro-source-relocation.svg"
+    },
+    {
+      "slug": "customer-suppression-propagation-gap",
+      "title": "Close a Customer Consent Suppression Propagation Gap",
+      "thumbnail": "public/october-12/customer-suppression-propagation-gap.svg"
+    },
+    {
+      "slug": "sandbox-production-evidence-separation",
+      "title": "Separate Sandbox and Production Evidence in Offshore Testing",
+      "thumbnail": "public/october-12/sandbox-production-evidence-separation.svg"
+    },
+    {
+      "slug": "sftp-partial-file-delivery-reconciliation",
+      "title": "Reconcile a Partial File Delivery Across an SFTP Handoff",
+      "thumbnail": "public/october-12/sftp-partial-file-delivery-reconciliation.svg"
+    }
+  ],
+  "research": [
+    {
+      "slug": "offshore-shadow-queue-discovery-study",
+      "title": "How Many Offshore Work Items Live Outside the Approved Queue?",
+      "thumbnail": "public/october-12/offshore-shadow-queue-discovery-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "owner-response-latency-censoring-study",
+      "title": "Does Censoring Distort Owner Response-Time Measurements?",
+      "thumbnail": "public/october-12/owner-response-latency-censoring-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "automation-false-success-detection-study",
+      "title": "How Often Does Automation Report Success Without the Intended Result?",
+      "thumbnail": "public/october-12/automation-false-success-detection-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "handoff-information-compression-study",
+      "title": "What Evidence Is Lost When Offshore Handoffs Are Summarized?",
+      "thumbnail": "public/october-12/handoff-information-compression-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "rare-exception-sampling-coverage-study",
+      "title": "Can Routine Sampling Detect Rare High-Consequence Exceptions?",
+      "thumbnail": "public/october-12/rare-exception-sampling-coverage-study.svg",
+      "sources": 10
+    }
+  ]
+}
