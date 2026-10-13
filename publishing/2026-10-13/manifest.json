@@ -1,0 +1,103 @@
+{
+  "site": "OffshoreOutsourcingCompany.com",
+  "repository": "coolifystealthagents/offshoreoutsourcingcompany",
+  "branch": "main",
+  "baseSha": "20c3dd9bbf30a769550cd81497c815e1b3bfcf0b",
+  "date": "2026-10-13",
+  "blogSystem": "app/oct13-blog.ts",
+  "researchSystem": "app/research-oct13.ts",
+  "blog": [
+    {
+      "slug": "offshore-queue-migration-cutover-ledger",
+      "title": "Build a Cutover Ledger for an Offshore Queue Migration",
+      "thumbnail": "public/october-13/offshore-queue-migration-cutover-ledger.svg"
+    },
+    {
+      "slug": "cross-border-customer-timezone-commitment-check",
+      "title": "Verify Time Zones Before an Offshore Customer Commitment",
+      "thumbnail": "public/october-13/cross-border-customer-timezone-commitment-check.svg"
+    },
+    {
+      "slug": "offshore-knowledge-article-evidence-expiry",
+      "title": "Review Knowledge Articles Before Their Evidence Expires",
+      "thumbnail": "public/october-13/offshore-knowledge-article-evidence-expiry.svg"
+    },
+    {
+      "slug": "outsourced-payment-file-release-boundary",
+      "title": "Set a Release Boundary for an Outsourced Payment File",
+      "thumbnail": "public/october-13/outsourced-payment-file-release-boundary.svg"
+    },
+    {
+      "slug": "offshore-customer-identity-merge-review",
+      "title": "Review a Customer Identity Merge Without Losing Evidence",
+      "thumbnail": "public/october-13/offshore-customer-identity-merge-review.svg"
+    },
+    {
+      "slug": "distributed-team-incident-update-register",
+      "title": "Maintain an Incident Update Register Across Offshore Shifts",
+      "thumbnail": "public/october-13/distributed-team-incident-update-register.svg"
+    },
+    {
+      "slug": "offshore-work-instruction-translation-drift",
+      "title": "Control Translation Drift in Offshore Work Instructions",
+      "thumbnail": "public/october-13/offshore-work-instruction-translation-drift.svg"
+    },
+    {
+      "slug": "outsourced-vendor-onboarding-document-gate",
+      "title": "Use a Document Gate for Offshore Vendor Onboarding",
+      "thumbnail": "public/october-13/outsourced-vendor-onboarding-document-gate.svg"
+    },
+    {
+      "slug": "offshore-recurring-report-definition-change",
+      "title": "Manage a Definition Change in a Recurring Offshore Report",
+      "thumbnail": "public/october-13/offshore-recurring-report-definition-change.svg"
+    },
+    {
+      "slug": "offshore-service-account-owner-reassignment",
+      "title": "Reassign a Service Account Without Orphaning Control",
+      "thumbnail": "public/october-13/offshore-service-account-owner-reassignment.svg"
+    },
+    {
+      "slug": "outsourced-case-attachment-disclosure-check",
+      "title": "Check Case Attachments Before Offshore Disclosure",
+      "thumbnail": "public/october-13/outsourced-case-attachment-disclosure-check.svg"
+    },
+    {
+      "slug": "offshore-backlog-priority-reset",
+      "title": "Reset an Offshore Backlog Without Hiding Old Work",
+      "thumbnail": "public/october-13/offshore-backlog-priority-reset.svg"
+    }
+  ],
+  "research": [
+    {
+      "slug": "offshore-queue-transfer-loss-study",
+      "title": "Where Do Records Disappear During Offshore Queue Transfers?",
+      "thumbnail": "public/october-13/offshore-queue-transfer-loss-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "distributed-owner-question-quality-study",
+      "title": "Do Structured Owner Questions Receive More Usable Answers?",
+      "thumbnail": "public/october-13/distributed-owner-question-quality-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "offshore-instruction-version-adherence-study",
+      "title": "Which Instruction Version Governs Offshore Work in Practice?",
+      "thumbnail": "public/october-13/offshore-instruction-version-adherence-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "cross-border-handoff-clock-semantics-study",
+      "title": "How Do Clock Definitions Change Offshore Handoff Results?",
+      "thumbnail": "public/october-13/cross-border-handoff-clock-semantics-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "offshore-access-removal-verification-study",
+      "title": "Does Account Disablement Remove Every Offshore Access Path?",
+      "thumbnail": "public/october-13/offshore-access-removal-verification-study.svg",
+      "sources": 10
+    }
+  ]
+}
