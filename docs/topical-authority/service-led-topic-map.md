@@ -6,7 +6,7 @@ This map connects existing Philippines-only operations research to the service p
 
 | Service pillar | Existing supporting research | Reader question | Route-local service link | Next action |
 | --- | --- | --- | --- | --- |
-| Operations Coordination | `/research/philippines-operations-coordination-capacity-research` | What recurring work and exception load fit a coordination role? | Delivered locally — pending source commit | Keep the record-owned service handoff. The route has one contextual link to `/services/operations-coordination`; do not add another. |
+| Operations Coordination | `/research/philippines-operations-coordination-capacity-research` | What recurring work and exception load fit a coordination role? | Delivered in rendered source — `dfb2d8ad805f8905ccb3491b2a83040304a52132` | Keep the record-owned service handoff. The route has one contextual link to `/services/operations-coordination`; do not add another. |
 | Executive Administration | `/research/philippines-executive-admin-calendar-controls` | What can a specialist prepare without deciding executive priorities? | Absent | Candidate after the priority row. |
 | Customer Support Operations | `/research/philippines-outsourced-case-mix-study` | Which support work can be prepared while customer commitments stay with the owner? | Delivered | Keep the existing handoff; do not add another. |
 | Sales Operations Support | `/research/philippines-sales-operations-pipeline-hygiene` | Which pipeline fields can be maintained without making sales decisions? | Absent | Candidate after the priority row. |
@@ -25,3 +25,10 @@ This map connects existing Philippines-only operations research to the service p
 - Philippines specialists may prepare, check, classify, and route work. Owners retain customer, financial, security, privacy, policy, hiring, and commercial decisions.
 - Before shipping a candidate, confirm the source and destination H1s, canonical URLs, route-local link count, and sitemap entries from a fresh production build.
 - Refresh the source route’s actual modified value for a rendered handoff and verify Article, Open Graph, and sitemap parity where the route model supports those fields.
+
+## 2026-10-15 public-verification status
+
+- Rendered source: `dfb2d8ad805f8905ccb3491b2a83040304a52132` added the record-owned Operations Coordination handoff. Fresh local artifacts had the source H1 and canonical, one route-local `Plan operations coordination support` link to `/services/operations-coordination`, `article:modified_time` and Article `dateModified` of `2026-10-15`, and source/target sitemap entries.
+- Preserve rendered-source commit: `dfb2d8ad805f8905ccb3491b2a83040304a52132`. No repository-approved deployment identifier or deployment routine was found, so no deploy was inferred or triggered.
+- Canonical route responded `200 text/html` with the expected H1 and canonical but lacked the new marker, destination href, and updated date. The `www` route first returned `308` to the canonical host and its final `200 text/html` page had the same stale facts. The canonical sitemap responded `200 application/xml`, includes the source URL, and has no `lastmod` under this repository contract.
+- Status: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`. Recheck the same route markers after an approved deployment target is supplied; do not add a duplicate CTA.
