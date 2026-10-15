@@ -109,6 +109,9 @@ assert.match(researchIndex, /<details className="research-archive"/, 'research i
 assert.match(researchArticle, /ResearchBody/, 'research articles must use the editorial body renderer');
 assert.doesNotMatch(researchArticle, /p\.body\.map\(x=><p/, 'research body strings must not render as an undifferentiated paragraph dump');
 assert.match(researchArticle, /research-source-list/, 'research source URLs must render as a semantic source list');
+assert.match(researchArticle, /id=\{`cta-research-\$\{post\.slug\}-related-service`\}[^>]*href=\{relatedService\.href\}[^>]*>\{relatedService\.label\}</, 'a typed research service handoff must render its record-owned destination and label');
+assert.doesNotMatch(researchArticle, /cta-research-\$\{post\.slug\}-free-consultation/, 'a typed research service handoff must not fall back to the generic contact CTA');
+assert.match(data, /slug:\s*'philippines-operations-coordination-capacity-research',\s*modifiedDate:\s*'2026-10-15',\s*relatedService:\s*\{\s*href:\s*'\/services\/operations-coordination',\s*label:\s*'Plan operations coordination support'/, 'the priority operations research record must own its matching service handoff and freshness');
 const batchResearch = read('app/research-aug20.ts') + read('app/research-aug21.ts');
 assert.doesNotMatch(batchResearch, /research-(?:heroes|aug21-heroes)\/[^'"` ]+\.png/, 'ambiguous generated-image research heroes must not render');
 const researchIllustrations = batchResearch.match(/\/research-illustrations\/[^'"` ]+\.svg/g) || [];

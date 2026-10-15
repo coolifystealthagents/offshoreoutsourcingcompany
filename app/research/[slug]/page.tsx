@@ -108,7 +108,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
           <p className="eyebrow">Apply the evidence</p>
           <h2>Turn this report into a role brief.</h2>
           <p>{relatedService.body}</p>
-          <a id={`cta-research-${post.slug}-free-consultation`} className="btn primary" href="/contact-us">Book a Free Consultation</a>
+          <a id={`cta-research-${post.slug}-related-service`} className="btn primary" href={relatedService.href}>{relatedService.label}</a>
         </aside>}
         <aside className="research-role-brief" aria-label="Related research"><p className="eyebrow">Continue the evidence review</p><h2>Related research</h2>{relatedResearch.map((item) => <p key={item.slug}><a href={`/research/${item.slug}`}>{item.title}</a></p>)}</aside>
       </article>

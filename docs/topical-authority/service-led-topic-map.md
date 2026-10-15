@@ -6,7 +6,7 @@ This map connects existing Philippines-only operations research to the service p
 
 | Service pillar | Existing supporting research | Reader question | Route-local service link | Next action |
 | --- | --- | --- | --- | --- |
-| Operations Coordination | `/research/philippines-operations-coordination-capacity-research` | What recurring work and exception load fit a coordination role? | Absent | Candidate after the priority row. |
+| Operations Coordination | `/research/philippines-operations-coordination-capacity-research` | What recurring work and exception load fit a coordination role? | Delivered locally — pending source commit | Keep the record-owned service handoff. The route has one contextual link to `/services/operations-coordination`; do not add another. |
 | Executive Administration | `/research/philippines-executive-admin-calendar-controls` | What can a specialist prepare without deciding executive priorities? | Absent | Candidate after the priority row. |
 | Customer Support Operations | `/research/philippines-outsourced-case-mix-study` | Which support work can be prepared while customer commitments stay with the owner? | Delivered | Keep the existing handoff; do not add another. |
 | Sales Operations Support | `/research/philippines-sales-operations-pipeline-hygiene` | Which pipeline fields can be maintained without making sales decisions? | Absent | Candidate after the priority row. |
