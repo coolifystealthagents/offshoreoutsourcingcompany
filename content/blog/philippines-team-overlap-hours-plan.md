@@ -1,7 +1,7 @@
 ---
 slug: "philippines-team-overlap-hours-plan"
 title: "Plan Overlap Hours With a Philippines-Based Team"
-description: "Choose overlap hours based on decisions, handoffs, employee wellbeing, customer demand, and continuity—not habit."
+description: "Choose overlap hours based on decisions, handoffs, employee wellbeing, customer demand, and continuity - not habit."
 datePublished: "2026-09-25"
 publishedAt: "2026-09-25T21:00:00.000Z"
 updatedAt: "2026-09-25T21:00:00.000Z"
@@ -37,7 +37,7 @@ For this step, capture the source, owner, decision, effective date, and follow-u
 
 ## Reserve overlap for decisions
 
-Use the shared window for exceptions, coaching, calibration, and changes—not status narration that a dashboard can provide. Publish an agenda and decision list in advance. A shorter dependable overlap can be more effective than many fragmented meetings, especially when both teams protect concentrated production time.
+Use the shared window for exceptions, coaching, calibration, and changes - not status narration that a dashboard can provide. Publish an agenda and decision list in advance. A shorter dependable overlap can be more effective than many fragmented meetings, especially when both teams protect concentrated production time.
 
 For this step, capture the source, owner, decision, effective date, and follow-up evidence. If the information is uncertain, keep it visible as an open question. Do not turn a missing fact into an optimistic assumption simply to keep the project moving.
 
@@ -71,4 +71,4 @@ A disciplined process does not eliminate uncertainty. It makes uncertainty revie
 
 ## Turn the decision into a scoped conversation
 
-Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence—not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.
+Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence - not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.

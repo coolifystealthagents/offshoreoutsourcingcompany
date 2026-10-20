@@ -15,7 +15,7 @@ featuredImage: "/philippines-operations-team.svg"
 
 *September 25, 2026*
 
-Reviewing every item may be impractical, while a casual handful can miss serious errors. A sampling plan makes selection, scoring, disagreement, and follow-up explicit. It should detect operational risk and improve the process—not create a league table from weak data.
+Reviewing every item may be impractical, while a casual handful can miss serious errors. A sampling plan makes selection, scoring, disagreement, and follow-up explicit. It should detect operational risk and improve the process - not create a league table from weak data.
 
 ## Start with a decision record
 
@@ -71,4 +71,4 @@ A disciplined process does not eliminate uncertainty. It makes uncertainty revie
 
 ## Turn the decision into a scoped conversation
 
-Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence—not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.
+Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence - not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.

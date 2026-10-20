@@ -1,5 +1,6 @@
 import { Header, Footer, CTA } from "../components";
-import { blogPosts, site, sortBlogPosts } from "../data";
+import type { Metadata } from "next";
+import { blogPosts, sortBlogPosts } from "../data";
 const formatDate = (date: string) =>
   new Intl.DateTimeFormat("en-US", {
     year: "numeric",
@@ -8,10 +9,12 @@ const formatDate = (date: string) =>
     timeZone: "UTC",
   }).format(new Date(`${date}T00:00:00Z`));
 
-export const metadata = {
-  title: `Blog | ${site.brand}`,
+export const metadata: Metadata = {
+  title: { absolute: "Philippines Staffing Blog | Offshore Outsourcing Company" },
   description: "Practical Philippines staffing guides.",
   alternates: { canonical: "/blog" },
+  openGraph: { title: "Philippines Staffing Blog", description: "Practical Philippines staffing guides for scoping and managing support roles.", url: "/blog", type: "website", images: ["/opengraph-image.png"] },
+  twitter: { card: "summary_large_image", title: "Philippines Staffing Blog", description: "Practical Philippines staffing guides for scoping and managing support roles.", images: ["/opengraph-image.png"] },
 };
 
 export default function Blog() {

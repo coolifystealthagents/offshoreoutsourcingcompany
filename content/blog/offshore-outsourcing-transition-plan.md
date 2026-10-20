@@ -49,7 +49,7 @@ For this step, capture the source, owner, decision, effective date, and follow-u
 
 ## Stabilize after handover
 
-During early production, review queue age, returns, exceptions, access issues, and owner response time frequently. Then reduce meeting frequency as evidence becomes reliable. Archive obsolete instructions, schedule access reviews, and retain a controlled backlog of improvements. Transition is complete when the normal management cadence can sustain the process—not when training meetings end.
+During early production, review queue age, returns, exceptions, access issues, and owner response time frequently. Then reduce meeting frequency as evidence becomes reliable. Archive obsolete instructions, schedule access reviews, and retain a controlled backlog of improvements. Transition is complete when the normal management cadence can sustain the process - not when training meetings end.
 
 For this step, capture the source, owner, decision, effective date, and follow-up evidence. If the information is uncertain, keep it visible as an open question. Do not turn a missing fact into an optimistic assumption simply to keep the project moving.
 
@@ -71,4 +71,4 @@ A disciplined process does not eliminate uncertainty. It makes uncertainty revie
 
 ## Turn the decision into a scoped conversation
 
-Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence—not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.
+Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence - not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.

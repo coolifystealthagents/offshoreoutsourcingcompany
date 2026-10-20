@@ -20,14 +20,16 @@ export default function ReviewsMarquee() {
     const move = (time: number) => {
       if (hoveredRef.current || focusedRef.current || reducedMotion.matches) position = viewport.scrollLeft;
       else if (priorTime) {
-        position += (time - priorTime) * 0.025;
-        const firstCard = track?.firstElementChild as HTMLElement | null;
-        if (track && firstCard) {
+        position += Math.min(time - priorTime, 64) * 0.025;
+        let firstCard = track?.firstElementChild as HTMLElement | null;
+        if (track) {
           const gap = Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
-          const shift = firstCard.getBoundingClientRect().width + gap;
-          if (position >= shift) {
+          while (firstCard) {
+            const shift = firstCard.getBoundingClientRect().width + gap;
+            if (position < shift) break;
             position -= shift;
             track.append(firstCard);
+            firstCard = track.firstElementChild as HTMLElement | null;
           }
         }
         viewport.scrollLeft = position;
@@ -51,7 +53,7 @@ export default function ReviewsMarquee() {
       onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) focusedRef.current = false; }}
     >
       <div className="reviews-track">{reviews.records.map((review) => <article className="review-card" key={review.name}>
-        <div className="review-stars" aria-label={`${review.rating} stars`}>{"★".repeat(review.rating)}</div>
+        <span className="review-stars" role="img" aria-label={`${review.rating} stars`}>{"★".repeat(review.rating)}</span>
         <h3>{review.headline}</h3>
         <blockquote>“{review.body}”</blockquote>
         <p><strong>{review.name}</strong><span>{review.detail}</span></p>

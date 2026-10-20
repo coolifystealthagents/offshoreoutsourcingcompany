@@ -105,7 +105,7 @@ export const september4BlogPosts = [
       'A recurring report can be accurate and still go to the wrong people. Before sending, identify the authoritative report version, data classification, approved recipient source, delivery channel, and owner who approves changes to distribution.',
       'Do not copy last month’s recipient line without checking departures, role changes, external addresses, and group membership. A saved group name can conceal changing membership, so record when the underlying list was verified.',
       'The offshore reporting specialist may reconcile recipients, flag anomalies, stage the message, and preserve delivery evidence. The data owner keeps decisions about new recipients, broader access, confidential attachments, and exceptions to the normal channel.',
-      'Use a two-person check for sensitive or unusually broad sends. The reviewer should see the final attachment, period, filters, recipient expansion, and message—not a description of what will be sent later.',
+      'Use a two-person check for sensitive or unusually broad sends. The reviewer should see the final attachment, period, filters, recipient expansion, and message - not a description of what will be sent later.',
       'After delivery, capture the report version, timestamp, recipient record, failures, and recalls. If an address bounces, return it to an exception queue rather than substituting a nearby address from memory.',
       'The control is intentionally modest: match a known report to an approved audience at a known time. It does not decide who should be entitled to the information; that remains with the business and data owners.'
     ]

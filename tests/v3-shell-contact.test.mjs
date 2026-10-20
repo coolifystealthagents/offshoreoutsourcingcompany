@@ -45,11 +45,12 @@ assert.ok(provenance.records.every(({ rating }) => rating === 5), 'first-party f
 assert.match(provenance.ratingSource, /Official StealthAgents homepage testimonial cards/);
 const marquee = read('app/contact-us/ReviewsMarquee.tsx');
 assert.match(marquee, /Reviews published by StealthAgents/);
-assert.match(marquee, /aria-label=\{`\$\{review\.rating\} stars`\}/, 'each review needs an accessible rating label');
+assert.match(marquee, /role="img" aria-label=\{`\$\{review\.rating\} stars`\}/, 'each review needs a semantic accessible rating label');
 assert.match(marquee, /"★"\.repeat\(review\.rating\)/, 'each review needs the visible first-party star treatment');
 assert.equal((marquee.match(/records\.map/g) || []).length, 1, 'review records must not be duplicated to fake marquee length');
 assert.match(marquee, /track\.append\(firstCard\)/, 'the single review set must rotate seamlessly rather than jump to zero');
 assert.doesNotMatch(marquee, /position\s*=\s*0/, 'the marquee must not visibly reset to its beginning');
+assert.match(marquee, /Math\.min\(time - priorTime, 64\)/, 'long animation-frame gaps must be capped to prevent resume jumps');
 assert.match(marquee, /requestAnimationFrame/);
 assert.match(marquee, /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/);
 assert.match(marquee, /hoveredRef\.current \|\| focusedRef\.current \|\| reducedMotion\.matches/, 'hover, focus, and reduced motion must independently pause the scroll loop');

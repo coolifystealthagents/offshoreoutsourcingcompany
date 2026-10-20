@@ -35,7 +35,7 @@ export function slugifyHeading(value: string): string {
 export function sanitizeVisibleText(value: string): string {
   return value
     .split(/(https?:\/\/\S+|\S+--\S*|\S*--\S+)/g)
-    .map((part) => /^(?:https?:\/\/|\S+--\S*|\S*--\S+)$/.test(part) ? part : part.replace(/[—–]/g, '-').replace(/\s--\s/g, ' - '))
+    .map((part) => /^(?:https?:\/\/|\S+--\S*|\S*--\S+)$/.test(part) ? part : part.replace(/[\u2014\u2013]/g, '-').replace(/\s--\s/g, ' - '))
     .join('');
 }
 

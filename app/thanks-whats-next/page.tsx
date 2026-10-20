@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Footer, Header } from '../components';
 
 export const metadata: Metadata = {
-  title: 'After Scheduling — Prepare for Your Consultation',
+  title: 'After Scheduling  -  Prepare for Your Consultation',
   description: 'Review what to prepare after using the consultation scheduler. Your scheduler confirmation remains the source of truth for meeting status.',
   robots: { index: false, follow: false },
 };

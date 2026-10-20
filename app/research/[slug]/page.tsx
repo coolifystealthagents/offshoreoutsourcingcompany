@@ -50,7 +50,7 @@ function ResearchBody({ body }: { body: readonly string[] }) {
       <ol className="research-source-list">
         {sources.map((url, index) => {
           let label = `Source ${index + 1}`;
-          try { label = `${new URL(url).hostname.replace(/^www\./, '')} — source ${index + 1}`; } catch {}
+          try { label = `${new URL(url).hostname.replace(/^www\./, '')}  -  source ${index + 1}`; } catch {}
           return <li key={url}><a href={url} rel="noreferrer">{label}</a></li>;
         })}
       </ol>

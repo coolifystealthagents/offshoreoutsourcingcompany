@@ -266,7 +266,7 @@ export const september1ResearchPosts = [
       'Analyze disagreements by cause: unclear definition, missed evidence, different page version, technical access problem, or judgment boundary. The corrective action should match the cause. More training will not fix a codebook that gives two defensible answers.',
       'Check correctness separately with an authoritative source or designated owner where possible. Two reviewers can agree on the same wrong canonical expectation or overlook the same unsupported claim. Agreement is a process signal, not a substitute for ground truth.',
       'Limitations include small samples, reviewer learning, shared training bias, and changing article types. Repeated exposure to seeded cases can also inflate results. Refresh the sample and rerun calibration after material workflow or codebook changes.',
-      'Evidence-led conclusion: the study can show which defect definitions reviewers apply reliably and where owner clarification is needed. The useful output is a revised example, narrower rule, or additional verification source—not a broad quality label for the offshore team.'
+      'Evidence-led conclusion: the study can show which defect definitions reviewers apply reliably and where owner clarification is needed. The useful output is a revised example, narrower rule, or additional verification source - not a broad quality label for the offshore team.'
     ]
   },
   {

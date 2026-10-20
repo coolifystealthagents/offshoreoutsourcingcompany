@@ -12,7 +12,7 @@ featuredImage: "/philippines-operations-team.svg"
 
 *October 2, 2026*
 
-Wholesale rebates turn commercial agreements into thousands of line-level claims. The administrative work—collecting sales evidence, matching products, applying approved calculations, and tracking deductions—is well suited to a Philippines operations team. Commercial interpretation, exception approval, credit issuance, accounting treatment, and dispute settlement must remain with authorized owners.
+Wholesale rebates turn commercial agreements into thousands of line-level claims. The administrative work - collecting sales evidence, matching products, applying approved calculations, and tracking deductions - is well suited to a Philippines operations team. Commercial interpretation, exception approval, credit issuance, accounting treatment, and dispute settlement must remain with authorized owners.
 
 ## Start with a controlled program record
 

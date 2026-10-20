@@ -1,7 +1,7 @@
 ---
 slug: "offshore-outsourcing-vendor-proposal-comparison"
 title: "How to Compare Offshore Outsourcing Proposals"
-description: "Compare offshore outsourcing proposals on scope, management, controls, and total operating fit—not price alone."
+description: "Compare offshore outsourcing proposals on scope, management, controls, and total operating fit - not price alone."
 datePublished: "2026-09-25"
 publishedAt: "2026-09-25T21:00:00.000Z"
 updatedAt: "2026-09-25T21:00:00.000Z"
@@ -71,4 +71,4 @@ A disciplined process does not eliminate uncertainty. It makes uncertainty revie
 
 ## Turn the decision into a scoped conversation
 
-Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence—not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.
+Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence - not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.

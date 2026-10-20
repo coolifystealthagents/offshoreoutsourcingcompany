@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
 import ts from 'typescript';
 
 const root = new URL('../', import.meta.url);
@@ -57,7 +58,15 @@ const helperJs = ts.transpileModule(helper, {
 }).outputText;
 const editorial = await import(`data:text/javascript;base64,${Buffer.from(helperJs).toString('base64')}`);
 assert.equal(editorial.slugifyHeading('  Access & approval: owner’s guide  '), 'access-approval-owners-guide');
-assert.equal(editorial.sanitizeVisibleText('Plan — review – approve -- record'), 'Plan - review - approve - record');
+assert.equal(editorial.sanitizeVisibleText('Plan\u2014review\u2013approve -- record'), 'Plan-review-approve - record');
+assert.match(read('app/oct7-content.tsx'), /replaceAll\('\\u2014',' - '\)\.replaceAll\('\\u2013','-'\)/, 'filesystem-backed articles need server-side punctuation normalization');
+for (const relative of ['app', 'content', 'lib']) {
+  for (const entry of readdirSync(new URL(`../${relative}/`, import.meta.url), { recursive: true, withFileTypes: true })) {
+    if (!entry.isFile() || !/\.(?:ts|tsx|md|json)$/.test(entry.name)) continue;
+    const source = readFileSync(join(entry.parentPath, entry.name), 'utf8');
+    assert.doesNotMatch(source, /[—–]/, `${relative} source ${entry.name} must not contain literal forbidden dash punctuation`);
+  }
+}
 assert.equal(editorial.sanitizeVisibleText('https://example.com/a--b --flag'), 'https://example.com/a--b --flag', 'URL and code-like tokens must remain intact');
 const queueHero = editorial.getEditorialHero('remote-team-daily-capacity-review', 'Daily queue capacity review');
 const accessHero = editorial.getEditorialHero('philippines-team-access-approval-matrix', 'Access approval matrix');

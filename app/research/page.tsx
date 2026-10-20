@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Header, Footer } from "../components";
-import { datedResearchPosts, site } from "../data";
+import { datedResearchPosts } from "../data";
 
 export const metadata: Metadata = {
-  title: `Research | ${site.brand}`,
+  title: { absolute: "Staffing Research | Offshore Outsourcing Company" },
   description:
     "Original research and source-backed analysis for planning Philippines-based support.",
   alternates: { canonical: "/research" },
+  openGraph: { title: "Staffing Research", description: "Original research and source-backed analysis for planning Philippines-based support.", url: "/research", type: "website", images: ["/opengraph-image.png"] },
+  twitter: { card: "summary_large_image", title: "Staffing Research", description: "Original research and source-backed analysis for planning Philippines-based support.", images: ["/opengraph-image.png"] },
 };
 
 const classifyResearch = (title: string, slug: string) => {
@@ -64,16 +66,16 @@ export default function Research() {
               aria-label="How to use this research"
             >
               <div>
-                <strong>01</strong>
-                <span>Start with the business question.</span>
+                <strong>Start with the question</strong>
+                <span>Identify the business decision this report should inform.</span>
               </div>
               <div>
-                <strong>02</strong>
-                <span>Check the method and limitations.</span>
+                <strong>Check the method</strong>
+                <span>Review the evidence, scope, and stated limitations.</span>
               </div>
               <div>
-                <strong>03</strong>
-                <span>Keep consequential decisions with the owner.</span>
+                <strong>Retain ownership</strong>
+                <span>Keep consequential decisions with the accountable owner.</span>
               </div>
             </aside>
           </div>
@@ -145,7 +147,7 @@ export default function Research() {
         <section className="research-methodology">
           <div className="container">
             <p className="eyebrow">How to read the library</p>
-            <h2>Evidence is context—not a staffing promise.</h2>
+            <h2>Evidence is context - not a staffing promise.</h2>
             <p>
               Each report states a bounded question, method, evidence,
               limitations, and an operating implication. National or industry

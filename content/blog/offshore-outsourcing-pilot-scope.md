@@ -25,7 +25,7 @@ The record should also identify the people affected by the change. An outsourcin
 
 ## Name the hypothesis
 
-Write the claim the pilot will test: a documented Philippines-based team can process a defined queue accurately within an agreed window, while exceptions remain with the client owner. Identify the uncertainties—source quality, training time, system latency, schedule overlap, or review load. A pilot cannot answer a question that was never stated.
+Write the claim the pilot will test: a documented Philippines-based team can process a defined queue accurately within an agreed window, while exceptions remain with the client owner. Identify the uncertainties - source quality, training time, system latency, schedule overlap, or review load. A pilot cannot answer a question that was never stated.
 
 For this step, capture the source, owner, decision, effective date, and follow-up evidence. If the information is uncertain, keep it visible as an open question. Do not turn a missing fact into an optimistic assumption simply to keep the project moving.
 
@@ -71,4 +71,4 @@ A disciplined process does not eliminate uncertainty. It makes uncertainty revie
 
 ## Turn the decision into a scoped conversation
 
-Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence—not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.
+Bring the completed worksheet, open questions, and one representative workflow to a conversation with [Offshore Outsourcing Company](/contact). A useful first discussion should test scope, ownership, evidence, access, and review cadence - not pressure you into a headcount decision. You should leave knowing what must be clarified before a Philippines-based team can take on the work responsibly.

@@ -77,7 +77,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
           <label>Last name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
         <label>Business email *<input name="email" type="email" required autoComplete="email" /><small>Please use your work email.</small></label>
-        <label>Phone number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code} — {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Phone number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code}  -  {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
           <label>Company name *<input name="companyName" required autoComplete="organization" /></label>
           <label>Website / URL <span className="sa-optional">Optional</span><input name="website" placeholder="example.com" autoComplete="url" /></label>
@@ -94,19 +94,19 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         <button id="cta-contact-form-free-consultation" type="submit" disabled={submitting}>{submitting ? "Submitting..." : "Book a Free Consultation"}</button>
       </form>
       <style jsx>{`
-        .sa-form-card{width:100%;max-width:876px;margin:0 auto;padding:34px 42px 42px;color:var(--ink);text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:4px 36px 4px 4px;box-shadow:var(--shadow)}
-        h2{max-width:700px;margin:0 0 24px;color:var(--ink);font-size:clamp(1.9rem,3vw,2.45rem);font-weight:600;line-height:1.05;letter-spacing:-.035em}
-        form{display:flex;flex-direction:column;gap:16px}.sa-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+        .sa-form-card{width:100%;max-width:876px;margin:0 auto;padding:22px 28px 26px;color:var(--ink);text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:4px 36px 4px 4px;box-shadow:var(--shadow)}
+        h2{max-width:700px;margin:0 0 14px;color:var(--ink);font-size:clamp(1.65rem,2.5vw,2.15rem);font-weight:600;line-height:1.05;letter-spacing:-.035em}
+        form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px}.sa-grid{display:contents}
         label{display:flex;flex-direction:column;gap:7px;color:var(--ink-soft);font-size:.95rem;font-weight:700;line-height:1.35}
-        input,select,textarea{box-sizing:border-box;width:100%;min-height:50px;margin:0;padding:12px 14px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:4px;outline:none;font:inherit;font-size:1rem}
+        input,select,textarea{box-sizing:border-box;width:100%;min-height:42px;margin:0;padding:8px 11px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:4px;outline:none;font:inherit;font-size:.94rem}
         input:focus,select:focus,textarea:focus{border-color:#167c73;box-shadow:0 0 0 3px rgba(22,124,115,.16)}
         small,.sa-optional{color:var(--muted);font-size:.8rem;font-weight:400}.sa-phone{display:grid;grid-template-columns:minmax(135px,.42fr) minmax(0,1fr);overflow:hidden;border:1px solid var(--line);border-radius:4px}.sa-phone:focus-within{border-color:#167c73;box-shadow:0 0 0 3px rgba(22,124,115,.16)}
         .sa-phone select,.sa-phone input{min-width:0;margin:0;border:0;border-radius:0;box-shadow:none!important}.sa-phone select{border-right:1px solid var(--line)}
-        textarea{min-height:112px;resize:vertical}.sa-privacy{margin:0;color:var(--muted);font-size:.82rem;line-height:1.5}.sa-privacy a{color:#167c73;font-weight:700;text-decoration:underline;text-underline-offset:2px}
-        button{width:100%;min-height:56px;padding:15px 22px;color:var(--ink);background:var(--coral);border:0;border-radius:8px;box-shadow:0 12px 28px rgba(242,107,79,.24);cursor:pointer;font-size:1.05rem;font-weight:800;transition:transform .2s ease,filter .2s ease}
+        textarea{min-height:64px;resize:vertical}.sa-privacy,.sa-error,button{grid-column:1/-1}.sa-privacy{margin:0;color:var(--muted);font-size:.78rem;line-height:1.35}.sa-privacy a{color:#167c73;font-weight:700;text-decoration:underline;text-underline-offset:2px}
+        button{width:100%;min-height:48px;padding:11px 18px;color:var(--ink);background:var(--coral);border:0;border-radius:8px;box-shadow:0 12px 28px rgba(242,107,79,.24);cursor:pointer;font-size:1rem;font-weight:800;transition:transform .2s ease,filter .2s ease}
         button:hover{filter:brightness(.96);transform:translateY(-2px)}button:focus-visible{outline:3px solid #167c73;outline-offset:3px}button:disabled{cursor:wait;opacity:.65;transform:none}.sa-error{margin:0;color:#b42318;font-size:.875rem}.sa-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
-        @media(max-width:700px){.sa-form-card{padding:22px 18px 26px;border-radius:4px 24px 4px 4px}h2{margin-bottom:18px;font-size:1.85rem}form{gap:14px}.sa-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.sa-phone{grid-template-columns:120px minmax(0,1fr)}}
-        @media(max-width:360px){.sa-grid{grid-template-columns:1fr}.sa-phone{grid-template-columns:105px minmax(0,1fr)}}
+        @media(max-width:700px){.sa-form-card{padding:22px 18px 26px;border-radius:4px 24px 4px 4px}h2{margin-bottom:18px;font-size:1.85rem}form{gap:12px}.sa-phone{grid-template-columns:120px minmax(0,1fr)}}
+        @media(max-width:360px){form{grid-template-columns:1fr}.sa-phone{grid-template-columns:105px minmax(0,1fr)}.sa-privacy,.sa-error,button{grid-column:auto}}
       `}</style>
     </div>
   );
