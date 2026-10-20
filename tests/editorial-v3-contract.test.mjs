@@ -36,6 +36,8 @@ assert.match(sidebar, /^['"]use client['"];/, 'the active-section sidebar must b
 assert.match(sidebar, /IntersectionObserver/, 'the TOC must track the active section while scrolling');
 assert.match(sidebar, /querySelectorAll<HTMLElement>\(['"]h2, h3['"]\)/, 'the TOC must include every meaningful h2 and h3');
 assert.match(sidebar, /heading\.id\s*=\s*uniqueHeadingId/, 'headings must receive stable anchor IDs');
+assert.match(sidebar, /root\.prepend\(slot\)/, 'article navigation must be inserted before article content');
+assert.match(sidebar, /window\.location\.hash[\s\S]*scrollIntoView/, 'initial fragment navigation must recover after client IDs are assigned');
 assert.match(sidebar, /<details[^>]*className=\{styles\.mobileToc\}/, 'mobile must use an accessible in-flow disclosure');
 assert.match(sidebar, /aria-current=\{activeId === item\.id \? ['"]location['"] : undefined\}/, 'the active TOC link must be exposed accessibly');
 assert.match(sidebar, /Published by Offshore Outsourcing Company/, 'the sidebar must identify the publisher');

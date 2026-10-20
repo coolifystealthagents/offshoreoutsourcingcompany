@@ -16,8 +16,10 @@ assert.match(components, /<nav[^>]+aria-label="Main navigation"[\s\S]*href="\/"[
 const navSource = components.match(/<nav[^>]+aria-label="Main navigation"[\s\S]*?<\/nav>/)?.[0] || '';
 assert.equal((navSource.match(/<a\s/g) || []).length, 3, 'primary navigation must contain exactly three destinations');
 assert.match(globalCss, /\.nav\s*\{[^}]*position:\s*sticky;[^}]*top:\s*0;/, 'site header must be sticky');
-assert.match(layout, /className="skip-link"[^>]+href="#main-content"/, 'layout must provide a skip link');
-assert.match(layout, /id="main-content"[^>]+tabIndex=\{-1\}/, 'skip target must be programmatically focusable');
+const skipLink = read('app/skip-link.tsx');
+assert.match(layout, /<SkipLink \/>/, 'layout must provide the shared skip link');
+assert.match(skipLink, /querySelector<HTMLElement>\(['"]main['"]\)/, 'skip link must target the actual main landmark');
+assert.match(skipLink, /main\.focus/, 'skip target must receive programmatic focus');
 assert.match(globalCss, /:target\s*\{[^}]*scroll-margin-top:/, 'anchor targets must clear the sticky header');
 assert.match(globalCss, /:focus-visible\s*\{[^}]*outline:/, 'keyboard focus must be globally visible');
 
@@ -35,19 +37,22 @@ assert.equal(provenance.records.length, 10, 'exactly ten approved reviews must b
 assert.equal(new Set(provenance.records.map(({ body }) => body)).size, 10, 'approved reviews must be unique');
 assert.equal(provenance.source, 'https://stealthagents.com/');
 const marquee = read('app/contact-us/ReviewsMarquee.tsx');
-assert.match(marquee, /StealthAgents reviews/);
-assert.match(marquee, /aria-label="5 out of 5 stars"/);
+assert.match(marquee, /Reviews published by StealthAgents/);
+assert.doesNotMatch(marquee, /5 out of 5 stars|Approved first-party/, 'review presentation must not overstate rating or reuse approval provenance');
 assert.equal((marquee.match(/records\.map/g) || []).length, 1, 'review records must not be duplicated to fake marquee length');
 assert.match(marquee, /requestAnimationFrame/);
 assert.match(marquee, /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/);
-assert.match(contactCss, /\.reviews-marquee:hover \.reviews-track[\s\S]*animation-play-state:\s*paused/);
+assert.match(marquee, /pausedRef\.current = true/, 'hover and focus must pause the actual scroll loop');
+assert.match(marquee, /if \(pausedRef\.current\)[\s\S]*else if \(priorTime\)/, 'the animation loop must honor pause state');
+assert.doesNotMatch(contactCss, /animation:\s*reviewDrift/, 'a second CSS motion system must not bypass JavaScript pause state');
 assert.match(contactCss, /@media\s*\(prefers-reduced-motion:\s*reduce\)[\s\S]*\.reviews-viewport\s*\{[^}]*overflow-x:\s*auto/);
-assert.doesNotMatch(marquee, /<button|play|pause|previous|next|pagination/i, 'review marquee must expose no playback controls');
+assert.doesNotMatch(marquee, /<button|aria-label=["'](?:play|pause|previous|next)|pagination/i, 'review marquee must expose no playback controls');
 for (const name of ['firstName', 'lastName', 'email', 'phoneLocal', 'companyName', 'website', 'companySize', 'positions', 'referral', 'message']) {
   assert.match(form, new RegExp(`name=["']${name}["']`), `preserved form field missing: ${name}`);
 }
 assert.match(form, /type="submit"/);
-assert.match(form, /window\.location\.assign\("\/thank-you"\)/);
+assert.match(form, /destination\.pathname !== "\/thank-you"/, 'client must validate the accepted server destination');
+assert.match(form, /window\.location\.assign\(`\$\{destination\.pathname\}/, 'client must preserve the accepted server destination');
 
 // Approved team block follows the first fold and unsupported claims are gone.
 const heroEnd = contact.indexOf('</section>', contact.indexOf('className="tc-hero"'));
@@ -61,8 +66,8 @@ assert.match(contact, /managed service/i);
 assert.doesNotMatch(contact, /Forbes|top rated|35\+ industries/i);
 
 // SEO fallback, safe prose sanitization, and branded recovery route.
-assert.match(layout, /images:\s*\[\s*\{\s*url:\s*['"]\/brand\/og-default\.svg['"]/);
-assert.ok(existsSync(url('public/brand/og-default.svg')), 'default OG image is required');
+assert.match(layout, /images:\s*\[\s*\{\s*url:\s*['"]\/opengraph-image\.png['"]/);
+assert.ok(existsSync(url('app/opengraph-image.png')), 'raster default OG image is required');
 const sanitizer = read('app/visible-punctuation-sanitizer.tsx');
 assert.match(sanitizer, /TreeWalker/);
 assert.match(sanitizer, /SCRIPT|STYLE|CODE|PRE|TEXTAREA/);

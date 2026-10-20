@@ -9,6 +9,7 @@ const base = `https://${site.domain.toLowerCase()}`;
 const title = 'Philippines outsourcing services for defined operations work';
 const description = 'Compare 14 Philippines-based outsourcing service lanes by scope, inputs, workflow, controls, and the decisions your team retains.';
 const heroImage = '/illustrations/getillustrations/goodle-team-illustrations-svg/filipino-operations-team.svg';
+const socialImage = `${base}/opengraph-image.png`;
 
 const indexFaqs = [
   {
@@ -38,8 +39,9 @@ export const metadata: Metadata = {
     description,
     url: `${base}/services`,
     type: 'website',
-    images: [{ url: `${base}${heroImage}`, alt: 'Filipino operations team collaborating around a defined service workflow' }],
+    images: [{ url: socialImage, alt: 'Filipino operations team collaborating around a defined service workflow' }],
   },
+  twitter: { card: 'summary_large_image', title: `${title} | ${site.brand}`, description, images: [socialImage] },
 };
 
 export default function Services() {

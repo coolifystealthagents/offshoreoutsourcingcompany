@@ -2,20 +2,20 @@ import type { Metadata } from 'next';
 import { Footer, Header } from '../components';
 
 export const metadata: Metadata = {
-  title: 'Consultation Confirmed — What Happens Next',
-  description: 'Your free staffing consultation is confirmed. Review what to prepare and what the conversation will cover.',
+  title: 'After Scheduling — Prepare for Your Consultation',
+  description: 'Review what to prepare after using the consultation scheduler. Your scheduler confirmation remains the source of truth for meeting status.',
   robots: { index: false, follow: false },
 };
 
-export default function BookingConfirmedPage() {
+export default function BookingNextStepsPage() {
   return <>
     <Header />
     <main>
       <section className="architecture-hero">
         <div className="container">
-          <p className="eyebrow">Consultation confirmed</p>
-          <h1>Your time is reserved. Here is what happens next.</h1>
-          <p className="lead">You will receive the meeting details at the email address used in the scheduler. No paid work begins from this booking alone.</p>
+          <p className="eyebrow">Consultation preparation</p>
+          <h1>What happens next after you use the scheduler?</h1>
+          <p className="lead">Check the confirmation shown by OnceHub or sent to your email for the authoritative meeting status and joining details. Visiting this page alone does not confirm a booking.</p>
         </div>
       </section>
       <section className="section">

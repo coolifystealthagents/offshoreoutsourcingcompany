@@ -11,7 +11,17 @@ const formatDate = (date: string) =>
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }) {
   const { page } = await params;
-  return { title: `Blog page ${page}`, description: "Practical Philippines staffing guides.", alternates: { canonical: `/blog/page/${page}` } };
+  const title = `Philippines staffing blog - page ${page}`;
+  const description = "Practical Philippines staffing guides.";
+  const url = `https://offshoreoutsourcingcompany.com/blog/page/${page}`;
+  const image = "https://offshoreoutsourcingcompany.com/opengraph-image.png";
+  return {
+    title,
+    description,
+    alternates: { canonical: `/blog/page/${page}` },
+    openGraph: { title, description, url, type: "website", images: [{ url: image, alt: "Offshore Outsourcing Company" }] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
+  };
 }
 
 export function generateStaticParams() {

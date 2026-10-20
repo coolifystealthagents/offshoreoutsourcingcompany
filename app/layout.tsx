@@ -3,6 +3,7 @@ import Script from 'next/script';
 import './globals.css';
 import type { Metadata } from 'next';
 import { VisiblePunctuationSanitizer } from './visible-punctuation-sanitizer';
+import { SkipLink } from './skip-link';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshoreoutsourcingcompany.com'),
@@ -17,10 +18,10 @@ export const metadata: Metadata = {
     url: 'https://offshoreoutsourcingcompany.com',
     siteName: 'Offshore Outsourcing Company',
     type: 'website',
-    images: [{ url: '/brand/og-default.svg', width: 1200, height: 630, alt: 'Offshore Outsourcing Company' }],
+    images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: 'Offshore Outsourcing Company' }],
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body><a className="skip-link" href="#main-content">Skip to main content</a><div id="main-content" tabIndex={-1}>{children}</div><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/thank-you',step:2,label:'Form Submitted',event:'funnel_form_submitted'},{path:'/thanks-whats-next',step:3,label:'Booking Confirmed',event:'funnel_booking_confirmed'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
+  return <html lang="en"><body><SkipLink /><div>{children}</div><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
 }

@@ -16,12 +16,17 @@ export function ArticleSidebar() {
   const markerRef = useRef<HTMLSpanElement>(null);
   const [items, setItems] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState('');
-  const [article, setArticle] = useState<HTMLElement | null>(null);
+  const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
     const root = markerRef.current?.closest<HTMLElement>('[data-editorial-frame]')?.querySelector<HTMLElement>('article');
     if (!root) return;
-    setArticle(root);
+
+    const slot = document.createElement('div');
+    slot.dataset.articleNavigationSlot = 'true';
+    root.prepend(slot);
+    setPortalTarget(slot);
+
     const headings = [...root.querySelectorAll<HTMLElement>('h2, h3')];
     const claimed = new Set<string>();
     const nextItems = headings.map((heading) => {
@@ -35,12 +40,20 @@ export function ArticleSidebar() {
     });
     setItems(nextItems);
     setActiveId(nextItems[0]?.id || '');
+
+    const fragment = decodeURIComponent(window.location.hash.slice(1));
+    if (fragment) requestAnimationFrame(() => document.getElementById(fragment)?.scrollIntoView({ block: 'start' }));
+
     const observer = new IntersectionObserver((entries) => {
       const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
       if (visible[0]?.target.id) setActiveId(visible[0].target.id);
     }, { rootMargin: '-96px 0px -65% 0px', threshold: [0, 1] });
     headings.forEach((heading) => observer.observe(heading));
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      setPortalTarget(null);
+      slot.remove();
+    };
   }, []);
 
   const toc = <TocLinks items={items} activeId={activeId} />;
@@ -52,5 +65,5 @@ export function ArticleSidebar() {
       <a className={styles.nextAction} href="/contact-us">Discuss your staffing plan</a>
     </aside>
   </>;
-  return <><span className={styles.marker} ref={markerRef} />{article ? createPortal(navigation, article) : null}</>;
+  return <><span className={styles.marker} ref={markerRef} />{portalTarget ? createPortal(navigation, portalTarget) : null}</>;
 }

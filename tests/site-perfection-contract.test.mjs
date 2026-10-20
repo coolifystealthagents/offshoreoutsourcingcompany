@@ -59,7 +59,7 @@ assert.match(contactPage, /<Header\s*\/>[\s\S]*<Footer\s*\/>/, 'contact page mus
 assert.match(contactPage, /alternates:\s*\{\s*canonical:\s*['"]\/contact-us['"]\s*\}/, 'contact page must be canonical');
 assert.doesNotMatch(contactForm, /[🇺🇸🇨🇦🇮🇩🇵🇭🇬🇧🇦🇺🇳🇿🇸🇬🇮🇳🇦🇪🇲🇽🇧🇷🇿🇦🇩🇪🇫🇷]/u, 'contact controls must not use emoji flags');
 assert.match(contactForm, /data-acr-handled=['"]1['"]/, 'controlled contact form must opt out of the global submit interceptor');
-assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*trackLead[\s\S]*window\.location\.assign\(['"]\/thank-you['"]\)[\s\S]*catch\s*\{\s*setError/, 'thank-you redirect must follow acknowledged backend delivery; errors must stay on-page');
+assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*trackLead[\s\S]*response\.url[\s\S]*destination\.pathname !== ["']\/thank-you["'][\s\S]*window\.location\.assign[\s\S]*catch\s*\{\s*setError/, 'thank-you navigation must follow a validated acknowledged backend destination; errors must stay on-page');
 assert.doesNotMatch(contactForm, /catch\s*\{[\s\S]{0,350}trackLead/, 'analytics must never substitute for failed lead delivery');
 assert.doesNotMatch(contactApi, /origin\s*!==\s*request\.nextUrl\.origin/, 'contact CSRF validation must not reject same-host requests because a proxy reconstructed the internal origin');
 assert.match(contactApi, /function sameOrigin[\s\S]*x-forwarded-host[\s\S]*new URL\(origin\)\.host/, 'contact CSRF validation must compare the submitted Origin host with the forwarded/request host');

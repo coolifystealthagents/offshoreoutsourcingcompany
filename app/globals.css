@@ -329,6 +329,8 @@ form .btn { width: 100%; color: #fff; background: var(--ink); }
 :target { scroll-margin-top: 100px; }
 :focus-visible { outline: 3px solid #bf4e32; outline-offset: 3px; }
 #main-content:focus { outline: none; }
+.sa-booking-fallback { margin: -8px 0 18px; color: var(--muted); font-size: .9rem; }
+.sa-booking-fallback a { color: var(--sea); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 860px) {
   .nav-inner { min-height: 74px; flex-wrap: wrap; gap: 8px 16px; padding: 10px 0; }
   .logo { min-width: 0; }

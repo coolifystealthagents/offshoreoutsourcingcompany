@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   const content = serviceContent[slug];
   if (!service || !content) return { title: 'Service not found' };
   const url = `${base}/services/${service.slug}`;
+  const socialImage = `${base}/opengraph-image.png`;
   return {
     title: service.title,
     description: service.desc,
@@ -29,8 +30,9 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
       description: service.desc,
       url,
       type: 'website',
-      images: [{ url: `${base}${content.heroImage}`, alt: content.heroAlt }],
+      images: [{ url: socialImage, alt: content.heroAlt }],
     },
+    twitter: { card: 'summary_large_image', title: `${service.title} | ${site.brand}`, description: service.desc, images: [socialImage] },
   };
 }
 

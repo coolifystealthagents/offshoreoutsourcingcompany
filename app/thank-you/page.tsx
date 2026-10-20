@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
 import { BookingEmbed } from '../booking-components';
 import { Footer, Header } from '../components';
 
@@ -8,7 +10,9 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function ThankYouPage() {
+export default async function ThankYouPage() {
+  const receipt = (await cookies()).get('ooc_lead_receipt')?.value;
+  if (!receipt) redirect('/contact-us?status=submit-first');
   return <>
     <Header />
     <main className="sa-booking-page">
