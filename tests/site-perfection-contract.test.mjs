@@ -81,7 +81,7 @@ assert.doesNotMatch(booking, /allow=['"][^'"]*(camera|microphone)/i, 'scheduler 
 assert.match(components, /id=['"]cta-sitewide-final-free-consultation['"][^>]*href=['"]\/contact-us['"][^>]*>[^<]*Free/i, 'shared CTA must have a stable ID, /contact-us destination, and Free label');
 assert.match(homepage, /id="cta-home-hero-free-consultation"[^>]*href="\/contact-us"[^>]*>[^<]*Free/i, 'hero CTA must meet the conversion contract');
 assert.match(homepage, /id="cta-home-final-free-consultation"[^>]*href="\/contact-us"[^>]*>[^<]*Free/i, 'homepage final CTA must meet the conversion contract');
-assert.match(servicesPage, /id=\{`cta-service-\$\{s\.slug\}-free-consultation`\}[^>]*href="\/contact-us"[^>]*>[^<]*Free/i, 'service CTA must meet the conversion contract');
+assert.match(servicesPage, /id=\{`cta-service-\$\{service\.slug\}-free-consultation`\}[^>]*href="\/contact-us"[^>]*>[^<]*Free/i, 'service CTA must meet the conversion contract');
 assert.doesNotMatch(blogPage, />Contact Us<|>\{banner\.label\}</, 'article marketing CTAs must not use ambiguous labels');
 for (const [position, variants] of Object.entries(blogProfile.positions)) {
   for (const variant of variants) {
