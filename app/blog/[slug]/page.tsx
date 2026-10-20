@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { Footer, Header, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
 import { EcommerceOperationsArticle } from './ecommerce-article';
+import { EditorialArticleFrame } from '../../editorial-article-frame';
+import { buildArticleMetadata, buildArticleSchema } from '../../../lib/editorial';
 import aug21Meta from '../../aug21-meta.json';
 import { getAug21Metadata, renderAug21Article } from '../../aug21-content';
 import aug31Meta from '../../aug31-meta.json';
@@ -53,12 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (slug in aug21Meta) return getAug21Metadata(slug);
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) return { title: 'Article not found' };
-  return {
-    title: post.title,
-    description: post.excerpt,
-    alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.excerpt, type: 'article', url: `${base}/blog/${post.slug}` },
-  };
+  return buildArticleMetadata({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, hero: 'thumbnail' in post ? post.thumbnail : undefined, date: 'publishedAt' in post ? post.publishedAt : undefined });
 }
 
 const articleBanners = [
@@ -299,28 +296,27 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  if (october7BlogPosts.some((item) => item.slug === slug)) return renderOctober7BlogArticle(slug, Header, Footer, CTA);
-  if (october5BlogPosts.some((item) => item.slug === slug)) return renderOctober5BlogArticle(slug, Header, Footer, CTA);
-  if (october2BlogPosts.some((item) => item.slug === slug)) return renderOctober2BlogArticle(slug, Header, Footer, CTA);
-  if (september28BlogPosts.some((item) => item.slug === slug)) return renderSeptember28BlogArticle(slug, Header, Footer, CTA);
-  if (september24BlogPosts.some((item) => item.slug === slug)) return renderSeptember24BlogArticle(slug, Header, Footer, CTA);
-  if (september23BlogPosts.some((item) => item.slug === slug)) return renderSeptember23BlogArticle(slug, Header, Footer, CTA);
-  if (september22BlogPosts.some((item) => item.slug === slug)) return renderSeptember22BlogArticle(slug, Header, Footer, CTA);
-  if (september19BlogPosts.some((item) => item.slug === slug)) return renderSeptember19BlogArticle(slug, Header, Footer, CTA);
+  if (october7BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderOctober7BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (october5BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderOctober5BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (october2BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderOctober2BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september28BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember28BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september24BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember24BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september23BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember23BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september22BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember22BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september19BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember19BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  if (september18BlogPosts.some((item) => item.slug === slug)) return renderSeptember18BlogArticle(slug, Header, Footer, CTA);
-  if (september10BlogPosts.some((item) => item.slug === slug)) return renderSeptember10BlogArticle(slug, Header, Footer, CTA);
-  if (september8BlogPosts.some((item) => item.slug === slug)) return renderSeptember8BlogArticle(slug, Header, Footer, CTA);
-  if (september7BlogPosts.some((item) => item.slug === slug)) return renderSeptember7BlogArticle(slug, Header, Footer, CTA);
-  if (september4BlogPosts.some((item) => item.slug === slug)) return renderSeptember4BlogArticle(slug, Header, Footer, CTA);
-  if (september2BlogPosts.some((item) => item.slug === slug)) return renderSeptember2BlogArticle(slug, Header, Footer, CTA);
-  if (september1BlogPosts.some((item) => item.slug === slug)) return renderSeptember1BlogArticle(slug, Header, Footer, CTA);
-  if (slug in aug31Meta) return renderAug31Article(slug);
-  if (slug in aug21Meta) return renderAug21Article(slug);
-  if (slug === richSlug) return <RichArticle post={post} />;
-  if (slug === ecommerceSlug) return <EcommerceOperationsArticle post={post} />;
-  const url = `${base}/blog/${post.slug}`;
+  if (september18BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember18BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september10BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember10BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september8BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember8BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september7BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember7BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september4BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember4BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september2BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember2BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (september1BlogPosts.some((item) => item.slug === slug)) return <EditorialArticleFrame>{renderSeptember1BlogArticle(slug, Header, Footer, CTA)}</EditorialArticleFrame>;
+  if (slug in aug31Meta) return <EditorialArticleFrame>{renderAug31Article(slug)}</EditorialArticleFrame>;
+  if (slug in aug21Meta) return <EditorialArticleFrame>{renderAug21Article(slug)}</EditorialArticleFrame>;
+  if (slug === richSlug) return <EditorialArticleFrame>{<RichArticle post={post} />}</EditorialArticleFrame>;
+  if (slug === ecommerceSlug) return <EditorialArticleFrame>{<EcommerceOperationsArticle post={post} />}</EditorialArticleFrame>;
   const publishedAt = 'publishedAt' in post ? post.publishedAt : undefined;
-  return <><Header /><main className="section"><JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: post.title, description: post.excerpt, url, ...(publishedAt ? { datePublished: publishedAt } : {}), ...('thumbnail' in post && post.thumbnail ? { image: `${base}${post.thumbnail}` } : {}) }} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>{'thumbnail' in post && post.thumbnail ? <img src={post.thumbnail} alt={post.title} width="1536" height="1024" /> : null}{publishedAt && <div className="article-meta"><time dateTime={publishedAt}>Published {formatPublishedDate(publishedAt)}</time></div>}{'sections' in post && post.sections ? <div className="article-body">{post.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div> : <div className="card"><h2>Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. Review <a href="/services/operations-coordination">operations coordination</a> for a practical scope.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner. See the <a href="/services/knowledge-base-management">knowledge base management</a> service for a durable handoff.</p><h2>Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div>}{'related' in post && post.related ? <aside className="card" aria-label="Related content"><h2>Related content</h2>{post.related.map((item) => <p key={item.href}><a href={item.href}>{item.title}</a></p>)}</aside> : null}</article><CTA /></main><Footer /></>;
+  return <EditorialArticleFrame><><Header /><main className="section"><JsonLd data={buildArticleSchema({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, date: publishedAt, hero: 'thumbnail' in post ? post.thumbnail : undefined })} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>{'thumbnail' in post && post.thumbnail ? <img src={post.thumbnail} alt={post.title} width="1536" height="1024" /> : null}{publishedAt && <div className="article-meta"><time dateTime={publishedAt}>Published {formatPublishedDate(publishedAt)}</time></div>}{'sections' in post && post.sections ? <div className="article-body">{post.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div> : <div className="card"><h2>Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. Review <a href="/services/operations-coordination">operations coordination</a> for a practical scope.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner. See the <a href="/services/knowledge-base-management">knowledge base management</a> service for a durable handoff.</p><h2>Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div>}{'related' in post && post.related ? <aside className="card" aria-label="Related content"><h2>Related content</h2>{post.related.map((item) => <p key={item.href}><a href={item.href}>{item.title}</a></p>)}</aside> : null}</article><CTA /></main><Footer /></></EditorialArticleFrame>;
 }

@@ -1,0 +1,123 @@
+.marker {
+  display: contents;
+}
+
+.desktopSidebar {
+  position: sticky;
+  top: 98px;
+  float: right;
+  width: min(18rem, 30%);
+  max-height: calc(100vh - 118px);
+  margin: 0 0 2rem 2.5rem;
+  padding: 1.25rem;
+  overflow-y: auto;
+  border: 1px solid rgba(16, 42, 46, 0.16);
+  border-radius: 14px;
+  background: #fffdf8;
+  box-shadow: 0 10px 30px rgba(16, 42, 46, 0.08);
+}
+
+.kicker {
+  margin: 0 0 0.75rem;
+  color: #167c73;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tocList {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tocList a {
+  color: #244447;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.tocList a:hover,
+.tocList a[aria-current='location'] {
+  color: #a83820;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.nested {
+  padding-left: 0.8rem;
+  border-left: 2px solid #d9e7e4;
+}
+
+.publisher {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d9e7e4;
+  color: #52696b;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.nextAction {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #a83820;
+  font-weight: 750;
+}
+
+.mobileToc {
+  margin: 0 0 1.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #b7cfca;
+  border-radius: 12px;
+  background: #fffdf8;
+}
+
+.mobileToc summary {
+  color: #102a2e;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.mobileToc .tocList {
+  margin-top: 0.9rem;
+}
+
+.empty {
+  color: #52696b;
+  font-size: 0.85rem;
+}
+
+/* Preserve a readable line length across every historical article renderer. */
+:global(.guide-article),
+:global(.article-shell > article),
+:global(.research-article) {
+  max-width: 72ch;
+}
+
+:global(.guide-article h2),
+:global(.guide-article h3),
+:global(.article-shell h2),
+:global(.article-shell h3),
+:global(.research-article h2),
+:global(.research-article h3) {
+  scroll-margin-top: 98px;
+}
+
+@media (max-width: 899px) {
+  .desktopSidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .mobileToc {
+    display: none;
+  }
+}

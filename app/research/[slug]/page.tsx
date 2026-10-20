@@ -4,6 +4,8 @@ import type { ReactNode } from 'react';
 import { Header, Footer, CTA } from '../../components';
 import { datedResearchPosts } from '../../data';
 import { parseResearchBody } from '../../../lib/research-content';
+import { buildArticleMetadata, buildArticleSchema, getEditorialHero } from '../../../lib/editorial';
+import { EditorialArticleFrame } from '../../editorial-article-frame';
 
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', {
   month: 'long',
@@ -65,32 +67,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = datedResearchPosts.find((item) => item.slug === slug);
   const modifiedDate = getModifiedDate(post);
   const hero = post && 'hero' in post ? post.hero : undefined;
-  return post ? {
-    title: post.title,
-    description: post.excerpt,
-    alternates: { canonical: `/research/${post.slug}` },
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      type: 'article',
-      publishedTime: post.date,
-      modifiedTime: modifiedDate,
-      images: hero ? [hero] : undefined,
-    },
-  } : {};
+  return post ? buildArticleMetadata({ family: 'research', slug: post.slug, title: post.title, description: post.excerpt, date: post.date, modifiedDate, hero }) : {};
 }
 
 export default async function ResearchPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = datedResearchPosts.find((item) => item.slug === slug);
   if (!post) notFound();
-  const hero = 'hero' in post ? post.hero : undefined;
+  const hero = ('hero' in post && post.hero) ? post.hero : getEditorialHero(post.slug, post.title);
   const relatedService = 'relatedService' in post ? post.relatedService : undefined;
   const modifiedDate = getModifiedDate(post);
-  const articleUrl = `https://offshoreoutsourcingcompany.com/research/${post.slug}`;
   const relatedResearch = datedResearchPosts.filter((item) => item.slug !== post.slug).slice(0, 3);
+  const articleSchema = buildArticleSchema({ family: 'research', slug: post.slug, title: post.title, description: post.excerpt, date: post.date, modifiedDate, hero });
 
-  return <>
+  return <EditorialArticleFrame><>
     <Header />
     <main className="section research-article-page">
       <article className="container guide-article research-article">
@@ -112,18 +102,9 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
         </aside>}
         <aside className="research-role-brief" aria-label="Related research"><p className="eyebrow">Continue the evidence review</p><h2>Related research</h2>{relatedResearch.map((item) => <p key={item.slug}><a href={`/research/${item.slug}`}>{item.title}</a></p>)}</aside>
       </article>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        headline: post.title,
-        description: post.excerpt,
-        datePublished: post.date,
-        dateModified: modifiedDate,
-        mainEntityOfPage: articleUrl,
-        image: hero ? `https://offshoreoutsourcingcompany.com${hero}` : undefined,
-      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <CTA />
     </main>
     <Footer />
-  </>;
+  </></EditorialArticleFrame>;
 }
