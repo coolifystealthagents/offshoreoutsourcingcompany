@@ -62,7 +62,7 @@ assert.match(contactPage, /<Header\s*\/>[\s\S]*<Footer\s*\/>/, 'contact page mus
 assert.match(contactPage, /alternates:\s*\{\s*canonical:\s*['"]\/contact-us['"]\s*\}/, 'contact page must be canonical');
 assert.doesNotMatch(contactForm, /[🇺🇸🇨🇦🇮🇩🇵🇭🇬🇧🇦🇺🇳🇿🇸🇬🇮🇳🇦🇪🇲🇽🇧🇷🇿🇦🇩🇪🇫🇷]/u, 'contact controls must not use emoji flags');
 assert.match(contactForm, /data-acr-handled=['"]1['"]/, 'controlled contact form must opt out of the global submit interceptor');
-assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*trackLead[\s\S]*response\.url[\s\S]*destination\.pathname !== ["']\/thank-you["'][\s\S]*window\.location\.assign[\s\S]*catch\s*\{\s*setError/, 'thank-you navigation must follow a validated acknowledged backend destination; errors must stay on-page');
+assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*response\.url[\s\S]*destination\.pathname !== ["']\/thank-you["'][\s\S]*trackLead[\s\S]*window\.location\.assign[\s\S]*catch\s*\{\s*setError/, 'thank-you navigation and tracking must follow a validated acknowledged backend destination; errors must stay on-page');
 assert.doesNotMatch(contactForm, /catch\s*\{[\s\S]{0,350}trackLead/, 'analytics must never substitute for failed lead delivery');
 assert.match(contactApi, /isAllowedContactRequest\(request\.headers\)/, 'contact requests must use the canonical-origin validator');
 assert.match(contactApi, /text\(form,['"]referral['"],300\)/, 'contact API must deliver the required referral answer');

@@ -14,7 +14,7 @@ export function isAllowedContactRequest(headers: Headers) {
       return false;
     }
   }
-  return headers.get('sec-fetch-site')?.toLowerCase() !== 'cross-site';
+  return headers.get('sec-fetch-site')?.toLowerCase() === 'same-origin';
 }
 
 export async function boundedContactFormData(request: Request, contentType: string) {

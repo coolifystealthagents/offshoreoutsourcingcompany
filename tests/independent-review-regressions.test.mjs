@@ -42,6 +42,9 @@ for (const origin of ['https://offshoreoutsourcingcompany.com', 'https://www.off
 for (const origin of ['http://offshoreoutsourcingcompany.com', 'https://attacker.example', 'not a URL']) assert.equal(isAllowedContactRequest(new Headers({ origin })), false);
 assert.equal(isAllowedContactRequest(new Headers({ 'sec-fetch-site': 'cross-site' })), false);
 assert.equal(isAllowedContactRequest(new Headers({ 'sec-fetch-site': 'same-origin' })), true);
+assert.equal(isAllowedContactRequest(new Headers()), false, 'unknown request provenance must fail closed');
+assert.equal(isAllowedContactRequest(new Headers({ 'sec-fetch-site': 'same-site' })), false, 'same-site is not proof of the exact production origin');
+assert.equal(isAllowedContactRequest(new Headers({ 'sec-fetch-site': 'garbage' })), false, 'unrecognized browser provenance must fail closed');
 const encoded = new URLSearchParams({ firstName: 'Ada', companyName: 'Example Co' }).toString();
 const encodedRequest = new Request('https://offshoreoutsourcingcompany.com/api/contact', { method: 'POST', body: encoded, headers: { 'content-type': 'application/x-www-form-urlencoded' } });
 const parsed = await boundedContactFormData(encodedRequest, encodedRequest.headers.get('content-type'));

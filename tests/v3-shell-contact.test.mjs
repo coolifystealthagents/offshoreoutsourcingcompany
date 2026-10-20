@@ -38,10 +38,15 @@ const provenance = JSON.parse(read('app/data/review-provenance.json'));
 assert.equal(provenance.records.length, 10, 'exactly ten approved reviews must be rendered');
 assert.equal(new Set(provenance.records.map(({ body }) => body)).size, 10, 'approved reviews must be unique');
 assert.equal(provenance.source, 'https://stealthagents.com/');
+assert.ok(provenance.records.every(({ rating }) => rating === 5), 'first-party five-star provenance must accompany every review');
+assert.match(provenance.ratingSource, /Official StealthAgents homepage testimonial cards/);
 const marquee = read('app/contact-us/ReviewsMarquee.tsx');
 assert.match(marquee, /Reviews published by StealthAgents/);
-assert.doesNotMatch(marquee, /5 out of 5 stars|Approved first-party/, 'review presentation must not overstate rating or reuse approval provenance');
+assert.match(marquee, /aria-label=\{`\$\{review\.rating\} stars`\}/, 'each review needs an accessible rating label');
+assert.match(marquee, /"★"\.repeat\(review\.rating\)/, 'each review needs the visible first-party star treatment');
 assert.equal((marquee.match(/records\.map/g) || []).length, 1, 'review records must not be duplicated to fake marquee length');
+assert.match(marquee, /track\.append\(firstCard\)/, 'the single review set must rotate seamlessly rather than jump to zero');
+assert.doesNotMatch(marquee, /position\s*=\s*0/, 'the marquee must not visibly reset to its beginning');
 assert.match(marquee, /requestAnimationFrame/);
 assert.match(marquee, /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/);
 assert.match(marquee, /hoveredRef\.current \|\| focusedRef\.current \|\| reducedMotion\.matches/, 'hover, focus, and reduced motion must independently pause the scroll loop');
@@ -56,6 +61,7 @@ for (const name of ['firstName', 'lastName', 'email', 'phoneLocal', 'companyName
 assert.match(form, /type="submit"/);
 assert.match(form, /destination\.pathname !== "\/thank-you"/, 'client must validate the accepted server destination');
 assert.match(form, /window\.location\.assign\(`\$\{destination\.pathname\}/, 'client must preserve the accepted server destination');
+assert.ok(form.indexOf('destination.pathname !== "/thank-you"') < form.indexOf('trackLead?.(payload)'), 'tracking must occur only after validating the acknowledged destination');
 
 // Approved team block follows the first fold and unsupported claims are gone.
 const heroEnd = contact.indexOf('</section>', contact.indexOf('className="tc-hero"'));
