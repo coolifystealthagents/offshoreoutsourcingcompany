@@ -34,6 +34,9 @@ assert.deepEqual(readFileSync(url('public/logo.svg')), readFileSync(url('app/ico
 
 // Contact first fold: approved reviews at left, complete preserved form at right.
 assert.match(contact, /<section className="tc-hero"[\s\S]*<ReviewsMarquee[\s\S]*<StandardContactForm endpoint="\/api\/contact" encoding="form"\s*\/>/);
+assert.match(contactCss, /\.tc-contact\s*\{[^}]*--tc-dark:\s*#102a2e;[^}]*--tc-mid:\s*#245d62;/, 'the active contact scope must define every token used by the hero gradient');
+assert.match(contactCss, /\.tc-hero\s*\{[^}]*background:\s*linear-gradient\([^;]*var\(--tc-dark\)[^;]*var\(--tc-mid\)/, 'the contact hero must retain its dark gradient behind light text');
+assert.match(contactCss, /\.tc-hero \.eyebrow\s*\{[^}]*color:\s*var\(--tc-accent\)/, 'the contact hero eyebrow needs explicit contrast on the dark gradient');
 const provenance = JSON.parse(read('app/data/review-provenance.json'));
 assert.equal(provenance.records.length, 10, 'exactly ten approved reviews must be rendered');
 assert.equal(new Set(provenance.records.map(({ body }) => body)).size, 10, 'approved reviews must be unique');
