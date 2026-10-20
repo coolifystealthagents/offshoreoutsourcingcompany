@@ -106,7 +106,8 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         button{width:100%;min-height:48px;padding:11px 18px;color:var(--ink);background:var(--coral);border:0;border-radius:8px;box-shadow:0 12px 28px rgba(242,107,79,.24);cursor:pointer;font-size:1rem;font-weight:800;transition:transform .2s ease,filter .2s ease}
         button:hover{filter:brightness(.96);transform:translateY(-2px)}button:focus-visible{outline:3px solid #167c73;outline-offset:3px}button:disabled{cursor:wait;opacity:.65;transform:none}.sa-error{margin:0;color:#b42318;font-size:.875rem}.sa-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
         @media(max-width:700px){.sa-form-card{padding:22px 18px 26px;border-radius:4px 24px 4px 4px}h2{margin-bottom:18px;font-size:1.85rem}form{gap:12px}.sa-phone{grid-template-columns:120px minmax(0,1fr)}}
-        @media(max-width:360px){form{grid-template-columns:1fr}.sa-phone{grid-template-columns:105px minmax(0,1fr)}.sa-privacy,.sa-error,button{grid-column:auto}}
+        @media(max-width:520px){form{grid-template-columns:1fr}.sa-phone{grid-template-columns:120px minmax(0,1fr)}.sa-privacy,.sa-error,button{grid-column:auto}}
+        @media(max-width:360px){.sa-phone{grid-template-columns:105px minmax(0,1fr)}}
       `}</style>
     </div>
   );

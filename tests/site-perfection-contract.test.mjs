@@ -71,7 +71,7 @@ assert.doesNotMatch(contactApi, /referral=text\(form,['"]source['"]/, 'form attr
 assert.doesNotMatch(contactForm, /#00adf4|#79cdf1|#111827|#34415a/i, 'contact form must use the established site palette instead of the unrelated slate/blue theme');
 assert.match(contactForm, /background:\s*var\(--coral\)/, 'contact submit button must use the accessible site coral');
 assert.match(contactForm, /form\s*\{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/, 'paired contact fields must remain compact at standard widths');
-assert.match(contactForm, /@media\(max-width:360px\)[\s\S]*form\s*\{[^}]*grid-template-columns:\s*1fr/, 'paired contact fields may stack only on very narrow screens');
+assert.match(contactForm, /@media\(max-width:520px\)[\s\S]*form\s*\{[^}]*grid-template-columns:\s*1fr/, 'paired contact fields must stack before narrow controls become unusable');
 assert.doesNotMatch(acrClient, /alert\s*\(/, 'lead failures must use inline status, never a popup');
 assert.match(privacyPage, /<time\s+dateTime=['"]\d{4}-\d{2}-\d{2}['"]>/, 'privacy policy must publish a complete semantic revision date');
 assert.match(privacyPage, /independent information and referral website/i, 'privacy policy must explain site and partner routing');
