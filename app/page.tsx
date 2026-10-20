@@ -42,14 +42,14 @@ export default function Home() {
       <section className="section roles-section" id="roles">
         <div className="container">
           <div className="section-heading"><p className="eyebrow">Work lanes</p><h2>Give repeating work a clear home.</h2><p>A useful role has work the person can own, decisions they cannot make, and a reviewer who will answer the awkward questions.</p></div>
-          <div className="role-grid">{services.map((service, index)=><a className="role-card" href={`/services/${service.slug}`} key={service.slug}><span className="role-number">{String(index + 1).padStart(2, '0')}</span><div><h3>{service.title}</h3><p>{service.desc}</p></div><b>Open role guide <span aria-hidden="true">↗</span></b></a>)}</div>
+          <div className="role-grid">{services.map((service)=><a className="role-card" href={`/services/${service.slug}`} key={service.slug}><div><h3>{service.title}</h3><p>{service.desc}</p></div><b>Open role guide <span aria-hidden="true">↗</span></b></a>)}</div>
         </div>
       </section>
 
       <section className="process-section" id="process">
         <div className="container process-grid">
           <div className="process-intro"><p className="eyebrow light">The operating brief</p><h2>Map the work before day one.</h2><p>Most handoff trouble starts early: nobody chose an owner, wrote the exception rules, or decided what a good week looks like.</p><div className="brief-card"><span>Sample handoff</span><strong>Done: 18 tickets</strong><strong>Waiting: 3 owner calls</strong><strong>Next: update macros</strong></div></div>
-          <div className="process-list">{staffingProcess.map((item)=><article key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}</div>
+          <div className="process-list">{staffingProcess.map((item)=><article key={item.title}><div><h3>{item.title}</h3><p>{item.body}</p></div></article>)}</div>
         </div>
       </section>
 
@@ -63,7 +63,7 @@ export default function Home() {
       <section className="comparison-section">
         <div className="container">
           <div className="section-heading compact"><p className="eyebrow light">Choose the model</p><h2>A job board finds people. A staffing brief tells them how to work.</h2></div>
-          <div className="comparison-table" role="table" aria-label="Staffing model comparison"><div className="comparison-row heading" role="row"><span>Decision</span><span>Loose marketplace search</span><span>Philippines-first staffing plan</span></div><div className="comparison-row" role="row"><b>Candidate source</b><span data-label="Loose marketplace search">Open-ended</span><span data-label="Philippines-first staffing plan">Filipino talent only</span></div><div className="comparison-row" role="row"><b>Role setup</b><span data-label="Loose marketplace search">Job title and inbox</span><span data-label="Philippines-first staffing plan">Tasks, limits, tools, reviewer</span></div><div className="comparison-row" role="row"><b>First week</b><span data-label="Loose marketplace search">Broad handoff</span><span data-label="Philippines-first staffing plan">Samples and limited access</span></div><div className="comparison-row" role="row"><b>Quality check</b><span data-label="Loose marketplace search">Fix issues as they appear</span><span data-label="Philippines-first staffing plan">Written scorecard and weekly handoff</span></div></div>
+          <table className="comparison-table"><caption>Staffing model comparison</caption><thead><tr className="comparison-row heading"><th scope="col">Decision</th><th scope="col">Loose marketplace search</th><th scope="col">Philippines-first staffing plan</th></tr></thead><tbody><tr className="comparison-row"><th scope="row">Candidate source</th><td data-label="Loose marketplace search">Open-ended</td><td data-label="Philippines-first staffing plan">Filipino talent only</td></tr><tr className="comparison-row"><th scope="row">Role setup</th><td data-label="Loose marketplace search">Job title and inbox</td><td data-label="Philippines-first staffing plan">Tasks, limits, tools, reviewer</td></tr><tr className="comparison-row"><th scope="row">First week</th><td data-label="Loose marketplace search">Broad handoff</td><td data-label="Philippines-first staffing plan">Samples and limited access</td></tr><tr className="comparison-row"><th scope="row">Quality check</th><td data-label="Loose marketplace search">Fix issues as they appear</td><td data-label="Philippines-first staffing plan">Written scorecard and weekly handoff</td></tr></tbody></table>
         </div>
       </section>
 

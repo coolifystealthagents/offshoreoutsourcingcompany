@@ -27,6 +27,7 @@ assert.match(globalCss, /:focus-visible\s*\{[^}]*outline:/, 'keyboard focus must
 // Parent attribution is visible in both global placements and uses the approved mark.
 assert.ok((components.match(/Powered by StealthAgents/g) || []).length >= 2, 'header and footer need explicit parent attribution');
 assert.ok((components.match(/\/brand\/stealth-agents-logo-black\.png/g) || []).length >= 2, 'header and footer need the official parent logo');
+assert.match(globalCss, /\.legit-footer \.parent-attribution\s*\{[^}]*color:\s*var\(--ink\);[^}]*background:\s*#fff/, 'footer attribution must place the official black mark and label on a readable light plate');
 assert.ok(existsSync(url('public/brand/stealth-agents-logo-black.png')), 'approved StealthAgents logo must be copied locally');
 assert.ok(existsSync(url('public/brand/stealth-agents-team-bacolod.png')), 'approved StealthAgents team photo must be copied locally');
 assert.deepEqual(readFileSync(url('public/logo.svg')), readFileSync(url('app/icon.svg')), 'favicon and shell must use one subsidiary logo identity');
@@ -43,8 +44,9 @@ assert.doesNotMatch(marquee, /5 out of 5 stars|Approved first-party/, 'review pr
 assert.equal((marquee.match(/records\.map/g) || []).length, 1, 'review records must not be duplicated to fake marquee length');
 assert.match(marquee, /requestAnimationFrame/);
 assert.match(marquee, /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/);
-assert.match(marquee, /pausedRef\.current = true/, 'hover and focus must pause the actual scroll loop');
-assert.match(marquee, /if \(pausedRef\.current \|\| reducedMotion\.matches\)[\s\S]*else if \(priorTime\)/, 'the animation loop must honor pause and live reduced-motion state');
+assert.match(marquee, /hoveredRef\.current \|\| focusedRef\.current \|\| reducedMotion\.matches/, 'hover, focus, and reduced motion must independently pause the scroll loop');
+assert.match(marquee, /onMouseLeave=\{\(\) => \{ hoveredRef\.current = false; \}\}/);
+assert.match(marquee, /onBlur=\{\(event\) => \{ if \(!event\.currentTarget\.contains\(event\.relatedTarget\)\) focusedRef\.current = false; \}\}/);
 assert.doesNotMatch(contactCss, /animation:\s*reviewDrift/, 'a second CSS motion system must not bypass JavaScript pause state');
 assert.match(contactCss, /@media\s*\(prefers-reduced-motion:\s*reduce\)[\s\S]*\.reviews-viewport\s*\{[^}]*overflow-x:\s*auto/);
 assert.doesNotMatch(marquee, /<button|aria-label=["'](?:play|pause|previous|next)|pagination/i, 'review marquee must expose no playback controls');

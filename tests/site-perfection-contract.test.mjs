@@ -39,6 +39,9 @@ assert.ok(existsSync(new URL('../public/fonts/instrument-sans.woff2', import.met
 assert.ok(existsSync(new URL('../public/fonts/newsreader.woff2', import.meta.url)), 'Newsreader font file missing');
 assert.doesNotMatch(css, /\.comparison-row\s*\{\s*min-width:\s*680px/, 'mobile comparison rows must not force a clipped 680px layout');
 assert.match(css, /@media\s*\(max-width:\s*720px\)[\s\S]*\.comparison-row\s*\{[^}]*grid-template-columns:\s*1fr/, 'mobile comparison rows must stack');
+assert.match(homepage, /<table className="comparison-table"><caption>Staffing model comparison<\/caption><thead>/, 'comparison data must use a native labelled table');
+assert.match(homepage, /<th scope="col">Decision<\/th>/, 'comparison columns need semantic headers');
+assert.match(homepage, /<th scope="row">Candidate source<\/th>/, 'comparison rows need semantic headers');
 assert.match(homepage, /data-label=['"]Loose marketplace search['"]/i, 'mobile comparison cells must repeat the first model label');
 assert.match(homepage, /data-label=['"]Philippines-first staffing plan['"]/i, 'mobile comparison cells must repeat the second model label');
 assert.match(css, /content:\s*attr\(data-label\)/, 'mobile comparison labels must render visibly');
@@ -61,8 +64,7 @@ assert.doesNotMatch(contactForm, /[🇺🇸🇨🇦🇮🇩🇵🇭🇬🇧🇦�
 assert.match(contactForm, /data-acr-handled=['"]1['"]/, 'controlled contact form must opt out of the global submit interceptor');
 assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*trackLead[\s\S]*response\.url[\s\S]*destination\.pathname !== ["']\/thank-you["'][\s\S]*window\.location\.assign[\s\S]*catch\s*\{\s*setError/, 'thank-you navigation must follow a validated acknowledged backend destination; errors must stay on-page');
 assert.doesNotMatch(contactForm, /catch\s*\{[\s\S]{0,350}trackLead/, 'analytics must never substitute for failed lead delivery');
-assert.doesNotMatch(contactApi, /origin\s*!==\s*request\.nextUrl\.origin/, 'contact CSRF validation must not reject same-host requests because a proxy reconstructed the internal origin');
-assert.match(contactApi, /function sameOrigin[\s\S]*x-forwarded-host[\s\S]*new URL\(origin\)\.host/, 'contact CSRF validation must compare the submitted Origin host with the forwarded/request host');
+assert.match(contactApi, /isAllowedContactRequest\(request\.headers\)/, 'contact requests must use the canonical-origin validator');
 assert.match(contactApi, /text\(form,['"]referral['"],300\)/, 'contact API must deliver the required referral answer');
 assert.match(contactApi, /text\(form,['"]referralSpecify['"],300\)/, 'contact API must deliver the required Other referral detail');
 assert.doesNotMatch(contactApi, /referral=text\(form,['"]source['"]/, 'form attribution source must not overwrite how the visitor heard about the site');
@@ -95,7 +97,7 @@ for (const slug of ['finance-administration', 'process-documentation']) {
 }
 assert.equal((data.match(/slug:\s*["'][^"']+["'],\s*title:\s*["'][^"']+["'],\s*desc:/g) || []).length, 14, 'service catalog must retain exactly 14 scoped services');
 assert.doesNotMatch(data, /can handle [^"']+ with documented workflows, approval limits, and owner review/i, 'service descriptions must be task-specific rather than formulaic');
-assert.match(homepage, /String\(index\s*\+\s*1\)\.padStart\(2,\s*['"]0['"]\)/, 'service numbering must render 01 through 14 without 010-style artifacts');
+assert.doesNotMatch(homepage, /role-number|padStart\(2|\{item\.step\}/, 'commercial layouts must not render decorative numbered labels');
 assert.doesNotMatch(blogLayout, /BlogBanner/, 'campaign banners must not render outside the blog page shell');
 assert.equal((blogPage.match(/<ArticleBanner index=/g) || []).length, 1, 'rich article must contain one inline conversion banner');
 assert.equal((ecommerceArticle.match(/<ArticleBanner index=/g) || []).length, 1, 'ecommerce article must contain one inline conversion banner');
