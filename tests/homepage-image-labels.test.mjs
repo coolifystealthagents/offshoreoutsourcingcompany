@@ -14,7 +14,7 @@ const missingLabels = renderedImages.filter((tag) => {
 });
 const hiddenLabels = renderedImages.filter((tag) => /\baria-hidden\s*=\s*["']true["']/.test(tag));
 
-assert.equal(renderedImages.length, 10, 'homepage image inventory changed');
+assert.equal(renderedImages.length, 14, 'homepage plus global attribution image inventory changed');
 assert.equal(missingLabels.length, 0, `found ${missingLabels.length} rendered homepage images without labels`);
 assert.equal(hiddenLabels.length, 0, `found ${hiddenLabels.length} rendered homepage image labels hidden from assistive technology`);
 assert.equal((page.match(/<h1\b/g) || []).length, 1, 'homepage must render exactly one H1');
