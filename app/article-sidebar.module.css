@@ -1,3 +1,7 @@
+.frame {
+  display: flow-root;
+}
+
 .marker {
   display: contents;
 }
@@ -95,18 +99,18 @@
 }
 
 /* Preserve a readable line length across every historical article renderer. */
-:global(.guide-article),
-:global(.article-shell > article),
-:global(.research-article) {
+.frame :global(.guide-article),
+.frame :global(.article-shell > article),
+.frame :global(.research-article) {
   max-width: 72ch;
 }
 
-:global(.guide-article h2),
-:global(.guide-article h3),
-:global(.article-shell h2),
-:global(.article-shell h3),
-:global(.research-article h2),
-:global(.research-article h3) {
+.frame :global(.guide-article h2),
+.frame :global(.guide-article h3),
+.frame :global(.article-shell h2),
+.frame :global(.article-shell h3),
+.frame :global(.research-article h2),
+.frame :global(.research-article h3) {
   scroll-margin-top: 98px;
 }
 

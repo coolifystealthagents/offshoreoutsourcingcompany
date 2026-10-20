@@ -40,6 +40,7 @@ assert.match(sidebar, /<details[^>]*className=\{styles\.mobileToc\}/, 'mobile mu
 assert.match(sidebar, /aria-current=\{activeId === item\.id \? ['"]location['"] : undefined\}/, 'the active TOC link must be exposed accessibly');
 assert.match(sidebar, /Published by Offshore Outsourcing Company/, 'the sidebar must identify the publisher');
 assert.match(sidebar, /href="\/contact-us"/, 'the sidebar must offer a relevant next action');
+assert.doesNotMatch(sidebarCss, /(^|\n):global\(/, 'CSS-module selectors must be scoped through a local frame class');
 assert.match(sidebarCss, /position:\s*sticky/, 'the desktop sidebar must be sticky');
 assert.match(sidebarCss, /top:\s*(?:9[0-9]|1[0-2][0-9])px/, 'the sticky sidebar must clear the 82px header');
 assert.match(sidebarCss, /max-height:\s*calc\(100vh\s*-\s*\d+px\)/, 'a long sidebar must fit within the viewport');
