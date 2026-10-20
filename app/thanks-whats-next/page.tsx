@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function BookingNextStepsPage() {
   return <>
     <Header />
-    <main>
+    <div>
       <section className="architecture-hero">
         <div className="container">
           <p className="eyebrow">Consultation preparation</p>
@@ -25,7 +25,7 @@ export default function BookingNextStepsPage() {
           <article className="card"><h2>3. Define a useful first week</h2><p>Bring examples of acceptable work and decide who can review samples and answer questions.</p></article>
         </div>
       </section>
-    </main>
+    </div>
     <Footer />
   </>;
 }

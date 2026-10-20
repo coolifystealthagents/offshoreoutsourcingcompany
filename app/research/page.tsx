@@ -42,7 +42,7 @@ export default function Research() {
   return (
     <>
       <Header />
-      <main className="research-index-page">
+      <div className="research-index-page">
         <section className="research-hero">
           <div className="container research-hero-grid">
             <div>
@@ -154,7 +154,7 @@ export default function Research() {
             </p>
           </div>
         </section>
-      </main>
+      </div>
       <Footer />
     </>
   );

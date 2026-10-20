@@ -4,6 +4,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { VisiblePunctuationSanitizer } from './visible-punctuation-sanitizer';
 import { SkipLink } from './skip-link';
+import { GlobalFooter, GlobalHeader } from './components';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshoreoutsourcingcompany.com'),
@@ -20,8 +21,14 @@ export const metadata: Metadata = {
     type: 'website',
     images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: 'Offshore Outsourcing Company' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Offshore Outsourcing Company',
+    description: 'Independent guidance for building a managed team with Filipino talent.',
+    images: ['/opengraph-image.png'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body><SkipLink /><div>{children}</div><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
+  return <html lang="en"><body><SkipLink /><GlobalHeader /><main id="main-content" tabIndex={-1}>{children}</main><GlobalFooter /><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
 }

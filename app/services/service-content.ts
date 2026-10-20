@@ -97,7 +97,7 @@ export const serviceContent: Record<string, ServiceContent> = {
   'operations-coordination': buildService({
     title: 'Operations Coordination', keyword: 'operations coordination', role: 'The operations coordinator',
     audience: 'For operations leaders whose recurring requests, due dates, and handoffs are spread across inboxes or meetings, creating unclear ownership and avoidable follow-up work.',
-    heroImage: '/illustrations/getillustrations/grain-teamwork-illustrations-svg/teamwork-planning.svg',
+    heroImage: '/blog/images/thumbs/philippines-operations-coordination-capacity-2026.webp',
     heroAlt: 'Operations teammates planning assignments around a shared workflow board',
     tasks: ['assigning requests and maintaining owners and due dates', 'preparing daily handoffs and chasing missing inputs', 'updating exception logs and owner-ready status notes'],
     inputs: ['A current request list with priority and due-date rules', 'Examples of complete handoffs and common exceptions', 'Named owners, escalation contacts, and system permissions'],

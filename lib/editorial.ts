@@ -46,7 +46,7 @@ export function getEditorialHero(slug: string, title = ''): string {
 
 export function buildArticleMetadata(input: ArticleMetadataInput): Metadata {
   const path = `/${input.family}/${input.slug}`;
-  const hero = input.hero || getEditorialHero(input.slug, input.title);
+  const socialImage = `${SITE}/opengraph-image.png`;
   return {
     title: input.title,
     description: input.description,
@@ -58,7 +58,13 @@ export function buildArticleMetadata(input: ArticleMetadataInput): Metadata {
       url: `${SITE}${path}`,
       publishedTime: input.date,
       modifiedTime: input.modifiedDate,
-      images: [hero],
+      images: [{ url: socialImage, alt: `${input.title} | Offshore Outsourcing Company` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: input.title,
+      description: input.description,
+      images: [socialImage],
     },
   };
 }

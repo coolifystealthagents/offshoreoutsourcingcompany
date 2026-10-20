@@ -85,7 +85,7 @@ export default function Services() {
 
   return <>
     <Header />
-    <main className="services-page">
+    <div className="services-page">
       <JsonLd data={schema} />
       <section className="services-index-hero">
         <div className="container services-hero-grid">
@@ -172,7 +172,7 @@ export default function Services() {
         <a className="btn primary" href="/contact-us">Book a free consultation</a>
       </section>
       <CTA />
-    </main>
+    </div>
     <Footer />
   </>;
 }

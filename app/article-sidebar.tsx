@@ -41,7 +41,8 @@ export function ArticleSidebar() {
     setItems(nextItems);
     setActiveId(nextItems[0]?.id || '');
 
-    const fragment = decodeURIComponent(window.location.hash.slice(1));
+    let fragment = window.location.hash.slice(1);
+    try { fragment = decodeURIComponent(fragment); } catch { fragment = ''; }
     if (fragment) requestAnimationFrame(() => document.getElementById(fragment)?.scrollIntoView({ block: 'start' }));
 
     const observer = new IntersectionObserver((entries) => {

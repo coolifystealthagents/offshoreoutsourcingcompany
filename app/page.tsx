@@ -19,7 +19,7 @@ export default function Home() {
 
   return <>
     <Header/>
-    <main className="ops-home" data-design={marker} data-gi-rollout="two-illustration-packs-one-icon-pack">
+    <div className="ops-home" data-design={marker} data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema}/>
       <section className="ops-hero">
         <div className="container ops-hero-grid">
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       <section className="container final-panel"><div><p className="eyebrow light">Ready to write the role?</p><h2>Bring the task list. Leave with a Filipino staffing brief.</h2><p>We will map the work, the access rules, and the first-week checks before your request reaches a Philippines-only staffing partner.</p></div><a id="cta-home-final-free-consultation" className="btn primary" href="/contact-us">Book a Free Consultation</a></section>
-    </main>
+    </div>
     <Footer/>
   </>;
 }

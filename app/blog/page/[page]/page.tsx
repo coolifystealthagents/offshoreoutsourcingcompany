@@ -9,16 +9,25 @@ const formatDate = (date: string) =>
     timeZone: "UTC",
   }).format(new Date(`${date}T00:00:00Z`));
 
+const totalBlogPages = () => Math.max(1, Math.ceil(blogPosts.length / 20));
+const parseBlogPage = (page: string) => {
+  if (!/^[1-9]\d*$/.test(page)) return null;
+  const value = Number(page);
+  return Number.isSafeInteger(value) && value <= totalBlogPages() ? value : null;
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }) {
   const { page } = await params;
-  const title = `Philippines staffing blog - page ${page}`;
+  const current = parseBlogPage(page);
+  if (current === null) notFound();
+  const title = `Philippines staffing blog - page ${current}`;
   const description = "Practical Philippines staffing guides.";
-  const url = `https://offshoreoutsourcingcompany.com/blog/page/${page}`;
+  const url = `https://offshoreoutsourcingcompany.com/blog/page/${current}`;
   const image = "https://offshoreoutsourcingcompany.com/opengraph-image.png";
   return {
     title,
     description,
-    alternates: { canonical: `/blog/page/${page}` },
+    alternates: { canonical: `/blog/page/${current}` },
     openGraph: { title, description, url, type: "website", images: [{ url: image, alt: "Offshore Outsourcing Company" }] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };
@@ -37,10 +46,10 @@ export default async function BlogPage({
   params: Promise<{ page: string }>;
 }) {
   const { page } = await params;
-  const current = Number(page);
-  const total = Math.max(1, Math.ceil(blogPosts.length / 20));
-  if (page === "1") redirect("/blog");
-  if (!Number.isInteger(current) || current < 1 || current > total) notFound();
+  const current = parseBlogPage(page);
+  if (current === null) notFound();
+  const total = totalBlogPages();
+  if (current === 1) redirect("/blog");
   const posts = sortBlogPosts(blogPosts).slice(
     (current - 1) * 20,
     current * 20,
@@ -48,7 +57,7 @@ export default async function BlogPage({
   return (
     <>
       <Header />
-      <main className="section">
+      <div className="section">
         <div className="container">
           <p className="eyebrow">Philippines staffing blog</p>
           <h1>Blog page {current}</h1>
@@ -77,7 +86,7 @@ export default async function BlogPage({
             ))}
           </nav>
         </div>
-      </main>
+      </div>
       <CTA />
       <Footer />
     </>

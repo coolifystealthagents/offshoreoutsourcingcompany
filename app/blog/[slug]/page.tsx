@@ -155,7 +155,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
 
   return <>
     <Header />
-    <main className="section">
+    <div className="section">
       <JsonLd data={schema} />
       <article className="container guide-article rich-article">
         <p className="eyebrow">Philippines staffing blog</p>
@@ -312,7 +312,7 @@ function RichArticle({ post }: { post: (typeof blogPosts)[number] }) {
           </section>
         </div>
       </article>
-    </main>
+    </div>
     <Footer />
   </>;
 }
@@ -341,5 +341,5 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   if (slug === richSlug) return <EditorialArticleFrame>{<RichArticle post={post} />}</EditorialArticleFrame>;
   if (slug === ecommerceSlug) return <EditorialArticleFrame>{<EcommerceOperationsArticle post={post} />}</EditorialArticleFrame>;
   const publishedAt = 'publishedAt' in post ? post.publishedAt : undefined;
-  return <EditorialArticleFrame><><Header /><main className="section"><JsonLd data={buildArticleSchema({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, date: publishedAt, hero: 'thumbnail' in post ? post.thumbnail : undefined })} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>{'thumbnail' in post && post.thumbnail ? <img src={post.thumbnail} alt={post.title} width="1536" height="1024" /> : null}{publishedAt && <div className="article-meta"><time dateTime={publishedAt}>Published {formatPublishedDate(publishedAt)}</time></div>}{'sections' in post && post.sections ? <div className="article-body">{post.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div> : <div className="card"><h2>Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. Review <a href="/services/operations-coordination">operations coordination</a> for a practical scope.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner. See the <a href="/services/knowledge-base-management">knowledge base management</a> service for a durable handoff.</p><h2>Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div>}{'related' in post && post.related ? <aside className="card" aria-label="Related content"><h2>Related content</h2>{post.related.map((item) => <p key={item.href}><a href={item.href}>{item.title}</a></p>)}</aside> : null}</article><CTA /></main><Footer /></></EditorialArticleFrame>;
+  return <EditorialArticleFrame><><Header /><div className="section"><JsonLd data={buildArticleSchema({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, date: publishedAt, hero: 'thumbnail' in post ? post.thumbnail : undefined })} /><article className="container guide-article"><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>{'thumbnail' in post && post.thumbnail ? <img src={post.thumbnail} alt={post.title} width="1536" height="1024" /> : null}{publishedAt && <div className="article-meta"><time dateTime={publishedAt}>Published {formatPublishedDate(publishedAt)}</time></div>}{'sections' in post && post.sections ? <div className="article-body">{post.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2><p>{section.body}</p></section>)}</div> : <div className="card"><h2>Start with a defined role</h2><p>Write the recurring tasks, examples, tools, and approval boundaries before a Filipino specialist begins. Review <a href="/services/operations-coordination">operations coordination</a> for a practical scope.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Record questions and exceptions for the owner. See the <a href="/services/knowledge-base-management">knowledge base management</a> service for a durable handoff.</p><h2>Review the workload</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. Update the role notes when the process changes.</p></div>}{'related' in post && post.related ? <aside className="card" aria-label="Related content"><h2>Related content</h2>{post.related.map((item) => <p key={item.href}><a href={item.href}>{item.title}</a></p>)}</aside> : null}</article><CTA /></div><Footer /></></EditorialArticleFrame>;
 }

@@ -86,7 +86,7 @@ export default async function Service({ params }: ServicePageProps) {
 
   return <>
     <Header />
-    <main className="services-page service-detail-page">
+    <div className="services-page service-detail-page">
       <JsonLd data={schema} />
       <section className="service-detail-hero">
         <div className="container services-hero-grid">
@@ -188,7 +188,7 @@ export default async function Service({ params }: ServicePageProps) {
         <a className="btn primary" href="/contact-us">Book a free consultation</a>
       </section>
       <CTA />
-    </main>
+    </div>
     <Footer />
   </>;
 }

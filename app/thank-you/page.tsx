@@ -15,7 +15,7 @@ export default async function ThankYouPage() {
   if (!receipt) redirect('/contact-us?status=submit-first');
   return <>
     <Header />
-    <main className="sa-booking-page">
+    <div className="sa-booking-page">
       <div className="container sa-booking-grid">
         <section className="sa-booking-left">
           <p className="sa-booking-kicker">Request received</p>
@@ -40,7 +40,7 @@ export default async function ThankYouPage() {
         </section>
         <BookingEmbed />
       </div>
-    </main>
+    </div>
     <Footer />
   </>;
 }

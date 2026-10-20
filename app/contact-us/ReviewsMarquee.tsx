@@ -11,13 +11,12 @@ export default function ReviewsMarquee() {
     const viewport = viewportRef.current;
     if (!viewport) return;
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    if (reducedMotion.matches) return;
 
     let frame = 0;
     let priorTime = 0;
     let position = viewport.scrollLeft;
     const move = (time: number) => {
-      if (pausedRef.current) position = viewport.scrollLeft;
+      if (pausedRef.current || reducedMotion.matches) position = viewport.scrollLeft;
       else if (priorTime) {
         position += (time - priorTime) * 0.025;
         if (position >= viewport.scrollWidth - viewport.clientWidth) position = 0;

@@ -82,7 +82,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
 
   return <EditorialArticleFrame><>
     <Header />
-    <main className="section research-article-page">
+    <div className="section research-article-page">
       <article className="container guide-article research-article">
         <p className="eyebrow">Philippines staffing research</p>
         <h1>{post.title}</h1>
@@ -104,7 +104,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
       </article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <CTA />
-    </main>
+    </div>
     <Footer />
   </></EditorialArticleFrame>;
 }

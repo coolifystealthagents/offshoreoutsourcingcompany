@@ -97,7 +97,7 @@ export function EcommerceOperationsArticle({ post }: { post: ArticlePost }) {
 
   return <>
     <Header />
-    <main className="section">
+    <div className="section">
       <JsonLd data={schema} />
       <article className="container guide-article rich-article" data-article-kind="ecommerce-order-exception-controls">
         <p className="eyebrow">Philippines staffing blog</p>
@@ -263,7 +263,7 @@ export function EcommerceOperationsArticle({ post }: { post: ArticlePost }) {
           </section>
         </div>
       </article>
-    </main>
+    </div>
     <Footer />
   </>;
 }

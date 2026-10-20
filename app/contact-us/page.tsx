@@ -39,7 +39,7 @@ export default function ContactUsPage() {
     ],
   };
 
-  return <><Header /><main className="tc-contact"><JsonLd data={schema} />
+  return <><Header /><div className="tc-contact"><JsonLd data={schema} />
     <section className="tc-hero" aria-labelledby="contact-title">
       <div className="tc-shell tc-hero-grid">
         <div className="tc-intro">
@@ -71,5 +71,5 @@ export default function ContactUsPage() {
       <div className="tc-cards"><article><h3>Work lane</h3><p>Identify repeatable tasks, inputs, expected outputs, and the exceptions that need escalation.</p></article><article><h3>Access and ownership</h3><p>Name the systems, permissions, reviewer, and decisions that remain with authorized personnel.</p></article><article><h3>Launch rhythm</h3><p>Agree on coverage, communication, sample review, feedback, and a practical first-week sequence.</p></article></div>
     </div></section>
     <section className="tc-faq" aria-labelledby="contact-faq"><div className="tc-shell"><h2 id="contact-faq">Frequently asked questions</h2>{faqs.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
-  </main><Footer /></>;
+  </div><Footer /></>;
 }

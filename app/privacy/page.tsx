@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Privacy() {
   return <>
     <Header />
-    <main className="legal-page">
+    <div className="legal-page">
       <section className="legal-hero">
         <div className="container">
           <p className="eyebrow">Privacy policy</p>
@@ -59,7 +59,7 @@ export default function Privacy() {
           <p>For privacy questions or requests, use the <a href="/contact-us">contact form</a> and write “Privacy request” in the message field so the request can be routed appropriately.</p>
         </article>
       </section>
-    </main>
+    </div>
     <Footer />
   </>;
 }

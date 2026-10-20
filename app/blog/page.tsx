@@ -20,7 +20,7 @@ export default function Blog() {
   return (
     <>
       <Header />
-      <main className="section">
+      <div className="section">
         <div className="container">
           <p className="eyebrow">Philippines staffing blog</p>
           <h1>Practical role and handoff guides.</h1>
@@ -54,7 +54,7 @@ export default function Blog() {
             ))}
           </nav>
         </div>
-      </main>
+      </div>
       <CTA />
       <Footer />
     </>

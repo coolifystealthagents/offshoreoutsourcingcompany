@@ -172,7 +172,7 @@ export function renderSeptember2BlogArticle(slug: string, Header: ComponentType,
   const post = september2BlogPosts.find((item) => item.slug === slug)!;
   const url = `${SITE}/blog/${slug}`;
   const schema = { '@context': 'https://schema.org', '@type': 'Article', headline: post.title, description: post.excerpt, datePublished: DATE, dateModified: DATE, mainEntityOfPage: url };
-  return <><Header/><main className="article-shell"><article><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}/><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p><time dateTime={DATE}>September 2, 2026</time></p><p className="lead">{post.excerpt}</p><div className="article-body">{post.body.map((paragraph, index) => index === 0 ? <p key={paragraph}>{paragraph}</p> : <section key={paragraph}><h2>{['Define the workflow','Assign the boundary','Preserve the evidence','Check the result','Close the record'][index - 1]}</h2><p>{paragraph}</p></section>)}</div></article><CTA/></main><Footer/></>;
+  return <><Header/><div className="article-shell"><article><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}/><p className="eyebrow">Philippines staffing blog</p><h1>{post.title}</h1><p><time dateTime={DATE}>September 2, 2026</time></p><p className="lead">{post.excerpt}</p><div className="article-body">{post.body.map((paragraph, index) => index === 0 ? <p key={paragraph}>{paragraph}</p> : <section key={paragraph}><h2>{['Define the workflow','Assign the boundary','Preserve the evidence','Check the result','Close the record'][index - 1]}</h2><p>{paragraph}</p></section>)}</div></article><CTA/></div><Footer/></>;
 }
 
 const researchBase = { date: DATE, hero: '' } as const;

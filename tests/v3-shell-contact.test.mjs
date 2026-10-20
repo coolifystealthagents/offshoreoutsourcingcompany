@@ -18,8 +18,9 @@ assert.equal((navSource.match(/<a\s/g) || []).length, 3, 'primary navigation mus
 assert.match(globalCss, /\.nav\s*\{[^}]*position:\s*sticky;[^}]*top:\s*0;/, 'site header must be sticky');
 const skipLink = read('app/skip-link.tsx');
 assert.match(layout, /<SkipLink \/>/, 'layout must provide the shared skip link');
-assert.match(skipLink, /querySelector<HTMLElement>\(['"]main['"]\)/, 'skip link must target the actual main landmark');
-assert.match(skipLink, /main\.focus/, 'skip target must receive programmatic focus');
+assert.match(layout, /<GlobalHeader \/><main id="main-content" tabIndex=\{-1\}>\{children\}<\/main><GlobalFooter \/>/, 'skip link target must be the server-rendered main landmark after the global header');
+assert.match(skipLink, /getElementById\(targetId\)/, 'skip link must target the server-rendered target');
+assert.match(skipLink, /target\.focus/, 'skip target must receive programmatic focus');
 assert.match(globalCss, /:target\s*\{[^}]*scroll-margin-top:/, 'anchor targets must clear the sticky header');
 assert.match(globalCss, /:focus-visible\s*\{[^}]*outline:/, 'keyboard focus must be globally visible');
 
@@ -43,7 +44,7 @@ assert.equal((marquee.match(/records\.map/g) || []).length, 1, 'review records m
 assert.match(marquee, /requestAnimationFrame/);
 assert.match(marquee, /matchMedia\("\(prefers-reduced-motion: reduce\)"\)/);
 assert.match(marquee, /pausedRef\.current = true/, 'hover and focus must pause the actual scroll loop');
-assert.match(marquee, /if \(pausedRef\.current\)[\s\S]*else if \(priorTime\)/, 'the animation loop must honor pause state');
+assert.match(marquee, /if \(pausedRef\.current \|\| reducedMotion\.matches\)[\s\S]*else if \(priorTime\)/, 'the animation loop must honor pause and live reduced-motion state');
 assert.doesNotMatch(contactCss, /animation:\s*reviewDrift/, 'a second CSS motion system must not bypass JavaScript pause state');
 assert.match(contactCss, /@media\s*\(prefers-reduced-motion:\s*reduce\)[\s\S]*\.reviews-viewport\s*\{[^}]*overflow-x:\s*auto/);
 assert.doesNotMatch(marquee, /<button|aria-label=["'](?:play|pause|previous|next)|pagination/i, 'review marquee must expose no playback controls');
