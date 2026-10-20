@@ -14,6 +14,7 @@ for (const [name, source, route] of [['blog index', blogIndex, '/blog'], ['resea
   assert.match(source, /twitter:[\s\S]*summary_large_image[\s\S]*images/, `${name} needs page-specific Twitter identity`);
 }
 assert.doesNotMatch(researchIndex, /<strong>0[1-9]<\/strong>/, 'research index must not use decorative zero-padded labels');
+assert.match(read('app/thanks-whats-next/page.tsx'), /title:\s*['"]After Scheduling - Prepare for Your Consultation['"]/, 'booking preparation metadata title must use normalized spacing');
 assert.match(read('app/blog/page/[page]/page.tsx'), /generateMetadata[\s\S]*parseBlogPage\(page\)[\s\S]*canonical:\s*`\/blog\/page\/\$\{current\}`/, 'blog pagination needs validated page-specific canonicals');
 assert.match(read('app/blog/[slug]/page.tsx'), /withSocialImage\(metadata\)/, 'every dynamic blog metadata branch needs the shared social-image fallback');
 assert.match(read('app/aug23-content.tsx'), /getAug23Metadata[\s\S]*openGraph:[\s\S]*images:[\s\S]*twitter:[\s\S]*images:/, 'explicit August blog routes need Open Graph and Twitter images');

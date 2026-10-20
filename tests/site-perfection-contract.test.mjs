@@ -61,6 +61,7 @@ assert.doesNotMatch(thankYou.replace(allowedInfra, ''), /stealth\s*agents|stealt
 assert.match(contactPage, /<Header\s*\/>[\s\S]*<Footer\s*\/>/, 'contact page must use the site shell');
 assert.match(contactPage, /alternates:\s*\{\s*canonical:\s*['"]\/contact-us['"]\s*\}/, 'contact page must be canonical');
 assert.doesNotMatch(contactForm, /[🇺🇸🇨🇦🇮🇩🇵🇭🇬🇧🇦🇺🇳🇿🇸🇬🇮🇳🇦🇪🇲🇽🇧🇷🇿🇦🇩🇪🇫🇷]/u, 'contact controls must not use emoji flags');
+assert.doesNotMatch(contactForm, /\{code\}\s{2,}-\s{2,}\{country\}/, 'country-code option labels must not contain sanitation-artifact spacing');
 assert.match(contactForm, /data-acr-handled=['"]1['"]/, 'controlled contact form must opt out of the global submit interceptor');
 assert.match(contactForm, /if\s*\(!response\.ok\)\s*throw new Error[\s\S]*response\.url[\s\S]*destination\.pathname !== ["']\/thank-you["'][\s\S]*trackLead[\s\S]*window\.location\.assign[\s\S]*catch\s*\{\s*setError/, 'thank-you navigation and tracking must follow a validated acknowledged backend destination; errors must stay on-page');
 assert.doesNotMatch(contactForm, /catch\s*\{[\s\S]{0,350}trackLead/, 'analytics must never substitute for failed lead delivery');

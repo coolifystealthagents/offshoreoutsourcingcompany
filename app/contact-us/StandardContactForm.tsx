@@ -77,7 +77,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
           <label>Last name *<input name="lastName" required autoComplete="family-name" /></label>
         </div>
         <label>Business email *<input name="email" type="email" required autoComplete="email" /><small>Please use your work email.</small></label>
-        <label>Phone number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code}  -  {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
+        <label>Phone number *<span className="sa-phone"><select name="countryCode" aria-label="Country code" value={countryCode} onChange={(event) => setCountryCode(event.target.value)}>{countryCodes.map(([country, code], index) => <option value={code} key={`${code}-${index}`}>{code} - {country}</option>)}</select><input name="phoneLocal" type="tel" required autoComplete="tel-national" placeholder="Phone number" /></span></label>
         <div className="sa-grid">
           <label>Company name *<input name="companyName" required autoComplete="organization" /></label>
           <label>Website / URL <span className="sa-optional">Optional</span><input name="website" placeholder="example.com" autoComplete="url" /></label>
