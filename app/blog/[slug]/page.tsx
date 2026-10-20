@@ -34,28 +34,51 @@ export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
 
+function withSocialImage(metadata: Metadata): Metadata {
+  const value = metadata as any;
+  const fallback = `${base}/opengraph-image.png`;
+  const openGraph = value.openGraph || {};
+  const twitter = value.twitter || {};
+  return {
+    ...value,
+    openGraph: {
+      ...openGraph,
+      images: openGraph.images?.length ? openGraph.images : [{ url: fallback, alt: `${site.brand} Philippines staffing support` }],
+    },
+    twitter: {
+      ...twitter,
+      card: twitter.card || 'summary_large_image',
+      images: twitter.images?.length ? twitter.images : [fallback],
+    },
+  };
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  if (october7BlogPosts.some((item) => item.slug === slug)) return getOctober7BlogMetadata(slug);
-  if (october5BlogPosts.some((item) => item.slug === slug)) return getOctober5BlogMetadata(slug);
-  if (october2BlogPosts.some((item) => item.slug === slug)) return getOctober2BlogMetadata(slug);
-  if (september28BlogPosts.some((item) => item.slug === slug)) return getSeptember28BlogMetadata(slug);
-  if (september24BlogPosts.some((item) => item.slug === slug)) return getSeptember24BlogMetadata(slug);
-  if (september23BlogPosts.some((item) => item.slug === slug)) return getSeptember23BlogMetadata(slug);
-  if (september22BlogPosts.some((item) => item.slug === slug)) return getSeptember22BlogMetadata(slug);
-  if (september19BlogPosts.some((item) => item.slug === slug)) return getSeptember19BlogMetadata(slug);
-  if (september18BlogPosts.some((item) => item.slug === slug)) return getSeptember18BlogMetadata(slug);
-  if (september10BlogPosts.some((item) => item.slug === slug)) return getSeptember10BlogMetadata(slug);
-  if (september8BlogPosts.some((item) => item.slug === slug)) return getSeptember8BlogMetadata(slug);
-  if (september7BlogPosts.some((item) => item.slug === slug)) return getSeptember7BlogMetadata(slug);
-  if (september4BlogPosts.some((item) => item.slug === slug)) return getSeptember4BlogMetadata(slug);
-  if (september2BlogPosts.some((item) => item.slug === slug)) return getSeptember2BlogMetadata(slug);
-  if (september1BlogPosts.some((item) => item.slug === slug)) return getSeptember1BlogMetadata(slug);
-  if (slug in aug31Meta) return getAug31Metadata(slug);
-  if (slug in aug21Meta) return getAug21Metadata(slug);
-  const post = blogPosts.find((item) => item.slug === slug);
-  if (!post) return { title: 'Article not found' };
-  return buildArticleMetadata({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, hero: 'thumbnail' in post ? post.thumbnail : undefined, date: 'publishedAt' in post ? post.publishedAt : undefined });
+  let metadata: Metadata | undefined;
+  if (october7BlogPosts.some((item) => item.slug === slug)) metadata = getOctober7BlogMetadata(slug);
+  else if (october5BlogPosts.some((item) => item.slug === slug)) metadata = getOctober5BlogMetadata(slug);
+  else if (october2BlogPosts.some((item) => item.slug === slug)) metadata = getOctober2BlogMetadata(slug);
+  else if (september28BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember28BlogMetadata(slug);
+  else if (september24BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember24BlogMetadata(slug);
+  else if (september23BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember23BlogMetadata(slug);
+  else if (september22BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember22BlogMetadata(slug);
+  else if (september19BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember19BlogMetadata(slug);
+  else if (september18BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember18BlogMetadata(slug);
+  else if (september10BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember10BlogMetadata(slug);
+  else if (september8BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember8BlogMetadata(slug);
+  else if (september7BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember7BlogMetadata(slug);
+  else if (september4BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember4BlogMetadata(slug);
+  else if (september2BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember2BlogMetadata(slug);
+  else if (september1BlogPosts.some((item) => item.slug === slug)) metadata = getSeptember1BlogMetadata(slug);
+  else if (slug in aug31Meta) metadata = getAug31Metadata(slug);
+  else if (slug in aug21Meta) metadata = getAug21Metadata(slug);
+  else {
+    const post = blogPosts.find((item) => item.slug === slug);
+    if (!post) return { title: 'Article not found' };
+    metadata = buildArticleMetadata({ family: 'blog', slug: post.slug, title: post.title, description: post.excerpt, hero: 'thumbnail' in post ? post.thumbnail : undefined, date: 'publishedAt' in post ? post.publishedAt : undefined });
+  }
+  return withSocialImage(metadata);
 }
 
 const articleBanners = [

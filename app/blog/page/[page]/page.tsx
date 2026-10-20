@@ -9,6 +9,11 @@ const formatDate = (date: string) =>
     timeZone: "UTC",
   }).format(new Date(`${date}T00:00:00Z`));
 
+export async function generateMetadata({ params }: { params: Promise<{ page: string }> }) {
+  const { page } = await params;
+  return { title: `Blog page ${page}`, description: "Practical Philippines staffing guides.", alternates: { canonical: `/blog/page/${page}` } };
+}
+
 export function generateStaticParams() {
   const pages = Math.max(1, Math.ceil(blogPosts.length / 20));
   return Array.from({ length: pages }, (_, index) => ({

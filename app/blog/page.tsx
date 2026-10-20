@@ -11,6 +11,7 @@ const formatDate = (date: string) =>
 export const metadata = {
   title: `Blog | ${site.brand}`,
   description: "Practical Philippines staffing guides.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function Blog() {
