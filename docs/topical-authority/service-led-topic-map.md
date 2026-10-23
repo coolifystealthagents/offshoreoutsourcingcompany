@@ -42,3 +42,11 @@ This map connects existing Philippines-only operations research to the service p
 - **Artifact check:** The fresh production build generated one self-canonical source artifact with the expected H1, one self-canonical target artifact with the expected H1, and one sitemap entry for each route. The source page has zero `/services/customer-support-operations` anchors inside its route-local `<main>`; one sitewide occurrence sits outside that evidence scope.
 - **Candidate state:** Verified absent. A future rendered change may add one data-owned, contextual handoff only after the source record, exact placement, modified-date contract, and owner-boundary regression are reviewed.
 - **Decision boundary:** A Philippines-based specialist may assemble the timeline, policy reference, prior communication, and missing evidence. The authorized client owner decides any refund, credit, exception, legal position, safety action, or customer commitment.
+
+## 2026-10-23 public-verification status — customer support operations
+
+- Rendered source: `644775979f04021d58e802ac22870211fc98ff07` added the record-owned `/services/customer-support-operations` next action to `/blog/philippines-outsourced-customer-escalation-brief` and made the client-owner decision boundary explicit.
+- Preserve rendered-source commit: `644775979f04021d58e802ac22870211fc98ff07`.
+- Fresh local artifact: the source had its expected H1 and self-canonical, one route-local `Plan a controlled customer support role` anchor, the client-owner boundary, and a sitemap entry. This sitemap contract intentionally has no `<lastmod>`.
+- Served facts: the canonical route returned `200 text/html` with the expected H1 and canonical but lacked the new label and decision-boundary marker. The `www` route first returned `308` to the canonical host. The canonical sitemap returned `200 application/xml`, includes the exact route, and has no `<lastmod>`.
+- Status: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`. No repository-approved deployment identifier or workflow was available, so no deploy was inferred or triggered. Recheck the exact local markers after an approved deployment target is available; do not add another handoff.
