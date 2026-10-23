@@ -18,6 +18,8 @@ const pagination = read('app/blog/page/[page]/page.tsx');
 const components = read('app/components.tsx');
 const serviceContent = read('app/services/service-content.ts');
 const editorial = read('lib/editorial.ts');
+const data = read('app/data.ts');
+const blogPage = read('app/blog/[slug]/page.tsx');
 const aug19 = read('app/aug19-content.tsx');
 const aug20 = read('app/aug20-content.tsx');
 const aug23 = read('app/aug23-content.tsx');
@@ -84,5 +86,8 @@ for (const [name, source] of [['services index', services]]) {
 }
 assert.match(serviceDetail, /const socialImage = `\$\{base\}\$\{content\.heroImage\}`/, 'service social metadata must use the route-specific raster image');
 assert.match(serviceDetail, /images: \[\{ url: socialImage, width: 1200, height: 630, alt: content\.heroAlt \}\]/, 'service Open Graph metadata must describe the actual image');
+assert.match(data, /slug: 'philippines-outsourced-customer-escalation-brief'[\s\S]*?related: \[\{ href: '\/services\/customer-support-operations', title: 'Plan a controlled customer support role' \}\]/, 'the customer-escalation guide must retain its route-owned customer-support next action');
+assert.match(data, /slug: 'philippines-outsourced-customer-escalation-brief'[\s\S]*?The authorized client owner decides any refund, credit, exception, legal position, safety action, or customer commitment\./, 'the customer-escalation guide must preserve the client owner decision boundary');
+assert.match(blogPage, /'related' in post && post\.related[\s\S]*?post\.related\.map\(\(item\) => <p key=\{item\.href\}><a href=\{item\.href\}>\{item\.title\}<\/a><\/p>\)/, 'the generic blog renderer must emit record-owned related links');
 
 console.log(`independent review regressions passed across ${articlePages.length} concrete article routes`);
