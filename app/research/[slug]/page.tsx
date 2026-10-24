@@ -41,7 +41,7 @@ function ResearchBody({ body }: { body: readonly string[] }) {
   return <div className="research-body">
     {sections.map((section, index) => section.heading
       ? <section className={`research-body-section research-${section.kind}`} key={`${section.kind}-${index}`}>
-          <h2>{section.heading}</h2>
+          <h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}>{section.heading}</h2>
           <p>{linkedText(section.text)}</p>
         </section>
       : <p key={`paragraph-${index}`}>{linkedText(section.text)}</p>)}
@@ -91,6 +91,7 @@ export default async function ResearchPost({ params }: { params: Promise<{ slug:
           {modifiedDate && <time dateTime={modifiedDate}>Updated {formatPublicDate(modifiedDate)}</time>}
           <span>Evidence, method, and operating limits</span>
         </div>
+        <nav className="o22-aside" aria-label="Table of contents">{parseResearchBody(post.body).sections.filter((section) => section.heading).map((section) => { const id = (section.heading || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); return <a key={id} href={`#${id}`}>{section.heading}</a>; })}</nav><details className="o22-mobile"><summary>Contents</summary><nav aria-label="Table of contents mobile">{parseResearchBody(post.body).sections.filter((section) => section.heading).map((section) => { const id = (section.heading || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); return <a key={id} href={`#${id}`}>{section.heading}</a>; })}</nav></details>
         <p className="lead">{post.excerpt}</p>
         {hero && <img className="research-article-hero" src={hero} alt={`${post.title} editorial illustration`} width="1536" height="1024" />}
         <ResearchBody body={post.body} />
