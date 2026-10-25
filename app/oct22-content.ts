@@ -508,8 +508,13 @@ export const octoberTwentyTwoResearchPosts = [
     "title": "Testing Shift Handover Completeness",
     "excerpt": "shift handover completeness",
     "date": "2026-10-22",
-    "modifiedDate": "2026-10-22",
+    "modifiedDate": "2026-10-25",
     "hero": "/oct22-heroes/handover-completeness-method.webp",
+    "relatedService": {
+      "href": "/services/operations-coordination",
+      "label": "Plan operations coordination support",
+      "body": "Use this handover check to define the work record, open-item owner, and review point for a Philippines-based coordinator. Your operations owner still sets the service window, accepts the handover, and approves any customer commitment or exception."
+    },
     "body": [
       "Research question",
       "Research question: can the incoming lead continue the open work from the handover alone? The unit is one shift handover.",

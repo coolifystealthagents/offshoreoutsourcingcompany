@@ -23,6 +23,7 @@ const blogIndex = read('app/blog/page.tsx');
 const blogPagination = read('app/blog/page/[page]/page.tsx');
 const researchIndex = read('app/research/page.tsx');
 const researchArticle = read('app/research/[slug]/page.tsx');
+const octoberTwentyTwoResearch = read('app/oct22-content.ts');
 const privacyPage = read('app/privacy/page.tsx');
 const acrClient = read('app/acr-client.tsx');
 const middleware = read('middleware.ts');
@@ -115,6 +116,8 @@ assert.match(researchArticle, /research-source-list/, 'research source URLs must
 assert.match(researchArticle, /id=\{`cta-research-\$\{post\.slug\}-related-service`\}[^>]*href=\{relatedService\.href\}[^>]*>\{relatedService\.label\}</, 'a typed research service handoff must render its record-owned destination and label');
 assert.doesNotMatch(researchArticle, /cta-research-\$\{post\.slug\}-free-consultation/, 'a typed research service handoff must not fall back to the generic contact CTA');
 assert.match(data, /slug:\s*'philippines-operations-coordination-capacity-research',\s*modifiedDate:\s*'2026-10-15',\s*relatedService:\s*\{\s*href:\s*'\/services\/operations-coordination',\s*label:\s*'Plan operations coordination support'/, 'the priority operations research record must own its matching service handoff and freshness');
+assert.match(octoberTwentyTwoResearch, /"slug": "handover-completeness-method"[\s\S]*?"modifiedDate": "2026-10-25"[\s\S]*?"relatedService": \{[\s\S]*?"href": "\/services\/operations-coordination"[\s\S]*?"label": "Plan operations coordination support"/, 'the handover-completeness research record must own its operations service handoff and modified date');
+assert.match(octoberTwentyTwoResearch, /Your operations owner still sets the service window, accepts the handover, and approves any customer commitment or exception\./, 'the handover service handoff must preserve the operations-owner decision boundary');
 const batchResearch = read('app/research-aug20.ts') + read('app/research-aug21.ts');
 assert.doesNotMatch(batchResearch, /research-(?:heroes|aug21-heroes)\/[^'"` ]+\.png/, 'ambiguous generated-image research heroes must not render');
 const researchIllustrations = batchResearch.match(/\/research-illustrations\/[^'"` ]+\.svg/g) || [];
