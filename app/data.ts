@@ -33,7 +33,9 @@ import { october8BlogIndexPosts, october8ResearchPosts } from './oct8-batch';
 import { october12BlogPosts } from './oct12-blog';
 import { october12ResearchPosts } from './research-oct12';
 import { october13BlogPosts } from './oct13-blog';
+import { octoberTwentySixthBlogPosts } from './oct26-blog';
 import { octoberTwentyFiveBlogPosts } from './oct25-blog';
+import { octoberTwentySixthResearchPosts } from './oct26-research';
 import { octoberTwentyFiveResearchPosts } from './oct25-research';
 import { octoberTwentyTwoBlogPosts, octoberTwentyTwoResearchPosts } from './oct22-content';
 import { october13ResearchPosts } from './research-oct13';
@@ -102,6 +104,7 @@ export const services = [
 ] as const;
 
 const blogPostsSource = [
+  ...octoberTwentySixthBlogPosts,
   ...octoberTwentyFiveBlogPosts,
   ...octoberTwentyTwoBlogPosts,
   ...october13BlogPosts,
