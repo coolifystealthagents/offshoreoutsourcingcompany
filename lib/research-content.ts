@@ -38,8 +38,14 @@ export function parseResearchBody(body: readonly string[]): ParsedResearchBody {
     .filter(Boolean);
   const sources: string[] = [];
   const sections: ResearchSection[] = [];
+  let pendingHeading: { kind: ResearchSectionKind; heading: string } | null = null;
 
   for (const paragraph of paragraphs) {
+    const standalone = paragraph.trim();
+    if (/^[A-Z][A-Za-z0-9 &/'-]{2,60}$/.test(standalone) && standalone.split(/\s+/).length <= 7) {
+      pendingHeading = { kind: 'paragraph', heading: standalone };
+      continue;
+    }
     let marker: RegExpExecArray | null = null;
     explicitSourceList.lastIndex = 0;
     for (let match = explicitSourceList.exec(paragraph); match; match = explicitSourceList.exec(paragraph)) marker = match;
@@ -65,8 +71,11 @@ export function parseResearchBody(body: readonly string[]): ParsedResearchBody {
         : undefined;
 
       sections.push(definition
-        ? { kind: definition.kind, heading: definition.heading, text: labelMatch![2].trim() }
-        : { kind: 'paragraph', text: narrative });
+        ? { kind: definition.kind, heading: pendingHeading?.heading ?? definition.heading, text: labelMatch![2].trim() }
+        : pendingHeading
+          ? { kind: 'paragraph', heading: pendingHeading.heading, text: narrative }
+          : { kind: 'paragraph', text: narrative });
+      pendingHeading = null;
     }
     if (citationNote) sections.push({ kind: 'paragraph', text: citationNote });
   }
