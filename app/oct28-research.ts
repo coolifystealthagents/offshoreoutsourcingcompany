@@ -26,7 +26,7 @@ export const octoberTwentyEighthResearchPosts = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -74,7 +74,7 @@ export const octoberTwentyEighthResearchPosts = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -126,7 +126,7 @@ export const octoberTwentyEighthResearchPosts = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -166,7 +166,7 @@ export const octoberTwentyEighthResearchPosts = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -214,7 +214,7 @@ export const octoberTwentyEighthResearchPosts = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration: manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
