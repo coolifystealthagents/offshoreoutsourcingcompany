@@ -24,6 +24,7 @@ const blogPagination = read('app/blog/page/[page]/page.tsx');
 const researchIndex = read('app/research/page.tsx');
 const researchArticle = read('app/research/[slug]/page.tsx');
 const octoberTwentyTwoResearch = read('app/oct22-content.ts');
+const octoberTwentyEighthResearch = read('app/oct28-research.ts');
 const privacyPage = read('app/privacy/page.tsx');
 const acrClient = read('app/acr-client.tsx');
 const middleware = read('middleware.ts');
@@ -118,6 +119,8 @@ assert.doesNotMatch(researchArticle, /cta-research-\$\{post\.slug\}-free-consult
 assert.match(data, /slug:\s*'philippines-operations-coordination-capacity-research',\s*modifiedDate:\s*'2026-10-15',\s*relatedService:\s*\{\s*href:\s*'\/services\/operations-coordination',\s*label:\s*'Plan operations coordination support'/, 'the priority operations research record must own its matching service handoff and freshness');
 assert.match(octoberTwentyTwoResearch, /"slug": "handover-completeness-method"[\s\S]*?"modifiedDate": "2026-10-25"[\s\S]*?"relatedService": \{[\s\S]*?"href": "\/services\/operations-coordination"[\s\S]*?"label": "Plan operations coordination support"/, 'the handover-completeness research record must own its operations service handoff and modified date');
 assert.match(octoberTwentyTwoResearch, /Your operations owner still sets the service window, accepts the handover, and approves any customer commitment or exception\./, 'the handover service handoff must preserve the operations-owner decision boundary');
+assert.match(octoberTwentyEighthResearch, /"slug": "offshoreoutsourcingcompany-testing-evidence-retention-across-shift-handover-corrections"[\s\S]*?"modifiedDate": "2026-10-31"[\s\S]*?"relatedService": \{[\s\S]*?"href": "\/services\/operations-coordination"[\s\S]*?"label": "Plan operations coordination support"/, 'the shift-handover research record must own its operations-coordination handoff and freshness');
+assert.match(octoberTwentyEighthResearch, /A Philippines specialist can maintain the queue, evidence, and exception notes; your operations owner sets service windows, accepts handovers, and approves any customer commitment or exception\./, 'the shift-handover handoff must preserve the operations-owner decision boundary');
 const batchResearch = read('app/research-aug20.ts') + read('app/research-aug21.ts');
 assert.doesNotMatch(batchResearch, /research-(?:heroes|aug21-heroes)\/[^'"` ]+\.png/, 'ambiguous generated-image research heroes must not render');
 const researchIllustrations = batchResearch.match(/\/research-illustrations\/[^'"` ]+\.svg/g) || [];

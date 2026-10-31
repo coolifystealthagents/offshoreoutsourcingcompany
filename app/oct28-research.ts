@@ -136,7 +136,12 @@ export const octoberTwentyEighthResearchPosts = [
     "title": "Testing evidence retention across shift handover corrections",
     "excerpt": "A grounded offshore outsourcing operations note for offshore program owners: shift handover with explicit evidence, decision rights, and a verified close.",
     "date": "2026-10-28",
-    "modifiedDate": "2026-10-28",
+    "modifiedDate": "2026-10-31",
+    "relatedService": {
+      "href": "/services/operations-coordination",
+      "label": "Plan operations coordination support",
+      "body": "Use a documented handover queue when work moves between shifts. A Philippines specialist can maintain the queue, evidence, and exception notes; your operations owner sets service windows, accepts handovers, and approves any customer commitment or exception."
+    },
     "hero": "/oct28-heroes/offshoreoutsourcingcompany-testing-evidence-retention-across-shift-handover-corrections.png",
     "body": [
       "Question and scope",
