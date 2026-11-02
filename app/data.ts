@@ -34,10 +34,12 @@ import { october12BlogPosts } from './oct12-blog';
 import { october12ResearchPosts } from './research-oct12';
 import { october13BlogPosts } from './oct13-blog';
 import { octoberTwentyEighthBlogPosts } from './oct28-blog';
+import { novemberFirstBlogPosts } from './nov01-blog';
 import { octoberTwentySeventhBlogPosts } from './oct27-blog';
 import { octoberTwentySixthBlogPosts } from './oct26-blog';
 import { octoberTwentyFiveBlogPosts } from './oct25-blog';
 import { octoberTwentyEighthResearchPosts } from './oct28-research';
+import { novemberFirstResearchPosts } from './nov01-research';
 import { octoberTwentySeventhResearchPosts } from './oct27-research';
 import { octoberTwentySixthResearchPosts } from './oct26-research';
 import { octoberTwentyFiveResearchPosts } from './oct25-research';
@@ -109,6 +111,7 @@ export const services = [
 
 const blogPostsSource = [
   ...octoberTwentyEighthBlogPosts,
+  ...novemberFirstBlogPosts,
   ...octoberTwentySeventhBlogPosts,
   ...octoberTwentySixthBlogPosts,
   ...octoberTwentyFiveBlogPosts,
@@ -529,4 +532,4 @@ const august10ResearchSlugs = new Set([
   'philippines-outsourced-research-source-register', 'philippines-outsourced-work-queue-prioritization',
   'philippines-outsourced-handoff-acceptance-criteria', 'philippines-outsourced-work-sample-review-method',
 ]);
-export const datedResearchPosts = [...octoberTwentyEighthResearchPosts, ...octoberTwentySeventhResearchPosts, ...octoberTwentySixthResearchPosts, ...octoberTwentyFiveResearchPosts, ...octoberTwentyTwoResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october7ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
+export const datedResearchPosts = [...novemberFirstResearchPosts, ...octoberTwentyEighthResearchPosts, ...octoberTwentySeventhResearchPosts, ...octoberTwentySixthResearchPosts, ...octoberTwentyFiveResearchPosts, ...octoberTwentyTwoResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october7ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
