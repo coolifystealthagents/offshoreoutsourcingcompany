@@ -36,6 +36,7 @@ import { october13BlogPosts } from './oct13-blog';
 import { octoberTwentyEighthBlogPosts } from './oct28-blog';
 import { novemberFirstBlogPosts } from './nov01-blog';
 import { novemberThirdBlogPosts } from './nov03-blog';
+import { novemberFourthBlogPosts } from './nov04-blog';
 import { novemberSecondBlogPosts } from './nov02-blog';
 import { octoberTwentySeventhBlogPosts } from './oct27-blog';
 import { octoberTwentySixthBlogPosts } from './oct26-blog';
@@ -43,6 +44,7 @@ import { octoberTwentyFiveBlogPosts } from './oct25-blog';
 import { octoberTwentyEighthResearchPosts } from './oct28-research';
 import { novemberFirstResearchPosts } from './nov01-research';
 import { novemberThirdResearchPosts } from './nov03-research';
+import { novemberFourthResearchPosts } from './nov04-research';
 import { novemberSecondResearchPosts } from './nov02-research';
 import { octoberTwentySeventhResearchPosts } from './oct27-research';
 import { octoberTwentySixthResearchPosts } from './oct26-research';
@@ -115,6 +117,7 @@ export const services = [
 
 const blogPostsSource = [
   ...novemberThirdBlogPosts,
+  ...novemberFourthBlogPosts,
   ...novemberSecondBlogPosts,
   ...octoberTwentyEighthBlogPosts,
   ...novemberFirstBlogPosts,
