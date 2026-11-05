@@ -101,6 +101,7 @@ export default function Research() {
                   href={`/research/${post.slug}`}
                   key={post.slug}
                 >
+                  {post.hero ? <img src={post.hero} alt="" width={1200} height={630} /> : null}
                   <span className="research-card-badge">
                     {classifyResearch(post.title, post.slug)}
                   </span>

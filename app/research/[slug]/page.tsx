@@ -38,7 +38,7 @@ function linkedText(text: string): ReactNode[] {
 function ResearchBody({ body }: { body: readonly string[] }) {
   const { sections, sources } = parseResearchBody(body);
 
-  return <div className="research-body">
+  return <div className="article-body research-body">
     {sections.map((section, index) => section.heading
       ? <section className={`research-body-section research-${section.kind}`} key={`${section.kind}-${index}`}>
           <h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}>{section.heading}</h2>

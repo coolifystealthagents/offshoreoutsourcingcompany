@@ -34,6 +34,7 @@ export default function Blog() {
           <div className="cards">
             {posts.map((post) => (
               <a className="card" href={`/blog/${post.slug}`} key={post.slug}>
+                {"thumbnail" in post && post.thumbnail ? <img src={post.thumbnail} alt="" width={1200} height={630} /> : null}
                 <h2>{post.title}</h2>
                 <p>{post.excerpt}</p>
                 {"publishedAt" in post && post.publishedAt ? (
