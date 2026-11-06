@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const csp = [
   "default-src 'self'",
-  " https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://static.cloudflareinsights.com",
-  " https://databull.stealthagents.us 'self' https://cloudflareinsights.com https://*.cloudflareinsights.com",
+  "script-src https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://static.cloudflareinsights.com",
+  "connect-src https://databull.stealthagents.us 'self' https://cloudflareinsights.com https://*.cloudflareinsights.com",
   "img-src 'self' data: https:",
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
