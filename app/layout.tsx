@@ -30,5 +30,12 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body><SkipLink /><GlobalHeader /><main id="main-content" tabIndex={-1}>{children}</main><GlobalFooter /><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/></body></html>;
+  return <html lang="en"><body><SkipLink /><GlobalHeader /><main id="main-content" tabIndex={-1}>{children}</main><GlobalFooter /><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/>
+  <Script
+    id="databull-analytics"
+    src="https://databull.stealthagents.us/js/script.js"
+    data-website-id="dc_0fe6qbdg8asfvf"
+    data-domain="offshoreoutsourcingcompany.com"
+    strategy="afterInteractive"
+  /></body></html>;
 }
