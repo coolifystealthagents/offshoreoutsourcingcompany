@@ -7,7 +7,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-client-data-transfer-approval-completeness.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -35,7 +35,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-shift-differential-notice-compliance.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -63,7 +63,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-contractor-hours-variance-rate.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -91,7 +91,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-equipment-stipend-evidence-coverage.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -119,7 +119,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-data-processing-agreement-renewal-compliance.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -147,7 +147,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-client-holiday-calendar-mismatch-incidents.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
@@ -175,7 +175,7 @@ export const novemberSeventhResearchPosts = [
     "modifiedDate": "2026-11-07",
     "heading": "Research question",
     "hero": "/thumbnails/november-07/off07-fx-fee-reconciliation-variance.webp",
-    "body": "",
+    "body": [],
     "sources": [
       {
         "label": "GAO — internal control standards",
