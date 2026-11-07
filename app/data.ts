@@ -39,6 +39,7 @@ import { novemberThirdBlogPosts } from './nov03-blog';
 import { novemberFourthBlogPosts } from './nov04-blog';
 import { novemberFifthBlogPosts } from './nov05-blog';
 import { novemberSixthBlogPosts } from './nov06-blog';
+import { novemberSeventhBlogPosts } from './nov07-blog';
 import { novemberSecondBlogPosts } from './nov02-blog';
 import { octoberTwentySeventhBlogPosts } from './oct27-blog';
 import { octoberTwentySixthBlogPosts } from './oct26-blog';
@@ -49,6 +50,7 @@ import { novemberThirdResearchPosts } from './nov03-research';
 import { novemberFourthResearchPosts } from './nov04-research';
 import { novemberFifthResearchPosts } from './nov05-research';
 import { novemberSixthResearchPosts } from './nov06-research';
+import { novemberSeventhResearchPosts } from './nov07-research';
 import { novemberSecondResearchPosts } from './nov02-research';
 import { octoberTwentySeventhResearchPosts } from './oct27-research';
 import { octoberTwentySixthResearchPosts } from './oct26-research';
@@ -124,6 +126,7 @@ const blogPostsSource = [
   ...novemberFourthBlogPosts,
   ...novemberFifthBlogPosts,
   ...novemberSixthBlogPosts,
+  ...novemberSeventhBlogPosts,
   ...novemberSecondBlogPosts,
   ...octoberTwentyEighthBlogPosts,
   ...novemberFirstBlogPosts,
@@ -547,4 +550,4 @@ const august10ResearchSlugs = new Set([
   'philippines-outsourced-research-source-register', 'philippines-outsourced-work-queue-prioritization',
   'philippines-outsourced-handoff-acceptance-criteria', 'philippines-outsourced-work-sample-review-method',
 ]);
-export const datedResearchPosts = [...novemberSixthResearchPosts, ...novemberFifthResearchPosts, ...novemberThirdResearchPosts, ...novemberSecondResearchPosts, ...novemberFirstResearchPosts, ...octoberTwentyEighthResearchPosts, ...octoberTwentySeventhResearchPosts, ...octoberTwentySixthResearchPosts, ...octoberTwentyFiveResearchPosts, ...octoberTwentyTwoResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october7ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
+export const datedResearchPosts = [...novemberSeventhResearchPosts, ...novemberSixthResearchPosts, ...novemberFifthResearchPosts, ...novemberThirdResearchPosts, ...novemberSecondResearchPosts, ...novemberFirstResearchPosts, ...octoberTwentyEighthResearchPosts, ...octoberTwentySeventhResearchPosts, ...octoberTwentySixthResearchPosts, ...octoberTwentyFiveResearchPosts, ...octoberTwentyTwoResearchPosts, ...october13ResearchPosts, ...october12ResearchPosts, ...october8ResearchPosts, ...october7ResearchPosts, ...october5ResearchPosts, ...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...researchPosts].map(post => august10ResearchSlugs.has(post.slug) ? {...post, date: '2026-08-10'} : post);
