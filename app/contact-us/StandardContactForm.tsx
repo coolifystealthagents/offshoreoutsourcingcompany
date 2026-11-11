@@ -53,14 +53,14 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     setError("");
     try {
       const request = encoding === "form"
-        ? { method: "POST", body: new URLSearchParams(payload) }
+        ? { method: "POST", headers: {Accept: "application/json"}, body: new URLSearchParams(payload) }
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      const destination = new URL(response.url, window.location.origin);
-      if (destination.origin !== window.location.origin || destination.pathname !== "/thank-you") throw new Error("Unexpected lead receipt destination");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
-      window.location.assign(`${destination.pathname}${destination.search}`);
+      const receipt = await response.json();
+      if (receipt?.ok !== true) throw new Error("Lead endpoint did not confirm delivery");
+      try { /* ACR captures the native submit event once. */ } catch {}
+      window.location.assign("/thank-you?lead=accepted");
     } catch {
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
@@ -70,7 +70,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Tell us about the role.</h2>
-      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
+      <form data-acr-managed="react" action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First name *<input name="firstName" required autoComplete="given-name" /></label>
