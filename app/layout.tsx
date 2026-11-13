@@ -6,6 +6,7 @@ import { VisiblePunctuationSanitizer } from './visible-punctuation-sanitizer';
 import { SkipLink } from './skip-link';
 import { GlobalFooter, GlobalHeader } from './components';
 
+import './studio.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshoreoutsourcingcompany.com'),
   title: {
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body><SkipLink /><GlobalHeader /><main id="main-content" tabIndex={-1}>{children}</main><GlobalFooter /><VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/>
+  return <html lang="en"><body><SkipLink />{children}<VisiblePunctuationSanitizer /><AcrClient/><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-outsourcing-company',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'},{path:'/contact',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive"/>
   <Script
     id="databull-analytics"
     src="https://databull.stealthagents.us/js/script.js"

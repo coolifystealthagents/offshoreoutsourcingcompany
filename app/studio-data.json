@@ -1,0 +1,1065 @@
+{
+  "theme": "offshore",
+  "short": "Offshore Outsourcing Co.",
+  "heading": [
+    "Closer collaboration.",
+    "Greater possibility."
+  ],
+  "label": "Your next team, in the Philippines",
+  "intro": "Bring recurring work into focus with a dedicated support team. From operations to customer service, build a working rhythm that connects people, responsibilities, and useful results.",
+  "serviceHeading": "A team built around the way you work.",
+  "storyHeading": "Distance changes. Ownership stays clear.",
+  "story": "A strong offshore relationship is built in the small moments: a question answered, a handoff made on time, a record that tells the whole story. Create those conditions deliberately, with clear instructions and a manager who stays close to the work.",
+  "contact": "Start a conversation about your team.",
+  "close": "Your next chapter needs the right people.",
+  "footer": "Philippines-based operations support for businesses that want clear ownership, connected teams, and a dependable working rhythm.",
+  "words": [
+    "People with a purpose",
+    "Connected working hours",
+    "Accountable delivery"
+  ],
+  "stories": [
+    [
+      "Give the team a shared operating picture.",
+      "Your support team needs more than a list of software logins. Share the workflow, the reasons behind the priority rules, and the point where an item needs a decision. A current queue and a few completed examples are often more useful than a long presentation about the business."
+    ],
+    [
+      "Make collaboration part of the role.",
+      "Decide which conversations need real-time overlap and which can happen through a clear written handoff. Set a response channel for urgent questions and keep routine updates in the system of record. The aim is a connected team with enough structure to work independently inside its scope."
+    ],
+    [
+      "Grow from a reliable starting point.",
+      "Begin with a bounded responsibility and review the first outputs closely. Discuss volume, queue age, missing information, and rework before adding another function. When a new service is introduced, name its owner and acceptance criteria so growth does not dilute accountability."
+    ]
+  ],
+  "domain": "offshoreoutsourcingcompany.com",
+  "brand": "Offshore Outsourcing Company",
+  "services": [
+    {
+      "slug": "operations-coordination",
+      "title": "Operations Coordination",
+      "description": "Filipino operations coordinators can assign recurring requests, update owners and due dates, prepare handoffs, and route exceptions to the client reviewer.",
+      "intro": "Filipino operations coordinators can assign recurring requests, update owners and due dates, prepare handoffs, and route exceptions to the client reviewer. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For operations leaders whose recurring requests, due dates, and handoffs are spread across inboxes or meetings, creating unclear ownership and avoidable follow-up work.",
+      "scope": [
+        "Operations Coordination covers operations coordination work such as assigning requests and maintaining owners and due dates.",
+        "The operations coordinator can also handle preparing daily handoffs and chasing missing inputs within a documented queue and schedule.",
+        "The lane can include updating exception logs and owner-ready status notes, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "A current request list with priority and due-date rules",
+        "Examples of complete handoffs and common exceptions",
+        "Named owners, escalation contacts, and system permissions"
+      ],
+      "outputs": [
+        "A current work queue with owners and due dates",
+        "A daily handoff note for open and blocked work",
+        "A weekly exception and workload review packet"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each operations coordination item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for operations coordination before access is granted.",
+        "The operations coordinator reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Priority changes and tradeoffs between teams remains a client decision and is never inferred by the delivery team.",
+        "Commitments outside the approved service level requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "A shared inbox has no consistent owner or follow-up rhythm. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Daily handoffs omit blockers and create repeated questions. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Managers need one view of aging requests across several tools. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before operations coordination starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for operations coordination?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "project-tracking",
+        "process-documentation",
+        "reporting-administration"
+      ],
+      "image": "/studio-20261113/operations-coordination.webp",
+      "alt": "A diverse team collaborating on a project in a modern office setting, showcasing teamwork and creativity.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "executive-administration",
+      "title": "Executive Administration",
+      "description": "Philippines-based executive support can organize calendars, meeting materials, action lists, and follow-ups within written scheduling and approval boundaries.",
+      "intro": "Philippines-based executive support can organize calendars, meeting materials, action lists, and follow-ups within written scheduling and approval boundaries. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For executives and leadership teams who need dependable calendar, meeting, and follow-up administration without delegating sensitive judgment or relationship decisions.",
+      "scope": [
+        "Executive Administration covers executive administration work such as maintaining calendars within written scheduling preferences.",
+        "The executive support specialist can also handle assembling agendas, pre-reads, and meeting notes within a documented queue and schedule.",
+        "The lane can include tracking approved actions and routine follow-ups, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Calendar preferences, protected time, and scheduling rules",
+        "Meeting templates, participant details, and source materials",
+        "Approval limits and a named escalation contact"
+      ],
+      "outputs": [
+        "A maintained calendar with conflicts clearly flagged",
+        "Complete meeting packets and action lists",
+        "A follow-up register with owners and due dates"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each executive administration item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for executive administration before access is granted.",
+        "The executive support specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Which relationships or meetings receive executive priority remains a client decision and is never inferred by the delivery team.",
+        "Travel purchases, commitments, and sensitive communications requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Calendar requests repeatedly interrupt leadership focus. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Meeting materials arrive late or in inconsistent formats. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Action items disappear after recurring leadership meetings. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before executive administration starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for executive administration?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "operations-coordination",
+        "project-tracking",
+        "recruitment-coordination"
+      ],
+      "image": "/studio-20261113/executive-administration.webp",
+      "alt": "Portrait of a businesswoman working diligently on a laptop in a contemporary office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "customer-support-operations",
+      "title": "Customer Support Operations",
+      "description": "Filipino support specialists can triage inbound conversations, apply approved response guides, document outcomes, and escalate refunds or unusual cases.",
+      "intro": "Filipino support specialists can triage inbound conversations, apply approved response guides, document outcomes, and escalate refunds or unusual cases. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For support leaders with a repeatable inbound queue who need faster triage, consistent records, and clear escalations while policy exceptions remain under client control.",
+      "scope": [
+        "Customer Support Operations covers customer support work such as triaging messages by approved reason and urgency rules.",
+        "The customer support specialist can also handle sending approved responses and documenting outcomes within a documented queue and schedule.",
+        "The lane can include preparing escalations with a complete customer timeline, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Support policies, approved macros, and channel service levels",
+        "Examples of routine cases and escalation triggers",
+        "Account access, identity checks, and refund boundaries"
+      ],
+      "outputs": [
+        "A categorized and current support queue",
+        "Complete case records with response evidence",
+        "An escalation packet for policy or refund decisions"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each customer support item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for customer support before access is granted.",
+        "The customer support specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Refunds, credits, and policy exceptions remains a client decision and is never inferred by the delivery team.",
+        "Legal, safety, fraud, or high-risk customer responses requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "The inbox has inconsistent tags and unclear urgency. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Agents spend time rebuilding context for escalated cases. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Leaders need quality evidence beyond ticket volume. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before customer support operations starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for customer support?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "knowledge-base-management",
+        "ecommerce-operations",
+        "data-quality-review"
+      ],
+      "image": "/studio-20261113/customer-support-operations.webp",
+      "alt": "Smiling call center agents wearing headsets, working together in a modern office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "sales-operations-support",
+      "title": "Sales Operations Support",
+      "description": "A Philippines-based sales operations specialist can maintain lead records, prepare follow-up queues, check pipeline fields, and flag stalled opportunities.",
+      "intro": "A Philippines-based sales operations specialist can maintain lead records, prepare follow-up queues, check pipeline fields, and flag stalled opportunities. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For revenue teams whose lead records, routing, and pipeline fields are unreliable, leaving sellers to spend time on administration instead of qualified conversations.",
+      "scope": [
+        "Sales Operations Support covers sales operations work such as checking lead records and routing approved assignments.",
+        "The sales operations specialist can also handle preparing follow-up queues and missing-field requests within a documented queue and schedule.",
+        "The lane can include flagging stalled opportunities and stage inconsistencies, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Lifecycle definitions, territory rules, and required CRM fields",
+        "Approved lead sources and duplicate handling guidance",
+        "Pipeline review cadence and named sales owners"
+      ],
+      "outputs": [
+        "A clean lead intake and assignment queue",
+        "A follow-up list with missing information highlighted",
+        "A pipeline hygiene report with owner actions"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each sales operations item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for sales operations before access is granted.",
+        "The sales operations specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Lead qualification and opportunity strategy remains a client decision and is never inferred by the delivery team.",
+        "Pricing, discount, forecast, and account ownership choices requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "New leads wait because assignment rules are applied manually. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Pipeline stages do not match the latest customer activity. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Duplicate and incomplete records distort weekly reporting. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before sales operations support starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for sales operations?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "crm-administration",
+        "reporting-administration",
+        "data-quality-review"
+      ],
+      "image": "/studio-20261113/sales-operations-support.webp",
+      "alt": "Smiling professional in a suit holds documents during a video call in an office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "project-tracking",
+      "title": "Project Tracking",
+      "description": "Filipino project support can update boards, chase missing inputs, record decisions, and turn delivery risks into an owner-ready status report.",
+      "intro": "Filipino project support can update boards, chase missing inputs, record decisions, and turn delivery risks into an owner-ready status report. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For delivery leaders who have defined projects but lack a dependable rhythm for updating milestones, collecting status evidence, and surfacing blocked work.",
+      "scope": [
+        "Project Tracking covers project tracking work such as maintaining milestones, owners, dependencies, and due dates.",
+        "The project support specialist can also handle collecting updates and chasing missing status inputs within a documented queue and schedule.",
+        "The lane can include turning blockers into concise decision-ready reports, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "The approved project plan and milestone definitions",
+        "Update templates, reporting cadence, and source systems",
+        "Escalation thresholds and accountable workstream owners"
+      ],
+      "outputs": [
+        "A current project board with evidence-linked updates",
+        "A blocker and dependency register",
+        "A concise status brief for the project owner"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each project tracking item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for project tracking before access is granted.",
+        "The project support specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Scope, budget, staffing, and deadline changes remains a client decision and is never inferred by the delivery team.",
+        "Acceptance of risk or changes to delivery commitments requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Status meetings are spent reconstructing basic progress. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Dependencies become visible only after a milestone slips. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Several workstream updates need one consistent format. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before project tracking starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for project tracking?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "operations-coordination",
+        "reporting-administration",
+        "process-documentation"
+      ],
+      "image": "/studio-20261113/project-tracking.webp",
+      "alt": "Two young coworkers brainstorming using sticky notes on a blackboard in a contemporary office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "vendor-coordination",
+      "title": "Vendor Coordination",
+      "description": "A Philippines-based coordinator can track vendor requests, due dates, documents, and follow-ups while pricing and contract decisions stay with the client.",
+      "intro": "A Philippines-based coordinator can track vendor requests, due dates, documents, and follow-ups while pricing and contract decisions stay with the client. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For procurement and operations teams managing repeat vendor requests, documents, and due dates while retaining negotiation, supplier selection, and contract authority.",
+      "scope": [
+        "Vendor Coordination covers vendor coordination work such as logging vendor requests and maintaining follow-up dates.",
+        "The vendor coordinator can also handle collecting standard documents and checking completeness within a documented queue and schedule.",
+        "The lane can include preparing unresolved items for the internal vendor owner, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "An approved vendor list and contact directory",
+        "Document checklists, due-date rules, and message templates",
+        "Escalation triggers and the responsible commercial owner"
+      ],
+      "outputs": [
+        "A vendor request tracker with current status",
+        "A completeness check for required supplier documents",
+        "An aging and escalation report for unresolved items"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each vendor coordination item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for vendor coordination before access is granted.",
+        "The vendor coordinator reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Supplier selection, pricing, and commercial negotiation remains a client decision and is never inferred by the delivery team.",
+        "Contract terms, exceptions, and vendor termination requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Vendor follow-ups are spread across individual inboxes. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Missing documents delay onboarding or routine work. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Owners need a reliable view of overdue supplier actions. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before vendor coordination starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for vendor coordination?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "operations-coordination",
+        "finance-administration",
+        "process-documentation"
+      ],
+      "image": "/studio-20261113/vendor-coordination.webp",
+      "alt": "Three businessmen in suits reviewing documents in a modern office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "data-quality-review",
+      "title": "Data Quality Review",
+      "description": "Filipino data specialists can check records against defined rules, flag duplicates or missing fields, and return an exception log for owner resolution.",
+      "intro": "Filipino data specialists can check records against defined rules, flag duplicates or missing fields, and return an exception log for owner resolution. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For system owners whose operational records contain missing, inconsistent, or duplicate values and who need evidence-based review before authorized corrections are made.",
+      "scope": [
+        "Data Quality Review covers data quality work such as checking records against required-field and format rules.",
+        "The data quality specialist can also handle identifying likely duplicates and source mismatches within a documented queue and schedule.",
+        "The lane can include building exception queues for authorized correction, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "A data dictionary with valid values and required fields",
+        "Trusted source records and matching rules",
+        "Correction permissions and exception owners"
+      ],
+      "outputs": [
+        "A validated record set with check results",
+        "A duplicate and missing-data exception queue",
+        "A quality summary by error type and source"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each data quality item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for data quality before access is granted.",
+        "The data quality specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Which source is authoritative when records conflict remains a client decision and is never inferred by the delivery team.",
+        "Deletion, merge, or material correction of disputed records requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "A migration exposed inconsistent required fields. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Duplicate records interfere with routing and reporting. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Leaders need a repeatable sample before a bulk update. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before data quality review starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for data quality?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "crm-administration",
+        "reporting-administration",
+        "sales-operations-support"
+      ],
+      "image": "/studio-20261113/data-quality-review.webp",
+      "alt": "Three colleagues working on laptops and documents in a bright office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "reporting-administration",
+      "title": "Reporting Administration",
+      "description": "Philippines-based reporting support can collect approved source data, refresh recurring reports, reconcile discrepancies, and publish after a named client review.",
+      "intro": "Philippines-based reporting support can collect approved source data, refresh recurring reports, reconcile discrepancies, and publish after a named client review. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For operations leaders who rely on recurring reports but lose time collecting sources, reconciling definitions, and checking whether each refresh is ready to publish.",
+      "scope": [
+        "Reporting Administration covers reporting administration work such as collecting approved source files on schedule.",
+        "The reporting specialist can also handle refreshing defined calculations and reconciliation checks within a documented queue and schedule.",
+        "The lane can include preparing publication notes and discrepancy escalations, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Report definitions, calculation logic, and reporting calendar",
+        "Approved source locations and prior accepted examples",
+        "Tolerance rules, reviewer assignments, and publish permissions"
+      ],
+      "outputs": [
+        "A refreshed report with source references",
+        "A reconciliation and discrepancy log",
+        "A reviewer-ready publication packet"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each reporting administration item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for reporting administration before access is granted.",
+        "The reporting specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Changes to metric definitions or business interpretation remains a client decision and is never inferred by the delivery team.",
+        "Acceptance of unresolved discrepancies and final publication requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Recurring reports depend on manual source collection. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Teams debate metrics because definitions are not attached. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Reviewers need discrepancies highlighted before publication. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before reporting administration starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for reporting administration?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "data-quality-review",
+        "finance-administration",
+        "project-tracking"
+      ],
+      "image": "/studio-20261113/reporting-administration.webp",
+      "alt": "Team collaborating on financial data analysis with laptop graphs and documents.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "recruitment-coordination",
+      "title": "Recruitment Coordination",
+      "description": "Filipino recruitment coordinators can manage interview schedules, candidate materials, stage updates, and follow-ups while hiring decisions remain with the client.",
+      "intro": "Filipino recruitment coordinators can manage interview schedules, candidate materials, stage updates, and follow-ups while hiring decisions remain with the client. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For hiring teams that need consistent interview scheduling, candidate records, and stage follow-up while evaluation and employment decisions remain with authorized leaders.",
+      "scope": [
+        "Recruitment Coordination covers recruitment coordination work such as scheduling interviews across candidate and panel calendars.",
+        "The recruitment coordinator can also handle maintaining stage records and approved candidate communications within a documented queue and schedule.",
+        "The lane can include collecting feedback and flagging delayed next steps, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Role stages, interview panels, and scheduling preferences",
+        "Approved templates, candidate privacy rules, and system access",
+        "Feedback deadlines and escalation contacts"
+      ],
+      "outputs": [
+        "A current candidate stage tracker",
+        "Confirmed interview schedules and complete packets",
+        "A feedback aging and next-step report"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each recruitment coordination item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for recruitment coordination before access is granted.",
+        "The recruitment coordinator reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Candidate evaluation, selection, and compensation remains a client decision and is never inferred by the delivery team.",
+        "Exceptions to hiring policy or approved role requirements requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Scheduling loops create delays for candidates and panels. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Interview feedback is late or stored inconsistently. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Recruiters need a clean view of stalled hiring stages. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before recruitment coordination starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for recruitment coordination?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "executive-administration",
+        "operations-coordination",
+        "process-documentation"
+      ],
+      "image": "/studio-20261113/recruitment-coordination.webp",
+      "alt": "A diverse team collaborates in a modern office setting, discussing strategies and teamwork.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "knowledge-base-management",
+      "title": "Knowledge Base Management",
+      "description": "A Philippines-based knowledge specialist can turn approved answers into searchable articles, retire stale guidance, and maintain scheduled review dates.",
+      "intro": "A Philippines-based knowledge specialist can turn approved answers into searchable articles, retire stale guidance, and maintain scheduled review dates. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For support and operations teams whose approved answers are difficult to find, inconsistently structured, or left live after policies and processes change.",
+      "scope": [
+        "Knowledge Base Management covers knowledge base work such as drafting articles from approved source material.",
+        "The knowledge specialist can also handle applying taxonomy, links, owners, and review dates within a documented queue and schedule.",
+        "The lane can include flagging stale or conflicting guidance for owner review, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Approved source documents and representative questions",
+        "Article templates, taxonomy, style, and publishing rules",
+        "Named subject owners and review frequency"
+      ],
+      "outputs": [
+        "Structured draft or updated knowledge articles",
+        "A stale-content and source-conflict register",
+        "An ownership and review-date dashboard"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each knowledge base item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for knowledge base before access is granted.",
+        "The knowledge specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Policy meaning and the approved answer to disputed questions remains a client decision and is never inferred by the delivery team.",
+        "Final publication of sensitive or materially changed guidance requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Teams answer the same question from different documents. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Published articles have no owner or review date. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Recurring support cases reveal missing internal guidance. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before knowledge base management starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for knowledge base?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "process-documentation",
+        "customer-support-operations",
+        "operations-coordination"
+      ],
+      "image": "/studio-20261113/knowledge-base-management.webp",
+      "alt": "Two colleagues reviewing documents in a modern, art-filled office setting.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "ecommerce-operations",
+      "title": "Ecommerce Operations",
+      "description": "Filipino ecommerce support can monitor order queues, update records, coordinate routine fulfillment issues, and escalate refunds or fraud signals.",
+      "intro": "Filipino ecommerce support can monitor order queues, update records, coordinate routine fulfillment issues, and escalate refunds or fraud signals. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For online retail teams with repeat order, catalog, and fulfillment queues that need consistent monitoring while refunds, fraud, and commercial exceptions stay controlled.",
+      "scope": [
+        "Ecommerce Operations covers ecommerce operations work such as monitoring order states and routine fulfillment exceptions.",
+        "The ecommerce operations specialist can also handle updating approved catalog and customer record fields within a documented queue and schedule.",
+        "The lane can include preparing refund, fraud, and inventory escalations, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Order-state definitions and fulfillment service levels",
+        "Catalog rules, approved templates, and platform permissions",
+        "Refund, fraud, inventory, and escalation boundaries"
+      ],
+      "outputs": [
+        "A current order and fulfillment exception queue",
+        "Completed routine catalog or record updates",
+        "An evidence packet for refund or fraud review"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each ecommerce operations item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for ecommerce operations before access is granted.",
+        "The ecommerce operations specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Refund approval, fraud disposition, and customer concessions remains a client decision and is never inferred by the delivery team.",
+        "Pricing, inventory allocation, and supplier commitments requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Orders remain in exception states without clear ownership. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Routine catalog updates create inconsistent product data. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Refund reviewers receive cases without complete evidence. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before ecommerce operations starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for ecommerce operations?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "customer-support-operations",
+        "data-quality-review",
+        "vendor-coordination"
+      ],
+      "image": "/studio-20261113/ecommerce-operations.webp",
+      "alt": "Two people packing online orders in a small business setting with a laptop.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "crm-administration",
+      "title": "CRM Administration",
+      "description": "A Philippines-based CRM specialist can keep records complete, process approved field changes, and route merge or ownership conflicts for review.",
+      "intro": "A Philippines-based CRM specialist can keep records complete, process approved field changes, and route merge or ownership conflicts for review. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For revenue and service teams whose CRM records, approved field changes, and ownership queues need disciplined administration without transferring commercial authority.",
+      "scope": [
+        "CRM Administration covers CRM administration work such as completing approved field and lifecycle updates.",
+        "The CRM specialist can also handle reviewing duplicate, merge, and ownership queues within a documented queue and schedule.",
+        "The lane can include documenting change evidence and unresolved conflicts, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "CRM field definitions and lifecycle rules",
+        "Approved change requests and trusted source evidence",
+        "Role permissions, merge rules, and accountable owners"
+      ],
+      "outputs": [
+        "A completed change queue with audit notes",
+        "A duplicate and ownership conflict register",
+        "A CRM completeness and aging report"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each CRM administration item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for CRM administration before access is granted.",
+        "The CRM specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Account ownership and disputed lifecycle status remains a client decision and is never inferred by the delivery team.",
+        "Bulk changes, record merges, and deletion approval requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Field updates arrive through untracked chat messages. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Duplicate accounts split activity and reporting. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Ownership conflicts block routing and follow-up. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before crm administration starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for CRM administration?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "sales-operations-support",
+        "data-quality-review",
+        "reporting-administration"
+      ],
+      "image": "/studio-20261113/crm-administration.webp",
+      "alt": "Businesswoman typing on laptop in modern office workspace with a desk lamp and magazines.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "finance-administration",
+      "title": "Finance Administration",
+      "description": "Filipino operations specialists can prepare invoice records, reconcile routine transaction data, and maintain finance workflows while qualified client owners retain payment approval and accounting decisions.",
+      "intro": "Filipino operations specialists can prepare invoice records, reconcile routine transaction data, and maintain finance workflows while qualified client owners retain payment approval and accounting decisions. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For finance and operations teams with repeat invoice, transaction, and reconciliation preparation that must stay separate from payment authority and accounting judgment.",
+      "scope": [
+        "Finance Administration covers finance administration work such as preparing invoice records and completeness checks.",
+        "The finance operations specialist can also handle matching routine transactions to approved source evidence within a documented queue and schedule.",
+        "The lane can include maintaining discrepancy queues and follow-up notes, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Invoice requirements, coding references, and source locations",
+        "Reconciliation rules, period calendar, and accepted examples",
+        "Segregated permissions and named finance approvers"
+      ],
+      "outputs": [
+        "A complete invoice preparation queue",
+        "A transaction reconciliation worksheet",
+        "A discrepancy packet for finance owner review"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each finance administration item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for finance administration before access is granted.",
+        "The finance operations specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Payment release, accounting treatment, and tax position remains a client decision and is never inferred by the delivery team.",
+        "Write-offs, credit decisions, and exceptions to finance policy requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Invoices arrive without required evidence or coding. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Routine reconciliations consume qualified finance time. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Approvers need discrepancies separated from clean items. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before finance administration starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for finance administration?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "reporting-administration",
+        "vendor-coordination",
+        "data-quality-review"
+      ],
+      "image": "/studio-20261113/finance-administration.webp",
+      "alt": "Professionals examining documents in an office business meeting setup.",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "process-documentation",
+      "title": "Process Documentation",
+      "description": "Filipino operations specialists can turn approved examples and owner guidance into maintained checklists, process notes, and knowledge-base updates with scheduled review.",
+      "intro": "Filipino operations specialists can turn approved examples and owner guidance into maintained checklists, process notes, and knowledge-base updates with scheduled review. A defined role gives recurring work a dependable place to land. Instead of asking your team to remember each loose end, agree what starts the task, what a useful finish looks like, and when a question must return to your manager.",
+      "audience": "For operations teams that rely on tribal knowledge, outdated checklists, or scattered examples and need maintainable instructions with clear owner approval.",
+      "scope": [
+        "Process Documentation covers process documentation work such as turning observed approved work into structured instructions.",
+        "The process documentation specialist can also handle maintaining checklists, screenshots, sources, and version notes within a documented queue and schedule.",
+        "The lane can include routing gaps and contradictory guidance to process owners, with unusual cases returned to a named client owner."
+      ],
+      "inputs": [
+        "Approved examples, recordings, and current source material",
+        "Documentation templates, vocabulary, and repository access",
+        "Process owners, review dates, and publication rules"
+      ],
+      "outputs": [
+        "A structured process guide with decision points",
+        "A reusable checklist linked to source evidence",
+        "A gap, change, and scheduled-review register"
+      ],
+      "controls": [
+        "Required-field and source checks are completed before each process documentation item is closed.",
+        "A reviewer samples completed records against approved examples and records the reason for rework.",
+        "Queue age, exceptions, accuracy, and unresolved questions are reviewed with the client each week."
+      ],
+      "workflow": [
+        "Agree the queue, service levels, owners, and examples for process documentation before access is granted.",
+        "The process documentation specialist reviews new work, checks required fields, and records missing information.",
+        "Routine items move through the approved checklist while exceptions are paused and routed to the client owner.",
+        "Completed work is logged with evidence, then sampled during the weekly review so the instructions can improve."
+      ],
+      "boundaries": [
+        "Which process or policy is authoritative remains a client decision and is never inferred by the delivery team.",
+        "Approval of changed steps, controls, and published guidance requires approval from the named client owner before work continues."
+      ],
+      "scenarios": [
+        "Key work depends on one experienced teammate. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "Instructions no longer match the production workflow. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context.",
+        "A new service lane needs a reviewable training baseline. The support professional captures the relevant source information, follows the agreed checklist, and keeps any unresolved question visible. Your named owner receives a concise handoff with the evidence and next action, so the record can move forward without a new search for context."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before process documentation starts?",
+          "answer": "Provide a representative work sample, the current instructions, system access rules, expected turnaround, and the person who will answer exceptions."
+        },
+        {
+          "question": "How is quality checked for process documentation?",
+          "answer": "The team uses required-field checks, saved evidence, and reviewer sampling. Results are discussed in a regular client review rather than hidden inside a general activity total."
+        },
+        {
+          "question": "Can the role make judgment calls?",
+          "answer": "Only routine choices that are explicitly documented. Commercial, legal, policy, people, and other material decisions stay with an authorized client owner."
+        },
+        {
+          "question": "How does the service begin?",
+          "answer": "Start with one bounded queue and a small set of examples. Calibrate the checklist and escalation path, then expand volume only after the quality evidence is stable."
+        }
+      ],
+      "related": [
+        "knowledge-base-management",
+        "operations-coordination",
+        "project-tracking"
+      ],
+      "image": "/studio-20261113/process-documentation.webp",
+      "alt": "Women working together on a business project with laptops and charts. Collaborative and diverse environment.",
+      "position": "50% 45%"
+    }
+  ],
+  "photos": {
+    "home": {
+      "alt": "Colleagues engaged in a collaborative business meeting around a table in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "services": {
+      "alt": "Diverse team engaged in a casual meeting in a modern office setting with laptops and relaxed seating.",
+      "position": "50% 45%"
+    },
+    "blog": {
+      "alt": "Contemporary office setting with professionals focused on work, highlighting collaboration and productivity.",
+      "position": "50% 45%"
+    },
+    "research": {
+      "alt": "A diverse team collaborates in a modern office setting during a meeting with documents and a whiteboard.",
+      "position": "50% 45%"
+    },
+    "operations-coordination": {
+      "alt": "A diverse team collaborating on a project in a modern office setting, showcasing teamwork and creativity.",
+      "position": "50% 45%"
+    },
+    "executive-administration": {
+      "alt": "Portrait of a businesswoman working diligently on a laptop in a contemporary office setting.",
+      "position": "50% 45%"
+    },
+    "customer-support-operations": {
+      "alt": "Smiling call center agents wearing headsets, working together in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "sales-operations-support": {
+      "alt": "Smiling professional in a suit holds documents during a video call in an office setting.",
+      "position": "50% 45%"
+    },
+    "project-tracking": {
+      "alt": "Two young coworkers brainstorming using sticky notes on a blackboard in a contemporary office setting.",
+      "position": "50% 45%"
+    },
+    "vendor-coordination": {
+      "alt": "Three businessmen in suits reviewing documents in a modern office setting.",
+      "position": "50% 45%"
+    },
+    "data-quality-review": {
+      "alt": "Three colleagues working on laptops and documents in a bright office setting.",
+      "position": "50% 45%"
+    },
+    "reporting-administration": {
+      "alt": "Team collaborating on financial data analysis with laptop graphs and documents.",
+      "position": "50% 45%"
+    },
+    "recruitment-coordination": {
+      "alt": "A diverse team collaborates in a modern office setting, discussing strategies and teamwork.",
+      "position": "50% 45%"
+    },
+    "knowledge-base-management": {
+      "alt": "Two colleagues reviewing documents in a modern, art-filled office setting.",
+      "position": "50% 45%"
+    },
+    "ecommerce-operations": {
+      "alt": "Two people packing online orders in a small business setting with a laptop.",
+      "position": "50% 45%"
+    },
+    "crm-administration": {
+      "alt": "Businesswoman typing on laptop in modern office workspace with a desk lamp and magazines.",
+      "position": "50% 45%"
+    },
+    "finance-administration": {
+      "alt": "Professionals examining documents in an office business meeting setup.",
+      "position": "50% 45%"
+    },
+    "process-documentation": {
+      "alt": "Women working together on a business project with laptops and charts. Collaborative and diverse environment.",
+      "position": "50% 45%"
+    }
+  }
+}
