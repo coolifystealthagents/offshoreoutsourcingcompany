@@ -47,8 +47,8 @@ export default function ReviewsMarquee() {
       className="reviews-viewport"
       ref={viewportRef}
       tabIndex={0}
-      onMouseEnter={() => { hoveredRef.current = true; }}
-      onMouseLeave={() => { hoveredRef.current = false; }}
+      
+      
       onFocus={() => { focusedRef.current = true; }}
       onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) focusedRef.current = false; }}
     >

@@ -7,6 +7,8 @@ import { SkipLink } from './skip-link';
 import { GlobalFooter, GlobalHeader } from './components';
 
 import './studio.css';
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshoreoutsourcingcompany.com'),
   title: {
